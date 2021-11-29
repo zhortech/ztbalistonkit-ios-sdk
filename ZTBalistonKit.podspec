@@ -3,9 +3,9 @@ Pod::Spec.new do |s|
   s.version = '1.0.0'
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.summary = 'Official Zhortech ZTBalistonKit SDK for iOS to work with Baliston products.'
-  s.homepage = 'https://zhortech.com/'
+  s.homepage = 'https://github.com/zhortech/ztbalistonkit-ios-sdk'
   s.social_media_url = 'https://twitter.com/zhortech'
-  s.authors = { "Pavel Shpak" => "p.shpak@zhortech.com" }
+  s.authors = { "Zhortech" => "p.shpak@zhortech.com" }
   s.source = { :git => "https://github.com/zhortech/ztbalistonkit-ios-sdk.git", :tag  => s.version.to_s }
   s.platform = :ios
   s.requires_arc = true
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/zhortech/ztbalistonkit-ios-sdk.git', :tag => s.version.to_s }
   s.vendored_frameworks = 'Sources/ZTBalistonKit.xcframework'
   
-  s.dependency 'ZTCoreKit', '~> '+s.version.to_s
+  s.dependency 'ZTCoreKit', '~> 1.1.14'#+s.version.to_s
 
   s.ios.deployment_target   = '13.0'
   s.ios.weak_frameworks = 'Foundation'
