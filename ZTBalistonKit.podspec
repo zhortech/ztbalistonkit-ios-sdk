@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name = 'ZTBalistonKit'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.license = { :type => "MIT", :file => "LICENSE" }
-  s.summary = 'Official Zhortech ZTBalistonKit SDK for iOS to work with Baliston products.'
+  s.summary = 'Official Zhortech ZTBalistonKit SDK for iOS.'
   s.homepage = 'https://github.com/zhortech/ztbalistonkit-ios-sdk'
   s.social_media_url = 'https://twitter.com/zhortech'
   s.authors = { "Zhortech" => "p.shpak@zhortech.com" }

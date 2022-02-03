@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ZTBalistonKit
 import CoreBluetooth
 import Foundation
@@ -250,7 +250,6 @@ extension ZTBalistonKit.ZTBaliston {
   public func stopMobilityScan(timeout: Swift.Double = 20, completion: @escaping ((ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?) -> Swift.Void))
   public func startActivity(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
   public func stopActivity(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
-  public func delay(_ delay: Swift.Double, block: @escaping () -> Swift.Void)
 }
 public class ZTGaitProfileWalkingSymmetry : ZTCoreKit.ZTMappable {
   public var recommendations: [Swift.String]?
@@ -326,6 +325,19 @@ public class ZTInsightsPostureChart<T> : ZTCoreKit.ZTMappable where T : ZTCoreKi
   required public init?(map: ZTCoreKit.ZTMap)
   public func mapping(map: ZTCoreKit.ZTMap)
   @objc deinit
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func sendDirectMessage(message: [Swift.String : Any], completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func getDirectMessages(completion: @escaping (([[Swift.String : Any]]?, Swift.Error?) -> Swift.Void))
+  public func deleteDirectMessage(id: Swift.String, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func sendCannedMessage(message: [Swift.String : Any], completion: @escaping (([Swift.String : Any]?, Swift.Error?) -> Swift.Void))
+  public func getCannedMessages(parameters: [Swift.String : Any], completion: @escaping (([[Swift.String : Any]]?, Swift.Error?) -> Swift.Void))
+  public func getTileMessage(name: Swift.String, parameters: [Swift.String : Any], completion: @escaping (([Swift.String : Any]?, Swift.Error?) -> Swift.Void))
+  public func getMobilityMessage(name: Swift.String, enqueue: Swift.Bool = true, completion: @escaping (([Swift.String : Any]?, Swift.Error?) -> Swift.Void))
+  public func getMyShoesData(completion: @escaping (([[Swift.String : Any]]?, Swift.Error?) -> Swift.Void))
+  public func getMyShoeData(code: Swift.String = "", completion: @escaping (([Swift.String : Any]?, Swift.Error?) -> Swift.Void))
+  public func startListenMessages(onMessageReceived: @escaping ((Swift.String?) -> Swift.Void), onDataReceived: @escaping ((Foundation.Data?) -> Swift.Void))
+  public func stopListenMessages()
 }
 public class ZTInsightsSummaryData : ZTCoreKit.ZTMappable {
   public var today: Swift.Int
