@@ -247,9 +247,8 @@ public class ZTInsightsPostureChartObjectData : ZTCoreKit.ZTMappable {
 }
 extension ZTBalistonKit.ZTBaliston {
   public func startMobilityScan(timeout: Swift.Double = 30, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
-  public func stopMobilityScan(timeout: Swift.Double = 60, silently: Swift.Bool = false, completion: @escaping ((ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?) -> Swift.Void))
+  public func stopMobilityScan(timeout: Swift.Double = 20, silently: Swift.Bool = false, completion: @escaping ((ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?) -> Swift.Void))
   public func startActivity(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
-  public func stopActivity(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
 }
 public class ZTGaitProfileWalkingSymmetry : ZTCoreKit.ZTMappable {
   public var recommendations: [Swift.String]?
