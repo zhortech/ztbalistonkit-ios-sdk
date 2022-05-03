@@ -1,5 +1,47 @@
 # Changelog
 
+## [1.0.14](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.14) (2022-04-14)
+
+- command acknowledge for reset command in mobility scan flow
+
+## [1.0.13](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.13) (2022-04-14)
+
+- observers updated for latest firmware
+
+## [1.0.12](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.12) (2022-04-13)
+
+- DFU support for Baliston firmware 
+
+## [1.0.11](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.11) (2022-04-08)
+
+- MSG_TIME value type changed 
+
+## [1.0.10](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.10) (2022-04-07)
+
+- check for mobility scan data and return ZTError `.invalidMobilityScanResults` if it doesn't have enough data 
+
+## [1.0.9](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.9) (2022-04-06)
+
+- timeout added for mobility scan error if not started
+
+## [1.0.7](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.7) (2022-03-30)
+
+- checking missed chunks on reconnect
+
+## [1.0.6](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.6) (2022-03-29)
+
+- removed activity meta data from chunks analysis
+- added more logging for `Mobility Scan`
+
+## [1.0.5](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.5) (2022-03-28)
+- using Activity Metadata for activity
+
+## [1.0.4](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.4) (2022-03-25)
+- fixed timestamps for activity chunks
+
+## [1.0.3](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.3) (2022-03-15)
+- refactored mobility scan start and stop
+
 ## [1.0.2](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.2) (2022-02-07)
 
 - updated method `stopMobilityScan` to have 'cancel mobility scan' functionality using parameter  `silently`, if set to `true` - no data is sending to ZCloud

@@ -6,35 +6,23 @@
 	<dict>
 		<key>Headers/ZTBalistonKit-Swift.h</key>
 		<data>
-		a+2Fdx2wA/BTWPt8E6H1pyKmOMk=
+		B+mOW0GbcyeBokwvLSu1e27DRtQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7bsmjctiItYo9bL0z4fznhJ/O5M=
+		ULrlBRYTL2TPXtZzj+15qUo3/40=
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		40ovHAVFnWQmFkDeAPfuCQma59k=
+		7JUilY/G4L9XY0jgO2n8R9GfkRQ=
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		wt/0glu7SvW20+L6QduuihZ0/MY=
+		Xajahk0lE8hnW9tRrolmnUXdViw=
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZdxIN/gMomVoxh5HZScZ6q+rqic=
-		</data>
-		<key>Modules/ZTBalistonKit.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		40ovHAVFnWQmFkDeAPfuCQma59k=
-		</data>
-		<key>Modules/ZTBalistonKit.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		wt/0glu7SvW20+L6QduuihZ0/MY=
-		</data>
-		<key>Modules/ZTBalistonKit.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		ZdxIN/gMomVoxh5HZScZ6q+rqic=
+		mj5JyBUswyvrJQF9LbmK7q4pDIk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -43,49 +31,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6zZvMDV34btsUCKV6S8X/XpCUaNxpMt50/TlrNiJ83k=
+			xTwC8hzaCYLgezrLjrU8HExz9mGdShNMHXQI5YzcxBE=
 			</data>
 		</dict>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1htA6eujcGOEtCVUvrUSgip4mLI+SNMfQJ5WzBn4vaM=
+			ezIqLBgGxCwqopj3/GZUtDuzPLKVlrVb3E47I5g7APk=
 			</data>
 		</dict>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sd5mA8Y1EOBStgRPnhttEaCEZ/a1aEqUpCCiaYVjoC0=
+			qIj+vZobbYdWVfEL60ei+RcEHRD3E8J0OZ4tiH5FH1o=
 			</data>
 		</dict>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iiBk9TIX7PVuSyEmaiAlj3SbKkhhwm5X6VPMq9DdfOY=
-			</data>
-		</dict>
-		<key>Modules/ZTBalistonKit.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1htA6eujcGOEtCVUvrUSgip4mLI+SNMfQJ5WzBn4vaM=
-			</data>
-		</dict>
-		<key>Modules/ZTBalistonKit.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Sd5mA8Y1EOBStgRPnhttEaCEZ/a1aEqUpCCiaYVjoC0=
-			</data>
-		</dict>
-		<key>Modules/ZTBalistonKit.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			iiBk9TIX7PVuSyEmaiAlj3SbKkhhwm5X6VPMq9DdfOY=
+			Yc7dlM00bjTcXNu0866fiPd2bVpDzPpWkg+KZXlSJWc=
 			</data>
 		</dict>
 	</dict>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>ZTBalistonActivitySummary Class Reference</title>
+    <title>ZTUserDataParameters Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -13,8 +13,8 @@
     <script src="../js/jazzy.search.js" defer></script>
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/ZTBalistonActivitySummary" class="dashAnchor"></a>
-    <a title="ZTBalistonActivitySummary Class Reference"></a>
+    <a name="//apple_ref/swift/Class/ZTUserDataParameters" class="dashAnchor"></a>
+    <a title="ZTUserDataParameters Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">ZTBalistonKit 1.0.14 Docs</a></p>
@@ -30,7 +30,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">ZTBalistonKit Reference</a>
         <img id="carat" src="../img/carat.png" alt=""/>
-        ZTBalistonActivitySummary Class Reference
+        ZTUserDataParameters Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -85,18 +85,18 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>ZTBalistonActivitySummary</h1>
+            <h1>ZTUserDataParameters</h1>
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">public</span> <span class="kd">class</span> <span class="kt">ZTBalistonActivitySummary</span> <span class="p">:</span> <span class="kt">ZTActivitySummary</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">ZTUserDataParameters</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
 
                 </div>
               </div>
-            <p>Activity brief summary</p>
+            <p>User parameters used in firmware algorithms to calculate additional data</p>
 
               <div class="slightly-smaller">
-                <a href="https://github.com/zhortech/ztbalistonkit-ios-sdk/tree/master/Sources/ZTBalistonKit/Models/Activity/ZTBalistonActivitySummary.swift#L13-L31">Show on GitHub</a>
+                <a href="https://github.com/zhortech/ztbalistonkit-ios-sdk/tree/master/Sources/ZTBalistonKit/Models/ZTUserDataParameters.swift#L11-L36">Show on GitHub</a>
               </div>
           </section>
           <section class="section task-group-section">
@@ -105,39 +105,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:13ZTBalistonKit0A15ActivitySummaryC4dataSDySSypGSgvp"></a>
-                    <a name="//apple_ref/swift/Property/data" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13ZTBalistonKit0A15ActivitySummaryC4dataSDySSypGSgvp">data</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Summary data</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">data</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/zhortech/ztbalistonkit-ios-sdk/tree/master/Sources/ZTBalistonKit/Models/Activity/ZTBalistonActivitySummary.swift#L15">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:13ZTBalistonKit0A15ActivitySummaryC3mapACSg06ZTCoreB05ZTMapC_tcfc"></a>
-                    <a name="//apple_ref/swift/Method/init(map:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13ZTBalistonKit0A15ActivitySummaryC3mapACSg06ZTCoreB05ZTMapC_tcfc">init(map:<wbr>)</a>
+                    <a name="/s:13ZTBalistonKit20ZTUserDataParametersC10bodyWeight0F6Height8shoeSize15threadmillSpeedACSiSg_A3Htcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(bodyWeight:bodyHeight:shoeSize:threadmillSpeed:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13ZTBalistonKit20ZTUserDataParametersC10bodyWeight0F6Height8shoeSize15threadmillSpeedACSiSg_A3Htcfc">init(bodyWeight:<wbr>bodyHeight:<wbr>shoeSize:<wbr>threadmillSpeed:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -152,7 +122,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">required</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">map</span><span class="p">:</span> <span class="kt">ZTMap</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">bodyWeight</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?,</span> <span class="nv">bodyHeight</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?,</span> <span class="nv">shoeSize</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?,</span> <span class="nv">threadmillSpeed</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -163,61 +133,48 @@
                             <tr>
                               <td>
                                 <code>
-                                <em>map</em>
+                                <em>bodyWeight</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>A mapping from ObjectMapper.</p>
+                                  <p>weight in kg</p>
                                 </div>
                               </td>
                             </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div class="slightly-smaller">
-                        <a href="https://github.com/zhortech/ztbalistonkit-ios-sdk/tree/master/Sources/ZTBalistonKit/Models/Activity/ZTBalistonActivitySummary.swift#L20-L22">Show on GitHub</a>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:13ZTBalistonKit0A15ActivitySummaryC7mapping3mapy06ZTCoreB05ZTMapC_tF"></a>
-                    <a name="//apple_ref/swift/Method/mapping(map:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:13ZTBalistonKit0A15ActivitySummaryC7mapping3mapy06ZTCoreB05ZTMapC_tF">mapping(map:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>ZTMap a JSON object to this class using ObjectMapper.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">override</span> <span class="kd">func</span> <span class="nf">mapping</span><span class="p">(</span><span class="nv">map</span><span class="p">:</span> <span class="kt">ZTMap</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
                             <tr>
                               <td>
                                 <code>
-                                <em>map</em>
+                                <em>bodyHeight</em>
                                 </code>
                               </td>
                               <td>
                                 <div>
-                                  <p>A mapping from ObjectMapper.</p>
+                                  <p>height in cm</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>shoeSize</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>shoe size</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>threadmillSpeed</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>speed</p>
                                 </div>
                               </td>
                             </tr>
@@ -225,7 +182,7 @@
                         </table>
                       </div>
                       <div class="slightly-smaller">
-                        <a href="https://github.com/zhortech/ztbalistonkit-ios-sdk/tree/master/Sources/ZTBalistonKit/Models/Activity/ZTBalistonActivitySummary.swift#L26-L30">Show on GitHub</a>
+                        <a href="https://github.com/zhortech/ztbalistonkit-ios-sdk/tree/master/Sources/ZTBalistonKit/Models/ZTUserDataParameters.swift#L23-L28">Show on GitHub</a>
                       </div>
                     </section>
                   </div>
