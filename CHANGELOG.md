@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.15](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.15) (2022-05-04)
+
+- clear data when mobility scan is started
+
 ## [1.0.14](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.14) (2022-04-14)
 
 - command acknowledge for reset command in mobility scan flow
