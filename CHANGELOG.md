@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.17](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.17) (2022-05-23)
+
+- fix for monitored activity
+
+## [1.0.16](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.16) (2022-05-19)
+
+- added logging into log file
+
 ## [1.0.15](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.15) (2022-05-04)
 
 - clear data when mobility scan is started
