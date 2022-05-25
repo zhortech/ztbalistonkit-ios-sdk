@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ZTBalistonKit-Swift.h</key>
 		<data>
-		Xw8Jf2K2JsLTTOL+LHdpPw6uWMc=
+		IA53PM1XKqWIrX1WOzbXx39vfLQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -24,6 +24,18 @@
 		<data>
 		WkS8xmzOOZuzcp2QOo4p9LwBgwM=
 		</data>
+		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		ZZmF2SusVXWUT4HDzkT7Pc4Q1hY=
+		</data>
+		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		O5rXlCzXk6zbC5oEjWEkoZz5bG8=
+		</data>
+		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		XaoDRWM+4zHnu7riH0PlOn8tIaE=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -31,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B+N3d1vhSTfXY85osOFy19MWzkO/wpdIrIzor8vhlS0=
+			Qtbdnbo2g1nKiN4wrU53E4ga/KfO5LfstuMMgJejxY4=
 			</data>
 		</dict>
 		<key>Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -53,6 +65,27 @@
 			<key>hash2</key>
 			<data>
 			rRU1Wih0JpIfvTx6uDANHx7SrPpdABV44Z0Lg64tSpk=
+			</data>
+		</dict>
+		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F9Dj5loOXIgQx9J4i3k+QvWDQiNQD7TtwL+sDqlQAcY=
+			</data>
+		</dict>
+		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iqE/vd3jYn2A7U6apwZLq6nqK/3GyazOyQSvd4WAXTA=
+			</data>
+		</dict>
+		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MhpUBRrPCS7BJwt5gnYzjDt9XbMpkk5Uvtxuj6WUu7Y=
 			</data>
 		</dict>
 	</dict>

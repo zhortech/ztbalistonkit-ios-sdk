@@ -1,0 +1,171 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ZTBalistonKit
+import CoreBluetooth
+import Foundation
+import Swift
+import ZTCoreKit
+import _Concurrency
+@_inheritsConvenienceInitializers final public class ZTBalistonActivitySummary : ZTCoreKit.ZTActivitySummary {
+  final public var data: [Swift.String : Any]?
+  final public var attributes: [Swift.String : Any]?
+  required public init?(map: ZTCoreKit.ZTMap)
+  override final public func mapping(map: ZTCoreKit.ZTMap)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ZTBalistonSegmentData : ZTCoreKit.ZTSegmentData {
+  @objc deinit
+}
+extension ZTBalistonKit.ZTBalistonSegmentData {
+  @objc dynamic public var description: Swift.String {
+    @objc get
+  }
+}
+final public class ZTUserDataParameters : Swift.Codable {
+  final public var bodyWeight: Swift.Int?
+  final public var bodyHeight: Swift.Int?
+  final public var shoeSize: Swift.Int?
+  final public var threadmillSpeed: Swift.Int?
+  public init(bodyWeight: Swift.Int?, bodyHeight: Swift.Int?, shoeSize: Swift.Int?, threadmillSpeed: Swift.Int? = nil)
+  public enum Parameters : Swift.UInt8 {
+    case bodyWeight
+    case bodyHeight
+    case shoeSize
+    case threadmillSpeed
+    public init?(rawValue: Swift.UInt8)
+    public typealias RawValue = Swift.UInt8
+    public var rawValue: Swift.UInt8 {
+      get
+    }
+  }
+  @objc deinit
+  final public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct ZTBalistonCalibrationMessage : Swift.CustomStringConvertible, Swift.Codable {
+  public var bytes: [Swift.UInt8]
+  public var isRight: Swift.Bool {
+    get
+  }
+  public var isLeft: Swift.Bool {
+    get
+  }
+  public var standingDone: Swift.Bool {
+    get
+  }
+  public var standingInProgress: Swift.Bool {
+    get
+  }
+  public var standingFailed: Swift.Bool {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+final public class ZTBalistonActivitySummaryData : ZTCoreKit.ZTMappable {
+  final public var chunk: Swift.Int
+  final public var timestamp: Swift.Double?
+  final public var standing: Swift.Int
+  final public var tiptoe: Swift.Int
+  final public var kneeling: Swift.Int
+  final public var crouch: Swift.Int
+  final public var stepsCount: Swift.Int
+  final public var stairsUpCount: Swift.Int
+  final public var stairsDownCount: Swift.Int
+  final public var prosupiR: Swift.Double
+  final public var prosupiL: Swift.Double
+  final public var contactTimeR: Swift.Int
+  final public var contactTimeL: Swift.Int
+  final public var flightTimeR: Swift.Int
+  final public var flightTimeL: Swift.Int
+  final public var strideLength: Swift.Int
+  final public var walkingSpeed: Swift.Int
+  final public var cadence: Swift.Int
+  final public var distance: Swift.Double
+  final public var walkingTime: Swift.Int
+  final public var stairsUpTime: Swift.Int
+  final public var stairsDownTime: Swift.Int
+  final public var trampling: Swift.Int
+  final public var stairsTime: Swift.Int
+  final public var vibration: Swift.Int
+  final public var slide: Swift.Int
+  final public var slip: Swift.Int
+  final public var padding: Swift.Int
+  required public init?(map: ZTCoreKit.ZTMap)
+  final public func mapping(map: ZTCoreKit.ZTMap)
+  @objc deinit
+}
+public protocol ZTBalistonDfuDelegate {
+  func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
+  func dfuDelegate(didFinish: Swift.Bool)
+  func dfuDelegate(didFail error: ZTCoreKit.ZTError?)
+  func dfuDelegate(progress: Swift.Float?)
+  func dfuDelegate(leftDidFinish newVersion: Swift.String?)
+  func dfuDelegate(rightDidFinish newVersion: Swift.String?)
+}
+extension ZTBalistonKit.ZTBaliston : ZTCoreKit.ZTDfuDelegate {
+  public func updateFirmware(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  public func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
+  public func dfuDelegate(didFinish: Swift.Bool)
+  public func dfuDelegate(didFail error: ZTCoreKit.ZTError?)
+  public func dfuDelegate(progress: Swift.Float?)
+  public func dfuDelegate(leftDidFinish newVersion: Swift.String?)
+  public func dfuDelegate(rightDidFinish newVersion: Swift.String?)
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func startMobilityScan(timeout: Swift.Double = 30, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  public func stopMobilityScan(timeout: Swift.Double = 20, silently: Swift.Bool = false, completion: @escaping ((ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?) -> Swift.Void))
+  public func startActivity(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func sendDirectMessage(message: [Swift.String : Any], completion: @escaping (([Swift.String : Any]?, Swift.Error?) -> Swift.Void))
+  public func getDirectMessages(completion: @escaping (([[Swift.String : Any]]?, Swift.Error?) -> Swift.Void))
+  public func deleteDirectMessage(id: Swift.String, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func sendCannedMessage(message: [Swift.String : Any], completion: @escaping ((Any?, Swift.Error?) -> Swift.Void))
+  public func getCannedMessages(parameters: [Swift.String : Any], completion: @escaping (([[Swift.String : Any]]?, Swift.Error?) -> Swift.Void))
+  public func getTileMessage(name: Swift.String, parameters: [Swift.String : Any], completion: @escaping (([Swift.String : Any]?, Swift.Error?) -> Swift.Void))
+  public func getMobilityMessage(name: Swift.String, enqueue: Swift.Bool = true, completion: @escaping (([Swift.String : Any]?, Swift.Error?) -> Swift.Void))
+  public func getMyShoesData(completion: @escaping (([[Swift.String : Any]]?, Swift.Error?) -> Swift.Void))
+  public func getMyShoeData(code: Swift.String = "", completion: @escaping (([Swift.String : Any]?, Swift.Error?) -> Swift.Void))
+  public func startListenMessages(onMessageReceived: @escaping ((Swift.String?) -> Swift.Void), onDataReceived: @escaping ((Foundation.Data?) -> Swift.Void))
+  public func stopListenMessages()
+}
+public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift.Void
+@_hasMissingDesignatedInitializers public class ZTBaliston {
+  public static let sdkVersion: Swift.String
+  public static let shared: ZTBalistonKit.ZTBaliston
+  public var dfuDelegate: ZTBalistonKit.ZTBalistonDfuDelegate?
+  public var connectedDevice: ZTCoreKit.ZTDevice? {
+    get
+  }
+  public var isActivityRunning: Swift.Bool? {
+    get
+  }
+  public var lastSerialNumber: Swift.String? {
+    get
+  }
+  final public let onActivityStateChange: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, Swift.Error?)>
+  final public let onActivityStopped: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, Swift.Error?)>
+  final public let onCalibrationStateChanged: ZTCoreKit.ZTSignal<(ZTBalistonKit.ZTBalistonCalibrationMessage)>
+  final public let onActivityDataReceived: ZTCoreKit.ZTSignal<(Foundation.Data?)>
+  final public let onActivityStopRequestSent: ZTCoreKit.ZTSignal<(Swift.String?, Swift.Error?)>
+  final public let onActivityRestoreStarted: ZTCoreKit.ZTSignal<(Swift.Bool)>
+  @objc deinit
+  public func readGeneralState(completion: @escaping ((ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void))
+}
+@_inheritsConvenienceInitializers final public class ZTBalistonActivity : ZTCoreKit.ZTActivity {
+  override final public func save()
+  override public init()
+  required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func setInactivityTimeout(seconds: Foundation.TimeInterval, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func getInactivityTimeout(completion: @escaping ((Swift.Int) -> Swift.Void))
+}
+extension ZTBalistonKit.ZTUserDataParameters.Parameters : Swift.Equatable {}
+extension ZTBalistonKit.ZTUserDataParameters.Parameters : Swift.Hashable {}
+extension ZTBalistonKit.ZTUserDataParameters.Parameters : Swift.RawRepresentable {}
