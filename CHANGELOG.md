@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.19](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.19) (2022-06-07)
+
+- skip chunks with 0 packetType
+
 ## [1.0.18](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.18) (2022-06-02)
 
 - refactored monitored activity
