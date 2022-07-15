@@ -108,6 +108,7 @@ public protocol ZTBalistonDfuDelegate {
 }
 extension ZTBalistonKit.ZTBaliston : ZTCoreKit.ZTDfuDelegate {
   public func updateFirmware(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  public func updateFirmware(path: Swift.String, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
   public func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
   public func dfuDelegate(didFinish: Swift.Bool)
   public func dfuDelegate(didFail error: ZTCoreKit.ZTError?)
@@ -148,12 +149,16 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
   public var lastSerialNumber: Swift.String? {
     get
   }
+  public var currentActivity: ZTBalistonKit.ZTBalistonActivity? {
+    get
+  }
   final public let onActivityStateChange: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, Swift.Error?)>
   final public let onActivityStopped: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, Swift.Error?)>
   final public let onCalibrationStateChanged: ZTCoreKit.ZTSignal<(ZTBalistonKit.ZTBalistonCalibrationMessage)>
   final public let onActivityDataReceived: ZTCoreKit.ZTSignal<(Foundation.Data?)>
   final public let onActivityStopRequestSent: ZTCoreKit.ZTSignal<(Swift.String?, Swift.Error?)>
   final public let onActivityRestoreStarted: ZTCoreKit.ZTSignal<(Swift.Bool)>
+  final public let onActivityError: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTError?)>
   @objc deinit
   public func readGeneralState(completion: @escaping ((ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void))
 }

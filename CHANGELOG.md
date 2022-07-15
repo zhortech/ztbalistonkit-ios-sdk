@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.22](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.22) (2022-07-15)
+
+- add support for DFU from local image
+
+## [1.0.21](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.21) (2022-07-10)
+
+- add support for DFU from local image
+- add read access to current activity instance
+
 ## [1.0.20](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.20) (2022-06-20)
 
 - add support to set user data without stopping activity
