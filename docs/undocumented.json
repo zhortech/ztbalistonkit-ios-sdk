@@ -1,166 +1,124 @@
 {
   "warnings": [
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/Models/Activity/ZTBalistonActivitySummary.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/Models/Activity/ZTBalistonActivitySummary.swift",
       "line": 16,
       "symbol": "ZTBalistonActivitySummary.attributes",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/Models/Activity/ZTBalistonActivitySummaryData.swift",
-      "line": 63,
-      "symbol": "ZTBalistonActivitySummaryData.vibration",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/Models/Activity/ZTBalistonActivitySummaryData.swift",
-      "line": 64,
-      "symbol": "ZTBalistonActivitySummaryData.slide",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/Models/Activity/ZTBalistonActivitySummaryData.swift",
-      "line": 65,
-      "symbol": "ZTBalistonActivitySummaryData.slip",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/Models/Activity/ZTBalistonActivitySummaryData.swift",
-      "line": 66,
-      "symbol": "ZTBalistonActivitySummaryData.padding",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/Models/ZTCalibrationMessage.swift",
-      "line": 17,
-      "symbol": "ZTBalistonCalibrationMessage.isRight",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/Models/ZTCalibrationMessage.swift",
-      "line": 21,
-      "symbol": "ZTBalistonCalibrationMessage.isLeft",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/Models/ZTUserDataParameters.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/Models/ZTUserDataParameters.swift",
       "line": 12,
       "symbol": "ZTUserDataParameters.bodyWeight",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/Models/ZTUserDataParameters.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/Models/ZTUserDataParameters.swift",
       "line": 13,
       "symbol": "ZTUserDataParameters.bodyHeight",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/Models/ZTUserDataParameters.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/Models/ZTUserDataParameters.swift",
       "line": 14,
       "symbol": "ZTUserDataParameters.shoeSize",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/Models/ZTUserDataParameters.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/Models/ZTUserDataParameters.swift",
       "line": 15,
       "symbol": "ZTUserDataParameters.threadmillSpeed",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/Models/ZTUserDataParameters.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/Models/ZTUserDataParameters.swift",
       "line": 30,
       "symbol": "ZTUserDataParameters.Parameters",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston+DFU.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston+DFU.swift",
       "line": 13,
       "symbol": "ZTBalistonDfuDelegate.dfuDelegate(firmwareDownloaded:version:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston+DFU.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston+DFU.swift",
       "line": 14,
       "symbol": "ZTBalistonDfuDelegate.dfuDelegate(didFinish:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston+DFU.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston+DFU.swift",
       "line": 15,
       "symbol": "ZTBalistonDfuDelegate.dfuDelegate(didFail:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston+DFU.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston+DFU.swift",
       "line": 16,
       "symbol": "ZTBalistonDfuDelegate.dfuDelegate(progress:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston+DFU.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston+DFU.swift",
       "line": 17,
       "symbol": "ZTBalistonDfuDelegate.dfuDelegate(leftDidFinish:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston+DFU.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston+DFU.swift",
       "line": 18,
       "symbol": "ZTBalistonDfuDelegate.dfuDelegate(rightDidFinish:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston.swift",
       "line": 11,
       "symbol": "ZTBaliston",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston.swift",
       "line": 11,
       "symbol": "ZTBaliston",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston.swift",
       "line": 12,
       "symbol": "ZTBaliston",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston.swift",
       "line": 16,
       "symbol": "ZTBaliston",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston.swift",
+      "file": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit/Sources/ZTBalistonKit/ZTBaliston.swift",
       "line": 21,
       "symbol": "ZTBaliston",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztbalistonkit"
+  "source_directory": "/Users/pavel/Documents/Work/Zhortech/Framework/iOS/ztexample/sdks/ztbalistonkit"
 }

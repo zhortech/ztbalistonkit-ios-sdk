@@ -42,62 +42,6 @@ final public class ZTUserDataParameters : Swift.Codable {
   final public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public struct ZTBalistonCalibrationMessage : Swift.CustomStringConvertible, Swift.Codable {
-  public var bytes: [Swift.UInt8]
-  public var isRight: Swift.Bool {
-    get
-  }
-  public var isLeft: Swift.Bool {
-    get
-  }
-  public var standingDone: Swift.Bool {
-    get
-  }
-  public var standingInProgress: Swift.Bool {
-    get
-  }
-  public var standingFailed: Swift.Bool {
-    get
-  }
-  public var description: Swift.String {
-    get
-  }
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
-}
-final public class ZTBalistonActivitySummaryData : ZTCoreKit.ZTMappable {
-  final public var chunk: Swift.Int
-  final public var timestamp: Swift.Double?
-  final public var standing: Swift.Int
-  final public var tiptoe: Swift.Int
-  final public var kneeling: Swift.Int
-  final public var crouch: Swift.Int
-  final public var stepsCount: Swift.Int
-  final public var stairsUpCount: Swift.Int
-  final public var stairsDownCount: Swift.Int
-  final public var prosupiR: Swift.Double
-  final public var prosupiL: Swift.Double
-  final public var contactTimeR: Swift.Int
-  final public var contactTimeL: Swift.Int
-  final public var flightTimeR: Swift.Int
-  final public var flightTimeL: Swift.Int
-  final public var strideLength: Swift.Int
-  final public var walkingSpeed: Swift.Int
-  final public var cadence: Swift.Int
-  final public var distance: Swift.Double
-  final public var walkingTime: Swift.Int
-  final public var stairsUpTime: Swift.Int
-  final public var stairsDownTime: Swift.Int
-  final public var trampling: Swift.Int
-  final public var stairsTime: Swift.Int
-  final public var vibration: Swift.Int
-  final public var slide: Swift.Int
-  final public var slip: Swift.Int
-  final public var padding: Swift.Int
-  required public init?(map: ZTCoreKit.ZTMap)
-  final public func mapping(map: ZTCoreKit.ZTMap)
-  @objc deinit
-}
 public protocol ZTBalistonDfuDelegate {
   func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
   func dfuDelegate(didFinish: Swift.Bool)
@@ -137,7 +81,9 @@ extension ZTBalistonKit.ZTBaliston {
 }
 public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift.Void
 @_hasMissingDesignatedInitializers public class ZTBaliston {
+  @available(*, deprecated, renamed: "version", message: "Use version property instead")
   public static let sdkVersion: Swift.String
+  public static let version: Swift.String
   public static let shared: ZTBalistonKit.ZTBaliston
   public var dfuDelegate: ZTBalistonKit.ZTBalistonDfuDelegate?
   public var connectedDevice: ZTCoreKit.ZTDevice? {
@@ -154,10 +100,7 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
   }
   final public let onActivityStateChange: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, Swift.Error?)>
   final public let onActivityStopped: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, Swift.Error?)>
-  final public let onCalibrationStateChanged: ZTCoreKit.ZTSignal<(ZTBalistonKit.ZTBalistonCalibrationMessage)>
   final public let onActivityDataReceived: ZTCoreKit.ZTSignal<(Foundation.Data?)>
-  final public let onActivityStopRequestSent: ZTCoreKit.ZTSignal<(Swift.String?, Swift.Error?)>
-  final public let onActivityRestoreStarted: ZTCoreKit.ZTSignal<(Swift.Bool)>
   final public let onActivityError: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTError?)>
   @objc deinit
   public func readGeneralState(completion: @escaping ((ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void))

@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.24](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.24) (2022-09-13)
+
+- removed extra subscriber
+
+## [1.0.23](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.23) (2022-08-19)
+
+- some linting
+
 ## [1.0.22](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.22) (2022-07-15)
 
 - add support for DFU from local image
