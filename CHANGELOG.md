@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.25](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.25) (2022-11-15)
+
+- new method to obtaine data related to `mobility` - `public func postMobility(name:, parameters:, completion:)`
+- new method to obtaine data related to `activity` - `public func postActivity(name:, parameters:, completion:)`
+
 ## [1.0.24](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.24) (2022-09-13)
 
 - removed extra subscriber
