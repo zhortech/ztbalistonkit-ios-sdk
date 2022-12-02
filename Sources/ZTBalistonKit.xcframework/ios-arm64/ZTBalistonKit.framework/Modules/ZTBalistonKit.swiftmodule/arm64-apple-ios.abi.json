@@ -2829,6 +2829,252 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "onDfuFinishedLeft",
+            "printedName": "onDfuFinishedLeft",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZTSignal",
+                "printedName": "ZTCoreKit.ZTSignal<ZTCoreKit.ZTError?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZTCoreKit.ZTError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZTError",
+                        "printedName": "ZTCoreKit.ZTError",
+                        "usr": "s:9ZTCoreKit7ZTErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:9ZTCoreKit8ZTSignalC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ZTBalistonKit0A0C17onDfuFinishedLeft06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvp",
+            "mangledName": "$s13ZTBalistonKit0A0C17onDfuFinishedLeft06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvp",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZTSignal",
+                    "printedName": "ZTCoreKit.ZTSignal<ZTCoreKit.ZTError?>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ZTCoreKit.ZTError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZTError",
+                            "printedName": "ZTCoreKit.ZTError",
+                            "usr": "s:9ZTCoreKit7ZTErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:9ZTCoreKit8ZTSignalC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit0A0C17onDfuFinishedLeft06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvg",
+                "mangledName": "$s13ZTBalistonKit0A0C17onDfuFinishedLeft06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvg",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onDfuFinishedRight",
+            "printedName": "onDfuFinishedRight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZTSignal",
+                "printedName": "ZTCoreKit.ZTSignal<ZTCoreKit.ZTError?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZTCoreKit.ZTError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZTError",
+                        "printedName": "ZTCoreKit.ZTError",
+                        "usr": "s:9ZTCoreKit7ZTErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:9ZTCoreKit8ZTSignalC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ZTBalistonKit0A0C18onDfuFinishedRight06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvp",
+            "mangledName": "$s13ZTBalistonKit0A0C18onDfuFinishedRight06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvp",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZTSignal",
+                    "printedName": "ZTCoreKit.ZTSignal<ZTCoreKit.ZTError?>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ZTCoreKit.ZTError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZTError",
+                            "printedName": "ZTCoreKit.ZTError",
+                            "usr": "s:9ZTCoreKit7ZTErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:9ZTCoreKit8ZTSignalC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit0A0C18onDfuFinishedRight06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvg",
+                "mangledName": "$s13ZTBalistonKit0A0C18onDfuFinishedRight06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvg",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onDfuFinished",
+            "printedName": "onDfuFinished",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZTSignal",
+                "printedName": "ZTCoreKit.ZTSignal<ZTCoreKit.ZTError?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZTCoreKit.ZTError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZTError",
+                        "printedName": "ZTCoreKit.ZTError",
+                        "usr": "s:9ZTCoreKit7ZTErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:9ZTCoreKit8ZTSignalC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ZTBalistonKit0A0C13onDfuFinished06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvp",
+            "mangledName": "$s13ZTBalistonKit0A0C13onDfuFinished06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvp",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZTSignal",
+                    "printedName": "ZTCoreKit.ZTSignal<ZTCoreKit.ZTError?>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ZTCoreKit.ZTError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZTError",
+                            "printedName": "ZTCoreKit.ZTError",
+                            "usr": "s:9ZTCoreKit7ZTErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:9ZTCoreKit8ZTSignalC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit0A0C13onDfuFinished06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvg",
+                "mangledName": "$s13ZTBalistonKit0A0C13onDfuFinished06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvg",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "readGeneralState",
             "printedName": "readGeneralState(completion:)",
@@ -2894,6 +3140,28 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initiateBackgroundDFU",
+            "printedName": "initiateBackgroundDFU()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A0C21initiateBackgroundDFUyyF",
+            "mangledName": "$s13ZTBalistonKit0A0C21initiateBackgroundDFUyyF",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -5078,7 +5346,7 @@
       "kind": "StringLiteral",
       "offset": 637,
       "length": 8,
-      "value": "\"1.0.25\""
+      "value": "\"1.0.26\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",

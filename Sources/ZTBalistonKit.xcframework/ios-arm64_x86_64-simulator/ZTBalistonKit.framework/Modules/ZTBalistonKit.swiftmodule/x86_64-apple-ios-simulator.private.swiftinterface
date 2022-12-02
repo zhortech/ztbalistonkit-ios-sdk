@@ -53,6 +53,7 @@ public protocol ZTBalistonDfuDelegate {
   func dfuDelegate(rightDidFinish newVersion: Swift.String?)
 }
 extension ZTBalistonKit.ZTBaliston : ZTCoreKit.ZTDfuDelegate {
+  public func initiateBackgroundDFU()
   public func updateFirmware(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
   public func updateFirmware(path: Swift.String, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
   public func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
@@ -106,6 +107,9 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
   final public let onActivityStopped: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, Swift.Error?)>
   final public let onActivityDataReceived: ZTCoreKit.ZTSignal<(Foundation.Data?)>
   final public let onActivityError: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTError?)>
+  final public let onDfuFinishedLeft: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTError?)>
+  final public let onDfuFinishedRight: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTError?)>
+  final public let onDfuFinished: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTError?)>
   @objc deinit
   public func readGeneralState(completion: @escaping ((ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void))
 }

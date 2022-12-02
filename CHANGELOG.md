@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.26](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.26) (2022-12-02)
+
+- support for background DFU
+- new method `initiateBackgroundDFU` to start upgrade with background DFU. BL and APP will be updated automatically if they are outdated. SDK will send notification `connectedDevice?.onFirmwareError` with `ZTError.Enums.FirmwareError.restartRequired` so user must turn off/on Bluethooth in Settings or restart iOS device.
+
 ## [1.0.25](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.25) (2022-11-15)
 
 - new method to obtaine data related to `mobility` - `public func postMobility(name:, parameters:, completion:)`
