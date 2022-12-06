@@ -16,9 +16,8 @@ let package = Package(
     dependencies: [
         .package(
             name: "ZTCoreKit", 
-            url: "https://github.com/zhortech/ztcorekit-ios-sdk.git",
-            from: "1.1.52"
-        )
+            url: "https://gitlab.com/zhor-tech/sdk/ios/ztcorekit", 
+            .upToNextMajor(from: "1.1.57"))
     ],
     targets: [
         .target(
