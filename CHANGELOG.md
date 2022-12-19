@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.29](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.29) (2022-12-19)
+
+- fix for `getActivity` method to pass parameters 
+
+## [1.0.28](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.28) (2022-12-16)
+
+- build with new ZTCoreKit version
+
 ## [1.0.27](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.27) (2022-12-06)
 
 - new generic method added to get data from any endpoint by name `getData(path:,name:,parameters:,completion:)`, so when calling method `ZTBaliston.shared.getData(path: "reports", name: "endurance")` it will call `/zc/baliston/reports/endurance` endpoint on ZCloud.
