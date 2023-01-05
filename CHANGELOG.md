@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.31](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.31) (2023-01-04)
+
+- always free memory after obtaining all chunks
+
+## [1.0.30](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.30) (2022-12-30)
+
+- added parsing for "packets number" which fixed timestamp type detection 
+
 ## [1.0.29](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.29) (2022-12-19)
 
 - fix for `getActivity` method to pass parameters 

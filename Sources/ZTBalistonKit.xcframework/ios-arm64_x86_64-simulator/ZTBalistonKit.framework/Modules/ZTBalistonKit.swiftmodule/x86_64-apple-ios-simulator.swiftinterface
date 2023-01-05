@@ -16,6 +16,7 @@ import _StringProcessing
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ZTBalistonSegmentData : ZTCoreKit.ZTSegmentData {
+  override public init(data: Foundation.Data, activityId: Swift.String)
   @objc deinit
 }
 extension ZTBalistonKit.ZTBalistonSegmentData {

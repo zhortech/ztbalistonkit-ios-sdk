@@ -530,6 +530,36 @@
             "mangledName": "$s13ZTBalistonKit0A11SegmentDataC4data10activityIdAC10Foundation0D0V_SStcfc",
             "moduleName": "ZTBalistonKit",
             "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZTBalistonSegmentData",
+                "printedName": "ZTBalistonKit.ZTBalistonSegmentData",
+                "usr": "s:13ZTBalistonKit0A11SegmentDataC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13ZTBalistonKit0A11SegmentDataC4dataAC10Foundation0D0V_tcfc",
+            "mangledName": "$s13ZTBalistonKit0A11SegmentDataC4dataAC10Foundation0D0V_tcfc",
+            "moduleName": "ZTBalistonKit",
+            "overriding": true,
             "implicit": true,
             "declAttributes": [
               "Override"
@@ -5350,7 +5380,7 @@
       "kind": "IntegerLiteral",
       "offset": 308,
       "length": 3,
-      "value": "254"
+      "value": "251"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonSegmentData.swift",
@@ -5371,7 +5401,7 @@
       "kind": "IntegerLiteral",
       "offset": 353,
       "length": 3,
-      "value": "199"
+      "value": "250"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonSegmentData.swift",
@@ -5560,14 +5590,14 @@
       "kind": "StringLiteral",
       "offset": 637,
       "length": 8,
-      "value": "\"1.0.30\""
+      "value": "\"1.0.31\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
       "offset": 717,
       "length": 8,
-      "value": "\"1.0.30\""
+      "value": "\"1.0.31\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
