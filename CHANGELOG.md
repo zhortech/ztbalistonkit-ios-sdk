@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.32](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.32) (2023-01-10)
+
+- ZCloud logging for free memory command
+- Background DFU using file path
+
 ## [1.0.31](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.31) (2023-01-04)
 
 - always free memory after obtaining all chunks
