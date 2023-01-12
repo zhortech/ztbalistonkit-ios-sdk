@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.33](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.33) (2023-01-12)
+
+- added `age` and `gender` for `ZTUserDataParameters`
+
 ## [1.0.32](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.32) (2023-01-10)
 
 - ZCloud logging for free memory command

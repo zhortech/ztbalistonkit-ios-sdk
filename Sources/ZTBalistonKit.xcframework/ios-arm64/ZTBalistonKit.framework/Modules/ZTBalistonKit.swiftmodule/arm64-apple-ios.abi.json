@@ -668,6 +668,340 @@
         "printedName": "ZTUserDataParameters",
         "children": [
           {
+            "kind": "TypeDecl",
+            "name": "Gender",
+            "printedName": "Gender",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "male",
+                "printedName": "male",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTUserDataParameters.Gender.Type) -> ZTBalistonKit.ZTUserDataParameters.Gender",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Gender",
+                        "printedName": "ZTBalistonKit.ZTUserDataParameters.Gender",
+                        "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6GenderO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTUserDataParameters.Gender.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Gender",
+                            "printedName": "ZTBalistonKit.ZTUserDataParameters.Gender",
+                            "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6GenderO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6GenderO4maleyA2EmF",
+                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC6GenderO4maleyA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
+              {
+                "kind": "Var",
+                "name": "female",
+                "printedName": "female",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTUserDataParameters.Gender.Type) -> ZTBalistonKit.ZTUserDataParameters.Gender",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Gender",
+                        "printedName": "ZTBalistonKit.ZTUserDataParameters.Gender",
+                        "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6GenderO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTUserDataParameters.Gender.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Gender",
+                            "printedName": "ZTBalistonKit.ZTUserDataParameters.Gender",
+                            "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6GenderO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6GenderO6femaleyA2EmF",
+                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC6GenderO6femaleyA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZTBalistonKit.ZTUserDataParameters.Gender?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Gender",
+                        "printedName": "ZTBalistonKit.ZTUserDataParameters.Gender",
+                        "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6GenderO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6GenderO8rawValueAESgs5UInt8V_tcfc",
+                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC6GenderO8rawValueAESgs5UInt8V_tcfc",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6GenderO8rawValues5UInt8Vvp",
+                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC6GenderO8rawValues5UInt8Vvp",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6GenderO8rawValues5UInt8Vvg",
+                    "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC6GenderO8rawValues5UInt8Vvg",
+                    "moduleName": "ZTBalistonKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6GenderO",
+            "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC6GenderO",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "UInt8",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "threadmillSpeed",
+            "printedName": "threadmillSpeed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeedSiSgvp",
+            "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeedSiSgvp",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeedSiSgvg",
+                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeedSiSgvg",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeedSiSgvs",
+                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeedSiSgvs",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeedSiSgvM",
+                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeedSiSgvM",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Var",
             "name": "bodyWeight",
             "printedName": "bodyWeight",
@@ -695,7 +1029,8 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -815,7 +1150,8 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -935,7 +1271,8 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1029,8 +1366,8 @@
           },
           {
             "kind": "Var",
-            "name": "threadmillSpeed",
-            "printedName": "threadmillSpeed",
+            "name": "age",
+            "printedName": "age",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1048,14 +1385,15 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeedSiSgvp",
-            "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeedSiSgvp",
+            "usr": "s:13ZTBalistonKit20ZTUserDataParametersC3ageSiSgvp",
+            "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC3ageSiSgvp",
             "moduleName": "ZTBalistonKit",
             "declAttributes": [
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1080,8 +1418,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeedSiSgvg",
-                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeedSiSgvg",
+                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC3ageSiSgvg",
+                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC3ageSiSgvg",
                 "moduleName": "ZTBalistonKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1115,8 +1453,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeedSiSgvs",
-                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeedSiSgvs",
+                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC3ageSiSgvs",
+                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC3ageSiSgvs",
                 "moduleName": "ZTBalistonKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1136,8 +1474,129 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeedSiSgvM",
-                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeedSiSgvM",
+                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC3ageSiSgvM",
+                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC3ageSiSgvM",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gender",
+            "printedName": "gender",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZTBalistonKit.ZTUserDataParameters.Gender?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Gender",
+                    "printedName": "ZTBalistonKit.ZTUserDataParameters.Gender",
+                    "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6GenderO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6genderAC6GenderOSgvp",
+            "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC6genderAC6GenderOSgvp",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZTBalistonKit.ZTUserDataParameters.Gender?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Gender",
+                        "printedName": "ZTBalistonKit.ZTUserDataParameters.Gender",
+                        "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6GenderO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6genderAC6GenderOSgvg",
+                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC6genderAC6GenderOSgvg",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZTBalistonKit.ZTUserDataParameters.Gender?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Gender",
+                        "printedName": "ZTBalistonKit.ZTUserDataParameters.Gender",
+                        "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6GenderO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6genderAC6GenderOSgvs",
+                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC6genderAC6GenderOSgvs",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6genderAC6GenderOSgvM",
+                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC6genderAC6GenderOSgvM",
                 "moduleName": "ZTBalistonKit",
                 "implicit": true,
                 "declAttributes": [
@@ -1150,7 +1609,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(bodyWeight:bodyHeight:shoeSize:threadmillSpeed:)",
+            "printedName": "init(threadmillSpeed:bodyWeight:bodyHeight:shoeSize:age:gender:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1170,55 +1629,83 @@
                     "usr": "s:Si"
                   }
                 ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
                 "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZTBalistonKit.ZTUserDataParameters.Gender?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Gender",
+                    "printedName": "ZTBalistonKit.ZTUserDataParameters.Gender",
+                    "usr": "s:13ZTBalistonKit20ZTUserDataParametersC6GenderO"
+                  }
+                ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13ZTBalistonKit20ZTUserDataParametersC10bodyWeight0F6Height8shoeSize15threadmillSpeedACSiSg_A3Htcfc",
-            "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC10bodyWeight0F6Height8shoeSize15threadmillSpeedACSiSg_A3Htcfc",
+            "usr": "s:13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeed10bodyWeight0H6Height8shoeSize3age6genderACSiSg_A4jC6GenderOSgtcfc",
+            "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC15threadmillSpeed10bodyWeight0H6Height8shoeSize3age6genderACSiSg_A4jC6GenderOSgtcfc",
             "moduleName": "ZTBalistonKit",
             "declAttributes": [
               "AccessControl",
@@ -1231,6 +1718,43 @@
             "name": "Parameters",
             "printedName": "Parameters",
             "children": [
+              {
+                "kind": "Var",
+                "name": "threadmillSpeed",
+                "printedName": "threadmillSpeed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTUserDataParameters.Parameters.Type) -> ZTBalistonKit.ZTUserDataParameters.Parameters",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Parameters",
+                        "printedName": "ZTBalistonKit.ZTUserDataParameters.Parameters",
+                        "usr": "s:13ZTBalistonKit20ZTUserDataParametersC0E0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTUserDataParameters.Parameters.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Parameters",
+                            "printedName": "ZTBalistonKit.ZTUserDataParameters.Parameters",
+                            "usr": "s:13ZTBalistonKit20ZTUserDataParametersC0E0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC0E0O15threadmillSpeedyA2EmF",
+                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC0E0O15threadmillSpeedyA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
               {
                 "kind": "Var",
                 "name": "bodyWeight",
@@ -1344,8 +1868,8 @@
               },
               {
                 "kind": "Var",
-                "name": "threadmillSpeed",
-                "printedName": "threadmillSpeed",
+                "name": "age",
+                "printedName": "age",
                 "children": [
                   {
                     "kind": "TypeFunc",
@@ -1375,8 +1899,45 @@
                   }
                 ],
                 "declKind": "EnumElement",
-                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC0E0O15threadmillSpeedyA2EmF",
-                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC0E0O15threadmillSpeedyA2EmF",
+                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC0E0O3ageyA2EmF",
+                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC0E0O3ageyA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
+              {
+                "kind": "Var",
+                "name": "gender",
+                "printedName": "gender",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTUserDataParameters.Parameters.Type) -> ZTBalistonKit.ZTUserDataParameters.Parameters",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Parameters",
+                        "printedName": "ZTBalistonKit.ZTUserDataParameters.Parameters",
+                        "usr": "s:13ZTBalistonKit20ZTUserDataParametersC0E0O"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTUserDataParameters.Parameters.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Parameters",
+                            "printedName": "ZTBalistonKit.ZTUserDataParameters.Parameters",
+                            "usr": "s:13ZTBalistonKit20ZTUserDataParametersC0E0O"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit20ZTUserDataParametersC0E0O6genderyA2EmF",
+                "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC0E0O6genderyA2EmF",
                 "moduleName": "ZTBalistonKit"
               },
               {
@@ -1457,7 +2018,8 @@
             "mangledName": "$s13ZTBalistonKit20ZTUserDataParametersC0E0O",
             "moduleName": "ZTBalistonKit",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "enumRawTypeName": "UInt8",
             "conformances": [
@@ -1920,60 +2482,6 @@
         "name": "ZTBaliston",
         "printedName": "ZTBaliston",
         "children": [
-          {
-            "kind": "Var",
-            "name": "sdkVersion",
-            "printedName": "sdkVersion",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13ZTBalistonKit0A0C10sdkVersionSSvpZ",
-            "mangledName": "$s13ZTBalistonKit0A0C10sdkVersionSSvpZ",
-            "moduleName": "ZTBalistonKit",
-            "static": true,
-            "deprecated": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "Available",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13ZTBalistonKit0A0C10sdkVersionSSvgZ",
-                "mangledName": "$s13ZTBalistonKit0A0C10sdkVersionSSvgZ",
-                "moduleName": "ZTBalistonKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
           {
             "kind": "Var",
             "name": "version",
@@ -5445,86 +5953,170 @@
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 884,
-      "length": 4,
-      "value": "0x02"
+      "offset": 303,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 915,
-      "length": 4,
-      "value": "0x03"
+      "offset": 327,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 944,
-      "length": 4,
-      "value": "0x04"
+      "offset": 303,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 980,
+      "offset": 327,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 327,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1315,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 884,
+      "offset": 1354,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 915,
+      "offset": 1393,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 944,
+      "offset": 1432,
       "length": 4,
       "value": "0x04"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 980,
+      "offset": 1471,
+      "length": 4,
+      "value": "0x05"
+    },
+    {
+      "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1510,
+      "length": 4,
+      "value": "0x06"
+    },
+    {
+      "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1315,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 884,
+      "offset": 1354,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 915,
+      "offset": 1393,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 944,
+      "offset": 1432,
       "length": 4,
       "value": "0x04"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 980,
+      "offset": 1471,
+      "length": 4,
+      "value": "0x05"
+    },
+    {
+      "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1510,
+      "length": 4,
+      "value": "0x06"
+    },
+    {
+      "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1315,
       "length": 4,
       "value": "0x01"
+    },
+    {
+      "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1354,
+      "length": 4,
+      "value": "0x02"
+    },
+    {
+      "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1393,
+      "length": 4,
+      "value": "0x03"
+    },
+    {
+      "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1432,
+      "length": 4,
+      "value": "0x04"
+    },
+    {
+      "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1471,
+      "length": 4,
+      "value": "0x05"
+    },
+    {
+      "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1510,
+      "length": 4,
+      "value": "0x06"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
@@ -5543,21 +6135,21 @@
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "IntegerLiteral",
-      "offset": 9596,
+      "offset": 10063,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "BooleanLiteral",
-      "offset": 9617,
+      "offset": 10084,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "IntegerLiteral",
-      "offset": 14209,
+      "offset": 14676,
       "length": 2,
       "value": "30"
     },
@@ -5620,70 +6212,63 @@
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 637,
+      "offset": 543,
       "length": 8,
-      "value": "\"1.0.32\""
-    },
-    {
-      "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
-      "kind": "StringLiteral",
-      "offset": 717,
-      "length": 8,
-      "value": "\"1.0.32\""
+      "value": "\"1.0.33\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 1796,
+      "offset": 1622,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 1887,
+      "offset": 1713,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 1966,
+      "offset": 1792,
       "length": 6,
       "value": "900000"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 2031,
+      "offset": 1857,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 2095,
+      "offset": 1921,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 4876,
+      "offset": 4699,
       "length": 98,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 4973,
+      "offset": 4796,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 5311,
+      "offset": 5134,
       "length": 5,
       "value": "false"
     },

@@ -31,16 +31,29 @@ extension ZTBalistonKit.ZTBalistonSegmentData {
   }
 }
 final public class ZTUserDataParameters : Swift.Codable {
+  public enum Gender : Swift.UInt8, Swift.Codable {
+    case male
+    case female
+    public init?(rawValue: Swift.UInt8)
+    public typealias RawValue = Swift.UInt8
+    public var rawValue: Swift.UInt8 {
+      get
+    }
+  }
+  final public var threadmillSpeed: Swift.Int?
   final public var bodyWeight: Swift.Int?
   final public var bodyHeight: Swift.Int?
   final public var shoeSize: Swift.Int?
-  final public var threadmillSpeed: Swift.Int?
-  public init(bodyWeight: Swift.Int?, bodyHeight: Swift.Int?, shoeSize: Swift.Int?, threadmillSpeed: Swift.Int? = nil)
+  final public var age: Swift.Int?
+  final public var gender: ZTBalistonKit.ZTUserDataParameters.Gender?
+  public init(threadmillSpeed: Swift.Int? = nil, bodyWeight: Swift.Int?, bodyHeight: Swift.Int?, shoeSize: Swift.Int?, age: Swift.Int?, gender: ZTBalistonKit.ZTUserDataParameters.Gender?)
   public enum Parameters : Swift.UInt8 {
+    case threadmillSpeed
     case bodyWeight
     case bodyHeight
     case shoeSize
-    case threadmillSpeed
+    case age
+    case gender
     public init?(rawValue: Swift.UInt8)
     public typealias RawValue = Swift.UInt8
     public var rawValue: Swift.UInt8 {
@@ -94,8 +107,6 @@ extension ZTBalistonKit.ZTBaliston {
 }
 public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift.Void
 @_hasMissingDesignatedInitializers public class ZTBaliston {
-  @available(*, deprecated, renamed: "version", message: "Use version property instead")
-  public static let sdkVersion: Swift.String
   public static let version: Swift.String
   public static let shared: ZTBalistonKit.ZTBaliston
   public var dfuDelegate: ZTBalistonKit.ZTBalistonDfuDelegate?
@@ -131,6 +142,9 @@ extension ZTBalistonKit.ZTBaliston {
   public func setInactivityTimeout(seconds: Foundation.TimeInterval, completion: @escaping ZTCoreKit.ZTBaseResult)
   public func getInactivityTimeout(completion: @escaping ((Swift.Int) -> Swift.Void))
 }
+extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Equatable {}
+extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Hashable {}
+extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.RawRepresentable {}
 extension ZTBalistonKit.ZTUserDataParameters.Parameters : Swift.Equatable {}
 extension ZTBalistonKit.ZTUserDataParameters.Parameters : Swift.Hashable {}
 extension ZTBalistonKit.ZTUserDataParameters.Parameters : Swift.RawRepresentable {}
