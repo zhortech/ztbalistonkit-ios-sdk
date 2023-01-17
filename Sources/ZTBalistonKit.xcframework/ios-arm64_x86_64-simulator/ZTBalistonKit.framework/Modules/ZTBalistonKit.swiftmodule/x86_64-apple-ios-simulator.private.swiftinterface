@@ -73,7 +73,7 @@ public protocol ZTBalistonDfuDelegate {
   func dfuDelegate(rightDidFinish newVersion: Swift.String?)
 }
 extension ZTBalistonKit.ZTBaliston : ZTCoreKit.ZTDfuDelegate {
-  public func initiateBackgroundDFU()
+  public func initiateBackgroundDFU(isRestartRequired: Swift.Bool = false)
   public func initiateBackgroundDFU(path: Swift.String)
   public func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
   public func dfuDelegate(didFinish: Swift.Bool)

@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.34](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.34) (2023-01-17)
+
+- fixed timestamp calculation
+- refactoring for memory free
+
 ## [1.0.33](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.33) (2023-01-12)
 
 - added `age` and `gender` for `ZTUserDataParameters`
