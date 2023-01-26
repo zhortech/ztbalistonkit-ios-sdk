@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.35](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.35) (2023-01-26)
+
+- Secure DFU background DFU support
+- bootloader DFU state observer `ZTBaliston.shared.onDfuStateUpdated` and current state `ZTBaliston.shared.currentDfuState`
+- background DFU state observer `ZTBaliston.shared.onDfuChanged`
+
 ## [1.0.34](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.34) (2023-01-17)
 
 - fixed timestamp calculation

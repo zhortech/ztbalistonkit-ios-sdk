@@ -17,7 +17,7 @@
     <a title="ZTBaliston Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">ZTBalistonKit 1.0.31 Docs</a></p>
+        <p><a href="../index.html">ZTBalistonKit 1.0.35 Docs</a></p>
         <p class="header-right"><a href="https://github.com/zhortech/ztbalistonkit-ios-sdk"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
@@ -58,6 +58,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/ZTUserDataParameters.html">ZTUserDataParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ZTUserDataParameters/Gender.html">– Gender</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Classes/ZTUserDataParameters/Parameters.html">– Parameters</a>
@@ -235,6 +238,27 @@ If nil is returned <code>ZTBaliston.shared.readGeneralState()</code> should be c
                   <div>
                     <code>
                     <a name="/"></a>
+                    <a name="//apple_ref/swift/Property/currentDfuState" class="dashAnchor"></a>
+                    <a class="token" href="#/">currentDfuState</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Current DFU state for background DFU.
+If state is <code>.readyForCopy</code> - shoes can be restarted to apply new firmware. Also firmware will be updated  automatically after attaching/detaching power cable.
+Use method <code>ZTBaliston.shared.reboot(completion:)</code> to reboot shoes</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
                     <a name="//apple_ref/swift/Property/onActivityStateChange" class="dashAnchor"></a>
                     <a class="token" href="#/">onActivityStateChange</a>
                     </code>
@@ -311,8 +335,8 @@ If nil is returned <code>ZTBaliston.shared.readGeneralState()</code> should be c
                   <div>
                     <code>
                     <a name="/"></a>
-                    <a name="//apple_ref/swift/Property/onDfuFinishedLeft" class="dashAnchor"></a>
-                    <a class="token" href="#/">onDfuFinishedLeft</a>
+                    <a name="//apple_ref/swift/Property/onDfuStateUpdated" class="dashAnchor"></a>
+                    <a class="token" href="#/">onDfuStateUpdated</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -320,7 +344,8 @@ If nil is returned <code>ZTBaliston.shared.readGeneralState()</code> should be c
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Notify when DFU finished for left side</p>
+                        <p>Notify when firmware dfu status is updated
+If state is readyForCopy - shoes can be rebooted to apply new firmware</p>
 
                       </div>
                     </section>
@@ -330,8 +355,8 @@ If nil is returned <code>ZTBaliston.shared.readGeneralState()</code> should be c
                   <div>
                     <code>
                     <a name="/"></a>
-                    <a name="//apple_ref/swift/Property/onDfuFinishedRight" class="dashAnchor"></a>
-                    <a class="token" href="#/">onDfuFinishedRight</a>
+                    <a name="//apple_ref/swift/Property/onDfuChanged" class="dashAnchor"></a>
+                    <a class="token" href="#/">onDfuChanged</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -339,7 +364,7 @@ If nil is returned <code>ZTBaliston.shared.readGeneralState()</code> should be c
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Notify when DFU finished for right side</p>
+                        <p>Notify about changes in  DFU flow</p>
 
                       </div>
                     </section>
@@ -349,8 +374,8 @@ If nil is returned <code>ZTBaliston.shared.readGeneralState()</code> should be c
                   <div>
                     <code>
                     <a name="/"></a>
-                    <a name="//apple_ref/swift/Property/onDfuFinished" class="dashAnchor"></a>
-                    <a class="token" href="#/">onDfuFinished</a>
+                    <a name="//apple_ref/swift/Property/onDfuUploadProgress" class="dashAnchor"></a>
+                    <a class="token" href="#/">onDfuUploadProgress</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -358,7 +383,7 @@ If nil is returned <code>ZTBaliston.shared.readGeneralState()</code> should be c
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Notify when DFU finished</p>
+                        <p>Notify about firmware upload progress</p>
 
                       </div>
                     </section>
@@ -813,8 +838,8 @@ It is temporary method and will be removed in next versions when firmware suppor
                   <div>
                     <code>
                     <a name="/"></a>
-                    <a name="//apple_ref/swift/Method/initiateBackgroundDFU()" class="dashAnchor"></a>
-                    <a class="token" href="#/">initiateBackgroundDFU()</a>
+                    <a name="//apple_ref/swift/Method/initiateBackgroundDFU(isRestartRequired:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">initiateBackgroundDFU(isRestartRequired:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -835,8 +860,8 @@ If new BL and APP installed supporting background DFU - APP images will be uploa
                   <div>
                     <code>
                     <a name="/"></a>
-                    <a name="//apple_ref/swift/Method/updateFirmware(completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/">updateFirmware(completion:<wbr>)</a>
+                    <a name="//apple_ref/swift/Method/initiateBackgroundDFU(path:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">initiateBackgroundDFU(path:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -844,7 +869,8 @@ If new BL and APP installed supporting background DFU - APP images will be uploa
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Start DFU flow on baliston firmware</p>
+                        <p>Initiate Background DFU using image from file path
+This method will work only with any ZT5 or ZT4/ZT3 modules with new Bootloader version (&gt; 6)</p>
 
                       </div>
                     </section>
@@ -854,8 +880,8 @@ If new BL and APP installed supporting background DFU - APP images will be uploa
                   <div>
                     <code>
                     <a name="/"></a>
-                    <a name="//apple_ref/swift/Method/updateFirmware(path:completion:)" class="dashAnchor"></a>
-                    <a class="token" href="#/">updateFirmware(path:<wbr>completion:<wbr>)</a>
+                    <a name="//apple_ref/swift/Method/reboot(completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">reboot(completion:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -863,7 +889,7 @@ If new BL and APP installed supporting background DFU - APP images will be uploa
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Start DFU flow on baliston firmware with local file path</p>
+                        <p>Reboot shoes</p>
 
                       </div>
                     </section>
@@ -982,7 +1008,7 @@ If new BL and APP installed supporting background DFU - APP images will be uploa
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2023 <a class="link" href="https://zhortech.com" target="_blank" rel="external noopener">Zhortech</a>. All rights reserved. (Last updated: 2023-01-05)</p>
+          <p>&copy; 2023 <a class="link" href="https://zhortech.com" target="_blank" rel="external noopener">Zhortech</a>. All rights reserved. (Last updated: 2023-01-26)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>

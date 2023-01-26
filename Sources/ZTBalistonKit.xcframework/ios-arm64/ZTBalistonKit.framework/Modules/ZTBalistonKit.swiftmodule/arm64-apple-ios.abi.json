@@ -2932,6 +2932,47 @@
           },
           {
             "kind": "Var",
+            "name": "currentDfuState",
+            "printedName": "currentDfuState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DfuState",
+                "printedName": "ZTCoreKit.ZTMessageBootloaderInfo.DfuState",
+                "usr": "s:9ZTCoreKit23ZTMessageBootloaderInfoV8DfuStateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ZTBalistonKit0A0C15currentDfuState06ZTCoreB023ZTMessageBootloaderInfoV0dE0Ovp",
+            "mangledName": "$s13ZTBalistonKit0A0C15currentDfuState06ZTCoreB023ZTMessageBootloaderInfoV0dE0Ovp",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DfuState",
+                    "printedName": "ZTCoreKit.ZTMessageBootloaderInfo.DfuState",
+                    "usr": "s:9ZTCoreKit23ZTMessageBootloaderInfoV8DfuStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit0A0C15currentDfuState06ZTCoreB023ZTMessageBootloaderInfoV0dE0Ovg",
+                "mangledName": "$s13ZTBalistonKit0A0C15currentDfuState06ZTCoreB023ZTMessageBootloaderInfoV0dE0Ovg",
+                "moduleName": "ZTBalistonKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "onActivityStateChange",
             "printedName": "onActivityStateChange",
             "children": [
@@ -3368,35 +3409,27 @@
           },
           {
             "kind": "Var",
-            "name": "onDfuFinishedLeft",
-            "printedName": "onDfuFinishedLeft",
+            "name": "onDfuStateUpdated",
+            "printedName": "onDfuStateUpdated",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "ZTSignal",
-                "printedName": "ZTCoreKit.ZTSignal<ZTCoreKit.ZTError?>",
+                "printedName": "ZTCoreKit.ZTSignal<ZTCoreKit.ZTMessageBootloaderInfo.DfuState>",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "ZTCoreKit.ZTError?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ZTError",
-                        "printedName": "ZTCoreKit.ZTError",
-                        "usr": "s:9ZTCoreKit7ZTErrorO"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "DfuState",
+                    "printedName": "ZTCoreKit.ZTMessageBootloaderInfo.DfuState",
+                    "usr": "s:9ZTCoreKit23ZTMessageBootloaderInfoV8DfuStateO"
                   }
                 ],
                 "usr": "s:9ZTCoreKit8ZTSignalC"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13ZTBalistonKit0A0C17onDfuFinishedLeft06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvp",
-            "mangledName": "$s13ZTBalistonKit0A0C17onDfuFinishedLeft06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvp",
+            "usr": "s:13ZTBalistonKit0A0C17onDfuStateUpdated06ZTCoreB08ZTSignalCyAE23ZTMessageBootloaderInfoV0dE0OGvp",
+            "mangledName": "$s13ZTBalistonKit0A0C17onDfuStateUpdated06ZTCoreB08ZTSignalCyAE23ZTMessageBootloaderInfoV0dE0OGvp",
             "moduleName": "ZTBalistonKit",
             "declAttributes": [
               "HasInitialValue",
@@ -3416,29 +3449,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ZTSignal",
-                    "printedName": "ZTCoreKit.ZTSignal<ZTCoreKit.ZTError?>",
+                    "printedName": "ZTCoreKit.ZTSignal<ZTCoreKit.ZTMessageBootloaderInfo.DfuState>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "ZTCoreKit.ZTError?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ZTError",
-                            "printedName": "ZTCoreKit.ZTError",
-                            "usr": "s:9ZTCoreKit7ZTErrorO"
-                          }
-                        ],
-                        "usr": "s:Sq"
+                        "name": "DfuState",
+                        "printedName": "ZTCoreKit.ZTMessageBootloaderInfo.DfuState",
+                        "usr": "s:9ZTCoreKit23ZTMessageBootloaderInfoV8DfuStateO"
                       }
                     ],
                     "usr": "s:9ZTCoreKit8ZTSignalC"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13ZTBalistonKit0A0C17onDfuFinishedLeft06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvg",
-                "mangledName": "$s13ZTBalistonKit0A0C17onDfuFinishedLeft06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvg",
+                "usr": "s:13ZTBalistonKit0A0C17onDfuStateUpdated06ZTCoreB08ZTSignalCyAE23ZTMessageBootloaderInfoV0dE0OGvg",
+                "mangledName": "$s13ZTBalistonKit0A0C17onDfuStateUpdated06ZTCoreB08ZTSignalCyAE23ZTMessageBootloaderInfoV0dE0OGvg",
                 "moduleName": "ZTBalistonKit",
                 "implicit": true,
                 "declAttributes": [
@@ -3450,35 +3475,48 @@
           },
           {
             "kind": "Var",
-            "name": "onDfuFinishedRight",
-            "printedName": "onDfuFinishedRight",
+            "name": "onDfuChanged",
+            "printedName": "onDfuChanged",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "ZTSignal",
-                "printedName": "ZTCoreKit.ZTSignal<ZTCoreKit.ZTError?>",
+                "printedName": "ZTCoreKit.ZTSignal<(ZTCoreKit.ZTDFUState, ZTCoreKit.ZTError?)>",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "ZTCoreKit.ZTError?",
+                    "name": "Tuple",
+                    "printedName": "(ZTCoreKit.ZTDFUState, ZTCoreKit.ZTError?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ZTError",
-                        "printedName": "ZTCoreKit.ZTError",
-                        "usr": "s:9ZTCoreKit7ZTErrorO"
+                        "name": "ZTDFUState",
+                        "printedName": "ZTCoreKit.ZTDFUState",
+                        "usr": "s:9ZTCoreKit10ZTDFUStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ZTCoreKit.ZTError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZTError",
+                            "printedName": "ZTCoreKit.ZTError",
+                            "usr": "s:9ZTCoreKit7ZTErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
-                    ],
-                    "usr": "s:Sq"
+                    ]
                   }
                 ],
                 "usr": "s:9ZTCoreKit8ZTSignalC"
               }
             ],
             "declKind": "Var",
-            "usr": "s:13ZTBalistonKit0A0C18onDfuFinishedRight06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvp",
-            "mangledName": "$s13ZTBalistonKit0A0C18onDfuFinishedRight06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvp",
+            "usr": "s:13ZTBalistonKit0A0C12onDfuChanged06ZTCoreB08ZTSignalCyAE10ZTDFUStateO_AE7ZTErrorOSgtGvp",
+            "mangledName": "$s13ZTBalistonKit0A0C12onDfuChanged06ZTCoreB08ZTSignalCyAE10ZTDFUStateO_AE7ZTErrorOSgtGvp",
             "moduleName": "ZTBalistonKit",
             "declAttributes": [
               "HasInitialValue",
@@ -3498,29 +3536,42 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ZTSignal",
-                    "printedName": "ZTCoreKit.ZTSignal<ZTCoreKit.ZTError?>",
+                    "printedName": "ZTCoreKit.ZTSignal<(ZTCoreKit.ZTDFUState, ZTCoreKit.ZTError?)>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "ZTCoreKit.ZTError?",
+                        "name": "Tuple",
+                        "printedName": "(ZTCoreKit.ZTDFUState, ZTCoreKit.ZTError?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "ZTError",
-                            "printedName": "ZTCoreKit.ZTError",
-                            "usr": "s:9ZTCoreKit7ZTErrorO"
+                            "name": "ZTDFUState",
+                            "printedName": "ZTCoreKit.ZTDFUState",
+                            "usr": "s:9ZTCoreKit10ZTDFUStateO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "ZTCoreKit.ZTError?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ZTError",
+                                "printedName": "ZTCoreKit.ZTError",
+                                "usr": "s:9ZTCoreKit7ZTErrorO"
+                              }
+                            ],
+                            "usr": "s:Sq"
                           }
-                        ],
-                        "usr": "s:Sq"
+                        ]
                       }
                     ],
                     "usr": "s:9ZTCoreKit8ZTSignalC"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13ZTBalistonKit0A0C18onDfuFinishedRight06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvg",
-                "mangledName": "$s13ZTBalistonKit0A0C18onDfuFinishedRight06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvg",
+                "usr": "s:13ZTBalistonKit0A0C12onDfuChanged06ZTCoreB08ZTSignalCyAE10ZTDFUStateO_AE7ZTErrorOSgtGvg",
+                "mangledName": "$s13ZTBalistonKit0A0C12onDfuChanged06ZTCoreB08ZTSignalCyAE10ZTDFUStateO_AE7ZTErrorOSgtGvg",
                 "moduleName": "ZTBalistonKit",
                 "implicit": true,
                 "declAttributes": [
@@ -3532,24 +3583,24 @@
           },
           {
             "kind": "Var",
-            "name": "onDfuFinished",
-            "printedName": "onDfuFinished",
+            "name": "onDfuUploadProgress",
+            "printedName": "onDfuUploadProgress",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "ZTSignal",
-                "printedName": "ZTCoreKit.ZTSignal<ZTCoreKit.ZTError?>",
+                "printedName": "ZTCoreKit.ZTSignal<Swift.Float?>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "ZTCoreKit.ZTError?",
+                    "printedName": "Swift.Float?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ZTError",
-                        "printedName": "ZTCoreKit.ZTError",
-                        "usr": "s:9ZTCoreKit7ZTErrorO"
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
                       }
                     ],
                     "usr": "s:Sq"
@@ -3559,8 +3610,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:13ZTBalistonKit0A0C13onDfuFinished06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvp",
-            "mangledName": "$s13ZTBalistonKit0A0C13onDfuFinished06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvp",
+            "usr": "s:13ZTBalistonKit0A0C19onDfuUploadProgress06ZTCoreB08ZTSignalCySfSgGvp",
+            "mangledName": "$s13ZTBalistonKit0A0C19onDfuUploadProgress06ZTCoreB08ZTSignalCySfSgGvp",
             "moduleName": "ZTBalistonKit",
             "declAttributes": [
               "HasInitialValue",
@@ -3580,18 +3631,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ZTSignal",
-                    "printedName": "ZTCoreKit.ZTSignal<ZTCoreKit.ZTError?>",
+                    "printedName": "ZTCoreKit.ZTSignal<Swift.Float?>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "ZTCoreKit.ZTError?",
+                        "printedName": "Swift.Float?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "ZTError",
-                            "printedName": "ZTCoreKit.ZTError",
-                            "usr": "s:9ZTCoreKit7ZTErrorO"
+                            "name": "Float",
+                            "printedName": "Swift.Float",
+                            "usr": "s:Sf"
                           }
                         ],
                         "usr": "s:Sq"
@@ -3601,8 +3652,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:13ZTBalistonKit0A0C13onDfuFinished06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvg",
-                "mangledName": "$s13ZTBalistonKit0A0C13onDfuFinished06ZTCoreB08ZTSignalCyAE7ZTErrorOSgGvg",
+                "usr": "s:13ZTBalistonKit0A0C19onDfuUploadProgress06ZTCoreB08ZTSignalCySfSgGvg",
+                "mangledName": "$s13ZTBalistonKit0A0C19onDfuUploadProgress06ZTCoreB08ZTSignalCySfSgGvg",
                 "moduleName": "ZTBalistonKit",
                 "implicit": true,
                 "declAttributes": [
@@ -3835,6 +3886,54 @@
             "declKind": "Func",
             "usr": "s:13ZTBalistonKit0A0C21initiateBackgroundDFU4pathySS_tF",
             "mangledName": "$s13ZTBalistonKit0A0C21initiateBackgroundDFU4pathySS_tF",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reboot",
+            "printedName": "reboot(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A0C6reboot10completionyys5Error_pSgc_tF",
+            "mangledName": "$s13ZTBalistonKit0A0C6reboot10completionyys5Error_pSgc_tF",
             "moduleName": "ZTBalistonKit",
             "declAttributes": [
               "AccessControl",
@@ -6200,61 +6299,61 @@
       "kind": "StringLiteral",
       "offset": 543,
       "length": 8,
-      "value": "\"1.0.34\""
+      "value": "\"1.0.35\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 1622,
+      "offset": 2215,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 1713,
+      "offset": 2306,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 1792,
+      "offset": 2385,
       "length": 6,
       "value": "900000"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 1857,
+      "offset": 2450,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 1921,
+      "offset": 2514,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 4978,
+      "offset": 5536,
       "length": 98,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 5075,
+      "offset": 5633,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 5413,
+      "offset": 5944,
       "length": 5,
       "value": "false"
     },
@@ -6317,35 +6416,35 @@
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 1667,
+      "offset": 1729,
       "length": 22,
       "value": "\"lastSafetyActivityID\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 1742,
+      "offset": 1804,
       "length": 21,
       "value": "\"safetyChunkDuration\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 1824,
+      "offset": 1886,
       "length": 22,
       "value": "\"isMonitoringActivity\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 1905,
+      "offset": 1967,
       "length": 20,
       "value": "\"userDataParameters\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 1987,
+      "offset": 2049,
       "length": 23,
       "value": "\"lastFirmwareCheckDate\""
     }

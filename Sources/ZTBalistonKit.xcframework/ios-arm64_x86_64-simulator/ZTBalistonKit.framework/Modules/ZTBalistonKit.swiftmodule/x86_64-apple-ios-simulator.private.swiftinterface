@@ -75,6 +75,7 @@ public protocol ZTBalistonDfuDelegate {
 extension ZTBalistonKit.ZTBaliston : ZTCoreKit.ZTDfuDelegate {
   public func initiateBackgroundDFU(isRestartRequired: Swift.Bool = false)
   public func initiateBackgroundDFU(path: Swift.String)
+  public func reboot(completion: @escaping ZTCoreKit.ZTBaseResult)
   public func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
   public func dfuDelegate(didFinish: Swift.Bool)
   public func dfuDelegate(didFail error: ZTCoreKit.ZTError?)
@@ -122,13 +123,16 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
   public var currentActivity: ZTBalistonKit.ZTBalistonActivity? {
     get
   }
+  public var currentDfuState: ZTCoreKit.ZTMessageBootloaderInfo.DfuState {
+    get
+  }
   final public let onActivityStateChange: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, Swift.Error?)>
   final public let onActivityStopped: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, Swift.Error?)>
   final public let onActivityDataReceived: ZTCoreKit.ZTSignal<(Foundation.Data?)>
   final public let onActivityError: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTError?)>
-  final public let onDfuFinishedLeft: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTError?)>
-  final public let onDfuFinishedRight: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTError?)>
-  final public let onDfuFinished: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTError?)>
+  final public let onDfuStateUpdated: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTMessageBootloaderInfo.DfuState)>
+  final public let onDfuChanged: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTDFUState, ZTCoreKit.ZTError?)>
+  final public let onDfuUploadProgress: ZTCoreKit.ZTSignal<(Swift.Float?)>
   @objc deinit
   public func readGeneralState(completion: @escaping ((ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void))
 }
