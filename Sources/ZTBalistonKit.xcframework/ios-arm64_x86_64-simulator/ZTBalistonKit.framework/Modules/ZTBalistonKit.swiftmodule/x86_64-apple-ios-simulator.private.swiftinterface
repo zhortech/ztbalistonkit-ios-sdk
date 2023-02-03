@@ -133,6 +133,7 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
   final public let onDfuStateUpdated: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTMessageBootloaderInfo.DfuState)>
   final public let onDfuChanged: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTDFUState, ZTCoreKit.ZTError?)>
   final public let onDfuUploadProgress: ZTCoreKit.ZTSignal<(Swift.Float?)>
+  final public let onChunksDownloadProgress: ZTCoreKit.ZTSignal<(Swift.Float?)>
   @objc deinit
   public func readGeneralState(completion: @escaping ((ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void))
 }

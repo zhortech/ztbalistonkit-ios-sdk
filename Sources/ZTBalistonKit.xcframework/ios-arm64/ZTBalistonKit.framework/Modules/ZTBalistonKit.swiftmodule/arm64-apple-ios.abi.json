@@ -3664,6 +3664,88 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "onChunksDownloadProgress",
+            "printedName": "onChunksDownloadProgress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZTSignal",
+                "printedName": "ZTCoreKit.ZTSignal<Swift.Float?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Float?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:9ZTCoreKit8ZTSignalC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ZTBalistonKit0A0C24onChunksDownloadProgress06ZTCoreB08ZTSignalCySfSgGvp",
+            "mangledName": "$s13ZTBalistonKit0A0C24onChunksDownloadProgress06ZTCoreB08ZTSignalCySfSgGvp",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZTSignal",
+                    "printedName": "ZTCoreKit.ZTSignal<Swift.Float?>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Float?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Float",
+                            "printedName": "Swift.Float",
+                            "usr": "s:Sf"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:9ZTCoreKit8ZTSignalC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit0A0C24onChunksDownloadProgress06ZTCoreB08ZTSignalCySfSgGvg",
+                "mangledName": "$s13ZTBalistonKit0A0C24onChunksDownloadProgress06ZTCoreB08ZTSignalCySfSgGvg",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "readGeneralState",
             "printedName": "readGeneralState(completion:)",
@@ -6299,7 +6381,7 @@
       "kind": "StringLiteral",
       "offset": 543,
       "length": 8,
-      "value": "\"1.0.35\""
+      "value": "\"1.0.36\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",

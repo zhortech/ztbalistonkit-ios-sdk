@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.36](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.36) (2023-02-03)
+
+- added `onChunksDownloadProgress` to notify about missed chunks download progress
+- added checking for activity running on both shoes
+
 ## [1.0.35](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.35) (2023-01-26)
 
 - Secure DFU background DFU support
