@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cYwuWMFYBH1MN9R+cO4eA5XjOt4=
+		DqhedFr9XPgWSmGAW1rHYQ4QvZ4=
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		pyXiRl5jLZL4wdKPQwNritT0J90=
+		sM8i3RLNgf246y2aOq+jH2k7FOw=
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Eh9VzaPH7K94wBUfFwaBzIeh1SM=
+		o8jfBTn7WJd5z0sPoRpbx9Ddwn8=
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		pyXiRl5jLZL4wdKPQwNritT0J90=
+		sM8i3RLNgf246y2aOq+jH2k7FOw=
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uZP1LlvlDv8ekg+524jaZoBWuLo=
+		CHx6zjPxRR/U6pj58fYGAv7p8w0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -66,7 +66,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wQCMtAY9wMUJ9QDd3ObOFMLVqL8d4R1exhpuDB75gVE=
+			Sm+lJd4EGhAx69rPAoHC1ipykfLCIgR8Kgvlah4yOxU=
 			</data>
 		</dict>
 		<key>Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -94,14 +94,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tcoD67yDgTBEskBfaV1Yq6Z8w1VvjEDzQLSLb72mChc=
+			+2GMza0y/grtRdZP14l6b5chU79cmYvJ7+4pT2NzueQ=
 			</data>
 		</dict>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wQCMtAY9wMUJ9QDd3ObOFMLVqL8d4R1exhpuDB75gVE=
+			Sm+lJd4EGhAx69rPAoHC1ipykfLCIgR8Kgvlah4yOxU=
 			</data>
 		</dict>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -129,7 +129,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VL+zt9f3v1Js0t4u5rvNBjwy5TNJJ5hMxytHVnV5eBc=
+			fsX12DDkywfQah7SUxbQjtRQ+miq2zY1E0MGo23bK8s=
 			</data>
 		</dict>
 	</dict>

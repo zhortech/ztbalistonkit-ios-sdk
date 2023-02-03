@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.37](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.37) (2023-02-03)
+
+- using `activityChunkStoreForFreeMemory` from ZTSettings to clear memory
+
 ## [1.0.36](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.36) (2023-02-03)
 
 - added `onChunksDownloadProgress` to notify about missed chunks download progress
