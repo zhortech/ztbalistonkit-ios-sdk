@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.38](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.38) (2023-02-10)
+
+- using `enableBackgroundDfu` from ZTSettings to enable/disable automatic background DFU
+
 ## [1.0.37](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.37) (2023-02-03)
 
 - using `activityChunkStoreForFreeMemory` from ZTSettings to clear memory
