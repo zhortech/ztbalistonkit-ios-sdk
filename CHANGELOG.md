@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.39](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.39) (2023-02-15)
+
+- notify ZCloud about background DFU update done
+
 ## [1.0.38](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.38) (2023-02-10)
 
 - using `enableBackgroundDfu` from ZTSettings to enable/disable automatic background DFU
