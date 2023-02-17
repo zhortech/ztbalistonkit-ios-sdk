@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.40](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.40) (2023-02-17)
+
+- update ZCloud analytics data when app becomes active. It can be turned on/off using `ZTSettings.shared.enableAnalyticsData`. Latest data can be read from `ZTBaliston.shared.analyticsData`. Data is updated when app becomes active, when device changed connection state and last check was more than 1 hour ago
+
 ## [1.0.39](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.39) (2023-02-15)
 
 - notify ZCloud about background DFU update done

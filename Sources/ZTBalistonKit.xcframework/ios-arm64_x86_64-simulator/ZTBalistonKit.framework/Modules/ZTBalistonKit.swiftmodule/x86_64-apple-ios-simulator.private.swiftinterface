@@ -5,6 +5,7 @@
 import CoreBluetooth
 import Foundation
 import Swift
+import UIKit
 import ZTCoreKit
 import _Concurrency
 import _StringProcessing
@@ -125,6 +126,10 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
   }
   public var currentDfuState: ZTCoreKit.ZTMessageBootloaderInfo.DfuState {
     get
+  }
+  public var analyticsData: [Swift.String : Any]? {
+    get
+    set
   }
   final public let onActivityStateChange: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, Swift.Error?)>
   final public let onActivityStopped: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, Swift.Error?)>
