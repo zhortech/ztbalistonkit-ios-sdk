@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.43](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.43) (2023-03-02)
+
+- moved check for bootloader info into ZTCoreKit
+
 ## [1.0.42](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.42) (2023-02-28)
 
 - check DFU state after reboot
