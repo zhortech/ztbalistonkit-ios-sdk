@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.44](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.44) (2023-03-10)
+
+- update activity start time from firmware after DFU was copied
+
 ## [1.0.43](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.43) (2023-03-02)
 
 - moved check for bootloader info into ZTCoreKit
