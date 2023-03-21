@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.45](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.45) (2023-03-21)
+
+- check for outside activity and restart activity to have correct anchor time
+- use `fwVersion` for activity
+
 ## [1.0.44](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.44) (2023-03-10)
 
 - update activity start time from firmware after DFU was copied

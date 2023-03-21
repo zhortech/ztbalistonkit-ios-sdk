@@ -504,7 +504,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(data:activityId:)",
+            "printedName": "init(data:activityId:fwversion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -523,11 +523,25 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13ZTBalistonKit0A11SegmentDataC4data10activityIdAC10Foundation0D0V_SStcfc",
-            "mangledName": "$s13ZTBalistonKit0A11SegmentDataC4data10activityIdAC10Foundation0D0V_SStcfc",
+            "usr": "s:13ZTBalistonKit0A11SegmentDataC4data10activityId9fwversionAC10Foundation0D0V_S2SSgtcfc",
+            "mangledName": "$s13ZTBalistonKit0A11SegmentDataC4data10activityId9fwversionAC10Foundation0D0V_S2SSgtcfc",
             "moduleName": "ZTBalistonKit",
             "overriding": true,
             "declAttributes": [
@@ -6533,7 +6547,7 @@
       "kind": "StringLiteral",
       "offset": 556,
       "length": 8,
-      "value": "\"1.0.44\""
+      "value": "\"1.0.45\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
