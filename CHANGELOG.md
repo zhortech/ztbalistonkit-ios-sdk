@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.46](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.46) (2023-03-24)
+
+- using `ZTCoreKit` 1.1.74 with new URL for ZC `production` environment
+
 ## [1.0.45](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.45) (2023-03-21)
 
 - check for outside activity and restart activity to have correct anchor time

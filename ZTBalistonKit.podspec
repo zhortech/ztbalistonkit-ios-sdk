@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/zhortech/ztbalistonkit-ios-sdk.git', :tag => s.version.to_s }
   s.vendored_frameworks = 'Sources/ZTBalistonKit.xcframework'
   
-  s.dependency 'ZTCoreKit', '~> 1.1.73'
+  s.dependency 'ZTCoreKit', '~> 1.1.74'
 
   s.ios.deployment_target   = '13.0'
   s.ios.weak_frameworks = 'Foundation'
