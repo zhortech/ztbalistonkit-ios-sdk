@@ -4621,54 +4621,6 @@
           },
           {
             "kind": "Function",
-            "name": "startActivity",
-            "printedName": "startActivity(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ZTCoreKit.ZTError?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "ZTCoreKit.ZTError?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ZTError",
-                        "printedName": "ZTCoreKit.ZTError",
-                        "usr": "s:9ZTCoreKit7ZTErrorO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A0C13startActivity10completionyy06ZTCoreB07ZTErrorOSgc_tF",
-            "mangledName": "$s13ZTBalistonKit0A0C13startActivity10completionyy06ZTCoreB07ZTErrorOSgc_tF",
-            "moduleName": "ZTBalistonKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "sendDirectMessage",
             "printedName": "sendDirectMessage(message:completion:)",
             "children": [
@@ -6461,28 +6413,28 @@
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "IntegerLiteral",
-      "offset": 4321,
+      "offset": 4601,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "IntegerLiteral",
-      "offset": 10063,
+      "offset": 10343,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "BooleanLiteral",
-      "offset": 10084,
+      "offset": 10364,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "IntegerLiteral",
-      "offset": 14676,
+      "offset": 15247,
       "length": 2,
       "value": "30"
     },
@@ -6547,7 +6499,7 @@
       "kind": "StringLiteral",
       "offset": 556,
       "length": 8,
-      "value": "\"1.0.47\""
+      "value": "\"1.0.48\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",

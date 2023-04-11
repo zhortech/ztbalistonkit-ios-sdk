@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.48](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.48) (2023-04-11)
+
+- setting number of strides to 5 for mobility scan activity
+
 ## [1.0.47](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.47) (2023-04-06)
 
 - update `fWVersion` after DFU
