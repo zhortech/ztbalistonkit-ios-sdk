@@ -87,7 +87,7 @@ extension ZTBalistonKit.ZTBaliston : ZTCoreKit.ZTDfuDelegate {
 extension ZTBalistonKit.ZTBaliston {
   public func startMobilityScan(timeout: Swift.Double = 30, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
   public func updateUserParameters(timeout: Swift.Double = 30, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
-  public func stopMobilityScan(timeout: Swift.Double = 20, silently: Swift.Bool = false, completion: @escaping ((ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?) -> Swift.Void))
+  public func stopMobilityScan(timeout: Swift.Double = 15, silently: Swift.Bool = false, completion: @escaping ((ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?) -> Swift.Void))
 }
 extension ZTBalistonKit.ZTBaliston {
   public func sendDirectMessage(message: [Swift.String : Any], completion: @escaping (([Swift.String : Any]?, Swift.Error?) -> Swift.Void))
