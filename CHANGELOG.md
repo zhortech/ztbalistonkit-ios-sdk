@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.51](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.51) (2023-04-24)
+
+- update firmware check date only if DFU completed without error
+
 ## [1.0.50](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.50) (2023-04-12)
 
 - skip setting strides for mobility scan (temporary solution till new firmware update)
