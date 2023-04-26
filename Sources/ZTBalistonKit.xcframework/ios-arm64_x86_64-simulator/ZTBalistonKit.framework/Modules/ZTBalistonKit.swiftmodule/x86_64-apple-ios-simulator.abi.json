@@ -6413,28 +6413,28 @@
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "IntegerLiteral",
-      "offset": 4613,
+      "offset": 4601,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "IntegerLiteral",
-      "offset": 10355,
+      "offset": 10343,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "BooleanLiteral",
-      "offset": 10376,
+      "offset": 10364,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "IntegerLiteral",
-      "offset": 15334,
+      "offset": 15310,
       "length": 2,
       "value": "30"
     },
@@ -6499,7 +6499,7 @@
       "kind": "StringLiteral",
       "offset": 556,
       "length": 8,
-      "value": "\"1.0.51\""
+      "value": "\"1.0.52\""
     },
     {
       "filePath": "\/Users\/pavel\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",

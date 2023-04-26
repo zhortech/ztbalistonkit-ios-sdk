@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.52](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.52) (2023-04-26)
+
+- set number of strides for mobility scan to 5 and automatic activity to 25
+
 ## [1.0.51](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.51) (2023-04-24)
 
 - update firmware check date only if DFU completed without error
