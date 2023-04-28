@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.53](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.53) (2023-04-28)
+
+- set number of strides for mobility scan to 5 and automatic activity to 25 only for firmware starting BA.0.53, BA.1.0 and BA.1.1
+
 ## [1.0.52](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.52) (2023-04-26)
 
 - set number of strides for mobility scan to 5 and automatic activity to 25
