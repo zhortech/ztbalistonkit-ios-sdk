@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.54](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.54) (2023-05-10)
+
+- new generic method added to get array of data from any endpoint by name `getDataArray(path:,name:,parameters:,completion:)`, so when calling method `ZTBaliston.shared.getDataArray(path: "reports", name: "timeseries")` it will call `/zc/baliston/reports/timeseries` endpoint on ZCloud.
+
 ## [1.0.53](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.53) (2023-04-28)
 
 - set number of strides for mobility scan to 5 and automatic activity to 25 only for firmware starting BA.0.53, BA.1.0 and BA.1.1

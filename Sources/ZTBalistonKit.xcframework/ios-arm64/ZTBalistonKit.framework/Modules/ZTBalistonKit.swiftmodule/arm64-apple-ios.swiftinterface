@@ -104,6 +104,7 @@ extension ZTBalistonKit.ZTBaliston {
   public func postMobility(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ((Any?, Swift.Error?) -> Swift.Void))
   public func getActivity(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (([Swift.String : Any]?, Swift.Error?) -> Swift.Void))
   public func getData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ((Any?, Swift.Error?) -> Swift.Void))
+  public func getDataArray(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (([Any]?, Swift.Error?) -> Swift.Void))
   public func postData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ((Any?, Swift.Error?) -> Swift.Void))
 }
 public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift.Void
