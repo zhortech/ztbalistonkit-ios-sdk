@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.56](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.56) (2023-05-19)
+
+- sync chunks when application became active
+- using DFU mode and DFU install commands for background DFU from FW 3.15.12
+
+## [1.0.55](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.55) (2023-05-12)
+
+- ZTCoreKit version up
+
 ## [1.0.54](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.54) (2023-05-10)
 
 - new generic method added to get array of data from any endpoint by name `getDataArray(path:,name:,parameters:,completion:)`, so when calling method `ZTBaliston.shared.getDataArray(path: "reports", name: "timeseries")` it will call `/zc/baliston/reports/timeseries` endpoint on ZCloud.
