@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.57](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.57) (2023-05-24)
+
+- ZTCoreKit version up
+
 ## [1.0.56](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.56) (2023-05-19)
 
 - sync chunks when application became active
