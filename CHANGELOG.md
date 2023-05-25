@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.58](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.58) (2023-05-25)
+
+- interrupt chunk on `applicationDidBecomeActive`
+
 ## [1.0.57](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.57) (2023-05-24)
 
 - ZTCoreKit version up
