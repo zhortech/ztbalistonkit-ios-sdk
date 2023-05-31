@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.59](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.59) (2023-05-31)
+
+- using new ZTSettings parameter `getChunksOnApplicationDidBecomeActive`
+
 ## [1.0.58](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.58) (2023-05-25)
 
 - interrupt chunk on `applicationDidBecomeActive`
