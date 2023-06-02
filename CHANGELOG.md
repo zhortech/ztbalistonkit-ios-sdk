@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.60](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.60) (2023-06-02)
+
+- workaround to check if activity is running on both sides and reset if not
+- delay of 45 seconds checking missed chunks
+
 ## [1.0.59](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.59) (2023-05-31)
 
 - using new ZTSettings parameter `getChunksOnApplicationDidBecomeActive`
