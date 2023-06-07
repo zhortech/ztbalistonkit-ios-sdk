@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.61](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.61) (2023-06-07)
+
+- update fwversion for chunks from events
+- resume background DFU based on dfu state and time since last check
+
 ## [1.0.60](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.60) (2023-06-02)
 
 - workaround to check if activity is running on both sides and reset if not
