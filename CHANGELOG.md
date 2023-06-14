@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.62](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.62) (2023-06-14)
+
+- fixed flow to free memory
+- always pass start and end indexes to get missed chunks
+
 ## [1.0.61](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.61) (2023-06-07)
 
 - update fwversion for chunks from events
