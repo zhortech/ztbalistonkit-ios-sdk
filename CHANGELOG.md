@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.63](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.63) (2023-06-22)
+
+- new mobility scan flow
+- fixed missed chunks obtaining flow
+- new calculation for chunks download progress
+
 ## [1.0.62](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.62) (2023-06-14)
 
 - fixed flow to free memory
