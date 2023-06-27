@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.65](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.65) (2023-06-27)
+
+- setting chunk interval additional 5 seconds depending on mobility scan duration
+- setting default chunk interval duration on each connection if no mobility scan is running
+
 ## [1.0.64](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.64) (2023-06-23)
 
 - improving for chunk download progress
