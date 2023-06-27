@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.66](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.66) (2023-06-27)
+
+- fixed completion for stopping mobility scan
+
 ## [1.0.65](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.65) (2023-06-27)
 
 - setting chunk interval additional 5 seconds depending on mobility scan duration
