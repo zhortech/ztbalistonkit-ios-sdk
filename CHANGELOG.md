@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.68](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.68) (2023-06-29)
+
+- fixed chunk calculated timestamp after firmware reboot event to be taken from previous chunk with same original timestamp
+
 ## [1.0.67](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.67) (2023-06-29)
 
 - fixed completion for stopping mobility scan
