@@ -1,23 +1,26 @@
 # Changelog
 
-## [1.0.66](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.66) (2023-06-27)
+## [1.0.67](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.67) (2023-06-29)
 
 - fixed completion for stopping mobility scan
 
-## [1.0.65](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.65) (2023-06-27)
+## [1.0.66](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.66) (2023-06-27)
 
 - setting chunk interval additional 5 seconds depending on mobility scan duration
 - setting default chunk interval duration on each connection if no mobility scan is running
 
-## [1.0.64](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.64) (2023-06-23)
+## [1.0.65](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.65) (2023-06-23)
 
 - improving for chunk download progress
+
+## [1.0.64](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.64) (2023-06-22)
+
+- fixed missed chunks obtaining flow
+- new calculation for chunks download progress 
 
 ## [1.0.63](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.63) (2023-06-22)
 
 - new mobility scan flow
-- fixed missed chunks obtaining flow
-- new calculation for chunks download progress
 
 ## [1.0.62](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.62) (2023-06-14)
 
