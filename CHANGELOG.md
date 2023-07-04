@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.70](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.70) (2023-07-03)
+
+- changed flow for resetting activity
+
 ## [1.0.69](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.69) (2023-06-30)
 
 - refactored mobility scan flow
