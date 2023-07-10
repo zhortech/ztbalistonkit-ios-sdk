@@ -133,7 +133,7 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
   }
   final public let onActivityStateChange: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, Swift.Error?)>
   final public let onActivityStopped: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, Swift.Error?)>
-  final public let onActivityDataReceived: ZTCoreKit.ZTSignal<(Foundation.Data?)>
+  final public let onActivityDataReceived: ZTCoreKit.ZTSignal<()>
   final public let onActivityError: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTError?)>
   final public let onDfuStateUpdated: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTMessageBootloaderInfo.DfuState)>
   final public let onDfuChanged: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTDFUState, ZTCoreKit.ZTError?)>

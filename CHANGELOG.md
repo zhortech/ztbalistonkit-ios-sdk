@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.71](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.71) (2023-07-07)
+
+- using 5 strides for mobility scan and 10 strides as default for automatic activity
+- linear chunk download progress
+
 ## [1.0.70](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.70) (2023-07-03)
 
 - changed flow for resetting activity
