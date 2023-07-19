@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.72](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.72) (2023-07-19)
+
+- `ZTCoreKit` version up
+
 ## [1.0.71](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.71) (2023-07-07)
 
 - using 5 strides for mobility scan and 10 strides as default for automatic activity
