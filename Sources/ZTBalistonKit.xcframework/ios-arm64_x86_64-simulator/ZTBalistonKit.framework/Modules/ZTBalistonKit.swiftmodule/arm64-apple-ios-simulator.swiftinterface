@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ZTBalistonKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreBluetooth
@@ -62,8 +62,8 @@ final public class ZTUserDataParameters : Swift.Codable {
     }
   }
   @objc deinit
-  final public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol ZTBalistonDfuDelegate {
   func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
@@ -90,28 +90,28 @@ extension ZTBalistonKit.ZTBaliston {
   public func updateUserParameters(timeout: Swift.Double = 30, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
 }
 extension ZTBalistonKit.ZTBaliston {
-  public func sendDirectMessage(message: [Swift.String : Any], completion: @escaping (([Swift.String : Any]?, Swift.Error?) -> Swift.Void))
-  public func getDirectMessages(completion: @escaping (([[Swift.String : Any]]?, Swift.Error?) -> Swift.Void))
+  public func sendDirectMessage(message: [Swift.String : Any], completion: @escaping (([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void))
+  public func getDirectMessages(completion: @escaping (([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void))
   public func deleteDirectMessage(id: Swift.String, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func sendCannedMessage(message: [Swift.String : Any], completion: @escaping ((Any?, Swift.Error?) -> Swift.Void))
-  public func getCannedMessages(parameters: [Swift.String : Any], completion: @escaping (([[Swift.String : Any]]?, Swift.Error?) -> Swift.Void))
-  public func getTileMessage(name: Swift.String, parameters: [Swift.String : Any], completion: @escaping (([Swift.String : Any]?, Swift.Error?) -> Swift.Void))
-  public func getMobilityMessage(name: Swift.String, enqueue: Swift.Bool = true, completion: @escaping (([Swift.String : Any]?, Swift.Error?) -> Swift.Void))
-  public func getMyShoesData(completion: @escaping (([[Swift.String : Any]]?, Swift.Error?) -> Swift.Void))
-  public func getMyShoeData(code: Swift.String = "", completion: @escaping (([Swift.String : Any]?, Swift.Error?) -> Swift.Void))
+  public func sendCannedMessage(message: [Swift.String : Any], completion: @escaping ((Any?, (any Swift.Error)?) -> Swift.Void))
+  public func getCannedMessages(parameters: [Swift.String : Any], completion: @escaping (([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void))
+  public func getTileMessage(name: Swift.String, parameters: [Swift.String : Any], completion: @escaping (([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void))
+  public func getMobilityMessage(name: Swift.String, enqueue: Swift.Bool = true, completion: @escaping (([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void))
+  public func getMyShoesData(completion: @escaping (([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void))
+  public func getMyShoeData(code: Swift.String = "", completion: @escaping (([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void))
   public func startListenMessages(onMessageReceived: @escaping ((Swift.String?) -> Swift.Void), onDataReceived: @escaping ((Foundation.Data?) -> Swift.Void))
   public func stopListenMessages()
-  public func postMobility(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ((Any?, Swift.Error?) -> Swift.Void))
-  public func getActivity(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (([Swift.String : Any]?, Swift.Error?) -> Swift.Void))
-  public func getData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ((Any?, Swift.Error?) -> Swift.Void))
-  public func getDataArray(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (([Any]?, Swift.Error?) -> Swift.Void))
-  public func postData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ((Any?, Swift.Error?) -> Swift.Void))
+  public func postMobility(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ((Any?, (any Swift.Error)?) -> Swift.Void))
+  public func getActivity(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void))
+  public func getData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ((Any?, (any Swift.Error)?) -> Swift.Void))
+  public func getDataArray(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (([Any]?, (any Swift.Error)?) -> Swift.Void))
+  public func postData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ((Any?, (any Swift.Error)?) -> Swift.Void))
 }
 public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift.Void
 @_hasMissingDesignatedInitializers public class ZTBaliston {
   public static let version: Swift.String
   public static let shared: ZTBalistonKit.ZTBaliston
-  public var dfuDelegate: ZTBalistonKit.ZTBalistonDfuDelegate?
+  public var dfuDelegate: (any ZTBalistonKit.ZTBalistonDfuDelegate)?
   public var connectedDevice: ZTCoreKit.ZTDevice? {
     get
   }
@@ -131,8 +131,8 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
     get
     set
   }
-  final public let onActivityStateChange: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, Swift.Error?)>
-  final public let onActivityStopped: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, Swift.Error?)>
+  final public let onActivityStateChange: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, (any Swift.Error)?)>
+  final public let onActivityStopped: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, (any Swift.Error)?)>
   final public let onActivityDataReceived: ZTCoreKit.ZTSignal<()>
   final public let onActivityError: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTError?)>
   final public let onDfuStateUpdated: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTMessageBootloaderInfo.DfuState)>
@@ -145,7 +145,7 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
 @_inheritsConvenienceInitializers final public class ZTBalistonActivity : ZTCoreKit.ZTActivity {
   override final public func save()
   override public init()
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
 extension ZTBalistonKit.ZTBaliston {

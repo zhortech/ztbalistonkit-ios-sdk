@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.73](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.73) (2023-07-31)
+
+- added 0.5 second delay for main commands
+- added free memory into reset activity flow
+
 ## [1.0.72](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.72) (2023-07-19)
 
 - `ZTCoreKit` version up
