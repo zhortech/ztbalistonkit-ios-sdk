@@ -139,10 +139,12 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
   final public let onDfuChanged: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTDFUState, ZTCoreKit.ZTError?)>
   final public let onDfuUploadProgress: ZTCoreKit.ZTSignal<(Swift.Float?)>
   final public let onChunksDownloadProgress: ZTCoreKit.ZTSignal<(Swift.Float?)>
+  final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTMessageActivityMetadata?)>
   @objc deinit
   public func readGeneralState(completion: @escaping ((ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void))
 }
 @_inheritsConvenienceInitializers final public class ZTBalistonActivity : ZTCoreKit.ZTActivity {
+  final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<()>
   override final public func save()
   override public init()
   required public init(from decoder: any Swift.Decoder) throws
@@ -151,6 +153,7 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
 extension ZTBalistonKit.ZTBaliston {
   public func setInactivityTimeout(seconds: Foundation.TimeInterval, completion: @escaping ZTCoreKit.ZTBaseResult)
   public func getInactivityTimeout(completion: @escaping ((Swift.Int) -> Swift.Void))
+  public func cleanMemory(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
 }
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Equatable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Hashable {}

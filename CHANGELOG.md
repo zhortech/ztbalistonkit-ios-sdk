@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.74](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.734) (2023-08-04)
+
+- new public method 'cleanMemory' to clear memory based on activity meta data
+- fixed free memory command for foreign activity
+- log includes SDK version
+
 ## [1.0.73](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.73) (2023-07-31)
 
 - added 0.5 second delay for main commands

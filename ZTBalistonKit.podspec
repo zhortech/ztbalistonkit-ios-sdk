@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ZTBalistonKit'
-  s.version = '1.0.73'
+  s.version = '1.0.74'
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.summary = 'Official Zhortech ZTBalistonKit SDK for iOS.'
   s.homepage = 'https://github.com/zhortech/ztbalistonkit-ios-sdk'
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/zhortech/ztbalistonkit-ios-sdk.git', :tag => s.version.to_s }
   s.vendored_frameworks = 'Sources/ZTBalistonKit.xcframework'
   
-  s.dependency 'ZTCoreKit', '~> 1.1.91'
+  s.dependency 'ZTCoreKit', '~> 1.1.92'
 
   s.ios.deployment_target   = '13.0'
   s.ios.weak_frameworks = 'Foundation'
