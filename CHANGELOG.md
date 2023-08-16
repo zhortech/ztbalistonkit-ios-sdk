@@ -1,6 +1,11 @@
 # Changelog
 
-## [1.0.74](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.734) (2023-08-04)
+## [1.0.75](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.75) (2023-08-16)
+
+- added limit for analytics data request on reconnection
+- obtain data on reconnection if activity was stopped because of full memory
+
+## [1.0.74](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.74) (2023-08-04)
 
 - new public method 'cleanMemory' to clear memory based on activity meta data
 - fixed free memory command for foreign activity
