@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.76](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.76) (2023-08-21)
+
+- hotfix for bluetoothmanager subscriber
+
 ## [1.0.75](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.75) (2023-08-16)
 
 - added limit for analytics data request on reconnection
