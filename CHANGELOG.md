@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.77](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.77) (2023-08-22)
+
+- added streaming of realtime metrics. To start streaming use `enableRealtimeStreaming(startTimestamp: metrics: completion:)`, to stop streaming - ` disableRealtimeStreaming(completion:)`, to pause streaming - `pauseRealtimeStreaming(pause: completion:)`. Streaming metrics and its values can be received in `onRealtimeMetricReceived`.
+
 ## [1.0.76](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.76) (2023-08-21)
 
 - hotfix for bluetoothmanager subscriber
