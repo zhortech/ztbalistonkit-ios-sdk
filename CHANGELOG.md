@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.80](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.80) (2023-09-05)
+
+- removed workaround for jumping timestamps
+
 ## [1.0.79](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.79) (2023-09-04)
 
 - optimization of packets syncing, syncing starts from last saved packet and after this missed packets are obtained
