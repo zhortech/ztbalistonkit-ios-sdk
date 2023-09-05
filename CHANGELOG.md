@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.79](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.79) (2023-09-04)
+
+- optimization of packets syncing, syncing starts from last saved packet and after this missed packets are obtained
+- added new method `hardReset` to make factory reset of shoes
+
 ## [1.0.78](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.78) (2023-08-23)
 
 - `step speed` realtime metric returns value as `m/s` (meters per second)
