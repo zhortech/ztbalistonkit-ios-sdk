@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qBGCq6H3xMAqdECnP/IqZ51DnbE=
+		xlDBCWn4UR2bhJLryx8L92Ej0vo=
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Fek1mA3mEPkkd6wh7HkaIYDaenI=
+		SvT1m25YvTIIhZhYSYx0usNVpFQ=
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iqTeWxGV38r1Tf19vrZUBUeetbs=
+		PNGwLUr9X7ftYJSCqTow+7u85fs=
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Fek1mA3mEPkkd6wh7HkaIYDaenI=
+		SvT1m25YvTIIhZhYSYx0usNVpFQ=
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		D8AQ0R37as3iBmbL27wTwFf4A0U=
+		dHeNAvCUpiO0oPfzRan4ttEINtg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -66,7 +66,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fWdnwa59JARuzmSQBgNSDEPVcilpOiA2cp1o+OqrguY=
+			bQLFqo+h8lv3CTNPnuiY/ExlI86YUC0WNuCDotZCrok=
 			</data>
 		</dict>
 		<key>Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -94,14 +94,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I7tdk1WUxktR4f4YJg2voZ925NPlY9yyHxj6h+nz3LM=
+			ZT9CeCG8LBriuLAHl7yjZ5/PY+PfKj4stkCqFfVXASI=
 			</data>
 		</dict>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fWdnwa59JARuzmSQBgNSDEPVcilpOiA2cp1o+OqrguY=
+			bQLFqo+h8lv3CTNPnuiY/ExlI86YUC0WNuCDotZCrok=
 			</data>
 		</dict>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -129,7 +129,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZDYV0hW7jh1cZ3m6AGQ90/WVd1DVuTATkWvijlm5PIA=
+			UmOwMfUbARAxz75fb8/MiLcAiYll3lxaXio1kJqZEJk=
 			</data>
 		</dict>
 	</dict>

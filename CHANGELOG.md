@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.0](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.0) (2023-09-12)
+
+- added support for multi-shoes 
+
 ## [1.0.80](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.80) (2023-09-05)
 
 - removed workaround for jumping timestamps
