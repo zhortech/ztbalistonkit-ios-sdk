@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.1](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.1) (2023-09-25)
+
+- enable/disable realtime data depedning on value `enableBackgroundDataStreaming` in `ZTSettings` 
+
 ## [1.1.0](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.0) (2023-09-12)
 
 - added support for multi-shoes 
