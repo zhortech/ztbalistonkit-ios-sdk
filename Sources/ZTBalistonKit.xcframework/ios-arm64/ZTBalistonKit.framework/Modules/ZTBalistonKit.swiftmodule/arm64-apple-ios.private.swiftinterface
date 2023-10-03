@@ -118,6 +118,7 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
 @_hasMissingDesignatedInitializers public class ZTBaliston {
   public static let version: Swift.String
   public static let shared: ZTBalistonKit.ZTBaliston
+  public static let requiredFwVersion: Swift.String
   public var dfuDelegate: (any ZTBalistonKit.ZTBalistonDfuDelegate)?
   public var connectedDevice: ZTCoreKit.ZTDevice? {
     get

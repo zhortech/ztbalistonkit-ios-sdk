@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.2](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.2) (2023-10-02)
+
+- check firmware details on each reconnection, `ZTSettings.shared.checkFirmwareUpdatePeriod` is used to check update on ZCloud not more then once per time set
+- packets firmware revision is set depending on event
+
 ## [1.1.1](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.1) (2023-09-25)
 
 - enable/disable realtime data depedning on value `enableBackgroundDataStreaming` in `ZTSettings` 
