@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.3](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.3) (2023-10-04)
+
+- added more logging
+- minimum firmware version is `3.15.13.BA.1.6`
+
 ## [1.1.2](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.2) (2023-10-02)
 
 - check firmware details on each reconnection, `ZTSettings.shared.checkFirmwareUpdatePeriod` is used to check update on ZCloud not more then once per time set
