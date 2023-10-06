@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.4](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.4) (2023-10-06)
+
+- reset activity if meta data has start time zero
+
 ## [1.1.3](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.3) (2023-10-04)
 
 - added more logging
