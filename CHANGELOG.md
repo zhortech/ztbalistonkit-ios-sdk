@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.5](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.5) (2023-10-26)
+
+- refactored flow for checking firmware and realtime metrics
+
 ## [1.1.4](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.4) (2023-10-06)
 
 - reset activity if meta data has start time zero
