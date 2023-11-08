@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.6](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.6) (2023-11-08)
+
+- resetting activity for stopped activity if flow was interrupted
+- ZTCoreKit version up
+
 ## [1.1.5](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.5) (2023-10-26)
 
 - refactored flow for checking firmware and realtime metrics
