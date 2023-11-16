@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.7](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.7) (2023-11-16)
+
+- added additional realtime metrics
+- added ability to select side for realtime metrics
+
 ## [1.1.6](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.6) (2023-11-08)
 
 - resetting activity for stopped activity if flow was interrupted
