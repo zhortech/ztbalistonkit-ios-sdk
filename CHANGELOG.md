@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.8](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.8) (2023-11-24)
+
+- updated communication flow for real time metrics
+
 ## [1.1.7](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.7) (2023-11-16)
 
 - added additional realtime metrics
