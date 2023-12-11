@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.9](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.9) (2023-11-24)
+
+- added method for gravity calibration `calibrateGravity`
+- added method for calibration reset `resetCalibration`
+- added method for single metric `enableSingleMetric`
+
 ## [1.1.8](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.8) (2023-11-24)
 
 - updated communication flow for real time metrics

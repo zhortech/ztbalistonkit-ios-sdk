@@ -20,6 +20,7 @@ extension ZTBalistonKit.ZTBaliston {
   public func enableRealtimeStreaming(startDate: Foundation.Date, interval: Swift.Int16 = 1, metrics: Swift.Set<ZTCoreKit.ZTRealtimeMetric>, side: ZTCoreKit.ZTRealtimeMessage.Side = .none, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
   public func disableRealtimeStreaming(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
   public func pauseRealtimeStreaming(pause: Swift.Bool, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  public func enableSingleMetric(metric: ZTCoreKit.ZTRealtimeMetric, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
 }
 @_inheritsConvenienceInitializers final public class ZTBalistonActivitySummary : ZTCoreKit.ZTActivitySummary {
   final public var data: [Swift.String : Any]?
@@ -167,6 +168,8 @@ extension ZTBalistonKit.ZTBaliston {
   public func setInactivityTimeout(seconds: Foundation.TimeInterval, completion: @escaping ZTCoreKit.ZTBaseResult)
   public func getInactivityTimeout(completion: @escaping ((Swift.Int) -> Swift.Void))
   public func cleanMemory(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  public func calibrateGravity(calibrationPoint: Swift.UInt8 = 1, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  public func resetCalibration(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
 }
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Equatable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Hashable {}
