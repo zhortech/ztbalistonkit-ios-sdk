@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.10](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.10) (2023-12-13)
+
+- reset activity when activity is running only on left side
+
 ## [1.1.9](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.9) (2023-11-24)
 
 - added method for gravity calibration `calibrateGravity`
