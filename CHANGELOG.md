@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.11](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.11) (2023-12-21)
+
+- added slope angle and direction angle for slope metric
+
 ## [1.1.10](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.10) (2023-12-13)
 
 - reset activity when activity is running only on left side
