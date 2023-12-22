@@ -159,8 +159,8 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
 }
 extension ZTCoreKit.ZTRealtimeMetric {
   public struct Slope {
-    public let slopeAngle: Swift.Int?
-    public let directionAngle: Swift.Int?
+    public let slopeAngle: Swift.Float?
+    public let directionAngle: Swift.Float?
   }
 }
 @_inheritsConvenienceInitializers final public class ZTBalistonActivity : ZTCoreKit.ZTActivity {

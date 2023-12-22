@@ -7238,21 +7238,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Int?",
+                    "printedName": "Swift.Float?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:9ZTCoreKit16ZTRealtimeMetricO010ZTBalistonB0E5SlopeV10slopeAngleSiSgvp",
-                "mangledName": "$s9ZTCoreKit16ZTRealtimeMetricO010ZTBalistonB0E5SlopeV10slopeAngleSiSgvp",
+                "usr": "s:9ZTCoreKit16ZTRealtimeMetricO010ZTBalistonB0E5SlopeV10slopeAngleSfSgvp",
+                "mangledName": "$s9ZTCoreKit16ZTRealtimeMetricO010ZTBalistonB0E5SlopeV10slopeAngleSfSgvp",
                 "moduleName": "ZTBalistonKit",
                 "declAttributes": [
                   "HasStorage",
@@ -7269,21 +7269,21 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Int?",
+                        "printedName": "Swift.Float?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
+                            "name": "Float",
+                            "printedName": "Swift.Float",
+                            "usr": "s:Sf"
                           }
                         ],
                         "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:9ZTCoreKit16ZTRealtimeMetricO010ZTBalistonB0E5SlopeV10slopeAngleSiSgvg",
-                    "mangledName": "$s9ZTCoreKit16ZTRealtimeMetricO010ZTBalistonB0E5SlopeV10slopeAngleSiSgvg",
+                    "usr": "s:9ZTCoreKit16ZTRealtimeMetricO010ZTBalistonB0E5SlopeV10slopeAngleSfSgvg",
+                    "mangledName": "$s9ZTCoreKit16ZTRealtimeMetricO010ZTBalistonB0E5SlopeV10slopeAngleSfSgvg",
                     "moduleName": "ZTBalistonKit",
                     "implicit": true,
                     "accessorKind": "get"
@@ -7298,21 +7298,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Int?",
+                    "printedName": "Swift.Float?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:9ZTCoreKit16ZTRealtimeMetricO010ZTBalistonB0E5SlopeV14directionAngleSiSgvp",
-                "mangledName": "$s9ZTCoreKit16ZTRealtimeMetricO010ZTBalistonB0E5SlopeV14directionAngleSiSgvp",
+                "usr": "s:9ZTCoreKit16ZTRealtimeMetricO010ZTBalistonB0E5SlopeV14directionAngleSfSgvp",
+                "mangledName": "$s9ZTCoreKit16ZTRealtimeMetricO010ZTBalistonB0E5SlopeV14directionAngleSfSgvp",
                 "moduleName": "ZTBalistonKit",
                 "declAttributes": [
                   "HasStorage",
@@ -7329,21 +7329,21 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Int?",
+                        "printedName": "Swift.Float?",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
+                            "name": "Float",
+                            "printedName": "Swift.Float",
+                            "usr": "s:Sf"
                           }
                         ],
                         "usr": "s:Sq"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:9ZTCoreKit16ZTRealtimeMetricO010ZTBalistonB0E5SlopeV14directionAngleSiSgvg",
-                    "mangledName": "$s9ZTCoreKit16ZTRealtimeMetricO010ZTBalistonB0E5SlopeV14directionAngleSiSgvg",
+                    "usr": "s:9ZTCoreKit16ZTRealtimeMetricO010ZTBalistonB0E5SlopeV14directionAngleSfSgvg",
+                    "mangledName": "$s9ZTCoreKit16ZTRealtimeMetricO010ZTBalistonB0E5SlopeV14directionAngleSfSgvg",
                     "moduleName": "ZTBalistonKit",
                     "implicit": true,
                     "accessorKind": "get"
@@ -11413,7 +11413,7 @@
       "kind": "StringLiteral",
       "offset": 556,
       "length": 8,
-      "value": "\"1.1.11\""
+      "value": "\"1.1.12\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
@@ -13406,140 +13406,140 @@
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "FloatLiteral",
-      "offset": 2327,
+      "offset": 2323,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "IntegerLiteral",
-      "offset": 2349,
+      "offset": 2345,
       "length": 1,
-      "value": "0"
+      "value": "1"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "IntegerLiteral",
-      "offset": 2415,
+      "offset": 2410,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "IntegerLiteral",
-      "offset": 2438,
+      "offset": 2433,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "IntegerLiteral",
-      "offset": 2443,
+      "offset": 2438,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "FloatLiteral",
-      "offset": 2554,
+      "offset": 2545,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "IntegerLiteral",
-      "offset": 2576,
+      "offset": 2567,
       "length": 1,
-      "value": "0"
+      "value": "1"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "FloatLiteral",
-      "offset": 2808,
+      "offset": 2798,
       "length": 4,
       "value": "9.81"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "FloatLiteral",
-      "offset": 2815,
+      "offset": 2805,
       "length": 6,
       "value": "1000.0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "IntegerLiteral",
-      "offset": 2839,
+      "offset": 2829,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "FloatLiteral",
-      "offset": 2960,
+      "offset": 2950,
       "length": 5,
       "value": "100.0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "IntegerLiteral",
-      "offset": 2983,
+      "offset": 2973,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "FloatLiteral",
-      "offset": 3112,
+      "offset": 3102,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "IntegerLiteral",
-      "offset": 3134,
+      "offset": 3124,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "FloatLiteral",
-      "offset": 3255,
+      "offset": 3245,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "IntegerLiteral",
-      "offset": 3277,
+      "offset": 3267,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "FloatLiteral",
-      "offset": 3398,
+      "offset": 3388,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "IntegerLiteral",
-      "offset": 3420,
+      "offset": 3410,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "FloatLiteral",
-      "offset": 3675,
+      "offset": 3665,
       "length": 5,
       "value": "100.0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "IntegerLiteral",
-      "offset": 3698,
+      "offset": 3688,
       "length": 1,
       "value": "0"
     },

@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.12](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.12) (2023-12-22)
+
+- changed precision for slope angles
+
 ## [1.1.11](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.11) (2023-12-21)
 
 - added slope angle and direction angle for slope metric
