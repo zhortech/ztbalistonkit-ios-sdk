@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.13](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.13) (2024-01-04)
+
+- added `ZTChunkSendStatusMessage`
+- realtime metric returns also nil values
+
 ## [1.1.12](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.12) (2023-12-22)
 
 - changed precision for slope angles

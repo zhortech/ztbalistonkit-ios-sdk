@@ -157,10 +157,17 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
   @objc deinit
   public func readGeneralState(completion: @escaping ((ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void))
 }
+extension ZTCoreKit.ZTRealtimeMessage.Side : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
 extension ZTCoreKit.ZTRealtimeMetric {
+  public typealias MetricSide = ZTCoreKit.ZTRealtimeMessage.Side
   public struct Slope {
     public let slopeAngle: Swift.Float?
     public let directionAngle: Swift.Float?
+    public let side: ZTCoreKit.ZTRealtimeMetric.MetricSide?
   }
 }
 @_inheritsConvenienceInitializers final public class ZTBalistonActivity : ZTCoreKit.ZTActivity {
