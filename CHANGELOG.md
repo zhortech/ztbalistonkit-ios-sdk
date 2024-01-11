@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.14](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.14) (2024-01-10)
+
+- changed realtime metrics
+- activity reset on chunk send status error
+
+
 ## [1.1.13](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.13) (2024-01-04)
 
 - added `ZTChunkSendStatusMessage`

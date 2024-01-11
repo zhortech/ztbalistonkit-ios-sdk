@@ -7426,7 +7426,7 @@
         "usr": "s:9ZTCoreKit16ZTRealtimeMetricO",
         "mangledName": "$s9ZTCoreKit16ZTRealtimeMetricO",
         "moduleName": "ZTCoreKit",
-        "enumRawTypeName": "UInt8",
+        "enumRawTypeName": "String",
         "isExternal": true,
         "conformances": [
           {
@@ -7455,9 +7455,9 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt8",
-                    "printedName": "Swift.UInt8",
-                    "usr": "s:s5UInt8V"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ]
               }
@@ -7693,9 +7693,93 @@
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+NotifyData.swift",
       "kind": "StringLiteral",
-      "offset": 3523,
+      "offset": 3670,
+      "length": 269,
+      "value": "\"Reset activity because of corrupted chunk, chunkId:\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+NotifyData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3743,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+NotifyData.swift",
+      "kind": "StringLiteral",
+      "offset": 3745,
       "length": 5,
-      "value": "\"!!!\""
+      "value": "\" error:\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+NotifyData.swift",
+      "kind": "StringLiteral",
+      "offset": 3781,
+      "length": 10,
+      "value": "\" activityId:\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+NotifyData.swift",
+      "kind": "StringLiteral",
+      "offset": 3818,
+      "length": 5,
+      "value": "\"n\/a\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+NotifyData.swift",
+      "kind": "StringLiteral",
+      "offset": 3824,
+      "length": 4,
+      "value": "\" user:\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+NotifyData.swift",
+      "kind": "StringLiteral",
+      "offset": 3859,
+      "length": 5,
+      "value": "\"n\/a\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+NotifyData.swift",
+      "kind": "StringLiteral",
+      "offset": 3865,
+      "length": 15,
+      "value": "\" firmwareVersion:\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+NotifyData.swift",
+      "kind": "StringLiteral",
+      "offset": 3932,
+      "length": 5,
+      "value": "\"n\/a\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+NotifyData.swift",
+      "kind": "StringLiteral",
+      "offset": 3938,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+NotifyData.swift",
+      "kind": "StringLiteral",
+      "offset": 4036,
+      "length": 30,
+      "value": "\"%@  MSG_CHUNK_SEND_STATUS=%@\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+NotifyData.swift",
+      "kind": "StringLiteral",
+      "offset": 4090,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+NotifyData.swift",
+      "kind": "StringLiteral",
+      "offset": 4113,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Streaming.swift",
@@ -8393,21 +8477,21 @@
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+DFU.swift",
       "kind": "BooleanLiteral",
-      "offset": 4783,
+      "offset": 4835,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+DFU.swift",
       "kind": "BooleanLiteral",
-      "offset": 5847,
+      "offset": 5899,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+DFU.swift",
       "kind": "BooleanLiteral",
-      "offset": 6138,
+      "offset": 6190,
       "length": 5,
       "value": "false"
     },
@@ -9793,51 +9877,30 @@
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 562,
+      "offset": 606,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 567,
+      "offset": 611,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 620,
+      "offset": 664,
       "length": 88,
       "value": "\"%@ parseIndicateData return, currentActivity?.anchorTimestamp=%@, mobilityScanState=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 710,
+      "offset": 754,
       "length": 25,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 734,
-      "length": 4,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 737,
-      "length": 42,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 776,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
@@ -9850,581 +9913,581 @@
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
       "offset": 781,
+      "length": 42,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 820,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 822,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 825,
       "length": 22,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 802,
+      "offset": 846,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 875,
+      "offset": 919,
       "length": 32,
       "value": "\"%@ parseIndicateData beginning\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 909,
+      "offset": 953,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 933,
+      "offset": 977,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 1250,
+      "offset": 1294,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 1304,
+      "offset": 1348,
       "length": 90,
       "value": "\"%@ parseIndicateData skip packet id=%@ for old activity, currentActivity.firstChunkId=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 1396,
+      "offset": 1440,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 1420,
+      "offset": 1464,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 1423,
+      "offset": 1467,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 1437,
+      "offset": 1481,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 1440,
+      "offset": 1484,
       "length": 49,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 1486,
+      "offset": 1530,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 1488,
+      "offset": 1532,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 2218,
+      "offset": 2262,
       "length": 108,
       "value": "\"%@ parseIndicateData skip packet id=%@ with fwTimestamp=%@ as it is saved, currentActivity.firstChunkId=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 2328,
+      "offset": 2372,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 2352,
+      "offset": 2396,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 2355,
+      "offset": 2399,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 2369,
+      "offset": 2413,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 2372,
+      "offset": 2416,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 2401,
+      "offset": 2445,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 2404,
+      "offset": 2448,
       "length": 49,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2450,
+      "offset": 2494,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 2452,
+      "offset": 2496,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 2604,
+      "offset": 2648,
       "length": 63,
       "value": "\"%@ parseIndicateData event packet id=%@ with timestampType=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 2669,
+      "offset": 2713,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 2693,
+      "offset": 2737,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 2696,
+      "offset": 2740,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 2710,
+      "offset": 2754,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 2713,
+      "offset": 2757,
       "length": 26,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 2738,
+      "offset": 2782,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 3010,
+      "offset": 3054,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 3076,
+      "offset": 3120,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 3081,
+      "offset": 3125,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3208,
+      "offset": 3252,
       "length": 91,
       "value": "\"%@ parseIndicateData start event found with id=%@ and fwTimestamp=%@, reset anchorTime %@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3301,
+      "offset": 3345,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3325,
+      "offset": 3369,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3328,
+      "offset": 3372,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3342,
+      "offset": 3386,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3345,
+      "offset": 3389,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3374,
+      "offset": 3418,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3377,
+      "offset": 3421,
       "length": 42,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 3416,
+      "offset": 3460,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3418,
+      "offset": 3462,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3698,
+      "offset": 3742,
       "length": 59,
       "value": "\"%@ parseIndicateData set fwVersion for id=%@ fwVersion=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3759,
+      "offset": 3803,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3783,
+      "offset": 3827,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3786,
+      "offset": 3830,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3800,
+      "offset": 3844,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3803,
+      "offset": 3847,
       "length": 39,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3838,
+      "offset": 3882,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 3841,
+      "offset": 3885,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4181,
+      "offset": 4225,
       "length": 51,
       "value": "\"%@ parseIndicateData - mobility activity detected\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4234,
+      "offset": 4278,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4258,
+      "offset": 4302,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4378,
+      "offset": 4422,
       "length": 38,
       "value": "\"%@ parseIndicateData - id=%@, raw=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4418,
+      "offset": 4462,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4442,
+      "offset": 4486,
       "length": 5,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4446,
+      "offset": 4490,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4460,
+      "offset": 4504,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4463,
+      "offset": 4507,
       "length": 27,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4489,
+      "offset": 4533,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4726,
+      "offset": 4770,
       "length": 77,
       "value": "\"%@ parseIndicateData - id=%@, anchor=%@, originalTimestamp=%@, timestamp=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4805,
+      "offset": 4849,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4829,
+      "offset": 4873,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4832,
+      "offset": 4876,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4846,
+      "offset": 4890,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4849,
+      "offset": 4893,
       "length": 11,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4859,
+      "offset": 4903,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4862,
+      "offset": 4906,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4891,
+      "offset": 4935,
       "length": 5,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4895,
+      "offset": 4939,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 4908,
+      "offset": 4952,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 5177,
+      "offset": 5221,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5222,
+      "offset": 5266,
       "length": 125,
       "value": "\"%@ parseIndicateData - new packet id=%@, timestamp taken from previous chunk with id=%@, originalTimestamp=%@, timestamp=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5349,
+      "offset": 5393,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5373,
+      "offset": 5417,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5376,
+      "offset": 5420,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5390,
+      "offset": 5434,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5393,
+      "offset": 5437,
       "length": 27,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5417,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 5419,
-      "length": 4,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 5422,
-      "length": 42,
       "value": "\"\""
     },
     {
@@ -10445,720 +10508,741 @@
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
       "offset": 5466,
+      "length": 42,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5505,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 5507,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 5510,
       "length": 34,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 5497,
+      "offset": 5541,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5499,
+      "offset": 5543,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5637,
+      "offset": 5681,
       "length": 59,
       "value": "\"%@ parseIndicateData - new packet id=%@, new timestamp=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5698,
+      "offset": 5742,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5722,
+      "offset": 5766,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5725,
+      "offset": 5769,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5739,
+      "offset": 5783,
       "length": 5,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5743,
+      "offset": 5787,
       "length": 27,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 5767,
+      "offset": 5811,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5769,
+      "offset": 5813,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5885,
+      "offset": 5929,
       "length": 53,
       "value": "\"%@ parseIndicateData - packet id=%@, fwTimestamp=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5940,
+      "offset": 5984,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5964,
+      "offset": 6008,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5967,
+      "offset": 6011,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5981,
+      "offset": 6025,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 5984,
+      "offset": 6028,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 6013,
+      "offset": 6057,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "BooleanLiteral",
-      "offset": 7085,
+      "offset": 7129,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 7138,
+      "offset": 7182,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 7182,
+      "offset": 7226,
       "length": 41,
       "value": "\"%@ obtainData started for activityId=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 7225,
+      "offset": 7269,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 7249,
+      "offset": 7293,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 7252,
+      "offset": 7296,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 7266,
+      "offset": 7310,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "BooleanLiteral",
-      "offset": 7433,
+      "offset": 7477,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 7531,
+      "offset": 7575,
       "length": 39,
       "value": "\"%@ obtainData ended for activityId=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 7572,
+      "offset": 7616,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 7596,
+      "offset": 7640,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 7599,
+      "offset": 7643,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 7613,
+      "offset": 7657,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 7815,
+      "offset": 7859,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 7890,
+      "offset": 7934,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 7930,
+      "offset": 7974,
       "length": 53,
       "value": "\"%@ obtainData sendCommand 0x05 with whole range: %@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 7985,
+      "offset": 8029,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 8009,
+      "offset": 8053,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 8218,
+      "offset": 8262,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 8263,
+      "offset": 8307,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 8285,
+      "offset": 8329,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 8325,
+      "offset": 8369,
       "length": 53,
       "value": "\"%@ obtainData sendCommand 0x05 with first range: %@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 8380,
+      "offset": 8424,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 8404,
+      "offset": 8448,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 8580,
+      "offset": 8624,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 8600,
+      "offset": 8644,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 8675,
+      "offset": 8719,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 8715,
+      "offset": 8759,
       "length": 52,
       "value": "\"%@ obtainData sendCommand 0x05 with last range: %@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 8769,
+      "offset": 8813,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 8793,
+      "offset": 8837,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 8796,
+      "offset": 8840,
       "length": 19,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 8814,
+      "offset": 8858,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "BooleanLiteral",
-      "offset": 9061,
+      "offset": 9105,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 9164,
+      "offset": 9208,
       "length": 49,
       "value": "\"%@ obtainData dataTimer ended for activityId=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 9215,
+      "offset": 9259,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 9239,
+      "offset": 9283,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 9242,
+      "offset": 9286,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 9256,
+      "offset": 9300,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "FloatLiteral",
-      "offset": 9690,
+      "offset": 9734,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "BooleanLiteral",
-      "offset": 9704,
+      "offset": 9748,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 9948,
+      "offset": 9992,
       "length": 32,
       "value": "\"%@ obtainData - dataTimer - %@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 9982,
+      "offset": 10026,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 10006,
+      "offset": 10050,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 10009,
+      "offset": 10053,
       "length": 9,
       "value": "\"timeout\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "FloatLiteral",
-      "offset": 10163,
+      "offset": 10207,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "FloatLiteral",
-      "offset": 10216,
+      "offset": 10260,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 10758,
+      "offset": 10802,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 10797,
+      "offset": 10841,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 10850,
+      "offset": 10894,
       "length": 78,
       "value": "\"%@ chunksDownloadProgress - return,  chunkCount=%@, totalChunksToDownload=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 10930,
+      "offset": 10974,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 10954,
+      "offset": 10998,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 10957,
+      "offset": 11001,
       "length": 47,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "IntegerLiteral",
-      "offset": 11001,
+      "offset": 11045,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 11003,
+      "offset": 11047,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 11006,
+      "offset": 11050,
       "length": 26,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 11031,
+      "offset": 11075,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 11456,
+      "offset": 11500,
       "length": 110,
       "value": "\"%@ chunksDownloadProgress progress=%@, id=%@, totalChunksToDownload=%@, savedCount=%@, activityChunkCount=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 11568,
+      "offset": 11612,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 11592,
+      "offset": 11636,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 11595,
+      "offset": 11639,
       "length": 33,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 11627,
+      "offset": 11671,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 11630,
+      "offset": 11674,
       "length": 12,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 11641,
+      "offset": 11685,
       "length": 4,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 11644,
-      "length": 26,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 11669,
-      "length": 4,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 11672,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 11686,
-      "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
       "offset": 11688,
-      "length": 23,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 11710,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11770,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 12032,
-      "length": 110,
-      "value": "\"%@ chunksDownloadProgress progress=%@, id=%@, totalChunksToDownload=%@, savedCount=%@, activityChunkCount=%@\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 12144,
-      "length": 25,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 12168,
-      "length": 4,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 12171,
-      "length": 33,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 12203,
-      "length": 4,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 12206,
-      "length": 12,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 12217,
-      "length": 4,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
-      "kind": "StringLiteral",
-      "offset": 12220,
       "length": 26,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 12245,
+      "offset": 11713,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 12248,
+      "offset": 11716,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 12262,
+      "offset": 11730,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 12264,
+      "offset": 11732,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "StringLiteral",
-      "offset": 12286,
+      "offset": 11754,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11814,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 12076,
+      "length": 110,
+      "value": "\"%@ chunksDownloadProgress progress=%@, id=%@, totalChunksToDownload=%@, savedCount=%@, activityChunkCount=%@\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 12188,
+      "length": 25,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 12212,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 12215,
+      "length": 33,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 12247,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 12250,
+      "length": 12,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 12261,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 12264,
+      "length": 26,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 12289,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 12292,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 12306,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 12308,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "kind": "StringLiteral",
+      "offset": 12330,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "FloatLiteral",
-      "offset": 12545,
+      "offset": 12589,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "FloatLiteral",
-      "offset": 12585,
+      "offset": 12629,
       "length": 3,
       "value": "1.0"
     },
@@ -11587,7 +11671,7 @@
       "kind": "StringLiteral",
       "offset": 556,
       "length": 8,
-      "value": "\"1.1.13\""
+      "value": "\"1.1.14\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
@@ -11858,1568 +11942,1575 @@
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 8890,
+      "offset": 8891,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 9159,
+      "offset": 9156,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 10084,
+      "offset": 10081,
       "length": 98,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 10181,
+      "offset": 10178,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 10675,
+      "offset": 10672,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 10779,
+      "offset": 10776,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 10883,
+      "offset": 10880,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 11154,
+      "offset": 11151,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 11250,
+      "offset": 11247,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 11346,
+      "offset": 11343,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 11439,
+      "offset": 11436,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 11523,
+      "offset": 11520,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 11566,
+      "offset": 11563,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 11595,
+      "offset": 11592,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 11626,
+      "offset": 11623,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 11649,
+      "offset": 11646,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 11671,
+      "offset": 11668,
       "length": 2,
       "value": "53"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 11883,
+      "offset": 11880,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 11979,
+      "offset": 11976,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 12075,
+      "offset": 12072,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 12125,
+      "offset": 12122,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 12154,
+      "offset": 12151,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 12185,
+      "offset": 12182,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 12245,
+      "offset": 12242,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 12292,
+      "offset": 12289,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 12333,
+      "offset": 12330,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 14037,
+      "offset": 14172,
       "length": 41,
       "value": "\"[ZTBalistonKit](\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 14075,
+      "offset": 14210,
       "length": 1,
       "value": "\"):\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 14345,
+      "offset": 14480,
       "length": 32,
       "value": "\"obtaining-missed-packets.queue\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 14529,
+      "offset": 14664,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 15127,
+      "offset": 15262,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 15239,
+      "offset": 15374,
       "length": 9,
       "value": "\"%@ init\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 15250,
+      "offset": 15385,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 15274,
+      "offset": 15409,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 15332,
+      "offset": 15467,
       "length": 11,
       "value": "\"%@ deinit\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 15345,
+      "offset": 15480,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 15369,
+      "offset": 15504,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 15635,
+      "offset": 15770,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 15660,
+      "offset": 15795,
       "length": 3,
       "value": "2.5"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 15836,
+      "offset": 15971,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 16079,
+      "offset": 16214,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 16318,
+      "offset": 16453,
       "length": 32,
       "value": "\"%@ device state changed to: %@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 16352,
+      "offset": 16487,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 16376,
+      "offset": 16511,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 16379,
+      "offset": 16514,
       "length": 63,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 16405,
+      "offset": 16540,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 16412,
+      "offset": 16547,
       "length": 11,
       "value": "\"connected\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 16426,
+      "offset": 16561,
       "length": 14,
       "value": "\"disconnected\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 16441,
+      "offset": 16576,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 16509,
+      "offset": 16644,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 16568,
+      "offset": 16703,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 16642,
+      "offset": 16777,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 16773,
+      "offset": 16908,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 16827,
+      "offset": 16962,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 17065,
+      "offset": 17200,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 17119,
+      "offset": 17254,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 17193,
+      "offset": 17328,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 17341,
+      "offset": 17476,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 17549,
+      "offset": 17684,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 17802,
+      "offset": 17937,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 17995,
+      "offset": 18130,
       "length": 28,
       "value": "\"%@ 🔨 onActivityError %@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 18025,
+      "offset": 18160,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 18049,
+      "offset": 18184,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 18052,
+      "offset": 18187,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 18086,
+      "offset": 18221,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 18089,
+      "offset": 18224,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 18241,
+      "offset": 18376,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 18290,
+      "offset": 18425,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 18344,
+      "offset": 18479,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 18622,
+      "offset": 18757,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 18931,
+      "offset": 19066,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 19047,
+      "offset": 19182,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 19275,
+      "offset": 19410,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 19578,
+      "offset": 19713,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 19863,
+      "offset": 19998,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 20130,
+      "offset": 20265,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 20254,
+      "offset": 20389,
       "length": 7,
       "value": "\"%@ %@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 20263,
+      "offset": 20398,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 20287,
+      "offset": 20422,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 20290,
+      "offset": 20425,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 20317,
+      "offset": 20452,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 20320,
+      "offset": 20455,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 20553,
+      "offset": 20688,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 20690,
+      "offset": 20825,
       "length": 33,
       "value": "\"%@ onActivityMetadataUpdated %@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 20725,
+      "offset": 20860,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 20749,
+      "offset": 20884,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 20752,
+      "offset": 20887,
       "length": 32,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 20780,
+      "offset": 20915,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 20783,
+      "offset": 20918,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 21117,
+      "offset": 21252,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 21636,
+      "offset": 21771,
       "length": 39,
       "value": "\"%@ 🔨 startCheckActivityState start\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 21677,
+      "offset": 21812,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 21701,
+      "offset": 21836,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 21738,
+      "offset": 21873,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 22154,
+      "offset": 22289,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 22258,
+      "offset": 22393,
       "length": 68,
       "value": "\"Found outside activity for \""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 22321,
+      "offset": 22456,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 22324,
+      "offset": 22459,
       "length": 1,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 22368,
+      "offset": 22503,
       "length": 32,
       "value": "\"%@ 🔨 Found outside activity\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 22402,
+      "offset": 22537,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 22426,
+      "offset": 22561,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 22890,
+      "offset": 23025,
       "length": 100,
       "value": "\"%@ 🔨 connected but no activity is running: check previous activity and start automatic activity\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 22992,
+      "offset": 23127,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 23016,
+      "offset": 23151,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 23632,
+      "offset": 23767,
       "length": 113,
       "value": "\"CheckActivityState: Found empty activity. Activity was started outside this application. Stop it and start new.\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 23783,
+      "offset": 23918,
       "length": 76,
       "value": "\"%@ 🔨 stopping outside activity and start new to have correct timestamps\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 23861,
+      "offset": 23996,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 23885,
+      "offset": 24020,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 23990,
+      "offset": 24125,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 24155,
+      "offset": 24290,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 24325,
+      "offset": 24460,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 24407,
+      "offset": 24542,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 24477,
+      "offset": 24612,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 24526,
+      "offset": 24661,
       "length": 66,
       "value": "\"%@ 🔨 activity is not synced for both sides - restart activity\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 24594,
+      "offset": 24729,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 24618,
+      "offset": 24753,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 24861,
+      "offset": 24996,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 25226,
+      "offset": 25361,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 25424,
+      "offset": 25559,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 25875,
+      "offset": 26010,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 26131,
+      "offset": 26266,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 26307,
+      "offset": 26442,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 26488,
+      "offset": 26623,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 26758,
+      "offset": 26893,
       "length": 42,
       "value": "\"%@ 🔨 validateMonitoringActivity start\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 26802,
+      "offset": 26937,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 26826,
+      "offset": 26961,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 26887,
+      "offset": 27022,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 26951,
+      "offset": 27086,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 26977,
+      "offset": 27112,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 27082,
+      "offset": 27217,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 27356,
+      "offset": 27491,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 27457,
+      "offset": 27592,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 27494,
+      "offset": 27629,
       "length": 38,
       "value": "\"%@ 🔨 start checkMonitoredActivity\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 27534,
+      "offset": 27669,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 27558,
+      "offset": 27693,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 27802,
+      "offset": 27937,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 27883,
+      "offset": 28018,
       "length": 69,
       "value": "\"%@ 🔨 starting automatic activity after connection with error: %@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 27954,
+      "offset": 28089,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 27978,
+      "offset": 28113,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 27981,
+      "offset": 28116,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 28011,
+      "offset": 28146,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 28042,
+      "offset": 28177,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 28288,
+      "offset": 28423,
       "length": 53,
       "value": "\"%@ 🔨 started automatic activity after connection\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 28343,
+      "offset": 28478,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 28367,
+      "offset": 28502,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 28555,
+      "offset": 28690,
       "length": 41,
       "value": "\"%@ 🔨 start checkNonMonitoredActivity\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 28598,
+      "offset": 28733,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 28622,
+      "offset": 28757,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 28754,
+      "offset": 28889,
       "length": 65,
       "value": "\"%@ 🔨 starting automatic activity after connection, error: %@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 28821,
+      "offset": 28956,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 28845,
+      "offset": 28980,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 28848,
+      "offset": 28983,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 28878,
+      "offset": 29013,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 28942,
+      "offset": 29077,
       "length": 53,
       "value": "\"%@ 🔨 started automatic activity after connection\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 28997,
+      "offset": 29132,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 29021,
+      "offset": 29156,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 29265,
+      "offset": 29400,
       "length": 42,
       "value": "\"%@ 🔨 start checking previous activity\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 29309,
+      "offset": 29444,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 29333,
+      "offset": 29468,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 29436,
+      "offset": 29571,
       "length": 56,
       "value": "\"%@ 🔨 cancel checking previous activity as it is nil\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 29494,
+      "offset": 29629,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 29518,
+      "offset": 29653,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 29737,
+      "offset": 29872,
       "length": 49,
       "value": "\"%@ 🔨 stop checking activity chunks, error=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 29788,
+      "offset": 29923,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 29812,
+      "offset": 29947,
       "length": 5,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 29816,
+      "offset": 29951,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 29846,
+      "offset": 29981,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 29897,
+      "offset": 30032,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 30067,
+      "offset": 30202,
       "length": 40,
       "value": "\"%@ 🔨 start checking activity chunks\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 30109,
+      "offset": 30244,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 30133,
+      "offset": 30268,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30319,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 30275,
+      "offset": 30464,
       "length": 38,
       "value": "\"%@ 🔨 end checking activity chunks\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 30315,
+      "offset": 30504,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 30339,
+      "offset": 30528,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 30452,
+      "offset": 30641,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 30605,
+      "offset": 30794,
       "length": 47,
       "value": "\"%@ 🔨 end checking activity chunks error=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 30654,
+      "offset": 30843,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 30678,
+      "offset": 30867,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 30681,
+      "offset": 30870,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 30715,
+      "offset": 30904,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 30718,
+      "offset": 30907,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 30777,
+      "offset": 30966,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 31066,
+      "offset": 31255,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 31097,
+      "offset": 31286,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 31340,
+      "offset": 31529,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 31403,
+      "offset": 31592,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 31782,
+      "offset": 31971,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 31910,
+      "offset": 32099,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 32594,
+      "offset": 32783,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 32758,
+      "offset": 32947,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 32846,
+      "offset": 33035,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 33220,
+      "offset": 33409,
       "length": 99,
       "value": "\"%@ 🔨 outsideActivityDetected, activity.startTimestamp=%@, activity.anchorTimestamp=%@, meta=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 33321,
+      "offset": 33510,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 33345,
+      "offset": 33534,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 33348,
+      "offset": 33537,
       "length": 41,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 33386,
+      "offset": 33575,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 33388,
+      "offset": 33577,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 33391,
+      "offset": 33580,
       "length": 42,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 33430,
+      "offset": 33619,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 33432,
+      "offset": 33621,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 33435,
+      "offset": 33624,
       "length": 32,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 33463,
+      "offset": 33652,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 33466,
+      "offset": 33655,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 33606,
+      "offset": 33795,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 34104,
+      "offset": 34293,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 34201,
+      "offset": 34390,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 34332,
+      "offset": 34521,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 34405,
+      "offset": 34594,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 34461,
+      "offset": 34650,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 34505,
+      "offset": 34694,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 34557,
+      "offset": 34746,
       "length": 54,
       "value": "\"%@ 🔨 getActivityMetaData totalChunksToDownload=%@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 34613,
+      "offset": 34802,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 34637,
+      "offset": 34826,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 34640,
+      "offset": 34829,
       "length": 26,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 34665,
+      "offset": 34854,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 35142,
+      "offset": 35331,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 35294,
+      "offset": 35483,
       "length": 28,
       "value": "\"%@ 🔨 read general state\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 35324,
+      "offset": 35513,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 35348,
+      "offset": 35537,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 35552,
+      "offset": 35741,
       "length": 39,
       "value": "\"%@ sending command generalState to %@\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 35593,
+      "offset": 35782,
       "length": 25,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 35617,
+      "offset": 35806,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 35620,
+      "offset": 35809,
       "length": 40,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 35659,
+      "offset": 35848,
       "length": 2,
       "value": "\"\""
     },
@@ -13719,29 +13810,64 @@
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3843,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3866,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3871,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
+      "kind": "FloatLiteral",
+      "offset": 3944,
+      "length": 5,
+      "value": "100.0"
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3967,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "StringLiteral",
-      "offset": 3928,
+      "offset": 4157,
       "length": 36,
       "value": "\"Averaging of left and right values\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "StringLiteral",
-      "offset": 3997,
+      "offset": 4226,
       "length": 16,
       "value": "\"Left side only\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "StringLiteral",
-      "offset": 4047,
+      "offset": 4276,
       "length": 17,
       "value": "\"Right side only\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTRealtimMetric+Values.swift",
       "kind": "StringLiteral",
-      "offset": 4097,
+      "offset": 4326,
       "length": 29,
       "value": "\"BOTH, Order left then right\""
     },
@@ -14189,28 +14315,28 @@
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 5141,
+      "offset": 5142,
       "length": 18,
       "value": "\"streamingMetrics\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 5227,
+      "offset": 5228,
       "length": 28,
       "value": "\"currentStreamingMetricSide\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 5314,
+      "offset": 5315,
       "length": 20,
       "value": "\"isStreamingStarted\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 5399,
+      "offset": 5400,
       "length": 26,
       "value": "\"realtimeMetricsStartDate\""
     },
@@ -15897,147 +16023,147 @@
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "FloatLiteral",
-      "offset": 25876,
+      "offset": 25676,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 26198,
+      "offset": 25998,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 26205,
+      "offset": 26005,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "FloatLiteral",
-      "offset": 26225,
+      "offset": 26025,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "Array",
-      "offset": 26991,
+      "offset": 26791,
       "length": 18,
       "value": "[0x55, 0xAA, 0x00]"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 27548,
+      "offset": 27348,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 28047,
+      "offset": 27847,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 28513,
+      "offset": 28313,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 28577,
+      "offset": 28377,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 29227,
+      "offset": 29027,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 29555,
+      "offset": 29355,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 29617,
+      "offset": 29417,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 29643,
+      "offset": 29443,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 29760,
+      "offset": 29560,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 30106,
+      "offset": 29906,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 30172,
+      "offset": 29972,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 30723,
+      "offset": 30523,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 30785,
+      "offset": 30585,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 30811,
+      "offset": 30611,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 30858,
+      "offset": 30658,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 30912,
+      "offset": 30712,
       "length": 4,
       "value": "0x02"
     }
