@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.15](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.15) (2024-01-11)
+
+- added command to change TX power `setTxPower`
+
 ## [1.1.14](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.14) (2024-01-10)
 
 - changed realtime metrics

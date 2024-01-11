@@ -183,6 +183,7 @@ extension ZTBalistonKit.ZTBaliston {
   public func cleanMemory(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
   public func calibrateGravity(calibrationPoint: Swift.UInt8 = 1, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
   public func resetCalibration(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  public func setTxPower(value: ZTCoreKit.ZTTXPower, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
 }
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Equatable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Hashable {}
