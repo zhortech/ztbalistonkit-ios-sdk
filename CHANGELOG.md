@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.16](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.16) (2024-01-15)
+
+- updated DFU library
+
 ## [1.1.15](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.15) (2024-01-11)
 
 - added command to change TX power `setTxPower`
