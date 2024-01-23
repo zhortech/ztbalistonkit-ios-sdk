@@ -1,8 +1,12 @@
 # Changelog
 
+## [1.1.18](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.18) (2024-01-23)
+
+- enabling real-time metrics without checking left side connection state by default
+
 ## [1.1.17](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.17) (2024-01-18)
 
-- ZTCoreKit framework is not embedded in ZTBalistonKit.framework anymore, it is linked as a dependency
+- ZTCoreKit framework is not embedded anymore, it is linked as a dependency
 
 ## [1.1.16](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.16) (2024-01-15)
 
