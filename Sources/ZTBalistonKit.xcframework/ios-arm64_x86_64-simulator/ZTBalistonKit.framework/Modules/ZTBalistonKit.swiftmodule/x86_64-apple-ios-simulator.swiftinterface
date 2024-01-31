@@ -17,7 +17,7 @@ extension ZTBalistonKit.ZTBaliston {
   public func updateFirmware(path: Swift.String, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
 }
 extension ZTBalistonKit.ZTBaliston {
-  public func enableRealtimeStreaming(startDate: Foundation.Date, interval: Swift.Int16 = 1, metrics: Swift.Set<ZTCoreKit.ZTRealtimeMetric>, noCheckInsole: Swift.Bool = true, side: ZTCoreKit.ZTRealtimeMessage.Side = .none, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  public func enableRealtimeStreaming(startDate: Foundation.Date, interval: Swift.Int16 = 1, metrics: Swift.Set<ZTCoreKit.ZTRealtimeMetric>, side: ZTCoreKit.ZTRealtimeMessage.Side = .none, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
   public func disableRealtimeStreaming(noCheckInsole: Swift.Bool = false, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
   public func pauseRealtimeStreaming(pause: Swift.Bool, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
   public func enableSingleMetric(noCheckInsole: Swift.Bool = false, metric: ZTCoreKit.ZTRealtimeMetric, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))

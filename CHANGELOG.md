@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.19](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.19) (2024-01-31)
+
+- check and enable relatime metrics streaming if streaming was enabled
+- fixed flow to check activity state
+
 ## [1.1.18](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.18) (2024-01-23)
 
 - enabling real-time metrics without checking left side connection state by default
