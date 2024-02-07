@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.20](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.20) (2024-02-07)
+
+- always resume realtime metrics when enabling it
+- refactored activity state check
+
 ## [1.1.19](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.19) (2024-01-31)
 
 - check and enable relatime metrics streaming if streaming was enabled
