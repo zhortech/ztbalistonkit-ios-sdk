@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.22](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.22) (2024-02-21)
+
+- fixed mobility scan
+- refactored flow for checking old missed packets
+
 ## [1.1.21](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.21) (2024-02-16)
 
 - skip checking command acknowledgement for non important commands
