@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.23](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.23) (2024-02-26)
+
+- fixed flow for checking old missed packets
+
 ## [1.1.22](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.22) (2024-02-21)
 
 - fixed mobility scan
