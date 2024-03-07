@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.1.24](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.24) (2024-03-07)
+
+- optimization for cheking missed packets
+- raw data logging for indicate characteristic
+
 ## [1.1.23](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.23) (2024-02-26)
 
 - fixed flow for checking old missed packets
