@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.26](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.26) (2024-03-22)
+
+- buffering packets before getting meta data
+
 ## [1.1.25](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.25) (2024-03-15)
 
 - optimization of missed packets check
