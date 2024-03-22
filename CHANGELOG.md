@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.1.26](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.26) (2024-03-22)
+
+- buffering packets before getting meta data
+
+## [1.1.25](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.25) (2024-03-15)
+
+- optimization of missed packets check
+
+## [1.1.24](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.24) (2024-03-07)
+
+- raw data logging for indicate characteristic
+- optimization of missed packets check 
+
+## [1.1.23](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.23) (2024-02-26)
+
+- fixed flow for checking old missed packets
+
 ## [1.1.22](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.22) (2024-02-21)
 
 - fixed mobility scan
