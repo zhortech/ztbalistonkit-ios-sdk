@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.27](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.27) (2024-03-29)
+
+- hotfix for checking DFU update
+
 ## [1.1.26](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.26) (2024-03-22)
 
 - buffering packets before getting meta data
