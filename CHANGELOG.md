@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.29](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.29) (2024-04-15)
+
+- ability to set chunk duration
+- refactored missed packets flow
+
+## [1.1.28](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.28) (2024-04-12)
+
+- skip resettings flow on application becomes active
+
 ## [1.1.27](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.27) (2024-03-29)
 
 - hotfix for checking DFU update
