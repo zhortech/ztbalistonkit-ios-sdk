@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.30](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.30) (2024-04-17)
+
+- ZTCoreKit version up
+
 ## [1.1.29](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.29) (2024-04-15)
 
 - ability to set chunk duration
