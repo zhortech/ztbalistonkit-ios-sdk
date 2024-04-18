@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.31](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.31) (2024-04-18)
+
+- hotfix for index to free memory on modules
+
 ## [1.1.30](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.30) (2024-04-17)
 
 - ZTCoreKit version up
