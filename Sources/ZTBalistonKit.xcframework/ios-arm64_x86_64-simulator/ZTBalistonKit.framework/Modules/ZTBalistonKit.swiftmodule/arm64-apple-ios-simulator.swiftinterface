@@ -139,6 +139,7 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
     get
     set
   }
+  public var defaultChunkDurationSeconds: Swift.Int
   public var isStreamingStarted: Swift.Bool {
     get
   }
