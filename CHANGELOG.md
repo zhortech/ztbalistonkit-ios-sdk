@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.2.0](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.2.0) (2024-04-19)
+
+- use notify characteristic to gather data
+
 ## [1.1.31](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.31) (2024-04-18)
 
 - hotfix for index to free memory on modules
