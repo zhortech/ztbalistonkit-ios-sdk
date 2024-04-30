@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.2.2](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.2.2) (2024-04-29)
+
+- sync chunks without connection to left side
+
 ## [1.2.1](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.2.1) (2024-04-23)
 
 - hotfix for mobility scan
