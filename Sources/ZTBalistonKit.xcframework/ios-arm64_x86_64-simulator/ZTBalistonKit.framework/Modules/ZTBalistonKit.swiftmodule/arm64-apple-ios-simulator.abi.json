@@ -5339,12 +5339,19 @@
           {
             "kind": "Function",
             "name": "hardReset",
-            "printedName": "hardReset(completion:)",
+            "printedName": "hardReset(restart:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeFunc",
@@ -5374,8 +5381,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A0C9hardReset10completionyys5Error_pSgc_tF",
-            "mangledName": "$s13ZTBalistonKit0A0C9hardReset10completionyys5Error_pSgc_tF",
+            "usr": "s:13ZTBalistonKit0A0C9hardReset7restart10completionySb_ys5Error_pSgctF",
+            "mangledName": "$s13ZTBalistonKit0A0C9hardReset7restart10completionySb_ys5Error_pSgctF",
             "moduleName": "ZTBalistonKit",
             "declAttributes": [
               "AccessControl",
@@ -7973,8 +7980,15 @@
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10778,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "IntegerLiteral",
-      "offset": 17650,
+      "offset": 17838,
       "length": 2,
       "value": "30"
     },
@@ -8046,7 +8060,7 @@
       "kind": "StringLiteral",
       "offset": 556,
       "length": 7,
-      "value": "\"1.2.1\""
+      "value": "\"1.2.2\""
     },
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
@@ -8366,7 +8380,7 @@
     {
       "filePath": "\/Users\/pav\/Documents\/Work\/Zhortech\/Framework\/iOS\/ztexample\/sdks\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 32833,
+      "offset": 33187,
       "length": 1,
       "value": "1"
     }
