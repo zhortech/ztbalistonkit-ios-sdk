@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.2.3](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.2.3) (2024-05-15)
+
+- ZTCore update to v1.3.2
+
 ## [1.2.2](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.2.2) (2024-04-29)
 
 - sync chunks without connection to left side
