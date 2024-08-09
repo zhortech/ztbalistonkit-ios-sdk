@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.0](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.3.0) (2024-08-08)
+
+- ZTCore update to v1.4.0 - Required version of iOS is now iOS 15
+- Refactored chunck dowload/upload mechanims, now using CoreData for effiency
+- Updated dependencies injection + updated to latest dependencies releases
+
 ## [1.2.3](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.2.3) (2024-05-15)
 
 - ZTCore update to v1.3.2
@@ -94,7 +100,6 @@
 - changed realtime metrics
 - activity reset on chunk send status error
 
-
 ## [1.1.13](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.13) (2024-01-04)
 
 - added `ZTChunkSendStatusMessage`
@@ -103,6 +108,7 @@
 ## [1.1.12](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.12) (2023-12-22)
 
 - changed precision for slope angles
+- build script archives dSYM
 
 ## [1.1.11](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.11) (2023-12-21)
 
@@ -111,6 +117,7 @@
 ## [1.1.10](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.10) (2023-12-13)
 
 - reset activity when activity is running only on left side
+
 
 ## [1.1.9](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.9) (2023-11-24)
 
@@ -188,12 +195,12 @@
 
 - new public method 'cleanMemory' to clear memory based on activity meta data
 - fixed free memory command for foreign activity
-- log includes SDK version
+- log includes SDK version 
 
 ## [1.0.73](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.73) (2023-07-31)
 
 - added 0.5 second delay for main commands
-- added free memory into reset activity flow
+- added free memory into reset activity flow 
 
 ## [1.0.72](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.72) (2023-07-19)
 
@@ -333,7 +340,7 @@
 
 ## [1.0.40](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.40) (2023-02-17)
 
-- update ZCloud analytics data when app becomes active. It can be turned on/off using `ZTSettings.shared.enableAnalyticsData`. Latest data can be read from `ZTBaliston.shared.analyticsData`. Data is updated when app becomes active, when device changed connection state and last check was more than 1 hour ago
+- update ZCloud analytics data when app becomes active. It can be turned on/off using `ZTSettings.shared.enableAnalyticsData`. Latest data can be read from `ZTBaliston.shared.analyticsData`. Data is updated when app becomes active, when device changed connection state and last check was more than 1 ago 
 
 ## [1.0.39](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.39) (2023-02-15)
 
@@ -374,7 +381,7 @@
 
 ## [1.0.31](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.31) (2023-01-04)
 
-- always free memory after obtaining all chunks
+- always free memory after obtaining all chunks 
 
 ## [1.0.30](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.30) (2022-12-30)
 
@@ -390,7 +397,7 @@
 
 ## [1.0.27](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.27) (2022-12-06)
 
-- new generic method added to get data from any endpoint by name `getData(path:,name:,parameters:,completion:)`, so when calling method `ZTBaliston.shared.getData(path: "reports", name: "endurance")` it will call `/zc/baliston/reports/endurance` endpoint on ZCloud.
+- new generic method added to get data from any endpoint by name `getData(path:,name:,parameters:,completion:)`, so when calling method `ZTBaliston.shared.getData(path: "reports", name: "endurance")` it will call `/zc/baliston/reports/endurance` endpoint on ZCloud. 
 
 ## [1.0.26](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.26) (2022-12-02)
 
@@ -401,7 +408,7 @@
 
 - new method to obtaine data related to `mobility` - `public func postMobility(name:, parameters:, completion:)`
 - new method to obtaine data related to `activity` - `public func postActivity(name:, parameters:, completion:)`
-
+    
 ## [1.0.24](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.24) (2022-09-13)
 
 - removed extra subscriber
@@ -494,6 +501,7 @@
 - new methods added: `sendDirectMessage`, `getDirectMessages`, `deleteDirectMessage`, `sendCannedMessage`, `getCannedMessages`, `getTileMessage`, `getMobilityMessage` from ZTCoreKit 
 - new method added `getMyShoeData(code:completion:)` to receive data for shoes by code
 - new method added `getMyShoesData(completion:)` to receive data for all user's shoes
+
 
 ## [1.0.0](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.0) (2021-11-29)
 

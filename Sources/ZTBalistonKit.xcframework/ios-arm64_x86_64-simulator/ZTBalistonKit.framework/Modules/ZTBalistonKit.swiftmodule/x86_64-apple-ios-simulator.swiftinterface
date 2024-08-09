@@ -1,7 +1,8 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ZTBalistonKit
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ZTBalistonKit
 import CoreBluetooth
+import CoreData
 import Foundation
 import Swift
 import UIKit
@@ -9,92 +10,37 @@ import ZTCoreKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-extension ZTBalistonKit.ZTBaliston {
-  @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
-  public func updateFirmware(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
-  @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
-  public func updateFirmware(path: Swift.String, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+extension ZTBalistonKit.ZTBalistonPacket {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonPacket>
 }
-extension ZTBalistonKit.ZTBaliston {
-  public func enableRealtimeStreaming(startDate: Foundation.Date, interval: Swift.Int16 = 1, metrics: Swift.Set<ZTCoreKit.ZTRealtimeMetric>, side: ZTCoreKit.ZTRealtimeMessage.Side = .none, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
-  public func disableRealtimeStreaming(noCheckInsole: Swift.Bool = false, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
-  public func pauseRealtimeStreaming(pause: Swift.Bool, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
-  public func enableSingleMetric(noCheckInsole: Swift.Bool = false, metric: ZTCoreKit.ZTRealtimeMetric, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
-}
-@_inheritsConvenienceInitializers final public class ZTBalistonActivitySummary : ZTCoreKit.ZTActivitySummary {
-  final public var data: [Swift.String : Any]?
-  final public var attributes: [Swift.String : Any]?
-  required public init?(map: ZTCoreKit.ZTMap)
-  override final public func mapping(map: ZTCoreKit.ZTMap)
+@_hasMissingDesignatedInitializers @objc(ZTBalistonPacket) public class ZTBalistonPacket : ZTCoreKit.ZTPacket {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  required public init(data: Foundation.Data, activity: (any ZTCoreKit.ZTActivityCachable)?, fwVersion: Swift.String?, context: CoreData.NSManagedObjectContext, name: Swift.String = "ZTBalistonPacket")
+  #if compiler(>=5.3) && $AsyncAwait
+  public func saveWithResult(_ allowOverwrite: Swift.Bool = false, in oneTimeContext: CoreData.NSManagedObjectContext) async
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func update(_ packets: [ZTBalistonKit.ZTBalistonPacket], status: ZTCoreKit.ZTPacket.Status, in managedContext: CoreData.NSManagedObjectContext) async
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func lastChunkID(for activityId: Swift.String) async -> Swift.Int16?
+  #endif
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class ZTBalistonSegmentData : ZTCoreKit.ZTSegmentData {
-  override public init(data: Foundation.Data, activityId: Swift.String, fwversion: Swift.String?)
-  @objc deinit
-}
-extension ZTBalistonKit.ZTBalistonSegmentData {
-  @objc dynamic public var description: Swift.String {
+extension ZTBalistonKit.ZTBalistonPacket {
+  @objc override dynamic public var description: Swift.String {
     @objc get
   }
 }
-final public class ZTUserDataParameters : Swift.Codable {
-  public enum Gender : Swift.UInt8, Swift.Codable {
-    case male
-    case female
-    public init?(rawValue: Swift.UInt8)
-    public typealias RawValue = Swift.UInt8
-    public var rawValue: Swift.UInt8 {
-      get
-    }
-  }
-  final public var threadmillSpeed: Swift.Int?
-  final public var bodyWeight: Swift.Int?
-  final public var bodyHeight: Swift.Int?
-  final public var shoeSize: Swift.Int?
-  final public var age: Swift.Int?
-  final public var gender: ZTBalistonKit.ZTUserDataParameters.Gender?
-  public init(threadmillSpeed: Swift.Int? = nil, bodyWeight: Swift.Int?, bodyHeight: Swift.Int?, shoeSize: Swift.Int?, age: Swift.Int?, gender: ZTBalistonKit.ZTUserDataParameters.Gender?)
-  public enum Parameters : Swift.UInt8 {
-    case threadmillSpeed
-    case bodyWeight
-    case bodyHeight
-    case shoeSize
-    case age
-    case gender
-    public init?(rawValue: Swift.UInt8)
-    public typealias RawValue = Swift.UInt8
-    public var rawValue: Swift.UInt8 {
-      get
-    }
-  }
-  @objc deinit
-  final public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public protocol ZTBalistonDfuDelegate {
-  func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
-  func dfuDelegate(didFinish: Swift.Bool)
-  func dfuDelegate(didFail error: ZTCoreKit.ZTError?)
-  func dfuDelegate(progress: Swift.Float?)
-  func dfuDelegate(leftDidFinish newVersion: Swift.String?)
-  func dfuDelegate(rightDidFinish newVersion: Swift.String?)
-}
-extension ZTBalistonKit.ZTBaliston : ZTCoreKit.ZTDfuDelegate {
-  public func initiateBackgroundDFU(isRestartRequired: Swift.Bool = false)
-  public func initiateBackgroundDFU(path: Swift.String)
-  public func reboot(completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
-  public func dfuDelegate(didFinish: Swift.Bool)
-  public func dfuDelegate(didFail error: ZTCoreKit.ZTError?)
-  public func dfuDelegate(progress: Swift.Float?)
-  public func dfuDelegate(leftDidFinish newVersion: Swift.String?)
-  public func dfuDelegate(rightDidFinish newVersion: Swift.String?)
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func startMobilityScan(timeout: Swift.Double = 20, duration: Swift.Int = 60, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
-  public func stopMobilityScan(timeout: Swift.Double = 20, silently: Swift.Bool = false, completion: @escaping ((ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?) -> Swift.Void))
-  public func updateUserParameters(timeout: Swift.Double = 30, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
-  public func hardReset(restart: Swift.Bool = false, completion: @escaping ZTCoreKit.ZTBaseResult)
+extension ZTBalistonKit.ZTBalistonPacket {
+  public static func forceSegmentsUpload(activityId: Swift.String)
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func updateSegmentsTimestamp(activityId: Swift.String, startId: Swift.Int16, anchorTime: Swift.Int64?) async
+  #endif
+  public static func updateSegments(_ segmentsToUpdate: [ZTCoreKit.ZTPacket], status: ZTCoreKit.ZTPacket.Status, activityId: Swift.String?)
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func loadPrevious(activityId: Swift.String?, chunkId: Swift.Int16, originalTimestamp: Swift.Int64) async -> ZTCoreKit.ZTPacket?
+  #endif
 }
 extension ZTBalistonKit.ZTBaliston {
   public func sendDirectMessage(message: [Swift.String : Any], completion: @escaping (([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void))
@@ -114,7 +60,68 @@ extension ZTBalistonKit.ZTBaliston {
   public func getDataArray(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (([Any]?, (any Swift.Error)?) -> Swift.Void))
   public func postData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ((Any?, (any Swift.Error)?) -> Swift.Void))
 }
+extension ZTBalistonKit.ZTBaliston {
+  public func setInactivityTimeout(seconds: Foundation.TimeInterval, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func getInactivityTimeout(completion: @escaping ((Swift.Int) -> Swift.Void))
+  public func cleanMemory(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  public func calibrateGravity(calibrationPoint: Swift.UInt8 = 1, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  public func resetCalibration(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  public func setTxPower(value: ZTCoreKit.ZTTXPower, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+}
+@_inheritsConvenienceInitializers final public class ZTBalistonActivitySummary : ZTCoreKit.ZTActivitySummary {
+  final public var data: [Swift.String : Any]?
+  final public var attributes: [Swift.String : Any]?
+  required public init?(map: ZTCoreKit.ZTMap)
+  override final public func mapping(map: ZTCoreKit.ZTMap)
+  @objc deinit
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func enableRealtimeStreaming(startDate: Foundation.Date, interval: Swift.Int16 = 1, metrics: Swift.Set<ZTCoreKit.ZTRealtimeMetric>, side: ZTCoreKit.ZTRealtimeMessage.Side = .none, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  public func disableRealtimeStreaming(noCheckInsole: Swift.Bool = false, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  public func pauseRealtimeStreaming(pause: Swift.Bool, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  public func enableSingleMetric(noCheckInsole: Swift.Bool = false, metric: ZTCoreKit.ZTRealtimeMetric, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+}
+extension ZTCoreKit.ZTRealtimeMessage.Side : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension ZTCoreKit.ZTRealtimeMetric {
+  public typealias MetricSide = ZTCoreKit.ZTRealtimeMessage.Side
+  public struct Slope {
+    public let slopeAngle: Swift.Float?
+    public let directionAngle: Swift.Float?
+    public let side: ZTCoreKit.ZTRealtimeMetric.MetricSide?
+  }
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func startMobilityScan(timeout: Swift.Double = 20, duration: Swift.Int = 60, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  public func stopMobilityScan(timeout: Swift.Double = 20, silently: Swift.Bool = false, completion: @escaping ((ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?) -> Swift.Void))
+  public func updateUserParameters(timeout: Swift.Double = 30, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  public func hardReset(restart: Swift.Bool = false, completion: @escaping ZTCoreKit.ZTBaseResult)
+}
+extension ZTBalistonKit.ZTBalistonActivity {
+  @nonobjc final public class func fetchRequest() -> CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonActivity>
+}
+@_inheritsConvenienceInitializers @objc(ZTBalistonActivity) final public class ZTBalistonActivity : ZTCoreKit.ZTActivity {
+  final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<()>
+  final public var storeKey: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $AsyncAwait
+  override final public func upload<Packet>(_ packets: [Packet]) async throws where Packet : ZTCoreKit.ZTPacketCachable
+  #endif
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension ZTBalistonKit.ZTBaliston {
+  @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
+  public func updateFirmware(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
+  public func updateFirmware(path: Swift.String, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+}
 public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift.Void
+public let databaseService: ZTCoreKit.ZTDatabaseService<ZTBalistonKit.ZTBalistonPacket, ZTBalistonKit.ZTBalistonActivity>
 @_hasMissingDesignatedInitializers public class ZTBaliston {
   public static let version: Swift.String
   public static let shared: ZTBalistonKit.ZTBaliston
@@ -157,33 +164,58 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
   @objc deinit
   public func readGeneralState(completion: @escaping ((ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void))
 }
-extension ZTCoreKit.ZTRealtimeMessage.Side : Swift.CustomStringConvertible {
-  public var description: Swift.String {
-    get
-  }
+public protocol ZTBalistonDfuDelegate {
+  func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
+  func dfuDelegate(didFinish: Swift.Bool)
+  func dfuDelegate(didFail error: ZTCoreKit.ZTError?)
+  func dfuDelegate(progress: Swift.Float?)
+  func dfuDelegate(leftDidFinish newVersion: Swift.String?)
+  func dfuDelegate(rightDidFinish newVersion: Swift.String?)
 }
-extension ZTCoreKit.ZTRealtimeMetric {
-  public typealias MetricSide = ZTCoreKit.ZTRealtimeMessage.Side
-  public struct Slope {
-    public let slopeAngle: Swift.Float?
-    public let directionAngle: Swift.Float?
-    public let side: ZTCoreKit.ZTRealtimeMetric.MetricSide?
-  }
+extension ZTBalistonKit.ZTBaliston : ZTCoreKit.ZTDfuDelegate {
+  public func initiateBackgroundDFU(isRestartRequired: Swift.Bool = false)
+  public func initiateBackgroundDFU(path: Swift.String)
+  public func reboot(completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
+  public func dfuDelegate(didFinish: Swift.Bool)
+  public func dfuDelegate(didFail error: ZTCoreKit.ZTError?)
+  public func dfuDelegate(progress: Swift.Float?)
+  public func dfuDelegate(leftDidFinish newVersion: Swift.String?)
+  public func dfuDelegate(rightDidFinish newVersion: Swift.String?)
 }
-@_inheritsConvenienceInitializers final public class ZTBalistonActivity : ZTCoreKit.ZTActivity {
-  final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<()>
-  override final public func save()
-  override public init()
-  required public init(from decoder: any Swift.Decoder) throws
+final public class ZTUserDataParameters : Swift.Codable {
+  public enum Gender : Swift.UInt8, Swift.Codable {
+    case male
+    case female
+    public init?(rawValue: Swift.UInt8)
+    public typealias RawValue = Swift.UInt8
+    public var rawValue: Swift.UInt8 {
+      get
+    }
+  }
+  final public var threadmillSpeed: Swift.Int?
+  final public var bodyWeight: Swift.Int?
+  final public var bodyHeight: Swift.Int?
+  final public var shoeSize: Swift.Int?
+  final public var age: Swift.Int?
+  final public var gender: ZTBalistonKit.ZTUserDataParameters.Gender?
+  public init(threadmillSpeed: Swift.Int? = nil, bodyWeight: Swift.Int?, bodyHeight: Swift.Int?, shoeSize: Swift.Int?, age: Swift.Int?, gender: ZTBalistonKit.ZTUserDataParameters.Gender?)
+  public enum Parameters : Swift.UInt8 {
+    case threadmillSpeed
+    case bodyWeight
+    case bodyHeight
+    case shoeSize
+    case age
+    case gender
+    public init?(rawValue: Swift.UInt8)
+    public typealias RawValue = Swift.UInt8
+    public var rawValue: Swift.UInt8 {
+      get
+    }
+  }
   @objc deinit
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func setInactivityTimeout(seconds: Foundation.TimeInterval, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func getInactivityTimeout(completion: @escaping ((Swift.Int) -> Swift.Void))
-  public func cleanMemory(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
-  public func calibrateGravity(calibrationPoint: Swift.UInt8 = 1, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
-  public func resetCalibration(completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
-  public func setTxPower(value: ZTCoreKit.ZTTXPower, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Equatable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Hashable {}
