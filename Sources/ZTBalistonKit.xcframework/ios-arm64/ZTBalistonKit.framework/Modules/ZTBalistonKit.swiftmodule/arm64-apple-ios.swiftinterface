@@ -96,7 +96,7 @@ extension ZTBalistonKit.ZTBalistonActivity {
     get
   }
   #if compiler(>=5.3) && $AsyncAwait
-  override final public func upload<Packet>(_ packets: [Packet]) async throws where Packet : ZTCoreKit.ZTPacketCachable
+  override final public func upload<Packet>(_ packets: [Packet], context: CoreData.NSManagedObjectContext) async throws where Packet : ZTCoreKit.ZTPacketCachable
   #endif
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   @objc deinit
