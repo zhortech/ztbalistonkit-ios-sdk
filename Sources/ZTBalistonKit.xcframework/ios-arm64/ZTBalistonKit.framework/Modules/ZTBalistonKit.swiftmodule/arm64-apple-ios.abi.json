@@ -285,7 +285,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(data:)",
+            "printedName": "init(data:insertInto:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -298,11 +298,17 @@
                 "name": "Data",
                 "printedName": "Foundation.Data",
                 "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSManagedObjectContext",
+                "printedName": "CoreData.NSManagedObjectContext",
+                "usr": "c:objc(cs)NSManagedObjectContext"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13ZTBalistonKit0A6PacketC4dataAC10Foundation4DataV_tcfc",
-            "mangledName": "$s13ZTBalistonKit0A6PacketC4dataAC10Foundation4DataV_tcfc",
+            "usr": "s:13ZTBalistonKit0A6PacketC4data10insertIntoAC10Foundation4DataV_So22NSManagedObjectContextCtcfc",
+            "mangledName": "$s13ZTBalistonKit0A6PacketC4data10insertIntoAC10Foundation4DataV_So22NSManagedObjectContextCtcfc",
             "moduleName": "ZTBalistonKit",
             "overriding": true,
             "implicit": true,
@@ -539,13 +545,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "ZTCoreKit.ZTPacket?",
+                "printedName": "ZTBalistonKit.ZTBalistonPacket?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ZTPacket",
-                    "printedName": "ZTCoreKit.ZTPacket",
-                    "usr": "c:@M@ZTCoreKit@objc(cs)ZTPacket"
+                    "name": "ZTBalistonPacket",
+                    "printedName": "ZTBalistonKit.ZTBalistonPacket",
+                    "usr": "c:@M@ZTBalistonKit@objc(cs)ZTBalistonPacket"
                   }
                 ],
                 "usr": "s:Sq"
@@ -578,13 +584,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A6PacketC12loadPrevious10activityId05chunkG017originalTimestamp06ZTCoreB08ZTPacketCSgSSSg_s5Int16Vs5Int64VtYaFZ",
-            "mangledName": "$s13ZTBalistonKit0A6PacketC12loadPrevious10activityId05chunkG017originalTimestamp06ZTCoreB08ZTPacketCSgSSSg_s5Int16Vs5Int64VtYaFZ",
+            "usr": "s:13ZTBalistonKit0A6PacketC12loadPrevious10activityId05chunkG017originalTimestampACSgSSSg_s5Int16Vs5Int64VtYaF",
+            "mangledName": "$s13ZTBalistonKit0A6PacketC12loadPrevious10activityId05chunkG017originalTimestampACSgSSSg_s5Int16Vs5Int64VtYaF",
             "moduleName": "ZTBalistonKit",
-            "static": true,
-            "declAttributes": [
-              "Final"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -1744,79 +1746,6 @@
         "printedName": "ZTCoreKit",
         "declKind": "Import",
         "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "Var",
-        "name": "databaseService",
-        "printedName": "databaseService",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "ZTDatabaseService",
-            "printedName": "ZTCoreKit.ZTDatabaseService<ZTBalistonKit.ZTBalistonPacket, ZTBalistonKit.ZTBalistonActivity>",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ZTBalistonPacket",
-                "printedName": "ZTBalistonKit.ZTBalistonPacket",
-                "usr": "c:@M@ZTBalistonKit@objc(cs)ZTBalistonPacket"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ZTBalistonActivity",
-                "printedName": "ZTBalistonKit.ZTBalistonActivity",
-                "usr": "c:@M@ZTBalistonKit@objc(cs)ZTBalistonActivity"
-              }
-            ],
-            "usr": "s:9ZTCoreKit17ZTDatabaseServiceC"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:13ZTBalistonKit15databaseService06ZTCoreB0010ZTDatabaseD0CyAA0A6PacketCAA0A8ActivityCGvp",
-        "mangledName": "$s13ZTBalistonKit15databaseService06ZTCoreB0010ZTDatabaseD0CyAA0A6PacketCAA0A8ActivityCGvp",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ZTDatabaseService",
-                "printedName": "ZTCoreKit.ZTDatabaseService<ZTBalistonKit.ZTBalistonPacket, ZTBalistonKit.ZTBalistonActivity>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ZTBalistonPacket",
-                    "printedName": "ZTBalistonKit.ZTBalistonPacket",
-                    "usr": "c:@M@ZTBalistonKit@objc(cs)ZTBalistonPacket"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ZTBalistonActivity",
-                    "printedName": "ZTBalistonKit.ZTBalistonActivity",
-                    "usr": "c:@M@ZTBalistonKit@objc(cs)ZTBalistonActivity"
-                  }
-                ],
-                "usr": "s:9ZTCoreKit17ZTDatabaseServiceC"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:13ZTBalistonKit15databaseService06ZTCoreB0010ZTDatabaseD0CyAA0A6PacketCAA0A8ActivityCGvg",
-            "mangledName": "$s13ZTBalistonKit15databaseService06ZTCoreB0010ZTDatabaseD0CyAA0A6PacketCAA0A8ActivityCGvg",
-            "moduleName": "ZTBalistonKit",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
       },
       {
         "kind": "TypeDecl",
@@ -8584,14 +8513,14 @@
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 29883,
+      "offset": 30138,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 34194,
+      "offset": 34449,
       "length": 1,
       "value": "1"
     },
@@ -8661,7 +8590,7 @@
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "IntegerLiteral",
-      "offset": 15273,
+      "offset": 15327,
       "length": 2,
       "value": "30"
     },
@@ -8682,98 +8611,98 @@
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 6512,
+      "offset": 6880,
       "length": 22,
       "value": "\"lastSafetyActivityID\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 6585,
+      "offset": 6953,
       "length": 21,
       "value": "\"safetyChunkDuration\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 6665,
+      "offset": 7033,
       "length": 22,
       "value": "\"isMonitoringActivity\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 6744,
+      "offset": 7112,
       "length": 20,
       "value": "\"userDataParameters\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 6825,
+      "offset": 7193,
       "length": 23,
       "value": "\"lastFirmwareCheckDate\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 6914,
+      "offset": 7282,
       "length": 28,
       "value": "\"lastAnalyticsDataCheckDate\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 7006,
+      "offset": 7374,
       "length": 27,
       "value": "\"lastChunkInterruptionDate\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 7085,
+      "offset": 7453,
       "length": 15,
       "value": "\"analyticsData\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 7159,
+      "offset": 7527,
       "length": 18,
       "value": "\"streamingMetrics\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 7243,
+      "offset": 7611,
       "length": 28,
       "value": "\"currentStreamingMetricSide\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 7328,
+      "offset": 7696,
       "length": 20,
       "value": "\"isStreamingStarted\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
-      "offset": 7411,
+      "offset": 7779,
       "length": 26,
       "value": "\"realtimeMetricsStartDate\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "BooleanLiteral",
-      "offset": 13488,
+      "offset": 16455,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "Array",
-      "offset": 13576,
+      "offset": 16543,
       "length": 2,
       "value": "[]"
     },
@@ -8822,189 +8751,203 @@
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 461,
+      "offset": 373,
       "length": 15,
       "value": "\"ZTBalistonKit\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 532,
+      "offset": 444,
       "length": 28,
       "value": "\"com.zhortech.ZTBalistonKit\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 624,
+      "offset": 536,
       "length": 7,
       "value": "\"1.3.3\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 794,
+      "offset": 706,
       "length": 16,
       "value": "\"3.15.13.BA.1.6\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "kind": "FloatLiteral",
+      "offset": 2172,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2278,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 3120,
+      "offset": 4297,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 3203,
+      "offset": 4380,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 3307,
+      "offset": 4484,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 3390,
+      "offset": 4567,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 3465,
+      "offset": 4642,
       "length": 6,
       "value": "300000"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 3556,
+      "offset": 4733,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 3706,
+      "offset": 4883,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 3780,
+      "offset": 4957,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 3864,
+      "offset": 5041,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 3916,
+      "offset": 5093,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 3972,
+      "offset": 5149,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 4055,
+      "offset": 5232,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 9221,
+      "offset": 10398,
       "length": 98,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 9318,
+      "offset": 10495,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 9840,
+      "offset": 11017,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 9935,
+      "offset": 11112,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 10035,
+      "offset": 11212,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 10162,
+      "offset": 11339,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 11439,
+      "offset": 12616,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 11485,
+      "offset": 12662,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 11525,
+      "offset": 12702,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 13393,
+      "offset": 14570,
       "length": 32,
       "value": "\"obtaining-missed-packets.queue\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 13565,
+      "offset": 14742,
       "length": 1,
       "value": "0"
     },

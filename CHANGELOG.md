@@ -1,6 +1,13 @@
 # Changelog
 
-## [1.3.3](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.3.2) (2024-08-22)
+
+## [1.3.4](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.3.4) (2024-08-26)
+
+- ZTCore update to v1.4.3 - Required version of iOS is now iOS 15
+- Support for more environement
+- Bug fixes
+
+## [1.3.3](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.3.3) (2024-08-22)
 
 - ZTCore update to v1.4.3 - Required version of iOS is now iOS 15
 

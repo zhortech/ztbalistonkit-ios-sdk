@@ -39,7 +39,7 @@ extension ZTBalistonKit.ZTBalistonPacket {
   #endif
   public static func updateSegments(_ segmentsToUpdate: [ZTCoreKit.ZTPacket], status: ZTCoreKit.ZTPacket.Status, activityId: Swift.String?)
   #if compiler(>=5.3) && $AsyncAwait
-  public static func loadPrevious(activityId: Swift.String?, chunkId: Swift.Int16, originalTimestamp: Swift.Int64) async -> ZTCoreKit.ZTPacket?
+  public func loadPrevious(activityId: Swift.String?, chunkId: Swift.Int16, originalTimestamp: Swift.Int64) async -> ZTBalistonKit.ZTBalistonPacket?
   #endif
 }
 extension ZTBalistonKit.ZTBaliston {
@@ -121,7 +121,6 @@ extension ZTBalistonKit.ZTBaliston {
   public func updateFirmware(path: Swift.String, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
 }
 public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift.Void
-public let databaseService: ZTCoreKit.ZTDatabaseService<ZTBalistonKit.ZTBalistonPacket, ZTBalistonKit.ZTBalistonActivity>
 @_hasMissingDesignatedInitializers public class ZTBaliston {
   public static let version: Swift.String
   public static let shared: ZTBalistonKit.ZTBaliston
