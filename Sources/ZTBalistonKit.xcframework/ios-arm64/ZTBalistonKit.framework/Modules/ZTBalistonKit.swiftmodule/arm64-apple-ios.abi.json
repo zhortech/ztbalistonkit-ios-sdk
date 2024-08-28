@@ -283,6 +283,35 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "packetCount",
+            "printedName": "packetCount(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A6PacketC11packetCount3forSiSS_tYaFZ",
+            "mangledName": "$s13ZTBalistonKit0A6PacketC11packetCount3forSiSS_tYaFZ",
+            "moduleName": "ZTBalistonKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(data:insertInto:)",
@@ -1226,6 +1255,23 @@
             "mangledName": "$s9ZTCoreKit14ZTBaseMappableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZTCoreKit",
+        "printedName": "ZTCoreKit",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit"
       },
       {
         "kind": "Import",
@@ -8513,14 +8559,14 @@
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 30138,
+      "offset": 30430,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 34449,
+      "offset": 34741,
       "length": 1,
       "value": "1"
     },
@@ -8695,14 +8741,14 @@
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "BooleanLiteral",
-      "offset": 16455,
+      "offset": 7610,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "Array",
-      "offset": 16543,
+      "offset": 7698,
       "length": 2,
       "value": "[]"
     },
@@ -8767,7 +8813,7 @@
       "kind": "StringLiteral",
       "offset": 536,
       "length": 7,
-      "value": "\"1.3.3\""
+      "value": "\"1.3.5\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",

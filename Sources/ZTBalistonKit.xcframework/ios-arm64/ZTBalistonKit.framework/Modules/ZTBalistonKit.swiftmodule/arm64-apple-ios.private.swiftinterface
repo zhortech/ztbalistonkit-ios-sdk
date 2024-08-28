@@ -25,6 +25,9 @@ extension ZTBalistonKit.ZTBalistonPacket {
   #if compiler(>=5.3) && $AsyncAwait
   public static func lastChunkID(for activityId: Swift.String) async -> Swift.Int16?
   #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func packetCount(for activityId: Swift.String) async -> Swift.Int
+  #endif
   @objc deinit
 }
 extension ZTBalistonKit.ZTBalistonPacket {
