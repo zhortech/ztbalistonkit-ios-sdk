@@ -8554,7 +8554,7 @@
       "kind": "StringLiteral",
       "offset": 536,
       "length": 7,
-      "value": "\"1.3.5\""
+      "value": "\"1.3.6\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
@@ -8741,14 +8741,14 @@
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 30430,
+      "offset": 31107,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 34741,
+      "offset": 35418,
       "length": 1,
       "value": "1"
     },
@@ -8937,14 +8937,14 @@
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonPacket.swift",
       "kind": "StringLiteral",
-      "offset": 1007,
+      "offset": 1006,
       "length": 18,
       "value": "\"ZTBalistonPacket\""
     },
     {
       "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonPacket.swift",
       "kind": "BooleanLiteral",
-      "offset": 1525,
+      "offset": 1524,
       "length": 5,
       "value": "false"
     },
