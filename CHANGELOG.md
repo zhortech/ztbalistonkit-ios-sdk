@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.3.7](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.3.7) (2024-09-03)
+
+- Fixed mobility scan
+
 ## [1.3.6](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.3.6) (2024-08-29)
 
 - ZTCore update to v1.4.6 - Required version of iOS is now iOS 15
