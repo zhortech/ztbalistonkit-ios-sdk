@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "ZTBalistonKit",
+    "printedName": "ZTBalistonKit",
     "children": [
       {
         "kind": "Import",
@@ -442,6 +442,20 @@
             "printedName": "ZTBaseMappable",
             "usr": "s:9ZTCoreKit14ZTBaseMappableP",
             "mangledName": "$s9ZTCoreKit14ZTBaseMappableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -5108,6 +5122,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ZTDfuDelegate",
             "printedName": "ZTDfuDelegate",
             "usr": "s:9ZTCoreKit13ZTDfuDelegateP",
@@ -5435,6 +5463,20 @@
             "printedName": "ZTActivityCachable",
             "usr": "s:9ZTCoreKit18ZTActivityCachableP",
             "mangledName": "$s9ZTCoreKit18ZTActivityCachableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -5825,6 +5867,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6557,6 +6615,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6821,6 +6893,20 @@
             ],
             "enumRawTypeName": "UInt8",
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -8018,6 +8104,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -8119,6 +8219,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -8334,7 +8448,23 @@
               "AccessControl",
               "RawDocComment"
             ],
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -8344,6 +8474,20 @@
         "enumRawTypeName": "String",
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -8439,6 +8583,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -8487,686 +8645,609 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
       "kind": "BooleanLiteral",
       "offset": 5491,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
       "kind": "StringLiteral",
       "offset": 6405,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
       "kind": "Dictionary",
       "offset": 7585,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
       "kind": "Dictionary",
       "offset": 8133,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
       "kind": "Dictionary",
       "offset": 8849,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
       "kind": "Dictionary",
       "offset": 9577,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
       "kind": "Dictionary",
       "offset": 10251,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
       "offset": 373,
       "length": 15,
       "value": "\"ZTBalistonKit\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
       "offset": 444,
       "length": 28,
       "value": "\"com.zhortech.ZTBalistonKit\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
       "offset": 536,
       "length": 7,
-      "value": "\"1.3.7\""
+      "value": "\"1.3.8\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
       "offset": 706,
       "length": 16,
       "value": "\"3.15.13.BA.1.6\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 2172,
+      "offset": 2176,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 2278,
+      "offset": 2282,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 4297,
+      "offset": 4301,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 4380,
+      "offset": 4384,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 4484,
+      "offset": 4488,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 4567,
+      "offset": 4571,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 4642,
+      "offset": 4646,
       "length": 6,
       "value": "300000"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 4733,
+      "offset": 4737,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 4883,
+      "offset": 4887,
       "length": 2,
       "value": "45"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 4957,
+      "offset": 4961,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 5041,
+      "offset": 5045,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 5093,
+      "offset": 5097,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 5149,
+      "offset": 5153,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 5232,
+      "offset": 5236,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 10398,
+      "offset": 10402,
       "length": 98,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 10495,
+      "offset": 10499,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 11017,
+      "offset": 11021,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 11112,
+      "offset": 11116,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 11212,
+      "offset": 11216,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 11339,
+      "offset": 11343,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 12616,
+      "offset": 12620,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 12662,
+      "offset": 12666,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 12702,
+      "offset": 12706,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 14570,
+      "offset": 14574,
       "length": 32,
       "value": "\"obtaining-missed-packets.queue\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 14742,
+      "offset": 14746,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 31786,
+      "offset": 31773,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
       "kind": "IntegerLiteral",
-      "offset": 36097,
+      "offset": 36084,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
       "offset": 523,
       "length": 35,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
       "offset": 544,
       "length": 1,
       "value": "\".lastActivity\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
       "offset": 6880,
       "length": 22,
       "value": "\"lastSafetyActivityID\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
       "offset": 6953,
       "length": 21,
       "value": "\"safetyChunkDuration\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
       "offset": 7033,
       "length": 22,
       "value": "\"isMonitoringActivity\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
       "offset": 7112,
       "length": 20,
       "value": "\"userDataParameters\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
       "offset": 7193,
       "length": 23,
       "value": "\"lastFirmwareCheckDate\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
       "offset": 7282,
       "length": 28,
       "value": "\"lastAnalyticsDataCheckDate\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
       "offset": 7374,
       "length": 27,
       "value": "\"lastChunkInterruptionDate\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
       "offset": 7453,
       "length": 15,
       "value": "\"analyticsData\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
       "offset": 7527,
       "length": 18,
       "value": "\"streamingMetrics\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
       "offset": 7611,
       "length": 28,
       "value": "\"currentStreamingMetricSide\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
       "offset": 7696,
       "length": 20,
       "value": "\"isStreamingStarted\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
       "kind": "StringLiteral",
       "offset": 7779,
       "length": 26,
       "value": "\"realtimeMetricsStartDate\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Streaming.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Streaming.swift",
       "kind": "IntegerLiteral",
       "offset": 628,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Streaming.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Streaming.swift",
       "kind": "BooleanLiteral",
       "offset": 5723,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Streaming.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Streaming.swift",
       "kind": "BooleanLiteral",
       "offset": 8371,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+DFU.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+DFU.swift",
       "kind": "BooleanLiteral",
       "offset": 995,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
       "kind": "IntegerLiteral",
       "offset": 431,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
       "kind": "IntegerLiteral",
       "offset": 579,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
       "kind": "IntegerLiteral",
       "offset": 813,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
       "kind": "IntegerLiteral",
       "offset": 959,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
       "kind": "IntegerLiteral",
       "offset": 1051,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
       "kind": "IntegerLiteral",
       "offset": 1226,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "BooleanLiteral",
       "offset": 7610,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+IndicateData.swift",
       "kind": "Array",
       "offset": 7698,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonPacket.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonPacket.swift",
       "kind": "StringLiteral",
       "offset": 1006,
       "length": 18,
       "value": "\"ZTBalistonPacket\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonPacket.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonPacket.swift",
       "kind": "BooleanLiteral",
       "offset": 1524,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonPacket.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonPacket.swift",
       "kind": "StringLiteral",
-      "offset": 479,
-      "length": 16,
-      "value": "\"ZTBalistonKit.ZTBalistonPacket\""
+      "offset": 10278,
+      "length": 125,
+      "value": "\"packetId =\""
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonPacket.swift",
+      "kind": "StringLiteral",
+      "offset": 10294,
+      "length": 1,
+      "value": "\" | duration = \""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonPacket.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10363,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonPacket.swift",
+      "kind": "StringLiteral",
+      "offset": 10369,
+      "length": 1,
+      "value": "\"s | timestamp = \""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonPacket.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10400,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonPacket.swift",
+      "kind": "StringLiteral",
+      "offset": 10402,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "IntegerLiteral",
       "offset": 465,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "IntegerLiteral",
       "offset": 517,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "IntegerLiteral",
       "offset": 5865,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "BooleanLiteral",
       "offset": 5917,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "IntegerLiteral",
       "offset": 8941,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "BooleanLiteral",
       "offset": 10004,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Activity.swift",
       "kind": "IntegerLiteral",
-      "offset": 15959,
+      "offset": 15967,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 303,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 327,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 303,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 327,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 303,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 327,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1315,
       "length": 4,
       "value": "0x01"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1354,
       "length": 4,
       "value": "0x02"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1393,
       "length": 4,
       "value": "0x03"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1432,
       "length": 4,
       "value": "0x04"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1471,
       "length": 4,
       "value": "0x05"
     },
     {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1510,
-      "length": 4,
-      "value": "0x06"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1315,
-      "length": 4,
-      "value": "0x01"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1354,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1393,
-      "length": 4,
-      "value": "0x03"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1432,
-      "length": 4,
-      "value": "0x04"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1471,
-      "length": 4,
-      "value": "0x05"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1510,
-      "length": 4,
-      "value": "0x06"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1315,
-      "length": 4,
-      "value": "0x01"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1354,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1393,
-      "length": 4,
-      "value": "0x03"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1432,
-      "length": 4,
-      "value": "0x04"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1471,
-      "length": 4,
-      "value": "0x05"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Desktop\/build\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1510,
       "length": 4,

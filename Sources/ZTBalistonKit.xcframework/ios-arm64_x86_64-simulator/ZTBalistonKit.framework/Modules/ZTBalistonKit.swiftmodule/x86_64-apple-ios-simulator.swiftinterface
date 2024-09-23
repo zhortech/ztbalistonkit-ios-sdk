@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.11 clang-1600.0.26.2)
 // swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ZTBalistonKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CoreBluetooth
 import CoreData
 import Foundation
@@ -94,9 +95,7 @@ extension ZTBalistonKit.ZTBalistonActivity {
   final public var storeKey: Swift.String {
     get
   }
-  #if compiler(>=5.3) && $AsyncAwait
   override final public func upload<Packet>(_ packets: [Packet], context: CoreData.NSManagedObjectContext) async throws where Packet : ZTCoreKit.ZTPacketCachable
-  #endif
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   @objc deinit
 }
@@ -150,18 +149,10 @@ extension ZTBalistonKit.ZTBalistonPacket {
 @_hasMissingDesignatedInitializers @objc(ZTBalistonPacket) public class ZTBalistonPacket : ZTCoreKit.ZTPacket {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
   required public init(data: Foundation.Data, activity: (any ZTCoreKit.ZTActivityCachable)?, fwVersion: Swift.String?, context: CoreData.NSManagedObjectContext, name: Swift.String = "ZTBalistonPacket")
-  #if compiler(>=5.3) && $AsyncAwait
   public func saveWithResult(_ allowOverwrite: Swift.Bool = false, in oneTimeContext: CoreData.NSManagedObjectContext) async
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public static func update(_ packets: [ZTBalistonKit.ZTBalistonPacket], status: ZTCoreKit.ZTPacket.Status, in managedContext: CoreData.NSManagedObjectContext) async
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public static func lastChunkID(for activityId: Swift.String) async -> Swift.Int16?
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public static func packetCount(for activityId: Swift.String) async -> Swift.Int
-  #endif
   @objc deinit
 }
 extension ZTBalistonKit.ZTBalistonPacket {
@@ -171,13 +162,9 @@ extension ZTBalistonKit.ZTBalistonPacket {
 }
 extension ZTBalistonKit.ZTBalistonPacket {
   public static func forceSegmentsUpload(activityId: Swift.String)
-  #if compiler(>=5.3) && $AsyncAwait
   public static func updateSegmentsTimestamp(activityId: Swift.String, startId: Swift.Int16, anchorTime: Swift.Int64?) async
-  #endif
   public static func updateSegments(_ segmentsToUpdate: [ZTCoreKit.ZTPacket], status: ZTCoreKit.ZTPacket.Status, activityId: Swift.String?)
-  #if compiler(>=5.3) && $AsyncAwait
   public func loadPrevious(activityId: Swift.String?, chunkId: Swift.Int16, originalTimestamp: Swift.Int64) async -> ZTBalistonKit.ZTBalistonPacket?
-  #endif
 }
 extension ZTBalistonKit.ZTBaliston {
   public func startMobilityScan(timeout: Swift.Double = 20, duration: Swift.Int = 60, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping ((ZTCoreKit.ZTError?) -> Swift.Void))
