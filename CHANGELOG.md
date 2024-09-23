@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.3.8](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.3.8) (2024-09-23)
+
+- Fixed crashes
+
 ## [1.3.7](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.3.7) (2024-09-03)
 
 - Fixed mobility scan
