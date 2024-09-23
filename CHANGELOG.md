@@ -1,4 +1,7 @@
 # Changelog
+## [1.3.9](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.3.9) (2024-09-23)
+
+- FBuild for Xcode 16
 
 ## [1.3.8](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.3.8) (2024-09-23)
 
