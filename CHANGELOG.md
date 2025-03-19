@@ -1,5 +1,10 @@
 # Changelog
-# Changelog
+
+## [1.4.0](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.0 (2025-03-19)
+
+- ZTCore update to v1.5.1
+- Added Raw Data Flow
+
 ## [1.3.10](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.3.10) (2024-10-28)
 
 - FBuild for Xcode 16
