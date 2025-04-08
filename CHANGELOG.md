@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.4.1](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.1 (2025-04-08)
+
+- ZTCore update to v1.5.2
+- Optimized Raw Data Flow
+
 ## [1.4.0](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.0 (2025-03-19)
 
 - ZTCore update to v1.5.1
