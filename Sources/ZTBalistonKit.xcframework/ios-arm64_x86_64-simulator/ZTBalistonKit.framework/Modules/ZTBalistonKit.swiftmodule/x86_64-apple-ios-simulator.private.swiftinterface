@@ -12,27 +12,6 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 extension ZTBalistonKit.ZTBaliston {
-  public func sendRawDataCommand(attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func sendRawDataCommandV2(attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func stopActivity(timeout: Swift.Double = 30, shouldAutoSendRawData: Swift.Bool = true, completion: ZTBalistonKit.ZTActivityResult?)
-  public func useRawDataFlow(enableRawData: Swift.Bool, attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func useRawDataFlowV2(enableRawData: Swift.Bool, attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func startActivityCommand(attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func setInactivityTimeout(seconds: Foundation.TimeInterval, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func getInactivityTimeout(completion: @escaping (Swift.Int) -> Swift.Void)
-  public func cleanMemory(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  public func calibrateGravity(calibrationPoint: Swift.UInt8 = 1, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  public func resetCalibration(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  public func setTxPower(value: ZTCoreKit.ZTTXPower, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func isPendingActivity(activityId: Swift.String, completion: @escaping (Swift.Bool, ZTCoreKit.ZTError?) -> Swift.Void)
-  public func pushPendingActivities(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  public func getLastActivityRawData(_ reset: Swift.Bool = false, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func uploadRawData(for activityId: Swift.String) async throws
-  public func connectLeftModuleForRawData(activityId: Swift.String)
-}
-extension ZTBalistonKit.ZTBaliston {
   @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
   public func updateFirmware(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
   @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
@@ -246,6 +225,27 @@ extension ZTBalistonKit.ZTBaliston {
   public func getDataArray(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ([Any]?, (any Swift.Error)?) -> Swift.Void)
   public func postData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
   public func getSwingAnalysis(body: [Swift.String : Any], completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func sendRawDataCommand(attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func sendRawDataCommandV2(attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func stopActivity(timeout: Swift.Double = 30, shouldAutoSendRawData: Swift.Bool = true, completion: ZTBalistonKit.ZTActivityResult?)
+  public func useRawDataFlow(enableRawData: Swift.Bool, attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func useRawDataFlowV2(enableRawData: Swift.Bool, attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func startActivityCommand(attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func setInactivityTimeout(seconds: Foundation.TimeInterval, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func getInactivityTimeout(completion: @escaping (Swift.Int) -> Swift.Void)
+  public func cleanMemory(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func calibrateGravity(calibrationPoint: Swift.UInt8 = 1, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func resetCalibration(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func setTxPower(value: ZTCoreKit.ZTTXPower, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func isPendingActivity(activityId: Swift.String, completion: @escaping (Swift.Bool, ZTCoreKit.ZTError?) -> Swift.Void)
+  public func pushPendingActivities(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func getLastActivityRawData(_ reset: Swift.Bool = false, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func uploadRawData(for activityId: Swift.String) async throws
+  public func connectLeftModuleForRawData(activityId: Swift.String)
 }
 extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Equatable {}
 extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Hashable {}

@@ -79,6 +79,18 @@ extension ZTBalistonKit.ZTBaliston {
     }
   }
 }
+extension ZTBalistonKit.ZTBalistonActivity {
+  @nonobjc final public class func fetchRequest() -> CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonActivity>
+}
+@_inheritsConvenienceInitializers @objc(ZTBalistonActivity) final public class ZTBalistonActivity : ZTCoreKit.ZTActivity {
+  final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<()>
+  final public var storeKey: Swift.String {
+    get
+  }
+  override final public func upload<Packet>(_ packets: [Packet], context: CoreData.NSManagedObjectContext) async throws where Packet : ZTCoreKit.ZTPacketCachable
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
 extension ZTCoreKit.ZTRealtimeMessage.Side : Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
@@ -117,16 +129,11 @@ extension ZTBalistonKit.ZTBaliston {
   public func pauseRealtimeStreaming(pause: Swift.Bool, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
   public func enableSingleMetric(noCheckInsole: Swift.Bool = false, metric: ZTCoreKit.ZTRealtimeMetric, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
 }
-extension ZTBalistonKit.ZTBalistonActivity {
-  @nonobjc final public class func fetchRequest() -> CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonActivity>
-}
-@_inheritsConvenienceInitializers @objc(ZTBalistonActivity) final public class ZTBalistonActivity : ZTCoreKit.ZTActivity {
-  final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<()>
-  final public var storeKey: Swift.String {
-    get
-  }
-  override final public func upload<Packet>(_ packets: [Packet], context: CoreData.NSManagedObjectContext) async throws where Packet : ZTCoreKit.ZTPacketCachable
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+@_inheritsConvenienceInitializers final public class ZTBalistonActivitySummary : ZTCoreKit.ZTActivitySummary {
+  final public var data: [Swift.String : Any]?
+  final public var attributes: [Swift.String : Any]?
+  required public init?(map: ZTCoreKit.ZTMap)
+  override final public func mapping(map: ZTCoreKit.ZTMap)
   @objc deinit
 }
 final public class ZTUserDataParameters : Swift.Codable {
@@ -163,12 +170,28 @@ final public class ZTUserDataParameters : Swift.Codable {
   final public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-@_inheritsConvenienceInitializers final public class ZTBalistonActivitySummary : ZTCoreKit.ZTActivitySummary {
-  final public var data: [Swift.String : Any]?
-  final public var attributes: [Swift.String : Any]?
-  required public init?(map: ZTCoreKit.ZTMap)
-  override final public func mapping(map: ZTCoreKit.ZTMap)
+extension ZTBalistonKit.ZTBalistonPacket {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonPacket>
+}
+@_hasMissingDesignatedInitializers @objc(ZTBalistonPacket) public class ZTBalistonPacket : ZTCoreKit.ZTPacket {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  required public init(data: Foundation.Data, activity: (any ZTCoreKit.ZTActivityCachable)?, fwVersion: Swift.String?, context: CoreData.NSManagedObjectContext, name: Swift.String = "ZTBalistonPacket")
+  public func saveWithResult(_ allowOverwrite: Swift.Bool = false, in oneTimeContext: CoreData.NSManagedObjectContext) async
+  public static func update(_ packets: [ZTBalistonKit.ZTBalistonPacket], status: ZTCoreKit.ZTPacket.Status, in managedContext: CoreData.NSManagedObjectContext) async
+  public static func lastChunkID(for activityId: Swift.String) async -> Swift.Int16?
+  public static func packetCount(for activityId: Swift.String) async -> Swift.Int
   @objc deinit
+}
+extension ZTBalistonKit.ZTBalistonPacket {
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+}
+extension ZTBalistonKit.ZTBalistonPacket {
+  public static func forceSegmentsUpload(activityId: Swift.String)
+  public static func updateSegmentsTimestamp(activityId: Swift.String, startId: Swift.Int16, anchorTime: Swift.Int64?) async
+  public static func updateSegments(_ segmentsToUpdate: [ZTCoreKit.ZTPacket], status: ZTCoreKit.ZTPacket.Status, activityId: Swift.String?)
+  public func loadPrevious(activityId: Swift.String?, chunkId: Swift.Int16, originalTimestamp: Swift.Int64) async -> ZTBalistonKit.ZTBalistonPacket?
 }
 public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift.Void
 @_hasMissingDesignatedInitializers public class ZTBaliston {
@@ -216,29 +239,6 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
   @objc deinit
   public func subscribeCoreEvents()
   public func readGeneralState(completion: @escaping (ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void)
-}
-extension ZTBalistonKit.ZTBalistonPacket {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonPacket>
-}
-@_hasMissingDesignatedInitializers @objc(ZTBalistonPacket) public class ZTBalistonPacket : ZTCoreKit.ZTPacket {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
-  required public init(data: Foundation.Data, activity: (any ZTCoreKit.ZTActivityCachable)?, fwVersion: Swift.String?, context: CoreData.NSManagedObjectContext, name: Swift.String = "ZTBalistonPacket")
-  public func saveWithResult(_ allowOverwrite: Swift.Bool = false, in oneTimeContext: CoreData.NSManagedObjectContext) async
-  public static func update(_ packets: [ZTBalistonKit.ZTBalistonPacket], status: ZTCoreKit.ZTPacket.Status, in managedContext: CoreData.NSManagedObjectContext) async
-  public static func lastChunkID(for activityId: Swift.String) async -> Swift.Int16?
-  public static func packetCount(for activityId: Swift.String) async -> Swift.Int
-  @objc deinit
-}
-extension ZTBalistonKit.ZTBalistonPacket {
-  @objc override dynamic public var description: Swift.String {
-    @objc get
-  }
-}
-extension ZTBalistonKit.ZTBalistonPacket {
-  public static func forceSegmentsUpload(activityId: Swift.String)
-  public static func updateSegmentsTimestamp(activityId: Swift.String, startId: Swift.Int16, anchorTime: Swift.Int64?) async
-  public static func updateSegments(_ segmentsToUpdate: [ZTCoreKit.ZTPacket], status: ZTCoreKit.ZTPacket.Status, activityId: Swift.String?)
-  public func loadPrevious(activityId: Swift.String?, chunkId: Swift.Int16, originalTimestamp: Swift.Int64) async -> ZTBalistonKit.ZTBalistonPacket?
 }
 extension ZTBalistonKit.ZTBaliston {
   public func startMobilityScan(timeout: Swift.Double = 20, duration: Swift.Int = 60, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
