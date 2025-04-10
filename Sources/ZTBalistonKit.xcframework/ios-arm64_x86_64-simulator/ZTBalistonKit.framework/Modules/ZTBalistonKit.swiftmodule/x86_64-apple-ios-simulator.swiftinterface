@@ -12,32 +12,56 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 extension ZTBalistonKit.ZTBaliston {
+  public func enableRealtimeStreaming(startDate: Foundation.Date, interval: Swift.Int16 = 1, metrics: Swift.Set<ZTCoreKit.ZTRealtimeMetric>, side: ZTCoreKit.ZTRealtimeMessage.Side = .none, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func disableRealtimeStreaming(noCheckInsole: Swift.Bool = false, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func pauseRealtimeStreaming(pause: Swift.Bool, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func enableSingleMetric(noCheckInsole: Swift.Bool = false, metric: ZTCoreKit.ZTRealtimeMetric, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func startMobilityScan(timeout: Swift.Double = 20, duration: Swift.Int = 60, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func stopMobilityScan(timeout: Swift.Double = 20, silently: Swift.Bool = false, meetMinimumRequirements: (([ZTBalistonKit.ZTBalistonPacket]) -> Swift.Bool)? = nil, completion: @escaping (ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?) -> Swift.Void)
+  public func updateUserParameters(timeout: Swift.Double = 30, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func hardReset(restart: Swift.Bool = false, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func stopActivity(force: Swift.Bool = true, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func sendDirectMessage(message: [Swift.String : Any], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func getDirectMessages(completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
+  public func deleteDirectMessage(id: Swift.String, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func sendCannedMessage(message: [Swift.String : Any], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
+  public func getCannedMessages(parameters: [Swift.String : Any], completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
+  public func getTileMessage(name: Swift.String, parameters: [Swift.String : Any], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func getMobilityMessage(name: Swift.String, enqueue: Swift.Bool = true, completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func getMyShoesData(completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
+  public func getMyShoeData(code: Swift.String = "", completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func startListenMessages(onMessageReceived: @escaping (Swift.String?) -> Swift.Void, onDataReceived: @escaping (Foundation.Data?) -> Swift.Void)
+  public func stopListenMessages()
+  public func postMobility(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
+  public func getActivity(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func getData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
+  public func getDataArray(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ([Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func postData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
+  public func getSwingAnalysis(body: [Swift.String : Any], completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func sendRawDataCommand(attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func sendRawDataCommandV2(attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func stopActivity(timeout: Swift.Double = 30, shouldAutoSendRawData: Swift.Bool = true, completion: ZTBalistonKit.ZTActivityResult?)
+  public func useRawDataFlow(enableRawData: Swift.Bool, attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func useRawDataFlowV2(enableRawData: Swift.Bool, attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func startActivityCommand(attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func setInactivityTimeout(seconds: Foundation.TimeInterval, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func getInactivityTimeout(completion: @escaping (Swift.Int) -> Swift.Void)
+  public func cleanMemory(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func calibrateGravity(calibrationPoint: Swift.UInt8 = 1, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func resetCalibration(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func setTxPower(value: ZTCoreKit.ZTTXPower, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+}
+extension ZTBalistonKit.ZTBaliston {
   @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
   public func updateFirmware(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
   @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
   public func updateFirmware(path: Swift.String, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-}
-extension ZTBalistonKit.ZTBaliston {
-  public enum RawDataFlowState : Swift.String, Swift.Codable {
-    case prepareRightModule
-    case startRightModule
-    case endRightModule
-    case disconnectRightModule
-    case startPeerConnection
-    case connectLeftModule
-    case prepareLeftModule
-    case startLeftModule
-    case endLeftModule
-    case disconnectLeftModule
-    case reconnectRightmodule
-    case uploadData
-    case none
-    public init?(rawValue: Swift.String)
-    public typealias RawValue = Swift.String
-    public var rawValue: Swift.String {
-      get
-    }
-  }
 }
 extension ZTBalistonKit.ZTBalistonActivity {
   @nonobjc final public class func fetchRequest() -> CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonActivity>
@@ -64,30 +88,12 @@ extension ZTCoreKit.ZTRealtimeMetric {
     public let side: ZTCoreKit.ZTRealtimeMetric.MetricSide?
   }
 }
-public protocol ZTBalistonDfuDelegate {
-  func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
-  func dfuDelegate(didFinish: Swift.Bool)
-  func dfuDelegate(didFail error: ZTCoreKit.ZTError?)
-  func dfuDelegate(progress: Swift.Float?)
-  func dfuDelegate(leftDidFinish newVersion: Swift.String?)
-  func dfuDelegate(rightDidFinish newVersion: Swift.String?)
-}
-extension ZTBalistonKit.ZTBaliston : ZTCoreKit.ZTDfuDelegate {
-  public func initiateBackgroundDFU(isRestartRequired: Swift.Bool = false)
-  public func initiateBackgroundDFU(path: Swift.String)
-  public func reboot(completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
-  public func dfuDelegate(didFinish: Swift.Bool)
-  public func dfuDelegate(didFail error: ZTCoreKit.ZTError?)
-  public func dfuDelegate(progress: Swift.Float?)
-  public func dfuDelegate(leftDidFinish newVersion: Swift.String?)
-  public func dfuDelegate(rightDidFinish newVersion: Swift.String?)
-}
 extension ZTBalistonKit.ZTBaliston {
-  public func enableRealtimeStreaming(startDate: Foundation.Date, interval: Swift.Int16 = 1, metrics: Swift.Set<ZTCoreKit.ZTRealtimeMetric>, side: ZTCoreKit.ZTRealtimeMessage.Side = .none, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  public func disableRealtimeStreaming(noCheckInsole: Swift.Bool = false, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  public func pauseRealtimeStreaming(pause: Swift.Bool, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  public func enableSingleMetric(noCheckInsole: Swift.Bool = false, metric: ZTCoreKit.ZTRealtimeMetric, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func isPendingActivity(activityId: Swift.String, completion: @escaping (Swift.Bool, ZTCoreKit.ZTError?) -> Swift.Void)
+  public func pushPendingActivities(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func getLastActivityRawData(_ reset: Swift.Bool = false, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func uploadRawData(for activityId: Swift.String) async throws
+  public func connectLeftModuleForRawData(activityId: Swift.String)
 }
 @_inheritsConvenienceInitializers final public class ZTBalistonActivitySummary : ZTCoreKit.ZTActivitySummary {
   final public var data: [Swift.String : Any]?
@@ -129,6 +135,47 @@ final public class ZTUserDataParameters : Swift.Codable {
   @objc deinit
   final public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public protocol ZTBalistonDfuDelegate {
+  func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
+  func dfuDelegate(didFinish: Swift.Bool)
+  func dfuDelegate(didFail error: ZTCoreKit.ZTError?)
+  func dfuDelegate(progress: Swift.Float?)
+  func dfuDelegate(leftDidFinish newVersion: Swift.String?)
+  func dfuDelegate(rightDidFinish newVersion: Swift.String?)
+}
+extension ZTBalistonKit.ZTBaliston : ZTCoreKit.ZTDfuDelegate {
+  public func initiateBackgroundDFU(isRestartRequired: Swift.Bool = false)
+  public func initiateBackgroundDFU(path: Swift.String)
+  public func reboot(completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
+  public func dfuDelegate(didFinish: Swift.Bool)
+  public func dfuDelegate(didFail error: ZTCoreKit.ZTError?)
+  public func dfuDelegate(progress: Swift.Float?)
+  public func dfuDelegate(leftDidFinish newVersion: Swift.String?)
+  public func dfuDelegate(rightDidFinish newVersion: Swift.String?)
+}
+extension ZTBalistonKit.ZTBaliston {
+  public enum RawDataFlowState : Swift.String, Swift.Codable {
+    case prepareRightModule
+    case startRightModule
+    case endRightModule
+    case disconnectRightModule
+    case startPeerConnection
+    case connectLeftModule
+    case prepareLeftModule
+    case startLeftModule
+    case endLeftModule
+    case disconnectLeftModule
+    case reconnectRightmodule
+    case uploadData
+    case none
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
 }
 extension ZTBalistonKit.ZTBalistonPacket {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonPacket>
@@ -200,59 +247,12 @@ public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift
   public func subscribeCoreEvents()
   public func readGeneralState(completion: @escaping (ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void)
 }
-extension ZTBalistonKit.ZTBaliston {
-  public func startMobilityScan(timeout: Swift.Double = 20, duration: Swift.Int = 60, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  public func stopMobilityScan(timeout: Swift.Double = 20, silently: Swift.Bool = false, meetMinimumRequirements: (([ZTBalistonKit.ZTBalistonPacket]) -> Swift.Bool)? = nil, completion: @escaping (ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?) -> Swift.Void)
-  public func updateUserParameters(timeout: Swift.Double = 30, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  public func hardReset(restart: Swift.Bool = false, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func stopActivity(force: Swift.Bool = true, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func sendDirectMessage(message: [Swift.String : Any], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func getDirectMessages(completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
-  public func deleteDirectMessage(id: Swift.String, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func sendCannedMessage(message: [Swift.String : Any], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
-  public func getCannedMessages(parameters: [Swift.String : Any], completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
-  public func getTileMessage(name: Swift.String, parameters: [Swift.String : Any], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func getMobilityMessage(name: Swift.String, enqueue: Swift.Bool = true, completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func getMyShoesData(completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
-  public func getMyShoeData(code: Swift.String = "", completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func startListenMessages(onMessageReceived: @escaping (Swift.String?) -> Swift.Void, onDataReceived: @escaping (Foundation.Data?) -> Swift.Void)
-  public func stopListenMessages()
-  public func postMobility(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
-  public func getActivity(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func getData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
-  public func getDataArray(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ([Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func postData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
-  public func getSwingAnalysis(body: [Swift.String : Any], completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func sendRawDataCommand(attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func sendRawDataCommandV2(attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func stopActivity(timeout: Swift.Double = 30, shouldAutoSendRawData: Swift.Bool = true, completion: ZTBalistonKit.ZTActivityResult?)
-  public func useRawDataFlow(enableRawData: Swift.Bool, attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func useRawDataFlowV2(enableRawData: Swift.Bool, attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func startActivityCommand(attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func setInactivityTimeout(seconds: Foundation.TimeInterval, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func getInactivityTimeout(completion: @escaping (Swift.Int) -> Swift.Void)
-  public func cleanMemory(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  public func calibrateGravity(calibrationPoint: Swift.UInt8 = 1, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  public func resetCalibration(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  public func setTxPower(value: ZTCoreKit.ZTTXPower, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func isPendingActivity(activityId: Swift.String, completion: @escaping (Swift.Bool, ZTCoreKit.ZTError?) -> Swift.Void)
-  public func pushPendingActivities(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  public func getLastActivityRawData(_ reset: Swift.Bool = false, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func uploadRawData(for activityId: Swift.String) async throws
-  public func connectLeftModuleForRawData(activityId: Swift.String)
-}
-extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Equatable {}
-extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Hashable {}
-extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.RawRepresentable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Equatable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Hashable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.RawRepresentable {}
 extension ZTBalistonKit.ZTUserDataParameters.Parameters : Swift.Equatable {}
 extension ZTBalistonKit.ZTUserDataParameters.Parameters : Swift.Hashable {}
 extension ZTBalistonKit.ZTUserDataParameters.Parameters : Swift.RawRepresentable {}
+extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Equatable {}
+extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Hashable {}
+extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.RawRepresentable {}

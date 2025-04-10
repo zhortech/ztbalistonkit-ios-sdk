@@ -16,816 +16,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ZTCoreKit",
-        "printedName": "ZTCoreKit",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ZTCoreKit",
-        "printedName": "ZTCoreKit",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "Import",
-        "name": "ZTCoreKit",
-        "printedName": "ZTCoreKit",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "Import",
-        "name": "ZTCoreKit",
-        "printedName": "ZTCoreKit",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ZTCoreKit",
-        "printedName": "ZTCoreKit",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ZTCoreKit",
-        "printedName": "ZTCoreKit",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ZTCoreKit",
-        "printedName": "ZTCoreKit",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ZTCoreKit",
-        "printedName": "ZTCoreKit",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ZTBalistonActivity",
-        "printedName": "ZTBalistonActivity",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "onActivityMetadataUpdated",
-            "printedName": "onActivityMetadataUpdated",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ZTSignal",
-                "printedName": "ZTCoreKit.ZTSignal<()>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "usr": "s:9ZTCoreKit8ZTSignalC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13ZTBalistonKit0A8ActivityC02onC15MetadataUpdated06ZTCoreB08ZTSignalCyytGvp",
-            "mangledName": "$s13ZTBalistonKit0A8ActivityC02onC15MetadataUpdated06ZTCoreB08ZTSignalCyytGvp",
-            "moduleName": "ZTBalistonKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ZTSignal",
-                    "printedName": "ZTCoreKit.ZTSignal<()>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "usr": "s:9ZTCoreKit8ZTSignalC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13ZTBalistonKit0A8ActivityC02onC15MetadataUpdated06ZTCoreB08ZTSignalCyytGvg",
-                "mangledName": "$s13ZTBalistonKit0A8ActivityC02onC15MetadataUpdated06ZTCoreB08ZTSignalCyytGvg",
-                "moduleName": "ZTBalistonKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "storeKey",
-            "printedName": "storeKey",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13ZTBalistonKit0A8ActivityC8storeKeySSvp",
-            "mangledName": "$s13ZTBalistonKit0A8ActivityC8storeKeySSvp",
-            "moduleName": "ZTBalistonKit",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13ZTBalistonKit0A8ActivityC8storeKeySSvg",
-                "mangledName": "$s13ZTBalistonKit0A8ActivityC8storeKeySSvg",
-                "moduleName": "ZTBalistonKit",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "upload",
-            "printedName": "upload(_:context:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[τ_0_0]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSManagedObjectContext",
-                "printedName": "CoreData.NSManagedObjectContext",
-                "usr": "c:objc(cs)NSManagedObjectContext"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A8ActivityC6upload_7contextySayxG_So22NSManagedObjectContextCtYaK06ZTCoreB016ZTPacketCachableRzlF",
-            "mangledName": "$s13ZTBalistonKit0A8ActivityC6upload_7contextySayxG_So22NSManagedObjectContextCtYaK06ZTCoreB016ZTPacketCachableRzlF",
-            "moduleName": "ZTBalistonKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : ZTCoreKit.ZTPacketCachable>",
-            "sugared_genericSig": "<Packet where Packet : ZTCoreKit.ZTPacketCachable>",
-            "overriding": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "Override"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(entity:insertInto:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ZTBalistonActivity",
-                "printedName": "ZTBalistonKit.ZTBalistonActivity",
-                "usr": "c:@M@ZTBalistonKit@objc(cs)ZTBalistonActivity"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSEntityDescription",
-                "printedName": "CoreData.NSEntityDescription",
-                "usr": "c:objc(cs)NSEntityDescription"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "CoreData.NSManagedObjectContext?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSManagedObjectContext",
-                    "printedName": "CoreData.NSManagedObjectContext",
-                    "usr": "c:objc(cs)NSManagedObjectContext"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ZTBalistonKit@objc(cs)ZTBalistonActivity(im)initWithEntity:insertIntoManagedObjectContext:",
-            "mangledName": "$s13ZTBalistonKit0A8ActivityC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
-            "moduleName": "ZTBalistonKit",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithEntity:insertIntoManagedObjectContext:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "fetchRequest",
-            "printedName": "fetchRequest()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NSFetchRequest",
-                "printedName": "CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonActivity>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ZTBalistonActivity",
-                    "printedName": "ZTBalistonKit.ZTBalistonActivity",
-                    "usr": "c:@M@ZTBalistonKit@objc(cs)ZTBalistonActivity"
-                  }
-                ],
-                "usr": "c:objc(cs)NSFetchRequest"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A8ActivityC12fetchRequestSo07NSFetchE0CyACGyFZ",
-            "mangledName": "$s13ZTBalistonKit0A8ActivityC12fetchRequestSo07NSFetchE0CyACGyFZ",
-            "moduleName": "ZTBalistonKit",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "NonObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@ZTBalistonKit@objc(cs)ZTBalistonActivity",
-        "mangledName": "$s13ZTBalistonKit0A8ActivityC",
-        "moduleName": "ZTBalistonKit",
-        "objc_name": "ZTBalistonActivity",
-        "declAttributes": [
-          "Final",
-          "AccessControl",
-          "ObjC",
-          "RawDocComment"
-        ],
-        "superclassUsr": "c:@M@ZTCoreKit@objc(cs)ZTActivity",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ZTCoreKit.ZTActivity",
-          "CoreData.NSManagedObject",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "ZTActivityCachable",
-            "printedName": "ZTActivityCachable",
-            "usr": "s:9ZTCoreKit18ZTActivityCachableP",
-            "mangledName": "$s9ZTCoreKit18ZTActivityCachableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ObservableObject",
-            "printedName": "ObservableObject",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ObjectWillChangePublisher",
-                "printedName": "ObjectWillChangePublisher",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObservableObjectPublisher",
-                    "printedName": "Combine.ObservableObjectPublisher",
-                    "usr": "s:7Combine25ObservableObjectPublisherC"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7Combine16ObservableObjectP",
-            "mangledName": "$s7Combine16ObservableObjectP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ZTCoreKit",
-        "printedName": "ZTCoreKit",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ZTCoreKit",
-        "printedName": "ZTCoreKit",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ZTBalistonDfuDelegate",
-        "printedName": "ZTBalistonDfuDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "dfuDelegate",
-            "printedName": "dfuDelegate(firmwareDownloaded:version:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A11DfuDelegateP03dfuD018firmwareDownloaded7versionySb_SSSgtF",
-            "mangledName": "$s13ZTBalistonKit0A11DfuDelegateP03dfuD018firmwareDownloaded7versionySb_SSSgtF",
-            "moduleName": "ZTBalistonKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : ZTBalistonKit.ZTBalistonDfuDelegate>",
-            "sugared_genericSig": "<Self where Self : ZTBalistonKit.ZTBalistonDfuDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dfuDelegate",
-            "printedName": "dfuDelegate(didFinish:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A11DfuDelegateP03dfuD09didFinishySb_tF",
-            "mangledName": "$s13ZTBalistonKit0A11DfuDelegateP03dfuD09didFinishySb_tF",
-            "moduleName": "ZTBalistonKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : ZTBalistonKit.ZTBalistonDfuDelegate>",
-            "sugared_genericSig": "<Self where Self : ZTBalistonKit.ZTBalistonDfuDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dfuDelegate",
-            "printedName": "dfuDelegate(didFail:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ZTCoreKit.ZTError?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ZTError",
-                    "printedName": "ZTCoreKit.ZTError",
-                    "usr": "s:9ZTCoreKit7ZTErrorO"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A11DfuDelegateP03dfuD07didFaily06ZTCoreB07ZTErrorOSg_tF",
-            "mangledName": "$s13ZTBalistonKit0A11DfuDelegateP03dfuD07didFaily06ZTCoreB07ZTErrorOSg_tF",
-            "moduleName": "ZTBalistonKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : ZTBalistonKit.ZTBalistonDfuDelegate>",
-            "sugared_genericSig": "<Self where Self : ZTBalistonKit.ZTBalistonDfuDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dfuDelegate",
-            "printedName": "dfuDelegate(progress:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Float?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A11DfuDelegateP03dfuD08progressySfSg_tF",
-            "mangledName": "$s13ZTBalistonKit0A11DfuDelegateP03dfuD08progressySfSg_tF",
-            "moduleName": "ZTBalistonKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : ZTBalistonKit.ZTBalistonDfuDelegate>",
-            "sugared_genericSig": "<Self where Self : ZTBalistonKit.ZTBalistonDfuDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dfuDelegate",
-            "printedName": "dfuDelegate(leftDidFinish:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A11DfuDelegateP03dfuD013leftDidFinishySSSg_tF",
-            "mangledName": "$s13ZTBalistonKit0A11DfuDelegateP03dfuD013leftDidFinishySSSg_tF",
-            "moduleName": "ZTBalistonKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : ZTBalistonKit.ZTBalistonDfuDelegate>",
-            "sugared_genericSig": "<Self where Self : ZTBalistonKit.ZTBalistonDfuDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dfuDelegate",
-            "printedName": "dfuDelegate(rightDidFinish:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A11DfuDelegateP03dfuD014rightDidFinishySSSg_tF",
-            "mangledName": "$s13ZTBalistonKit0A11DfuDelegateP03dfuD014rightDidFinishySSSg_tF",
-            "moduleName": "ZTBalistonKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : ZTBalistonKit.ZTBalistonDfuDelegate>",
-            "sugared_genericSig": "<Self where Self : ZTBalistonKit.ZTBalistonDfuDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:13ZTBalistonKit0A11DfuDelegateP",
-        "mangledName": "$s13ZTBalistonKit0A11DfuDelegateP",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ZTCoreKit",
-        "printedName": "ZTCoreKit",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "ZTCoreKit",
         "printedName": "ZTCoreKit",
         "declKind": "Import",
@@ -2799,16 +1989,6 @@
             "usr": "s:SE",
             "mangledName": "$sSE"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -5848,6 +5028,607 @@
           },
           {
             "kind": "Function",
+            "name": "startMobilityScan",
+            "printedName": "startMobilityScan(timeout:duration:userParameters:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZTBalistonKit.ZTUserDataParameters?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZTUserDataParameters",
+                    "printedName": "ZTBalistonKit.ZTUserDataParameters",
+                    "usr": "s:13ZTBalistonKit20ZTUserDataParametersC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZTCoreKit.ZTError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZTCoreKit.ZTError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZTError",
+                        "printedName": "ZTCoreKit.ZTError",
+                        "usr": "s:9ZTCoreKit7ZTErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A0C17startMobilityScan7timeout8duration14userParameters10completionySd_SiAA010ZTUserDataI0CSgy06ZTCoreB07ZTErrorOSgctF",
+            "mangledName": "$s13ZTBalistonKit0A0C17startMobilityScan7timeout8duration14userParameters10completionySd_SiAA010ZTUserDataI0CSgy06ZTCoreB07ZTErrorOSgctF",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopMobilityScan",
+            "printedName": "stopMobilityScan(timeout:silently:meetMinimumRequirements:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([ZTBalistonKit.ZTBalistonPacket]) -> Swift.Bool)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([ZTBalistonKit.ZTBalistonPacket]) -> Swift.Bool",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[ZTBalistonKit.ZTBalistonPacket]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZTBalistonPacket",
+                            "printedName": "ZTBalistonKit.ZTBalistonPacket",
+                            "usr": "c:@M@ZTBalistonKit@objc(cs)ZTBalistonPacket"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ZTBalistonKit.ZTBalistonActivitySummary?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZTBalistonActivitySummary",
+                            "printedName": "ZTBalistonKit.ZTBalistonActivitySummary",
+                            "usr": "s:13ZTBalistonKit0A15ActivitySummaryC"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ZTCoreKit.ZTError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZTError",
+                            "printedName": "ZTCoreKit.ZTError",
+                            "usr": "s:9ZTCoreKit7ZTErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A0C16stopMobilityScan7timeout8silently23meetMinimumRequirements10completionySd_S2bSayAA0A6PacketCGcSgyAA0A15ActivitySummaryCSg_06ZTCoreB07ZTErrorOSgtctF",
+            "mangledName": "$s13ZTBalistonKit0A0C16stopMobilityScan7timeout8silently23meetMinimumRequirements10completionySd_S2bSayAA0A6PacketCGcSgyAA0A15ActivitySummaryCSg_06ZTCoreB07ZTErrorOSgtctF",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUserParameters",
+            "printedName": "updateUserParameters(timeout:userParameters:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZTBalistonKit.ZTUserDataParameters?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZTUserDataParameters",
+                    "printedName": "ZTBalistonKit.ZTUserDataParameters",
+                    "usr": "s:13ZTBalistonKit20ZTUserDataParametersC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZTCoreKit.ZTError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZTCoreKit.ZTError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZTError",
+                        "printedName": "ZTCoreKit.ZTError",
+                        "usr": "s:9ZTCoreKit7ZTErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A0C20updateUserParameters7timeout04userE010completionySd_AA010ZTUserDataE0CSgy06ZTCoreB07ZTErrorOSgctF",
+            "mangledName": "$s13ZTBalistonKit0A0C20updateUserParameters7timeout04userE010completionySd_AA010ZTUserDataE0CSgy06ZTCoreB07ZTErrorOSgctF",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hardReset",
+            "printedName": "hardReset(restart:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A0C9hardReset7restart10completionySb_ys5Error_pSgctF",
+            "mangledName": "$s13ZTBalistonKit0A0C9hardReset7restart10completionySb_ys5Error_pSgctF",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopActivity",
+            "printedName": "stopActivity(force:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZTCoreKit.ZTError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZTCoreKit.ZTError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZTError",
+                        "printedName": "ZTCoreKit.ZTError",
+                        "usr": "s:9ZTCoreKit7ZTErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A0C12stopActivity5force10completionySb_y06ZTCoreB07ZTErrorOSgctF",
+            "mangledName": "$s13ZTBalistonKit0A0C12stopActivity5force10completionySb_y06ZTCoreB07ZTErrorOSgctF",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isPendingActivity",
+            "printedName": "isPendingActivity(activityId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, ZTCoreKit.ZTError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, ZTCoreKit.ZTError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "ZTCoreKit.ZTError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZTError",
+                            "printedName": "ZTCoreKit.ZTError",
+                            "usr": "s:9ZTCoreKit7ZTErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A0C17isPendingActivity10activityId10completionySS_ySb_06ZTCoreB07ZTErrorOSgtctF",
+            "mangledName": "$s13ZTBalistonKit0A0C17isPendingActivity10activityId10completionySS_ySb_06ZTCoreB07ZTErrorOSgtctF",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pushPendingActivities",
+            "printedName": "pushPendingActivities(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZTCoreKit.ZTError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZTCoreKit.ZTError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZTError",
+                        "printedName": "ZTCoreKit.ZTError",
+                        "usr": "s:9ZTCoreKit7ZTErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A0C21pushPendingActivities10completionyy06ZTCoreB07ZTErrorOSgc_tF",
+            "mangledName": "$s13ZTBalistonKit0A0C21pushPendingActivities10completionyy06ZTCoreB07ZTErrorOSgc_tF",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLastActivityRawData",
+            "printedName": "getLastActivityRawData(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A0C22getLastActivityRawData_10completionySb_ys5Error_pSgctF",
+            "mangledName": "$s13ZTBalistonKit0A0C22getLastActivityRawData_10completionySb_ys5Error_pSgctF",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "uploadRawData",
+            "printedName": "uploadRawData(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A0C13uploadRawData3forySS_tYaKF",
+            "mangledName": "$s13ZTBalistonKit0A0C13uploadRawData3forySS_tYaKF",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "connectLeftModuleForRawData",
+            "printedName": "connectLeftModuleForRawData(activityId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A0C27connectLeftModuleForRawData10activityIdySS_tF",
+            "mangledName": "$s13ZTBalistonKit0A0C27connectLeftModuleForRawData10activityIdySS_tF",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "sendDirectMessage",
             "printedName": "sendDirectMessage(message:completion:)",
             "children": [
@@ -7383,6 +7164,638 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "TypeDecl",
+            "name": "RawDataFlowState",
+            "printedName": "RawDataFlowState",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "prepareRightModule",
+                "printedName": "prepareRightModule",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RawDataFlowState",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RawDataFlowState",
+                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO18prepareRightModuleyA2EmF",
+                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO18prepareRightModuleyA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
+              {
+                "kind": "Var",
+                "name": "startRightModule",
+                "printedName": "startRightModule",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RawDataFlowState",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RawDataFlowState",
+                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO16startRightModuleyA2EmF",
+                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO16startRightModuleyA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
+              {
+                "kind": "Var",
+                "name": "endRightModule",
+                "printedName": "endRightModule",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RawDataFlowState",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RawDataFlowState",
+                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO14endRightModuleyA2EmF",
+                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO14endRightModuleyA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
+              {
+                "kind": "Var",
+                "name": "disconnectRightModule",
+                "printedName": "disconnectRightModule",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RawDataFlowState",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RawDataFlowState",
+                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO21disconnectRightModuleyA2EmF",
+                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO21disconnectRightModuleyA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
+              {
+                "kind": "Var",
+                "name": "startPeerConnection",
+                "printedName": "startPeerConnection",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RawDataFlowState",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RawDataFlowState",
+                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO19startPeerConnectionyA2EmF",
+                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO19startPeerConnectionyA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
+              {
+                "kind": "Var",
+                "name": "connectLeftModule",
+                "printedName": "connectLeftModule",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RawDataFlowState",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RawDataFlowState",
+                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO17connectLeftModuleyA2EmF",
+                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO17connectLeftModuleyA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
+              {
+                "kind": "Var",
+                "name": "prepareLeftModule",
+                "printedName": "prepareLeftModule",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RawDataFlowState",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RawDataFlowState",
+                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO17prepareLeftModuleyA2EmF",
+                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO17prepareLeftModuleyA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
+              {
+                "kind": "Var",
+                "name": "startLeftModule",
+                "printedName": "startLeftModule",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RawDataFlowState",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RawDataFlowState",
+                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO15startLeftModuleyA2EmF",
+                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO15startLeftModuleyA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
+              {
+                "kind": "Var",
+                "name": "endLeftModule",
+                "printedName": "endLeftModule",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RawDataFlowState",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RawDataFlowState",
+                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO13endLeftModuleyA2EmF",
+                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO13endLeftModuleyA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
+              {
+                "kind": "Var",
+                "name": "disconnectLeftModule",
+                "printedName": "disconnectLeftModule",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RawDataFlowState",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RawDataFlowState",
+                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO20disconnectLeftModuleyA2EmF",
+                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO20disconnectLeftModuleyA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
+              {
+                "kind": "Var",
+                "name": "reconnectRightmodule",
+                "printedName": "reconnectRightmodule",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RawDataFlowState",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RawDataFlowState",
+                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO20reconnectRightmoduleyA2EmF",
+                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO20reconnectRightmoduleyA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
+              {
+                "kind": "Var",
+                "name": "uploadData",
+                "printedName": "uploadData",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RawDataFlowState",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RawDataFlowState",
+                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO06uploadD0yA2EmF",
+                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO06uploadD0yA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
+              {
+                "kind": "Var",
+                "name": "none",
+                "printedName": "none",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RawDataFlowState",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "RawDataFlowState",
+                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO4noneyA2EmF",
+                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO4noneyA2EmF",
+                "moduleName": "ZTBalistonKit"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RawDataFlowState",
+                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
+                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO8rawValueAESgSS_tcfc",
+                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO8rawValueAESgSS_tcfc",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO8rawValueSSvp",
+                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO8rawValueSSvp",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO8rawValueSSvg",
+                    "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO8rawValueSSvg",
+                    "moduleName": "ZTBalistonKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO",
+            "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO",
+            "moduleName": "ZTBalistonKit",
+            "isFromExtension": true,
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "sendRawDataCommand",
             "printedName": "sendRawDataCommand(attributes:userParameters:completion:)",
@@ -8196,8 +8609,8 @@
           },
           {
             "kind": "Function",
-            "name": "isPendingActivity",
-            "printedName": "isPendingActivity(activityId:completion:)",
+            "name": "enableRealtimeStreaming",
+            "printedName": "enableRealtimeStreaming(startDate:interval:metrics:side:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8206,70 +8619,37 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
               },
               {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Bool, ZTCoreKit.ZTError?) -> ()",
+                "kind": "TypeNominal",
+                "name": "Int16",
+                "printedName": "Swift.Int16",
+                "hasDefaultArg": true,
+                "usr": "s:s5Int16V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ZTCoreKit.ZTRealtimeMetric>",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(Swift.Bool, ZTCoreKit.ZTError?)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "ZTCoreKit.ZTError?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ZTError",
-                            "printedName": "ZTCoreKit.ZTError",
-                            "usr": "s:9ZTCoreKit7ZTErrorO"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
+                    "name": "ZTRealtimeMetric",
+                    "printedName": "ZTCoreKit.ZTRealtimeMetric",
+                    "usr": "s:9ZTCoreKit16ZTRealtimeMetricO"
                   }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A0C17isPendingActivity10activityId10completionySS_ySb_06ZTCoreB07ZTErrorOSgtctF",
-            "mangledName": "$s13ZTBalistonKit0A0C17isPendingActivity10activityId10completionySS_ySb_06ZTCoreB07ZTErrorOSgtctF",
-            "moduleName": "ZTBalistonKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "pushPendingActivities",
-            "printedName": "pushPendingActivities(completion:)",
-            "children": [
+                ],
+                "usr": "s:Sh"
+              },
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "Side",
+                "printedName": "ZTCoreKit.ZTRealtimeMessage.Side",
+                "hasDefaultArg": true,
+                "usr": "s:9ZTCoreKit17ZTRealtimeMessageV4SideO"
               },
               {
                 "kind": "TypeFunc",
@@ -8299,8 +8679,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A0C21pushPendingActivities10completionyy06ZTCoreB07ZTErrorOSgc_tF",
-            "mangledName": "$s13ZTBalistonKit0A0C21pushPendingActivities10completionyy06ZTCoreB07ZTErrorOSgc_tF",
+            "usr": "s:13ZTBalistonKit0A0C23enableRealtimeStreaming9startDate8interval7metrics4side10completiony10Foundation0G0V_s5Int16VShy06ZTCoreB016ZTRealtimeMetricOGAO0O7MessageV4SideOyAO7ZTErrorOSgctF",
+            "mangledName": "$s13ZTBalistonKit0A0C23enableRealtimeStreaming9startDate8interval7metrics4side10completiony10Foundation0G0V_s5Int16VShy06ZTCoreB016ZTRealtimeMetricOGAO0O7MessageV4SideOyAO7ZTErrorOSgctF",
             "moduleName": "ZTBalistonKit",
             "declAttributes": [
               "AccessControl",
@@ -8311,8 +8691,8 @@
           },
           {
             "kind": "Function",
-            "name": "getLastActivityRawData",
-            "printedName": "getLastActivityRawData(_:completion:)",
+            "name": "disableRealtimeStreaming",
+            "printedName": "disableRealtimeStreaming(noCheckInsole:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8329,7 +8709,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "((any Swift.Error)?) -> ()",
+                "printedName": "(ZTCoreKit.ZTError?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -8339,13 +8719,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "(any Swift.Error)?",
+                    "printedName": "ZTCoreKit.ZTError?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
+                        "name": "ZTError",
+                        "printedName": "ZTCoreKit.ZTError",
+                        "usr": "s:9ZTCoreKit7ZTErrorO"
                       }
                     ],
                     "usr": "s:Sq"
@@ -8354,8 +8734,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A0C22getLastActivityRawData_10completionySb_ys5Error_pSgctF",
-            "mangledName": "$s13ZTBalistonKit0A0C22getLastActivityRawData_10completionySb_ys5Error_pSgctF",
+            "usr": "s:13ZTBalistonKit0A0C24disableRealtimeStreaming13noCheckInsole10completionySb_y06ZTCoreB07ZTErrorOSgctF",
+            "mangledName": "$s13ZTBalistonKit0A0C24disableRealtimeStreaming13noCheckInsole10completionySb_y06ZTCoreB07ZTErrorOSgctF",
             "moduleName": "ZTBalistonKit",
             "declAttributes": [
               "AccessControl",
@@ -8366,8 +8746,8 @@
           },
           {
             "kind": "Function",
-            "name": "uploadRawData",
-            "printedName": "uploadRawData(for:)",
+            "name": "pauseRealtimeStreaming",
+            "printedName": "pauseRealtimeStreaming(pause:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8376,27 +8756,52 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZTCoreKit.ZTError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZTCoreKit.ZTError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZTError",
+                        "printedName": "ZTCoreKit.ZTError",
+                        "usr": "s:9ZTCoreKit7ZTErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A0C13uploadRawData3forySS_tYaKF",
-            "mangledName": "$s13ZTBalistonKit0A0C13uploadRawData3forySS_tYaKF",
+            "usr": "s:13ZTBalistonKit0A0C22pauseRealtimeStreaming0C010completionySb_y06ZTCoreB07ZTErrorOSgctF",
+            "mangledName": "$s13ZTBalistonKit0A0C22pauseRealtimeStreaming0C010completionySb_y06ZTCoreB07ZTErrorOSgctF",
             "moduleName": "ZTBalistonKit",
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
             ],
             "isFromExtension": true,
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
-            "name": "connectLeftModuleForRawData",
-            "printedName": "connectLeftModuleForRawData(activityId:)",
+            "name": "enableSingleMetric",
+            "printedName": "enableSingleMetric(noCheckInsole:metric:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8405,14 +8810,47 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZTRealtimeMetric",
+                "printedName": "ZTCoreKit.ZTRealtimeMetric",
+                "usr": "s:9ZTCoreKit16ZTRealtimeMetricO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZTCoreKit.ZTError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ZTCoreKit.ZTError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZTError",
+                        "printedName": "ZTCoreKit.ZTError",
+                        "usr": "s:9ZTCoreKit7ZTErrorO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A0C27connectLeftModuleForRawData10activityIdySS_tF",
-            "mangledName": "$s13ZTBalistonKit0A0C27connectLeftModuleForRawData10activityIdySS_tF",
+            "usr": "s:13ZTBalistonKit0A0C18enableSingleMetric13noCheckInsole6metric10completionySb_06ZTCoreB0010ZTRealtimeE0OyAH7ZTErrorOSgctF",
+            "mangledName": "$s13ZTBalistonKit0A0C18enableSingleMetric13noCheckInsole6metric10completionySb_06ZTCoreB0010ZTRealtimeE0OyAH7ZTErrorOSgctF",
             "moduleName": "ZTBalistonKit",
             "declAttributes": [
               "AccessControl",
@@ -8526,638 +8964,6 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "RawDataFlowState",
-            "printedName": "RawDataFlowState",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "prepareRightModule",
-                "printedName": "prepareRightModule",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RawDataFlowState",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RawDataFlowState",
-                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO18prepareRightModuleyA2EmF",
-                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO18prepareRightModuleyA2EmF",
-                "moduleName": "ZTBalistonKit"
-              },
-              {
-                "kind": "Var",
-                "name": "startRightModule",
-                "printedName": "startRightModule",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RawDataFlowState",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RawDataFlowState",
-                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO16startRightModuleyA2EmF",
-                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO16startRightModuleyA2EmF",
-                "moduleName": "ZTBalistonKit"
-              },
-              {
-                "kind": "Var",
-                "name": "endRightModule",
-                "printedName": "endRightModule",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RawDataFlowState",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RawDataFlowState",
-                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO14endRightModuleyA2EmF",
-                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO14endRightModuleyA2EmF",
-                "moduleName": "ZTBalistonKit"
-              },
-              {
-                "kind": "Var",
-                "name": "disconnectRightModule",
-                "printedName": "disconnectRightModule",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RawDataFlowState",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RawDataFlowState",
-                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO21disconnectRightModuleyA2EmF",
-                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO21disconnectRightModuleyA2EmF",
-                "moduleName": "ZTBalistonKit"
-              },
-              {
-                "kind": "Var",
-                "name": "startPeerConnection",
-                "printedName": "startPeerConnection",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RawDataFlowState",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RawDataFlowState",
-                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO19startPeerConnectionyA2EmF",
-                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO19startPeerConnectionyA2EmF",
-                "moduleName": "ZTBalistonKit"
-              },
-              {
-                "kind": "Var",
-                "name": "connectLeftModule",
-                "printedName": "connectLeftModule",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RawDataFlowState",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RawDataFlowState",
-                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO17connectLeftModuleyA2EmF",
-                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO17connectLeftModuleyA2EmF",
-                "moduleName": "ZTBalistonKit"
-              },
-              {
-                "kind": "Var",
-                "name": "prepareLeftModule",
-                "printedName": "prepareLeftModule",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RawDataFlowState",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RawDataFlowState",
-                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO17prepareLeftModuleyA2EmF",
-                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO17prepareLeftModuleyA2EmF",
-                "moduleName": "ZTBalistonKit"
-              },
-              {
-                "kind": "Var",
-                "name": "startLeftModule",
-                "printedName": "startLeftModule",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RawDataFlowState",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RawDataFlowState",
-                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO15startLeftModuleyA2EmF",
-                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO15startLeftModuleyA2EmF",
-                "moduleName": "ZTBalistonKit"
-              },
-              {
-                "kind": "Var",
-                "name": "endLeftModule",
-                "printedName": "endLeftModule",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RawDataFlowState",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RawDataFlowState",
-                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO13endLeftModuleyA2EmF",
-                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO13endLeftModuleyA2EmF",
-                "moduleName": "ZTBalistonKit"
-              },
-              {
-                "kind": "Var",
-                "name": "disconnectLeftModule",
-                "printedName": "disconnectLeftModule",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RawDataFlowState",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RawDataFlowState",
-                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO20disconnectLeftModuleyA2EmF",
-                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO20disconnectLeftModuleyA2EmF",
-                "moduleName": "ZTBalistonKit"
-              },
-              {
-                "kind": "Var",
-                "name": "reconnectRightmodule",
-                "printedName": "reconnectRightmodule",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RawDataFlowState",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RawDataFlowState",
-                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO20reconnectRightmoduleyA2EmF",
-                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO20reconnectRightmoduleyA2EmF",
-                "moduleName": "ZTBalistonKit"
-              },
-              {
-                "kind": "Var",
-                "name": "uploadData",
-                "printedName": "uploadData",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RawDataFlowState",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RawDataFlowState",
-                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO06uploadD0yA2EmF",
-                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO06uploadD0yA2EmF",
-                "moduleName": "ZTBalistonKit"
-              },
-              {
-                "kind": "Var",
-                "name": "none",
-                "printedName": "none",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(ZTBalistonKit.ZTBaliston.RawDataFlowState.Type) -> ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RawDataFlowState",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RawDataFlowState",
-                            "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO4noneyA2EmF",
-                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO4noneyA2EmF",
-                "moduleName": "ZTBalistonKit"
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(rawValue:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "RawDataFlowState",
-                        "printedName": "ZTBalistonKit.ZTBaliston.RawDataFlowState",
-                        "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO8rawValueAESgSS_tcfc",
-                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO8rawValueAESgSS_tcfc",
-                "moduleName": "ZTBalistonKit",
-                "implicit": true,
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Var",
-                "name": "rawValue",
-                "printedName": "rawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO8rawValueSSvp",
-                "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO8rawValueSSvp",
-                "moduleName": "ZTBalistonKit",
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO8rawValueSSvg",
-                    "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO8rawValueSSvg",
-                    "moduleName": "ZTBalistonKit",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:13ZTBalistonKit0A0C16RawDataFlowStateO",
-            "mangledName": "$s13ZTBalistonKit0A0C16RawDataFlowStateO",
-            "moduleName": "ZTBalistonKit",
-            "isFromExtension": true,
-            "enumRawTypeName": "String",
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "RawRepresentable",
-                "printedName": "RawRepresentable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "RawValue",
-                    "printedName": "RawValue",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:SY",
-                "mangledName": "$sSY"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Decodable",
-                "printedName": "Decodable",
-                "usr": "s:Se",
-                "mangledName": "$sSe"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Encodable",
-                "printedName": "Encodable",
-                "usr": "s:SE",
-                "mangledName": "$sSE"
-              }
-            ]
           },
           {
             "kind": "Function",
@@ -9471,632 +9277,6 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "enableRealtimeStreaming",
-            "printedName": "enableRealtimeStreaming(startDate:interval:metrics:side:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int16",
-                "printedName": "Swift.Int16",
-                "hasDefaultArg": true,
-                "usr": "s:s5Int16V"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Set",
-                "printedName": "Swift.Set<ZTCoreKit.ZTRealtimeMetric>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ZTRealtimeMetric",
-                    "printedName": "ZTCoreKit.ZTRealtimeMetric",
-                    "usr": "s:9ZTCoreKit16ZTRealtimeMetricO"
-                  }
-                ],
-                "usr": "s:Sh"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Side",
-                "printedName": "ZTCoreKit.ZTRealtimeMessage.Side",
-                "hasDefaultArg": true,
-                "usr": "s:9ZTCoreKit17ZTRealtimeMessageV4SideO"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ZTCoreKit.ZTError?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "ZTCoreKit.ZTError?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ZTError",
-                        "printedName": "ZTCoreKit.ZTError",
-                        "usr": "s:9ZTCoreKit7ZTErrorO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A0C23enableRealtimeStreaming9startDate8interval7metrics4side10completiony10Foundation0G0V_s5Int16VShy06ZTCoreB016ZTRealtimeMetricOGAO0O7MessageV4SideOyAO7ZTErrorOSgctF",
-            "mangledName": "$s13ZTBalistonKit0A0C23enableRealtimeStreaming9startDate8interval7metrics4side10completiony10Foundation0G0V_s5Int16VShy06ZTCoreB016ZTRealtimeMetricOGAO0O7MessageV4SideOyAO7ZTErrorOSgctF",
-            "moduleName": "ZTBalistonKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "disableRealtimeStreaming",
-            "printedName": "disableRealtimeStreaming(noCheckInsole:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ZTCoreKit.ZTError?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "ZTCoreKit.ZTError?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ZTError",
-                        "printedName": "ZTCoreKit.ZTError",
-                        "usr": "s:9ZTCoreKit7ZTErrorO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A0C24disableRealtimeStreaming13noCheckInsole10completionySb_y06ZTCoreB07ZTErrorOSgctF",
-            "mangledName": "$s13ZTBalistonKit0A0C24disableRealtimeStreaming13noCheckInsole10completionySb_y06ZTCoreB07ZTErrorOSgctF",
-            "moduleName": "ZTBalistonKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "pauseRealtimeStreaming",
-            "printedName": "pauseRealtimeStreaming(pause:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ZTCoreKit.ZTError?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "ZTCoreKit.ZTError?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ZTError",
-                        "printedName": "ZTCoreKit.ZTError",
-                        "usr": "s:9ZTCoreKit7ZTErrorO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A0C22pauseRealtimeStreaming0C010completionySb_y06ZTCoreB07ZTErrorOSgctF",
-            "mangledName": "$s13ZTBalistonKit0A0C22pauseRealtimeStreaming0C010completionySb_y06ZTCoreB07ZTErrorOSgctF",
-            "moduleName": "ZTBalistonKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "enableSingleMetric",
-            "printedName": "enableSingleMetric(noCheckInsole:metric:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ZTRealtimeMetric",
-                "printedName": "ZTCoreKit.ZTRealtimeMetric",
-                "usr": "s:9ZTCoreKit16ZTRealtimeMetricO"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ZTCoreKit.ZTError?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "ZTCoreKit.ZTError?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ZTError",
-                        "printedName": "ZTCoreKit.ZTError",
-                        "usr": "s:9ZTCoreKit7ZTErrorO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A0C18enableSingleMetric13noCheckInsole6metric10completionySb_06ZTCoreB0010ZTRealtimeE0OyAH7ZTErrorOSgctF",
-            "mangledName": "$s13ZTBalistonKit0A0C18enableSingleMetric13noCheckInsole6metric10completionySb_06ZTCoreB0010ZTRealtimeE0OyAH7ZTErrorOSgctF",
-            "moduleName": "ZTBalistonKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "startMobilityScan",
-            "printedName": "startMobilityScan(timeout:duration:userParameters:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "hasDefaultArg": true,
-                "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "hasDefaultArg": true,
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ZTBalistonKit.ZTUserDataParameters?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ZTUserDataParameters",
-                    "printedName": "ZTBalistonKit.ZTUserDataParameters",
-                    "usr": "s:13ZTBalistonKit20ZTUserDataParametersC"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ZTCoreKit.ZTError?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "ZTCoreKit.ZTError?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ZTError",
-                        "printedName": "ZTCoreKit.ZTError",
-                        "usr": "s:9ZTCoreKit7ZTErrorO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A0C17startMobilityScan7timeout8duration14userParameters10completionySd_SiAA010ZTUserDataI0CSgy06ZTCoreB07ZTErrorOSgctF",
-            "mangledName": "$s13ZTBalistonKit0A0C17startMobilityScan7timeout8duration14userParameters10completionySd_SiAA010ZTUserDataI0CSgy06ZTCoreB07ZTErrorOSgctF",
-            "moduleName": "ZTBalistonKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "stopMobilityScan",
-            "printedName": "stopMobilityScan(timeout:silently:meetMinimumRequirements:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "hasDefaultArg": true,
-                "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(([ZTBalistonKit.ZTBalistonPacket]) -> Swift.Bool)?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "([ZTBalistonKit.ZTBalistonPacket]) -> Swift.Bool",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[ZTBalistonKit.ZTBalistonPacket]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ZTBalistonPacket",
-                            "printedName": "ZTBalistonKit.ZTBalistonPacket",
-                            "usr": "c:@M@ZTBalistonKit@objc(cs)ZTBalistonPacket"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "ZTBalistonKit.ZTBalistonActivitySummary?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ZTBalistonActivitySummary",
-                            "printedName": "ZTBalistonKit.ZTBalistonActivitySummary",
-                            "usr": "s:13ZTBalistonKit0A15ActivitySummaryC"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "ZTCoreKit.ZTError?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ZTError",
-                            "printedName": "ZTCoreKit.ZTError",
-                            "usr": "s:9ZTCoreKit7ZTErrorO"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A0C16stopMobilityScan7timeout8silently23meetMinimumRequirements10completionySd_S2bSayAA0A6PacketCGcSgyAA0A15ActivitySummaryCSg_06ZTCoreB07ZTErrorOSgtctF",
-            "mangledName": "$s13ZTBalistonKit0A0C16stopMobilityScan7timeout8silently23meetMinimumRequirements10completionySd_S2bSayAA0A6PacketCGcSgyAA0A15ActivitySummaryCSg_06ZTCoreB07ZTErrorOSgtctF",
-            "moduleName": "ZTBalistonKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "updateUserParameters",
-            "printedName": "updateUserParameters(timeout:userParameters:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "hasDefaultArg": true,
-                "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ZTBalistonKit.ZTUserDataParameters?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ZTUserDataParameters",
-                    "printedName": "ZTBalistonKit.ZTUserDataParameters",
-                    "usr": "s:13ZTBalistonKit20ZTUserDataParametersC"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ZTCoreKit.ZTError?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "ZTCoreKit.ZTError?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ZTError",
-                        "printedName": "ZTCoreKit.ZTError",
-                        "usr": "s:9ZTCoreKit7ZTErrorO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A0C20updateUserParameters7timeout04userE010completionySd_AA010ZTUserDataE0CSgy06ZTCoreB07ZTErrorOSgctF",
-            "mangledName": "$s13ZTBalistonKit0A0C20updateUserParameters7timeout04userE010completionySd_AA010ZTUserDataE0CSgy06ZTCoreB07ZTErrorOSgctF",
-            "moduleName": "ZTBalistonKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "hardReset",
-            "printedName": "hardReset(restart:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "((any Swift.Error)?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any Swift.Error)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A0C9hardReset7restart10completionySb_ys5Error_pSgctF",
-            "mangledName": "$s13ZTBalistonKit0A0C9hardReset7restart10completionySb_ys5Error_pSgctF",
-            "moduleName": "ZTBalistonKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "stopActivity",
-            "printedName": "stopActivity(force:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ZTCoreKit.ZTError?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "ZTCoreKit.ZTError?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ZTError",
-                        "printedName": "ZTCoreKit.ZTError",
-                        "usr": "s:9ZTCoreKit7ZTErrorO"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit0A0C12stopActivity5force10completionySb_y06ZTCoreB07ZTErrorOSgctF",
-            "mangledName": "$s13ZTBalistonKit0A0C12stopActivity5force10completionySb_y06ZTCoreB07ZTErrorOSgctF",
-            "moduleName": "ZTBalistonKit",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -10198,6 +9378,826 @@
         "printedName": "ZTCoreKit",
         "declKind": "Import",
         "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZTCoreKit",
+        "printedName": "ZTCoreKit",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ZTCoreKit",
+        "printedName": "ZTCoreKit",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZTCoreKit",
+        "printedName": "ZTCoreKit",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZTCoreKit",
+        "printedName": "ZTCoreKit",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ZTCoreKit",
+        "printedName": "ZTCoreKit",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZTCoreKit",
+        "printedName": "ZTCoreKit",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZTCoreKit",
+        "printedName": "ZTCoreKit",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZTCoreKit",
+        "printedName": "ZTCoreKit",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZTCoreKit",
+        "printedName": "ZTCoreKit",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZTBalistonActivity",
+        "printedName": "ZTBalistonActivity",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onActivityMetadataUpdated",
+            "printedName": "onActivityMetadataUpdated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZTSignal",
+                "printedName": "ZTCoreKit.ZTSignal<()>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "usr": "s:9ZTCoreKit8ZTSignalC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ZTBalistonKit0A8ActivityC02onC15MetadataUpdated06ZTCoreB08ZTSignalCyytGvp",
+            "mangledName": "$s13ZTBalistonKit0A8ActivityC02onC15MetadataUpdated06ZTCoreB08ZTSignalCyytGvp",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZTSignal",
+                    "printedName": "ZTCoreKit.ZTSignal<()>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "usr": "s:9ZTCoreKit8ZTSignalC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit0A8ActivityC02onC15MetadataUpdated06ZTCoreB08ZTSignalCyytGvg",
+                "mangledName": "$s13ZTBalistonKit0A8ActivityC02onC15MetadataUpdated06ZTCoreB08ZTSignalCyytGvg",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "storeKey",
+            "printedName": "storeKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ZTBalistonKit0A8ActivityC8storeKeySSvp",
+            "mangledName": "$s13ZTBalistonKit0A8ActivityC8storeKeySSvp",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit0A8ActivityC8storeKeySSvg",
+                "mangledName": "$s13ZTBalistonKit0A8ActivityC8storeKeySSvg",
+                "moduleName": "ZTBalistonKit",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "upload",
+            "printedName": "upload(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSManagedObjectContext",
+                "printedName": "CoreData.NSManagedObjectContext",
+                "usr": "c:objc(cs)NSManagedObjectContext"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A8ActivityC6upload_7contextySayxG_So22NSManagedObjectContextCtYaK06ZTCoreB016ZTPacketCachableRzlF",
+            "mangledName": "$s13ZTBalistonKit0A8ActivityC6upload_7contextySayxG_So22NSManagedObjectContextCtYaK06ZTCoreB016ZTPacketCachableRzlF",
+            "moduleName": "ZTBalistonKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZTCoreKit.ZTPacketCachable>",
+            "sugared_genericSig": "<Packet where Packet : ZTCoreKit.ZTPacketCachable>",
+            "overriding": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Override"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(entity:insertInto:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZTBalistonActivity",
+                "printedName": "ZTBalistonKit.ZTBalistonActivity",
+                "usr": "c:@M@ZTBalistonKit@objc(cs)ZTBalistonActivity"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSEntityDescription",
+                "printedName": "CoreData.NSEntityDescription",
+                "usr": "c:objc(cs)NSEntityDescription"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreData.NSManagedObjectContext?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSManagedObjectContext",
+                    "printedName": "CoreData.NSManagedObjectContext",
+                    "usr": "c:objc(cs)NSManagedObjectContext"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ZTBalistonKit@objc(cs)ZTBalistonActivity(im)initWithEntity:insertIntoManagedObjectContext:",
+            "mangledName": "$s13ZTBalistonKit0A8ActivityC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
+            "moduleName": "ZTBalistonKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithEntity:insertIntoManagedObjectContext:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchRequest",
+            "printedName": "fetchRequest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSFetchRequest",
+                "printedName": "CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonActivity>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZTBalistonActivity",
+                    "printedName": "ZTBalistonKit.ZTBalistonActivity",
+                    "usr": "c:@M@ZTBalistonKit@objc(cs)ZTBalistonActivity"
+                  }
+                ],
+                "usr": "c:objc(cs)NSFetchRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A8ActivityC12fetchRequestSo07NSFetchE0CyACGyFZ",
+            "mangledName": "$s13ZTBalistonKit0A8ActivityC12fetchRequestSo07NSFetchE0CyACGyFZ",
+            "moduleName": "ZTBalistonKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "NonObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ZTBalistonKit@objc(cs)ZTBalistonActivity",
+        "mangledName": "$s13ZTBalistonKit0A8ActivityC",
+        "moduleName": "ZTBalistonKit",
+        "objc_name": "ZTBalistonActivity",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:@M@ZTCoreKit@objc(cs)ZTActivity",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ZTCoreKit.ZTActivity",
+          "CoreData.NSManagedObject",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ZTActivityCachable",
+            "printedName": "ZTActivityCachable",
+            "usr": "s:9ZTCoreKit18ZTActivityCachableP",
+            "mangledName": "$s9ZTCoreKit18ZTActivityCachableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZTCoreKit",
+        "printedName": "ZTCoreKit",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZTCoreKit",
+        "printedName": "ZTCoreKit",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZTBalistonDfuDelegate",
+        "printedName": "ZTBalistonDfuDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "dfuDelegate",
+            "printedName": "dfuDelegate(firmwareDownloaded:version:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A11DfuDelegateP03dfuD018firmwareDownloaded7versionySb_SSSgtF",
+            "mangledName": "$s13ZTBalistonKit0A11DfuDelegateP03dfuD018firmwareDownloaded7versionySb_SSSgtF",
+            "moduleName": "ZTBalistonKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZTBalistonKit.ZTBalistonDfuDelegate>",
+            "sugared_genericSig": "<Self where Self : ZTBalistonKit.ZTBalistonDfuDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dfuDelegate",
+            "printedName": "dfuDelegate(didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A11DfuDelegateP03dfuD09didFinishySb_tF",
+            "mangledName": "$s13ZTBalistonKit0A11DfuDelegateP03dfuD09didFinishySb_tF",
+            "moduleName": "ZTBalistonKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZTBalistonKit.ZTBalistonDfuDelegate>",
+            "sugared_genericSig": "<Self where Self : ZTBalistonKit.ZTBalistonDfuDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dfuDelegate",
+            "printedName": "dfuDelegate(didFail:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZTCoreKit.ZTError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZTError",
+                    "printedName": "ZTCoreKit.ZTError",
+                    "usr": "s:9ZTCoreKit7ZTErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A11DfuDelegateP03dfuD07didFaily06ZTCoreB07ZTErrorOSg_tF",
+            "mangledName": "$s13ZTBalistonKit0A11DfuDelegateP03dfuD07didFaily06ZTCoreB07ZTErrorOSg_tF",
+            "moduleName": "ZTBalistonKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZTBalistonKit.ZTBalistonDfuDelegate>",
+            "sugared_genericSig": "<Self where Self : ZTBalistonKit.ZTBalistonDfuDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dfuDelegate",
+            "printedName": "dfuDelegate(progress:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Float?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A11DfuDelegateP03dfuD08progressySfSg_tF",
+            "mangledName": "$s13ZTBalistonKit0A11DfuDelegateP03dfuD08progressySfSg_tF",
+            "moduleName": "ZTBalistonKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZTBalistonKit.ZTBalistonDfuDelegate>",
+            "sugared_genericSig": "<Self where Self : ZTBalistonKit.ZTBalistonDfuDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dfuDelegate",
+            "printedName": "dfuDelegate(leftDidFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A11DfuDelegateP03dfuD013leftDidFinishySSSg_tF",
+            "mangledName": "$s13ZTBalistonKit0A11DfuDelegateP03dfuD013leftDidFinishySSSg_tF",
+            "moduleName": "ZTBalistonKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZTBalistonKit.ZTBalistonDfuDelegate>",
+            "sugared_genericSig": "<Self where Self : ZTBalistonKit.ZTBalistonDfuDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dfuDelegate",
+            "printedName": "dfuDelegate(rightDidFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit0A11DfuDelegateP03dfuD014rightDidFinishySSSg_tF",
+            "mangledName": "$s13ZTBalistonKit0A11DfuDelegateP03dfuD014rightDidFinishySSSg_tF",
+            "moduleName": "ZTBalistonKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZTBalistonKit.ZTBalistonDfuDelegate>",
+            "sugared_genericSig": "<Self where Self : ZTBalistonKit.ZTBalistonDfuDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13ZTBalistonKit0A11DfuDelegateP",
+        "mangledName": "$s13ZTBalistonKit0A11DfuDelegateP",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -10595,265 +10595,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 267,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 290,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
-      "kind": "StringLiteral",
-      "offset": 356,
-      "length": 44,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
-      "kind": "StringLiteral",
-      "offset": 389,
-      "length": 1,
-      "value": "\".operation\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 960,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5491,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
-      "kind": "StringLiteral",
-      "offset": 6405,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
-      "kind": "Dictionary",
-      "offset": 7585,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
-      "kind": "Dictionary",
-      "offset": 8133,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
-      "kind": "Dictionary",
-      "offset": 8849,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
-      "kind": "Dictionary",
-      "offset": 9577,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
-      "kind": "Dictionary",
-      "offset": 10251,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2333,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2367,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
-      "kind": "IntegerLiteral",
-      "offset": 49937,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
-      "kind": "IntegerLiteral",
-      "offset": 54249,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+RawData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3614,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+RawData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6933,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+RawData.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14040,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 523,
-      "length": 35,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 544,
-      "length": 1,
-      "value": "\".lastActivity\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 6880,
-      "length": 22,
-      "value": "\"lastSafetyActivityID\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 6953,
-      "length": 21,
-      "value": "\"safetyChunkDuration\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 7033,
-      "length": 22,
-      "value": "\"isMonitoringActivity\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 7112,
-      "length": 20,
-      "value": "\"userDataParameters\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 7193,
-      "length": 23,
-      "value": "\"lastFirmwareCheckDate\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 7282,
-      "length": 28,
-      "value": "\"lastAnalyticsDataCheckDate\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 7374,
-      "length": 27,
-      "value": "\"lastChunkInterruptionDate\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 7453,
-      "length": 15,
-      "value": "\"analyticsData\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 7527,
-      "length": 18,
-      "value": "\"streamingMetrics\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 7611,
-      "length": 28,
-      "value": "\"currentStreamingMetricSide\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 7696,
-      "length": 20,
-      "value": "\"isStreamingStarted\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
-      "kind": "StringLiteral",
-      "offset": 7779,
-      "length": 26,
-      "value": "\"realtimeMetricsStartDate\""
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+DFU.swift",
-      "kind": "BooleanLiteral",
-      "offset": 995,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Streaming.swift",
-      "kind": "IntegerLiteral",
-      "offset": 628,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Streaming.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5723,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Streaming.swift",
-      "kind": "BooleanLiteral",
-      "offset": 8371,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 303,
@@ -10984,7 +10725,7 @@
       "kind": "StringLiteral",
       "offset": 544,
       "length": 7,
-      "value": "\"1.4.2\""
+      "value": "\"1.4.3\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
@@ -11363,6 +11104,265 @@
       "offset": 16430,
       "length": 2,
       "value": "30"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+RawData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3614,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+RawData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6933,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+RawData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14040,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 267,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 290,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
+      "kind": "StringLiteral",
+      "offset": 356,
+      "length": 44,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 1,
+      "value": "\".operation\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 960,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5491,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
+      "kind": "StringLiteral",
+      "offset": 6405,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
+      "kind": "Dictionary",
+      "offset": 7585,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
+      "kind": "Dictionary",
+      "offset": 8133,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
+      "kind": "Dictionary",
+      "offset": 8849,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
+      "kind": "Dictionary",
+      "offset": 9577,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
+      "kind": "Dictionary",
+      "offset": 10251,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2333,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2367,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49937,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
+      "kind": "IntegerLiteral",
+      "offset": 54249,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Streaming.swift",
+      "kind": "IntegerLiteral",
+      "offset": 628,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Streaming.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5723,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Streaming.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8371,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 35,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 1,
+      "value": "\".lastActivity\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 6880,
+      "length": 22,
+      "value": "\"lastSafetyActivityID\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 6953,
+      "length": 21,
+      "value": "\"safetyChunkDuration\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 7033,
+      "length": 22,
+      "value": "\"isMonitoringActivity\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 7112,
+      "length": 20,
+      "value": "\"userDataParameters\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 7193,
+      "length": 23,
+      "value": "\"lastFirmwareCheckDate\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 7282,
+      "length": 28,
+      "value": "\"lastAnalyticsDataCheckDate\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 7374,
+      "length": 27,
+      "value": "\"lastChunkInterruptionDate\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 7453,
+      "length": 15,
+      "value": "\"analyticsData\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 7527,
+      "length": 18,
+      "value": "\"streamingMetrics\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 7611,
+      "length": 28,
+      "value": "\"currentStreamingMetricSide\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 7696,
+      "length": 20,
+      "value": "\"isStreamingStarted\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 7779,
+      "length": 26,
+      "value": "\"realtimeMetricsStartDate\""
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+DFU.swift",
+      "kind": "BooleanLiteral",
+      "offset": 995,
+      "length": 5,
+      "value": "false"
     }
   ]
 }
