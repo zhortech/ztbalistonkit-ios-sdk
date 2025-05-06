@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.4.5](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.5 (2025-05-06)
+
+- ZTCore update to v1.5.6
+- Possibility to disable auto activity / Forcing the user to Start/Stop it manualy
+
 ## [1.4.4](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.4 (2025-04-29)
 
 - ZTCore update to v1.5.5
