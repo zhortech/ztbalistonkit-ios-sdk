@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.4.6](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.6 (2025-05-07)
+
+- ZTCore update to v1.5.7
+
 ## [1.4.5](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.5 (2025-05-06)
 
 - ZTCore update to v1.5.6
