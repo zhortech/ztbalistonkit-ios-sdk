@@ -1,8 +1,12 @@
 # Changelog
 
+## [1.4.9](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.9 (2025-05-20)
+
+- More Improved mobility scan V2. 
+
 ## [1.4.8](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.8 (2025-05-20)
 
-- Bunmped & Improved mobility scan V2. 
+- Bumped & Improved mobility scan V2. 
 
 ## [1.4.7](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.7 (2025-05-15)
 

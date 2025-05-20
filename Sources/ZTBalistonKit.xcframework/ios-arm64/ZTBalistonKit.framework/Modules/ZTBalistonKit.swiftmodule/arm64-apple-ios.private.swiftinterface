@@ -11,6 +11,25 @@ import ZTCoreKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension ZTBalistonKit.ZTBalistonActivity {
+  @nonobjc final public class func fetchRequest() -> CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonActivity>
+}
+@_inheritsConvenienceInitializers @objc(ZTBalistonActivity) final public class ZTBalistonActivity : ZTCoreKit.ZTActivity {
+  final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<()>
+  final public var storeKey: Swift.String {
+    get
+  }
+  override final public func upload<Packet>(_ packets: [Packet], context: CoreData.NSManagedObjectContext) async throws where Packet : ZTCoreKit.ZTPacketCachable
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func updateUserParameters(timeout: Swift.Double = 30, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func hardReset(restart: Swift.Bool = false, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func stopAutomaticActivity(force: Swift.Bool = true, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func stopActivity(force: Swift.Bool = true, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  public func startActivity(timeout: Swift.Double = 30, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+}
 extension ZTCoreKit.ZTCore {
   final public func sendToConnectedDevice(_ command: ZTCoreKit.ZTCommand, parameters: [Swift.UInt8]? = nil) async throws
 }
@@ -19,23 +38,23 @@ extension ZTBalistonKit.ZTBaliston {
   public func startActivity(timeout: Swift.Double = 30) async throws
   public func stopActivity(force: Swift.Bool = true) async throws
   public func startMobilityScanV2(timeout: Swift.Double = 30, duration: Swift.Int = 60, numberOfStride: Swift.UInt8? = nil, chunckInterval: Swift.Int? = nil, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
-  public func stopMobilityScanV2(timeout: Swift.Double = 20, silently: Swift.Bool = false, meetMinimumRequirements: (([ZTBalistonKit.ZTBalistonPacket]) -> Swift.Bool)? = nil) async throws -> ZTBalistonKit.ZTBalistonActivitySummary?
+  public func stopMobilityScanV2(timeout: Swift.Double = 20, allowRightInsoleOnly: Swift.Bool = false, silently: Swift.Bool = false, meetMinimumRequirements: (([ZTBalistonKit.ZTBalistonPacket]) -> Swift.Bool)? = nil) async throws -> ZTBalistonKit.ZTBalistonActivitySummary?
   public func updateUserParameters(timeout: Swift.Double = 30, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
   public func startAutomaticActivity(timeout: Swift.Double = 30) async throws
 }
 extension ZTBalistonKit.ZTBaliston {
-  public func readGeneralState(timeout: Swift.Double = 60) async throws -> ZTCoreKit.ZTDeviceActualState?
+  public func readGeneralState(timeout: Swift.Double = 60, allowRightInsoleOnly: Swift.Bool) async throws -> ZTCoreKit.ZTDeviceActualState?
 }
 extension ZTBalistonKit.ZTBaliston {
   @available(*, deprecated, message: "⚠️ USE `startMobilityScanV2(timeout:duration:numberOfStride:chunckInterval:userParameters:)` instead () for Thread safety ⚠️")
   public func startMobilityScan(timeout: Swift.Double = 20, duration: Swift.Int = 60, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  @available(*, deprecated, message: "⚠️ USE `stopMobilityScanV2(timeout:silently:meetMinimumRequirements:) for Thread safety ⚠️")
+  @available(*, deprecated, message: "⚠️ USE `stopMobilityScanV2(timeout:allowRightInsoleOnly:silently:meetMinimumRequirements:) for Thread safety ⚠️")
   public func stopMobilityScan(timeout: Swift.Double = 20, silently: Swift.Bool = false, meetMinimumRequirements: (([ZTBalistonKit.ZTBalistonPacket]) -> Swift.Bool)? = nil, completion: @escaping (ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?) -> Swift.Void)
   @available(*, deprecated, message: "⚠️ USE `startMobilityScanV2(timeout:duration:numberOfStride:chunckInterval:userParameters:)` instead () for Thread safety ⚠️")
   public func startMobilityScan(timeout: Swift.Double = 20, duration: Swift.Int = 60, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
-  @available(*, deprecated, message: "⚠️ USE `stopMobilityScanV2(timeout:silently:meetMinimumRequirements:) for Thread safety ⚠️")
+  @available(*, deprecated, message: "⚠️ USE `stopMobilityScanV2(timeout:allowRightInsoleOnly:silently:meetMinimumRequirements:) for Thread safety ⚠️")
   public func stopMobilityScan(timeout: Swift.Double = 20, silently: Swift.Bool = false, meetMinimumRequirements: (([ZTBalistonKit.ZTBalistonPacket]) -> Swift.Bool)? = nil) async throws -> ZTBalistonKit.ZTBalistonActivitySummary?
-  @available(*, deprecated, message: "⚙️ Use the more modern function `checkInsoleStatusV2(retry:delay:allowRightInsoleDisconnected)` instead ")
+  @available(*, deprecated, message: "⚙️ Use the more modern function `checkInsoleStatusV2(retry:delay:allowRightInsoleOnly)` instead ")
   public func checkInsoleStatus() -> ZTCoreKit.ZTError?
 }
 extension ZTBalistonKit.ZTBaliston {
@@ -56,18 +75,6 @@ extension ZTBalistonKit.ZTBaliston {
   public func getDataArray(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ([Any]?, (any Swift.Error)?) -> Swift.Void)
   public func postData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
   public func getSwingAnalysis(body: [Swift.String : Any], completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
-}
-extension ZTBalistonKit.ZTBalistonActivity {
-  @nonobjc final public class func fetchRequest() -> CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonActivity>
-}
-@_inheritsConvenienceInitializers @objc(ZTBalistonActivity) final public class ZTBalistonActivity : ZTCoreKit.ZTActivity {
-  final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<()>
-  final public var storeKey: Swift.String {
-    get
-  }
-  override final public func upload<Packet>(_ packets: [Packet], context: CoreData.NSManagedObjectContext) async throws where Packet : ZTCoreKit.ZTPacketCachable
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
-  @objc deinit
 }
 extension ZTCoreKit.ZTRealtimeMessage.Side : Swift.CustomStringConvertible {
   public var description: Swift.String {
@@ -104,12 +111,28 @@ extension ZTBalistonKit.ZTBaliston {
   public func uploadRawData(for activityId: Swift.String) async throws
   public func connectLeftModuleForRawData(activityId: Swift.String)
 }
-@_inheritsConvenienceInitializers final public class ZTBalistonActivitySummary : ZTCoreKit.ZTActivitySummary {
-  final public var data: [Swift.String : Any]?
-  final public var attributes: [Swift.String : Any]?
-  required public init?(map: ZTCoreKit.ZTMap)
-  override final public func mapping(map: ZTCoreKit.ZTMap)
+extension ZTBalistonKit.ZTBalistonPacket {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonPacket>
+}
+@_hasMissingDesignatedInitializers @objc(ZTBalistonPacket) public class ZTBalistonPacket : ZTCoreKit.ZTPacket {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  required public init(data: Foundation.Data, activity: (any ZTCoreKit.ZTActivityCachable)?, fwVersion: Swift.String?, context: CoreData.NSManagedObjectContext, name: Swift.String = "ZTBalistonPacket")
+  public func saveWithResult(_ allowOverwrite: Swift.Bool = false, in oneTimeContext: CoreData.NSManagedObjectContext) async
+  public static func update(_ packets: [ZTBalistonKit.ZTBalistonPacket], status: ZTCoreKit.ZTPacket.Status, in managedContext: CoreData.NSManagedObjectContext) async
+  public static func lastChunkID(for activityId: Swift.String) async -> Swift.Int16?
+  public static func packetCount(for activityId: Swift.String) async -> Swift.Int
   @objc deinit
+}
+extension ZTBalistonKit.ZTBalistonPacket {
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+}
+extension ZTBalistonKit.ZTBalistonPacket {
+  public static func forceSegmentsUpload(activityId: Swift.String)
+  public static func updateSegmentsTimestamp(activityId: Swift.String, startId: Swift.Int16, anchorTime: Swift.Int64?) async
+  public static func updateSegments(_ segmentsToUpdate: [ZTCoreKit.ZTPacket], status: ZTCoreKit.ZTPacket.Status, activityId: Swift.String?)
+  public func loadPrevious(activityId: Swift.String?, chunkId: Swift.Int16, originalTimestamp: Swift.Int64) async -> ZTBalistonKit.ZTBalistonPacket?
 }
 final public class ZTUserDataParameters : Swift.Codable {
   public enum Gender : Swift.UInt8, Swift.Codable {
@@ -173,28 +196,12 @@ extension ZTBalistonKit.ZTBaliston {
     }
   }
 }
-extension ZTBalistonKit.ZTBalistonPacket {
-  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonPacket>
-}
-@_hasMissingDesignatedInitializers @objc(ZTBalistonPacket) public class ZTBalistonPacket : ZTCoreKit.ZTPacket {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
-  required public init(data: Foundation.Data, activity: (any ZTCoreKit.ZTActivityCachable)?, fwVersion: Swift.String?, context: CoreData.NSManagedObjectContext, name: Swift.String = "ZTBalistonPacket")
-  public func saveWithResult(_ allowOverwrite: Swift.Bool = false, in oneTimeContext: CoreData.NSManagedObjectContext) async
-  public static func update(_ packets: [ZTBalistonKit.ZTBalistonPacket], status: ZTCoreKit.ZTPacket.Status, in managedContext: CoreData.NSManagedObjectContext) async
-  public static func lastChunkID(for activityId: Swift.String) async -> Swift.Int16?
-  public static func packetCount(for activityId: Swift.String) async -> Swift.Int
+@_inheritsConvenienceInitializers final public class ZTBalistonActivitySummary : ZTCoreKit.ZTActivitySummary {
+  final public var data: [Swift.String : Any]?
+  final public var attributes: [Swift.String : Any]?
+  required public init?(map: ZTCoreKit.ZTMap)
+  override final public func mapping(map: ZTCoreKit.ZTMap)
   @objc deinit
-}
-extension ZTBalistonKit.ZTBalistonPacket {
-  @objc override dynamic public var description: Swift.String {
-    @objc get
-  }
-}
-extension ZTBalistonKit.ZTBalistonPacket {
-  public static func forceSegmentsUpload(activityId: Swift.String)
-  public static func updateSegmentsTimestamp(activityId: Swift.String, startId: Swift.Int16, anchorTime: Swift.Int64?) async
-  public static func updateSegments(_ segmentsToUpdate: [ZTCoreKit.ZTPacket], status: ZTCoreKit.ZTPacket.Status, activityId: Swift.String?)
-  public func loadPrevious(activityId: Swift.String?, chunkId: Swift.Int16, originalTimestamp: Swift.Int64) async -> ZTBalistonKit.ZTBalistonPacket?
 }
 public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift.Void
 @_hasMissingDesignatedInitializers public class ZTBaliston {
@@ -282,13 +289,6 @@ extension ZTBalistonKit.ZTBaliston {
   public func disableRealtimeStreaming(noCheckInsole: Swift.Bool = false, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
   public func pauseRealtimeStreaming(pause: Swift.Bool, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
   public func enableSingleMetric(noCheckInsole: Swift.Bool = false, metric: ZTCoreKit.ZTRealtimeMetric, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func updateUserParameters(timeout: Swift.Double = 30, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  public func hardReset(restart: Swift.Bool = false, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func stopAutomaticActivity(force: Swift.Bool = true, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  public func stopActivity(force: Swift.Bool = true, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  public func startActivity(timeout: Swift.Double = 30, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
 }
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Equatable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Hashable {}

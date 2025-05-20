@@ -11,49 +11,6 @@ import ZTCoreKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-extension ZTBalistonKit.ZTBaliston {
-  @available(*, deprecated, message: "⚠️ USE `startMobilityScanV2(timeout:duration:numberOfStride:chunckInterval:userParameters:)` instead () for Thread safety ⚠️")
-  public func startMobilityScan(timeout: Swift.Double = 20, duration: Swift.Int = 60, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  @available(*, deprecated, message: "⚠️ USE `stopMobilityScanV2(timeout:silently:meetMinimumRequirements:) for Thread safety ⚠️")
-  public func stopMobilityScan(timeout: Swift.Double = 20, silently: Swift.Bool = false, meetMinimumRequirements: (([ZTBalistonKit.ZTBalistonPacket]) -> Swift.Bool)? = nil, completion: @escaping (ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?) -> Swift.Void)
-  @available(*, deprecated, message: "⚠️ USE `startMobilityScanV2(timeout:duration:numberOfStride:chunckInterval:userParameters:)` instead () for Thread safety ⚠️")
-  public func startMobilityScan(timeout: Swift.Double = 20, duration: Swift.Int = 60, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
-  @available(*, deprecated, message: "⚠️ USE `stopMobilityScanV2(timeout:silently:meetMinimumRequirements:) for Thread safety ⚠️")
-  public func stopMobilityScan(timeout: Swift.Double = 20, silently: Swift.Bool = false, meetMinimumRequirements: (([ZTBalistonKit.ZTBalistonPacket]) -> Swift.Bool)? = nil) async throws -> ZTBalistonKit.ZTBalistonActivitySummary?
-  @available(*, deprecated, message: "⚙️ Use the more modern function `checkInsoleStatusV2(retry:delay:allowRightInsoleDisconnected)` instead ")
-  public func checkInsoleStatus() -> ZTCoreKit.ZTError?
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func sendDirectMessage(message: [Swift.String : Any], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func getDirectMessages(completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
-  public func deleteDirectMessage(id: Swift.String, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func sendCannedMessage(message: [Swift.String : Any], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
-  public func getCannedMessages(parameters: [Swift.String : Any], completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
-  public func getTileMessage(name: Swift.String, parameters: [Swift.String : Any], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func getMobilityMessage(name: Swift.String, enqueue: Swift.Bool = true, completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func getMyShoesData(completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
-  public func getMyShoeData(code: Swift.String = "", completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func startListenMessages(onMessageReceived: @escaping (Swift.String?) -> Swift.Void, onDataReceived: @escaping (Foundation.Data?) -> Swift.Void)
-  public func stopListenMessages()
-  public func postMobility(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
-  public func getActivity(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func getData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
-  public func getDataArray(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ([Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func postData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
-  public func getSwingAnalysis(body: [Swift.String : Any], completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
-}
-extension ZTBalistonKit.ZTBalistonActivity {
-  @nonobjc final public class func fetchRequest() -> CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonActivity>
-}
-@_inheritsConvenienceInitializers @objc(ZTBalistonActivity) final public class ZTBalistonActivity : ZTCoreKit.ZTActivity {
-  final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<()>
-  final public var storeKey: Swift.String {
-    get
-  }
-  override final public func upload<Packet>(_ packets: [Packet], context: CoreData.NSManagedObjectContext) async throws where Packet : ZTCoreKit.ZTPacketCachable
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
-  @objc deinit
-}
 extension ZTCoreKit.ZTRealtimeMessage.Side : Swift.CustomStringConvertible {
   public var description: Swift.String {
     get
@@ -283,12 +240,55 @@ extension ZTBalistonKit.ZTBaliston {
   public func startActivity(timeout: Swift.Double = 30) async throws
   public func stopActivity(force: Swift.Bool = true) async throws
   public func startMobilityScanV2(timeout: Swift.Double = 30, duration: Swift.Int = 60, numberOfStride: Swift.UInt8? = nil, chunckInterval: Swift.Int? = nil, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
-  public func stopMobilityScanV2(timeout: Swift.Double = 20, silently: Swift.Bool = false, meetMinimumRequirements: (([ZTBalistonKit.ZTBalistonPacket]) -> Swift.Bool)? = nil) async throws -> ZTBalistonKit.ZTBalistonActivitySummary?
+  public func stopMobilityScanV2(timeout: Swift.Double = 20, allowRightInsoleOnly: Swift.Bool = false, silently: Swift.Bool = false, meetMinimumRequirements: (([ZTBalistonKit.ZTBalistonPacket]) -> Swift.Bool)? = nil) async throws -> ZTBalistonKit.ZTBalistonActivitySummary?
   public func updateUserParameters(timeout: Swift.Double = 30, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
   public func startAutomaticActivity(timeout: Swift.Double = 30) async throws
 }
 extension ZTBalistonKit.ZTBaliston {
-  public func readGeneralState(timeout: Swift.Double = 60) async throws -> ZTCoreKit.ZTDeviceActualState?
+  public func readGeneralState(timeout: Swift.Double = 60, allowRightInsoleOnly: Swift.Bool) async throws -> ZTCoreKit.ZTDeviceActualState?
+}
+extension ZTBalistonKit.ZTBaliston {
+  @available(*, deprecated, message: "⚠️ USE `startMobilityScanV2(timeout:duration:numberOfStride:chunckInterval:userParameters:)` instead () for Thread safety ⚠️")
+  public func startMobilityScan(timeout: Swift.Double = 20, duration: Swift.Int = 60, userParameters: ZTBalistonKit.ZTUserDataParameters?, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  @available(*, deprecated, message: "⚠️ USE `stopMobilityScanV2(timeout:allowRightInsoleOnly:silently:meetMinimumRequirements:) for Thread safety ⚠️")
+  public func stopMobilityScan(timeout: Swift.Double = 20, silently: Swift.Bool = false, meetMinimumRequirements: (([ZTBalistonKit.ZTBalistonPacket]) -> Swift.Bool)? = nil, completion: @escaping (ZTBalistonKit.ZTBalistonActivitySummary?, ZTCoreKit.ZTError?) -> Swift.Void)
+  @available(*, deprecated, message: "⚠️ USE `startMobilityScanV2(timeout:duration:numberOfStride:chunckInterval:userParameters:)` instead () for Thread safety ⚠️")
+  public func startMobilityScan(timeout: Swift.Double = 20, duration: Swift.Int = 60, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
+  @available(*, deprecated, message: "⚠️ USE `stopMobilityScanV2(timeout:allowRightInsoleOnly:silently:meetMinimumRequirements:) for Thread safety ⚠️")
+  public func stopMobilityScan(timeout: Swift.Double = 20, silently: Swift.Bool = false, meetMinimumRequirements: (([ZTBalistonKit.ZTBalistonPacket]) -> Swift.Bool)? = nil) async throws -> ZTBalistonKit.ZTBalistonActivitySummary?
+  @available(*, deprecated, message: "⚙️ Use the more modern function `checkInsoleStatusV2(retry:delay:allowRightInsoleOnly)` instead ")
+  public func checkInsoleStatus() -> ZTCoreKit.ZTError?
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func sendDirectMessage(message: [Swift.String : Any], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func getDirectMessages(completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
+  public func deleteDirectMessage(id: Swift.String, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func sendCannedMessage(message: [Swift.String : Any], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
+  public func getCannedMessages(parameters: [Swift.String : Any], completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
+  public func getTileMessage(name: Swift.String, parameters: [Swift.String : Any], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func getMobilityMessage(name: Swift.String, enqueue: Swift.Bool = true, completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func getMyShoesData(completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
+  public func getMyShoeData(code: Swift.String = "", completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func startListenMessages(onMessageReceived: @escaping (Swift.String?) -> Swift.Void, onDataReceived: @escaping (Foundation.Data?) -> Swift.Void)
+  public func stopListenMessages()
+  public func postMobility(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
+  public func getActivity(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func getData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
+  public func getDataArray(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ([Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func postData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
+  public func getSwingAnalysis(body: [Swift.String : Any], completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
+}
+extension ZTBalistonKit.ZTBalistonActivity {
+  @nonobjc final public class func fetchRequest() -> CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonActivity>
+}
+@_inheritsConvenienceInitializers @objc(ZTBalistonActivity) final public class ZTBalistonActivity : ZTCoreKit.ZTActivity {
+  final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<()>
+  final public var storeKey: Swift.String {
+    get
+  }
+  override final public func upload<Packet>(_ packets: [Packet], context: CoreData.NSManagedObjectContext) async throws where Packet : ZTCoreKit.ZTPacketCachable
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
 }
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Equatable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Hashable {}
