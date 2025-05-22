@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.5.0](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.0 (2025-05-22)
+
+- Moving to full Async/Await.
+- Preparing Swift 6 
+
 ## [1.4.9](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.9 (2025-05-20)
 
 - More Improved mobility scan V2. 
