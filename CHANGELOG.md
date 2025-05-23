@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.5.1](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.1 (2025-05-23)
+
+- ⚠️ [WARNING] Breaking Change!
+
+BalistonKit support only Async/Await now! Making it incompatible with previous app implmentation
+
 ## [1.5.0](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.0 (2025-05-22)
 
 - Moving to full Async/Await.
