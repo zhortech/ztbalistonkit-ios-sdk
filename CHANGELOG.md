@@ -1,4 +1,7 @@
 # Changelog
+## [1.5.3](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.3 (2025-05-24)
+
+- Fixe a crash
 
 ## [1.5.2](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.2 (2025-05-24)
 
