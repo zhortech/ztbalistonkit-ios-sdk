@@ -1,10 +1,14 @@
 # Changelog
 
+
+## [1.5.6](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.6 (2025-06-06)
+
+- Improved Activity handling
+
 ## [1.5.5](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.5 (2025-05-26)
 
 - Improved Activity handling
 - ZTCore update to v1.5.8
-
 
 ## [1.5.4](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.4 (2025-05-26)
 - Improved Activity handling
