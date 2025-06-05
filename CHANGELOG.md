@@ -1,12 +1,13 @@
 # Changelog
 
+## [1.5.7](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.7 (2025-06-06)
+- Improved  Real Time handling
+- ZTCore update to v1.5.9
 
 ## [1.5.6](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.6 (2025-06-06)
-
 - Improved Activity handling
 
 ## [1.5.5](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.5 (2025-05-26)
-
 - Improved Activity handling
 - ZTCore update to v1.5.8
 
@@ -18,11 +19,9 @@
 - Fixe a crash
 
 ## [1.5.2](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.2 (2025-05-24)
-
 -bug fixes
 
 ## [1.5.1](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.1 (2025-05-23)
-
 - ⚠️ [WARNING] Breaking Change!
 
 BalistonKit support only Async/Await now! Making it incompatible with previous app implmentation
