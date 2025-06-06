@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.5.8](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.8 (2025-06-06)
+- Imporved Mobility Scan
+
 ## [1.5.7](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.7 (2025-06-06)
 - Improved  Real Time handling
 - ZTCore update to v1.5.9
