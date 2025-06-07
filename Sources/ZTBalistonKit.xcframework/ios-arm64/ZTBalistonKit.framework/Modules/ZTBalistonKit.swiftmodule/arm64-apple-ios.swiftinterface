@@ -12,6 +12,117 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 extension ZTBalistonKit.ZTBaliston {
+  public func hardReset(restart: Swift.Bool = false) async throws
+  public func updateUserParameters(timeout: Swift.Double = 30, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
+  public func readGeneralState(timeout: Swift.Double = 60, allowRightInsoleOnly: Swift.Bool) async throws -> ZTCoreKit.ZTDeviceActualState?
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func cleanMemory() async throws
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func startActivity(timeout: Swift.Double = 30) async throws
+  public func stopActivity(force: Swift.Bool = true) async throws
+  public func stopActivity(timeout: Swift.Double = 30, shouldAutoSendRawData: Swift.Bool = true) async throws -> Swift.String?
+  public func startAutomaticActivity(timeout: Swift.Double = 30) async throws
+  public func stopAutomaticActivity(force: Swift.Bool = true) async throws
+  public func startActivityCommand(attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil) async throws
+}
+@_inheritsConvenienceInitializers final public class ZTBalistonActivitySummary : ZTCoreKit.ZTActivitySummary {
+  final public var data: [Swift.String : Any]?
+  final public var attributes: [Swift.String : Any]?
+  required public init?(map: ZTCoreKit.ZTMap)
+  override final public func mapping(map: ZTCoreKit.ZTMap)
+  @objc deinit
+}
+public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift.Void
+@_hasMissingDesignatedInitializers public class ZTBaliston {
+  public static let version: Swift.String
+  public static let shared: ZTBalistonKit.ZTBaliston
+  public static let requiredFwVersion: Swift.String
+  public var dfuDelegate: (any ZTBalistonKit.ZTBalistonDfuDelegate)?
+  public var connectedDevice: ZTCoreKit.ZTDevice? {
+    get
+  }
+  public var isActivityRunning: Swift.Bool? {
+    get
+  }
+  public var lastSerialNumber: Swift.String? {
+    get
+  }
+  public var currentActivity: ZTBalistonKit.ZTBalistonActivity? {
+    get
+  }
+  public var currentDfuState: ZTCoreKit.ZTMessageBootloaderInfo.DfuState {
+    get
+  }
+  public var analyticsData: [Swift.String : Any]? {
+    get
+    set
+  }
+  public var isObtainingData: Swift.Bool {
+    get
+  }
+  public var disableAutomaticActivity: Swift.Bool {
+    get
+  }
+  public var activityStarted: Swift.Bool {
+    get
+  }
+  public var isEnablingRealtimeStreaming: Swift.Bool {
+    get
+  }
+  public var isCheckingAnalyticsData: Swift.Bool {
+    get
+  }
+  public var defaultChunkDurationSeconds: Swift.Int
+  public var isStreamingStarted: Swift.Bool {
+    get
+  }
+  final public let onActivityStateChange: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, (any Swift.Error)?)>
+  final public let onActivityStopped: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, (any Swift.Error)?)>
+  final public let onActivityDataReceived: ZTCoreKit.ZTSignal<()>
+  final public let onActivityError: ZTCoreKit.ZTSignal<ZTCoreKit.ZTError?>
+  final public let onDfuStateUpdated: ZTCoreKit.ZTSignal<ZTCoreKit.ZTMessageBootloaderInfo.DfuState>
+  final public let onDfuChanged: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTDFUState, ZTCoreKit.ZTError?)>
+  final public let onDfuUploadProgress: ZTCoreKit.ZTSignal<Swift.Float?>
+  final public let onChunksDownloadProgress: ZTCoreKit.ZTSignal<Swift.Float?>
+  final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<ZTCoreKit.ZTMessageActivityMetadata?>
+  final public let onRealtimeMetricReceived: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTRealtimeMetric?, Any?)>
+  final public let onAnalyticsDataUpdated: ZTCoreKit.ZTSignal<()>
+  final public let onRawDataFlowStateChange: ZTCoreKit.ZTSignal<(ZTBalistonKit.ZTBaliston.RawDataFlowState?, (any Swift.Error)?)>
+  final public let onRawDataFlowProgresss: ZTCoreKit.ZTSignal<Swift.Float>
+  public var currentMode: ZTCoreKit.ZTActivityMode? {
+    get
+  }
+  @objc deinit
+  public func subscribeCoreEvents()
+  public func readGeneralState(completion: @escaping (ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void)
+}
+extension ZTBalistonKit.ZTBalistonActivity {
+  @nonobjc final public class func fetchRequest() -> CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonActivity>
+}
+@_inheritsConvenienceInitializers @objc(ZTBalistonActivity) final public class ZTBalistonActivity : ZTCoreKit.ZTActivity {
+  final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<()>
+  final public var storeKey: Swift.String {
+    get
+  }
+  override final public func upload<Packet>(_ packets: [Packet], context: CoreData.NSManagedObjectContext) async throws where Packet : ZTCoreKit.ZTPacketCachable
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension ZTCoreKit.ZTCore {
+  final public func sendToConnectedDevice(_ command: ZTCoreKit.ZTCommand, parameters: [Swift.UInt8]? = nil) async throws
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func enableRealtimeStreaming(startDate: Foundation.Date, interval: Swift.Int16 = 1, metrics: Swift.Set<ZTCoreKit.ZTRealtimeMetric>, side: ZTCoreKit.ZTRealtimeMessage.Side = .none) async throws
+  public func enableRealtimeStreamingFromArray(startDate: Foundation.Date, interval: Swift.Int16 = 1, wantedMetrics: [ZTCoreKit.ZTRealtimeMetric]? = nil, side: ZTCoreKit.ZTRealtimeMessage.Side = .none) async throws
+  public func disableRealtimeStreaming(noCheckInsole: Swift.Bool = false) async throws
+  public func pauseRealtimeStreaming(pause: Swift.Bool) async throws
+  public func pauseRealtimeStreaming()
+  public func resumeRealtimeStreaming()
+  public func enableSingleMetric(noCheckInsole: Swift.Bool = false, metric: ZTCoreKit.ZTRealtimeMetric) async throws
+}
+extension ZTBalistonKit.ZTBaliston {
   public enum RawDataFlowState : Swift.String, Swift.Codable {
     case prepareRightModule
     case startRightModule
@@ -164,117 +275,6 @@ extension ZTBalistonKit.ZTBaliston {
   public func getDataArray(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ([Any]?, (any Swift.Error)?) -> Swift.Void)
   public func postData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
   public func getSwingAnalysis(body: [Swift.String : Any], completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func hardReset(restart: Swift.Bool = false) async throws
-  public func updateUserParameters(timeout: Swift.Double = 30, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
-  public func readGeneralState(timeout: Swift.Double = 60, allowRightInsoleOnly: Swift.Bool) async throws -> ZTCoreKit.ZTDeviceActualState?
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func cleanMemory() async throws
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func startActivity(timeout: Swift.Double = 30) async throws
-  public func stopActivity(force: Swift.Bool = true) async throws
-  public func stopActivity(timeout: Swift.Double = 30, shouldAutoSendRawData: Swift.Bool = true) async throws -> Swift.String?
-  public func startAutomaticActivity(timeout: Swift.Double = 30) async throws
-  public func stopAutomaticActivity(force: Swift.Bool = true) async throws
-  public func startActivityCommand(attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil) async throws
-}
-@_inheritsConvenienceInitializers final public class ZTBalistonActivitySummary : ZTCoreKit.ZTActivitySummary {
-  final public var data: [Swift.String : Any]?
-  final public var attributes: [Swift.String : Any]?
-  required public init?(map: ZTCoreKit.ZTMap)
-  override final public func mapping(map: ZTCoreKit.ZTMap)
-  @objc deinit
-}
-public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift.Void
-@_hasMissingDesignatedInitializers public class ZTBaliston {
-  public static let version: Swift.String
-  public static let shared: ZTBalistonKit.ZTBaliston
-  public static let requiredFwVersion: Swift.String
-  public var dfuDelegate: (any ZTBalistonKit.ZTBalistonDfuDelegate)?
-  public var connectedDevice: ZTCoreKit.ZTDevice? {
-    get
-  }
-  public var isActivityRunning: Swift.Bool? {
-    get
-  }
-  public var lastSerialNumber: Swift.String? {
-    get
-  }
-  public var currentActivity: ZTBalistonKit.ZTBalistonActivity? {
-    get
-  }
-  public var currentDfuState: ZTCoreKit.ZTMessageBootloaderInfo.DfuState {
-    get
-  }
-  public var analyticsData: [Swift.String : Any]? {
-    get
-    set
-  }
-  public var isObtainingData: Swift.Bool {
-    get
-  }
-  public var disableAutomaticActivity: Swift.Bool {
-    get
-  }
-  public var activityStarted: Swift.Bool {
-    get
-  }
-  public var isEnablingRealtimeStreaming: Swift.Bool {
-    get
-  }
-  public var isCheckingAnalyticsData: Swift.Bool {
-    get
-  }
-  public var defaultChunkDurationSeconds: Swift.Int
-  public var isStreamingStarted: Swift.Bool {
-    get
-  }
-  final public let onActivityStateChange: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, (any Swift.Error)?)>
-  final public let onActivityStopped: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, (any Swift.Error)?)>
-  final public let onActivityDataReceived: ZTCoreKit.ZTSignal<()>
-  final public let onActivityError: ZTCoreKit.ZTSignal<ZTCoreKit.ZTError?>
-  final public let onDfuStateUpdated: ZTCoreKit.ZTSignal<ZTCoreKit.ZTMessageBootloaderInfo.DfuState>
-  final public let onDfuChanged: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTDFUState, ZTCoreKit.ZTError?)>
-  final public let onDfuUploadProgress: ZTCoreKit.ZTSignal<Swift.Float?>
-  final public let onChunksDownloadProgress: ZTCoreKit.ZTSignal<Swift.Float?>
-  final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<ZTCoreKit.ZTMessageActivityMetadata?>
-  final public let onRealtimeMetricReceived: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTRealtimeMetric?, Any?)>
-  final public let onAnalyticsDataUpdated: ZTCoreKit.ZTSignal<()>
-  final public let onRawDataFlowStateChange: ZTCoreKit.ZTSignal<(ZTBalistonKit.ZTBaliston.RawDataFlowState?, (any Swift.Error)?)>
-  final public let onRawDataFlowProgresss: ZTCoreKit.ZTSignal<Swift.Float>
-  public var currentMode: ZTCoreKit.ZTActivityMode? {
-    get
-  }
-  @objc deinit
-  public func subscribeCoreEvents()
-  public func readGeneralState(completion: @escaping (ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void)
-}
-extension ZTBalistonKit.ZTBalistonActivity {
-  @nonobjc final public class func fetchRequest() -> CoreData.NSFetchRequest<ZTBalistonKit.ZTBalistonActivity>
-}
-@_inheritsConvenienceInitializers @objc(ZTBalistonActivity) final public class ZTBalistonActivity : ZTCoreKit.ZTActivity {
-  final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<()>
-  final public var storeKey: Swift.String {
-    get
-  }
-  override final public func upload<Packet>(_ packets: [Packet], context: CoreData.NSManagedObjectContext) async throws where Packet : ZTCoreKit.ZTPacketCachable
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
-  @objc deinit
-}
-extension ZTCoreKit.ZTCore {
-  final public func sendToConnectedDevice(_ command: ZTCoreKit.ZTCommand, parameters: [Swift.UInt8]? = nil) async throws
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func enableRealtimeStreaming(startDate: Foundation.Date, interval: Swift.Int16 = 1, metrics: Swift.Set<ZTCoreKit.ZTRealtimeMetric>, side: ZTCoreKit.ZTRealtimeMessage.Side = .none) async throws
-  public func enableRealtimeStreamingFromArray(startDate: Foundation.Date, interval: Swift.Int16 = 1, wantedMetrics: [ZTCoreKit.ZTRealtimeMetric]? = nil, side: ZTCoreKit.ZTRealtimeMessage.Side = .none) async throws
-  public func disableRealtimeStreaming(noCheckInsole: Swift.Bool = false) async throws
-  public func pauseRealtimeStreaming(pause: Swift.Bool) async throws
-  public func pauseRealtimeStreaming()
-  public func resumeRealtimeStreaming()
-  public func enableSingleMetric(noCheckInsole: Swift.Bool = false, metric: ZTCoreKit.ZTRealtimeMetric) async throws
 }
 extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Equatable {}
 extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Hashable {}

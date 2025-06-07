@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.5.10](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.910(2025-06-06)
+- Imporved Mobility Scan
+
 ## [1.5.9](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.9 (2025-06-06)
 - Imporved Mobility Scan
 
