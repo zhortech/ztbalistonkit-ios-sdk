@@ -281,7 +281,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import ZTCoreKit;
 #endif
 
 #endif
@@ -303,26 +302,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-
-@class NSEntityDescription;
-@class NSManagedObjectContext;
-/// Safety activity
-SWIFT_RESILIENT_CLASS_NAMED("ZTBalistonActivity")
-@interface ZTBalistonActivity : ZTActivity
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-/// Activity Data object
-SWIFT_RESILIENT_CLASS_NAMED("ZTBalistonPacket")
-@interface ZTBalistonPacket : ZTPacket
-- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class NSString;
-@interface ZTBalistonPacket (SWIFT_EXTENSION(ZTBalistonKit))
-/// Debug description of activity data
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
-@end
 
 #endif
 #if __has_attribute(external_source_symbol)

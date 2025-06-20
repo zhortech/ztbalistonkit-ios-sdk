@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.0-beta.1](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.0-beta.1 (2025-06-20)
+- This is a pre-release of the SDK with better activity handling
+- ZTCore update to 12.0.0-beta.1
+
 ## [1.5.10](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.910(2025-06-06)
 - Imporved Mobility Scan
 
