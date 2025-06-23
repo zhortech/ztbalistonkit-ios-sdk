@@ -3,7 +3,6 @@
 // swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name ZTBalistonKit
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import CoreBluetooth
-import CoreData
 import Foundation
 import Swift
 import UIKit
@@ -11,127 +10,6 @@ import ZTCoreKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_inheritsConvenienceInitializers final public class ZhortechActivitySummary : ZTCoreKit.ZTActivitySummary {
-  final public var data: [Swift.String : Any]?
-  final public var attributes: [Swift.String : Any]?
-  required public init?(map: ZTCoreKit.ZTMap)
-  override final public func mapping(map: ZTCoreKit.ZTMap)
-  @objc deinit
-}
-final public class ZTUserDataParameters : Swift.Codable, Swift.CustomStringConvertible {
-  final public var description: Swift.String {
-    get
-  }
-  public enum Gender : Swift.UInt8, Swift.Codable {
-    case male
-    case female
-    public init?(rawValue: Swift.UInt8)
-    public typealias RawValue = Swift.UInt8
-    public var rawValue: Swift.UInt8 {
-      get
-    }
-  }
-  final public var threadmillSpeed: Swift.Int?
-  final public var bodyWeight: Swift.Int?
-  final public var bodyHeight: Swift.Int?
-  final public var shoeSize: Swift.Int?
-  final public var age: Swift.Int?
-  final public var gender: ZTBalistonKit.ZTUserDataParameters.Gender?
-  public init(threadmillSpeed: Swift.Int? = nil, bodyWeight: Swift.Int?, bodyHeight: Swift.Int?, shoeSize: Swift.Int?, age: Swift.Int?, gender: ZTBalistonKit.ZTUserDataParameters.Gender?)
-  public enum Parameters : Swift.UInt8 {
-    case threadmillSpeed
-    case bodyWeight
-    case bodyHeight
-    case shoeSize
-    case age
-    case gender
-    public init?(rawValue: Swift.UInt8)
-    public typealias RawValue = Swift.UInt8
-    public var rawValue: Swift.UInt8 {
-      get
-    }
-  }
-  @objc deinit
-  final public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
-public protocol ZTBalistonDfuDelegate {
-  func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
-  func dfuDelegate(didFinish: Swift.Bool)
-  func dfuDelegate(didFail error: ZTCoreKit.ZTError?)
-  func dfuDelegate(progress: Swift.Float?)
-  func dfuDelegate(leftDidFinish newVersion: Swift.String?)
-  func dfuDelegate(rightDidFinish newVersion: Swift.String?)
-}
-extension ZTBalistonKit.ZTBaliston : ZTCoreKit.ZTDfuDelegate {
-  public func initiateBackgroundDFU(isRestartRequired: Swift.Bool = false)
-  public func initiateBackgroundDFU(path: Swift.String)
-  public func reboot(completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
-  public func dfuDelegate(didFinish: Swift.Bool)
-  public func dfuDelegate(didFail error: ZTCoreKit.ZTError?)
-  public func dfuDelegate(progress: Swift.Float?)
-  public func dfuDelegate(leftDidFinish newVersion: Swift.String?)
-  public func dfuDelegate(rightDidFinish newVersion: Swift.String?)
-}
-extension ZTCoreKit.ZTRealtimeMessage.Side : @retroactive Swift.CustomStringConvertible {
-  public var description: Swift.String {
-    get
-  }
-}
-extension ZTCoreKit.ZTRealtimeMetric {
-  public typealias MetricSide = ZTCoreKit.ZTRealtimeMessage.Side
-  public struct Slope {
-    public let slopeAngle: Swift.Float?
-    public let directionAngle: Swift.Float?
-    public let side: ZTCoreKit.ZTRealtimeMetric.MetricSide?
-  }
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func startMobilityScanV2(timeout: Swift.Double = 30, duration: Swift.Int = 60, numberOfStride: Swift.UInt8? = nil, chunckInterval: Swift.Int? = nil, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
-  public func stopMobilityScanV2(timeout: Swift.Double = 60, allowRightInsoleOnly: Swift.Bool = false, silently: Swift.Bool = false, meetMinimumRequirements: (([ZTCoreKit.ZhorthechPacket]) -> Swift.Bool)? = nil) async throws -> ZTBalistonKit.ZhortechActivitySummary?
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func setInactivityTimeout(seconds: Foundation.TimeInterval) async throws
-  public func getInactivityTimeout() async throws -> Swift.Int
-  public func unsafeCalibrateGravity(calibrationPoint: Swift.UInt8 = 1) async throws -> (success: Swift.Bool, leftSuccess: Swift.Bool)
-  public func calibrateGravity(calibrationPoint: Swift.UInt8 = 1) async throws
-  public func resetCalibration() async throws
-  public func setTxPower(value: ZTCoreKit.ZTTXPower) async throws
-  @available(*, deprecated, message: "Use async setTxPower(value: instead")
-  public func setTxPower(value: ZTCoreKit.ZTTXPower, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-}
-extension ZTCoreKit.ZTCore {
-  final public func sendToConnectedDevice(_ command: ZTCoreKit.ZTCommand, parameters: [Swift.UInt8]? = nil) async throws
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func sendDirectMessage(message: [Swift.String : Any], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func getDirectMessages(completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
-  public func deleteDirectMessage(id: Swift.String, completion: @escaping ZTCoreKit.ZTBaseResult)
-  public func sendCannedMessage(message: [Swift.String : Any], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
-  public func getCannedMessages(parameters: [Swift.String : Any], completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
-  public func getTileMessage(name: Swift.String, parameters: [Swift.String : Any], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func getMobilityMessage(name: Swift.String, enqueue: Swift.Bool = true, completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func getMyShoesData(completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
-  public func getMyShoeData(code: Swift.String = "", completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func startListenMessages(onMessageReceived: @escaping (Swift.String?) -> Swift.Void, onDataReceived: @escaping (Foundation.Data?) -> Swift.Void)
-  public func stopListenMessages()
-  public func postMobility(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
-  public func getActivity(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func getData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
-  public func getDataArray(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ([Any]?, (any Swift.Error)?) -> Swift.Void)
-  public func postData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
-  public func getSwingAnalysis(body: [Swift.String : Any], completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func enableRealtimeStreaming(startDate: Foundation.Date, interval: Swift.Int16 = 1, metrics: Swift.Set<ZTCoreKit.ZTRealtimeMetric>, side: ZTCoreKit.ZTRealtimeMessage.Side = .none) async throws
-  public func enableRealtimeStreamingFromArray(startDate: Foundation.Date, interval: Swift.Int16 = 1, wantedMetrics: [ZTCoreKit.ZTRealtimeMetric]? = nil, side: ZTCoreKit.ZTRealtimeMessage.Side = .none) async throws
-  public func disableRealtimeStreaming(noCheckInsole: Swift.Bool = false) async throws
-  public func pauseRealtimeStreaming(pause: Swift.Bool) async throws
-  public func pauseRealtimeStreaming()
-  public func resumeRealtimeStreaming()
-  public func enableSingleMetric(noCheckInsole: Swift.Bool = false, metric: ZTCoreKit.ZTRealtimeMetric) async throws
-}
 extension ZTBalistonKit.ZTBaliston {
   public func hardReset(restart: Swift.Bool = false) async throws
   public func updateUserParameters(timeout: Swift.Double = 30, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
@@ -139,28 +17,6 @@ extension ZTBalistonKit.ZTBaliston {
 }
 extension ZTBalistonKit.ZTBaliston {
   public func cleanMemory() async throws
-}
-extension ZTBalistonKit.ZTBaliston {
-  public enum RawDataFlowState : Swift.String, Swift.Codable {
-    case prepareRightModule
-    case startRightModule
-    case endRightModule
-    case disconnectRightModule
-    case startPeerConnection
-    case connectLeftModule
-    case prepareLeftModule
-    case startLeftModule
-    case endLeftModule
-    case disconnectLeftModule
-    case reconnectRightmodule
-    case uploadData
-    case none
-    public init?(rawValue: Swift.String)
-    public typealias RawValue = Swift.String
-    public var rawValue: Swift.String {
-      get
-    }
-  }
 }
 public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift.Void
 public typealias ZTBalistonActivitySummary = ZTBalistonKit.ZhortechActivitySummary
@@ -241,8 +97,8 @@ public typealias ZTBalistonActivity = ZTCoreKit.ZhortechActivity
   public func subscribeCoreEvents()
   public func readGeneralState(completion: @escaping (ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void)
 }
-extension ZTBalistonKit.ZTBaliston {
-  public func uploadRawData(for activityId: Swift.String) async throws
+extension ZTCoreKit.ZTCore {
+  final public func sendToConnectedDevice(_ command: ZTCoreKit.ZTCommand, parameters: [Swift.UInt8]? = nil) async throws
 }
 extension ZTBalistonKit.ZTBaliston {
   public func startActivity(timeout: Swift.Double = 30) async throws
@@ -260,12 +116,155 @@ extension ZTBalistonKit.ZTBaliston {
   @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
   public func updateFirmware(path: Swift.String, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
 }
+public protocol ZTBalistonDfuDelegate {
+  func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
+  func dfuDelegate(didFinish: Swift.Bool)
+  func dfuDelegate(didFail error: ZTCoreKit.ZTError?)
+  func dfuDelegate(progress: Swift.Float?)
+  func dfuDelegate(leftDidFinish newVersion: Swift.String?)
+  func dfuDelegate(rightDidFinish newVersion: Swift.String?)
+}
+extension ZTBalistonKit.ZTBaliston : ZTCoreKit.ZTDfuDelegate {
+  public func initiateBackgroundDFU(isRestartRequired: Swift.Bool = false)
+  public func initiateBackgroundDFU(path: Swift.String)
+  public func reboot(completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func dfuDelegate(firmwareDownloaded: Swift.Bool, version: Swift.String?)
+  public func dfuDelegate(didFinish: Swift.Bool)
+  public func dfuDelegate(didFail error: ZTCoreKit.ZTError?)
+  public func dfuDelegate(progress: Swift.Float?)
+  public func dfuDelegate(leftDidFinish newVersion: Swift.String?)
+  public func dfuDelegate(rightDidFinish newVersion: Swift.String?)
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func enableRealtimeStreaming(startDate: Foundation.Date, interval: Swift.Int16 = 1, metrics: Swift.Set<ZTCoreKit.ZTRealtimeMetric>, side: ZTCoreKit.ZTRealtimeMessage.Side = .none) async throws
+  public func enableRealtimeStreamingFromArray(startDate: Foundation.Date, interval: Swift.Int16 = 1, wantedMetrics: [ZTCoreKit.ZTRealtimeMetric]? = nil, side: ZTCoreKit.ZTRealtimeMessage.Side = .none) async throws
+  public func disableRealtimeStreaming(noCheckInsole: Swift.Bool = false) async throws
+  public func pauseRealtimeStreaming(pause: Swift.Bool) async throws
+  public func pauseRealtimeStreaming()
+  public func resumeRealtimeStreaming()
+  public func enableSingleMetric(noCheckInsole: Swift.Bool = false, metric: ZTCoreKit.ZTRealtimeMetric) async throws
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func setInactivityTimeout(seconds: Foundation.TimeInterval) async throws
+  public func getInactivityTimeout() async throws -> Swift.Int
+  public func unsafeCalibrateGravity(calibrationPoint: Swift.UInt8 = 1) async throws -> (success: Swift.Bool, leftSuccess: Swift.Bool)
+  public func calibrateGravity(calibrationPoint: Swift.UInt8 = 1) async throws
+  public func resetCalibration() async throws
+  public func setTxPower(value: ZTCoreKit.ZTTXPower) async throws
+  @available(*, deprecated, message: "Use async setTxPower(value: instead")
+  public func setTxPower(value: ZTCoreKit.ZTTXPower, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+}
+extension ZTBalistonKit.ZTBaliston {
+  public enum RawDataFlowState : Swift.String, Swift.Codable {
+    case prepareRightModule
+    case startRightModule
+    case endRightModule
+    case disconnectRightModule
+    case startPeerConnection
+    case connectLeftModule
+    case prepareLeftModule
+    case startLeftModule
+    case endLeftModule
+    case disconnectLeftModule
+    case reconnectRightmodule
+    case uploadData
+    case none
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+@_inheritsConvenienceInitializers final public class ZhortechActivitySummary : ZTCoreKit.ZTActivitySummary {
+  final public var data: [Swift.String : Any]?
+  final public var attributes: [Swift.String : Any]?
+  required public init?(map: ZTCoreKit.ZTMap)
+  override final public func mapping(map: ZTCoreKit.ZTMap)
+  @objc deinit
+}
+final public class ZTUserDataParameters : Swift.Codable, Swift.CustomStringConvertible {
+  final public var description: Swift.String {
+    get
+  }
+  public enum Gender : Swift.UInt8, Swift.Codable {
+    case male
+    case female
+    public init?(rawValue: Swift.UInt8)
+    public typealias RawValue = Swift.UInt8
+    public var rawValue: Swift.UInt8 {
+      get
+    }
+  }
+  final public var threadmillSpeed: Swift.Int?
+  final public var bodyWeight: Swift.Int?
+  final public var bodyHeight: Swift.Int?
+  final public var shoeSize: Swift.Int?
+  final public var age: Swift.Int?
+  final public var gender: ZTBalistonKit.ZTUserDataParameters.Gender?
+  public init(threadmillSpeed: Swift.Int? = nil, bodyWeight: Swift.Int?, bodyHeight: Swift.Int?, shoeSize: Swift.Int?, age: Swift.Int?, gender: ZTBalistonKit.ZTUserDataParameters.Gender?)
+  public enum Parameters : Swift.UInt8 {
+    case threadmillSpeed
+    case bodyWeight
+    case bodyHeight
+    case shoeSize
+    case age
+    case gender
+    public init?(rawValue: Swift.UInt8)
+    public typealias RawValue = Swift.UInt8
+    public var rawValue: Swift.UInt8 {
+      get
+    }
+  }
+  @objc deinit
+  final public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func sendDirectMessage(message: [Swift.String : Any], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func getDirectMessages(completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
+  public func deleteDirectMessage(id: Swift.String, completion: @escaping ZTCoreKit.ZTBaseResult)
+  public func sendCannedMessage(message: [Swift.String : Any], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
+  public func getCannedMessages(parameters: [Swift.String : Any], completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
+  public func getTileMessage(name: Swift.String, parameters: [Swift.String : Any], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func getMobilityMessage(name: Swift.String, enqueue: Swift.Bool = true, completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func getMyShoesData(completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
+  public func getMyShoeData(code: Swift.String = "", completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func startListenMessages(onMessageReceived: @escaping (Swift.String?) -> Swift.Void, onDataReceived: @escaping (Foundation.Data?) -> Swift.Void)
+  public func stopListenMessages()
+  public func postMobility(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
+  public func getActivity(name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func getData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
+  public func getDataArray(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ([Any]?, (any Swift.Error)?) -> Swift.Void)
+  public func postData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
+  public func getSwingAnalysis(body: [Swift.String : Any], completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func uploadRawData(for activityId: Swift.String) async throws
+}
+extension ZTCoreKit.ZTRealtimeMessage.Side : @retroactive Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension ZTCoreKit.ZTRealtimeMetric {
+  public typealias MetricSide = ZTCoreKit.ZTRealtimeMessage.Side
+  public struct Slope {
+    public let slopeAngle: Swift.Float?
+    public let directionAngle: Swift.Float?
+    public let side: ZTCoreKit.ZTRealtimeMetric.MetricSide?
+  }
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func startMobilityScanV2(timeout: Swift.Double = 30, duration: Swift.Int = 60, numberOfStride: Swift.UInt8? = nil, chunckInterval: Swift.Int? = nil, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
+  public func stopMobilityScanV2(timeout: Swift.Double = 60, allowRightInsoleOnly: Swift.Bool = false, silently: Swift.Bool = false, meetMinimumRequirements: (([ZTCoreKit.ZhorthechPacket]) -> Swift.Bool)? = nil) async throws -> ZTBalistonKit.ZhortechActivitySummary?
+}
+extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Equatable {}
+extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Hashable {}
+extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.RawRepresentable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Equatable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Hashable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.RawRepresentable {}
 extension ZTBalistonKit.ZTUserDataParameters.Parameters : Swift.Equatable {}
 extension ZTBalistonKit.ZTUserDataParameters.Parameters : Swift.Hashable {}
 extension ZTBalistonKit.ZTUserDataParameters.Parameters : Swift.RawRepresentable {}
-extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Equatable {}
-extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Hashable {}
-extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.RawRepresentable {}

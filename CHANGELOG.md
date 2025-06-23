@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.1](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.1 (2025-06-23)
+- This is a pre-release of the SDK with better activity handling
+- ZTCore update to 2.0.1
+
 ## [2.0.0](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.0 (2025-06-20)
 - This is a pre-release of the SDK with better activity handling
 - ZTCore update to 2.0.0
