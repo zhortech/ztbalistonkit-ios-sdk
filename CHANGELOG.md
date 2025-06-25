@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.0.4](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.4 (2025-06-24)
+- Bug Fix
+- Adds real-time activity support mode Only
+- ZTCore update to 2.0.4
+
 ## [2.0.3](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.3 (2025-06-24)
 - Bug Fix
 - ZTCore update to 2.0.3

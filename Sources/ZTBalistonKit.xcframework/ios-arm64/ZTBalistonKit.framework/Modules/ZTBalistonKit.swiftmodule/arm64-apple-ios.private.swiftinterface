@@ -10,15 +10,107 @@ import ZTCoreKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension ZTBalistonKit.ZTBaliston {
+  public func directStartActivity() async
+  public func directStopActivity() async
+}
+public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift.Void
+public typealias ZTBalistonActivitySummary = ZTBalistonKit.ZhortechActivitySummary
+public typealias ZTBalistonPacket = ZTCoreKit.ZhorthechPacket
+public typealias ZTBalistonActivity = ZTCoreKit.ZhortechActivity
+@_hasMissingDesignatedInitializers public class ZTBaliston {
+  public static let version: Swift.String
+  public static let shared: ZTBalistonKit.ZTBaliston
+  public static let requiredFwVersion: Swift.String
+  public var dfuDelegate: (any ZTBalistonKit.ZTBalistonDfuDelegate)?
+  public var connectedDevice: ZTCoreKit.ZTDevice? {
+    get
+  }
+  public var isActivityRunning: Swift.Bool? {
+    get
+  }
+  public var lastSerialNumber: Swift.String? {
+    get
+  }
+  public var currentActivity: ZTCoreKit.ZhortechActivity? {
+    get async
+  }
+  public var activityManager: ZTCoreKit.ZhortechActivityActor {
+    get
+  }
+  public var currentDfuState: ZTCoreKit.ZTMessageBootloaderInfo.DfuState {
+    get
+  }
+  public var analyticsData: [Swift.String : Any]? {
+    get
+    set
+  }
+  public var isObtainingData: Swift.Bool {
+    get
+  }
+  public var isActivityChunksSyncing: Swift.Bool {
+    get
+  }
+  public var isCheckingActivityState: Swift.Bool {
+    get
+  }
+  public var isCheckingMonitoredActivity: Swift.Bool {
+    get
+  }
+  public var disableAutomaticActivity: Swift.Bool {
+    get
+  }
+  public var activityStarted: Swift.Bool {
+    get async
+  }
+  public var isEnablingRealtimeStreaming: Swift.Bool {
+    get
+  }
+  public var isCheckingAnalyticsData: Swift.Bool {
+    get
+  }
+  public var defaultChunkDurationSeconds: Swift.Int
+  public var isStreamingStarted: Swift.Bool {
+    get
+  }
+  final public let onActivityStateChange: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, (any Swift.Error)?)>
+  final public let onActivityStopped: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, (any Swift.Error)?)>
+  final public let onActivityDataReceived: ZTCoreKit.ZTSignal<()>
+  final public let onActivityError: ZTCoreKit.ZTSignal<ZTCoreKit.ZTError?>
+  final public let onDfuStateUpdated: ZTCoreKit.ZTSignal<ZTCoreKit.ZTMessageBootloaderInfo.DfuState>
+  final public let onDfuChanged: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTDFUState, ZTCoreKit.ZTError?)>
+  final public let onDfuUploadProgress: ZTCoreKit.ZTSignal<Swift.Float?>
+  final public let onChunksDownloadProgress: ZTCoreKit.ZTSignal<Swift.Float?>
+  final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<ZTCoreKit.ZhortechMessageActivityMetadata?>
+  final public let onRealtimeMetricReceived: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTRealtimeMetric?, Any?)>
+  final public let onAnalyticsDataUpdated: ZTCoreKit.ZTSignal<()>
+  final public let onRawDataFlowStateChange: ZTCoreKit.ZTSignal<(ZTBalistonKit.ZTBaliston.RawDataFlowState?, (any Swift.Error)?)>
+  final public let onRawDataFlowProgresss: ZTCoreKit.ZTSignal<Swift.Float>
+  public var currentMode: ZTCoreKit.ZTActivityMode? {
+    get
+  }
+  @objc deinit
+  public func subscribeCoreEvents()
+  public func readGeneralState(completion: @escaping (ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void)
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func startActivity(timeout: Swift.Double = 30) async throws
+  public func stopActivity(force: Swift.Bool = true) async throws
+  public func startActivityCommand(attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil) async throws
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func stopAutomaticActivity(force: Swift.Bool = true) async throws
+}
+extension ZTBalistonKit.ZTBaliston {
+  @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
+  public func updateFirmware(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
+  public func updateFirmware(path: Swift.String, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  @available(*, deprecated, message: "Use async setTxPower(value: instead")
+  public func setTxPower(value: ZTCoreKit.ZTTXPower, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+}
 extension ZTCoreKit.ZTCore {
   final public func sendToConnectedDevice(_ command: ZTCoreKit.ZTCommand, parameters: [Swift.UInt8]? = nil) async throws
-}
-@_inheritsConvenienceInitializers final public class ZhortechActivitySummary : ZTCoreKit.ZTActivitySummary {
-  final public var data: [Swift.String : Any]?
-  final public var attributes: [Swift.String : Any]?
-  required public init?(map: ZTCoreKit.ZTMap)
-  override final public func mapping(map: ZTCoreKit.ZTMap)
-  @objc deinit
 }
 final public class ZTUserDataParameters : Swift.Codable, Swift.CustomStringConvertible {
   final public var description: Swift.String {
@@ -109,8 +201,6 @@ extension ZTBalistonKit.ZTBaliston {
   public func calibrateGravity(calibrationPoint: Swift.UInt8 = 1) async throws
   public func resetCalibration() async throws
   public func setTxPower(value: ZTCoreKit.ZTTXPower) async throws
-  @available(*, deprecated, message: "Use async setTxPower(value: instead")
-  public func setTxPower(value: ZTCoreKit.ZTTXPower, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
 }
 extension ZTBalistonKit.ZTBaliston {
   public enum RawDataFlowState : Swift.String, Swift.Codable {
@@ -133,6 +223,13 @@ extension ZTBalistonKit.ZTBaliston {
       get
     }
   }
+}
+@_inheritsConvenienceInitializers final public class ZhortechActivitySummary : ZTCoreKit.ZTActivitySummary {
+  final public var data: [Swift.String : Any]?
+  final public var attributes: [Swift.String : Any]?
+  required public init?(map: ZTCoreKit.ZTMap)
+  override final public func mapping(map: ZTCoreKit.ZTMap)
+  @objc deinit
 }
 extension ZTBalistonKit.ZTBaliston {
   public func sendDirectMessage(message: [Swift.String : Any], completion: @escaping ([Swift.String : Any]?, (any Swift.Error)?) -> Swift.Void)
@@ -163,101 +260,6 @@ extension ZTBalistonKit.ZTBaliston {
 }
 extension ZTBalistonKit.ZTBaliston {
   public func cleanMemory() async throws
-}
-public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift.Void
-public typealias ZTBalistonActivitySummary = ZTBalistonKit.ZhortechActivitySummary
-public typealias ZTBalistonPacket = ZTCoreKit.ZhorthechPacket
-public typealias ZTBalistonActivity = ZTCoreKit.ZhortechActivity
-@_hasMissingDesignatedInitializers public class ZTBaliston {
-  public static let version: Swift.String
-  public static let shared: ZTBalistonKit.ZTBaliston
-  public static let requiredFwVersion: Swift.String
-  public var dfuDelegate: (any ZTBalistonKit.ZTBalistonDfuDelegate)?
-  public var connectedDevice: ZTCoreKit.ZTDevice? {
-    get
-  }
-  public var isActivityRunning: Swift.Bool? {
-    get
-  }
-  public var lastSerialNumber: Swift.String? {
-    get
-  }
-  public var currentActivity: ZTCoreKit.ZhortechActivity? {
-    get async
-  }
-  public var activityManager: ZTCoreKit.ZhortechActivityActor {
-    get
-  }
-  public var currentDfuState: ZTCoreKit.ZTMessageBootloaderInfo.DfuState {
-    get
-  }
-  public var analyticsData: [Swift.String : Any]? {
-    get
-    set
-  }
-  public var isObtainingData: Swift.Bool {
-    get
-  }
-  public var isActivityChunksSyncing: Swift.Bool {
-    get
-  }
-  public var isCheckingActivityState: Swift.Bool {
-    get
-  }
-  public var isCheckingMonitoredActivity: Swift.Bool {
-    get
-  }
-  public var disableAutomaticActivity: Swift.Bool {
-    get
-  }
-  public var activityStarted: Swift.Bool {
-    get async
-  }
-  public var isEnablingRealtimeStreaming: Swift.Bool {
-    get
-  }
-  public var isCheckingAnalyticsData: Swift.Bool {
-    get
-  }
-  public var defaultChunkDurationSeconds: Swift.Int
-  public var isStreamingStarted: Swift.Bool {
-    get
-  }
-  final public let onActivityStateChange: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, (any Swift.Error)?)>
-  final public let onActivityStopped: ZTCoreKit.ZTSignal<(Swift.String?, ZTCoreKit.ZTDeviceActualState, (any Swift.Error)?)>
-  final public let onActivityDataReceived: ZTCoreKit.ZTSignal<()>
-  final public let onActivityError: ZTCoreKit.ZTSignal<ZTCoreKit.ZTError?>
-  final public let onDfuStateUpdated: ZTCoreKit.ZTSignal<ZTCoreKit.ZTMessageBootloaderInfo.DfuState>
-  final public let onDfuChanged: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTDFUState, ZTCoreKit.ZTError?)>
-  final public let onDfuUploadProgress: ZTCoreKit.ZTSignal<Swift.Float?>
-  final public let onChunksDownloadProgress: ZTCoreKit.ZTSignal<Swift.Float?>
-  final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<ZTCoreKit.ZhortechMessageActivityMetadata?>
-  final public let onRealtimeMetricReceived: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTRealtimeMetric?, Any?)>
-  final public let onAnalyticsDataUpdated: ZTCoreKit.ZTSignal<()>
-  final public let onRawDataFlowStateChange: ZTCoreKit.ZTSignal<(ZTBalistonKit.ZTBaliston.RawDataFlowState?, (any Swift.Error)?)>
-  final public let onRawDataFlowProgresss: ZTCoreKit.ZTSignal<Swift.Float>
-  public var currentMode: ZTCoreKit.ZTActivityMode? {
-    get
-  }
-  @objc deinit
-  public func subscribeCoreEvents()
-  public func readGeneralState(completion: @escaping (ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void)
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func startActivity(timeout: Swift.Double = 30) async throws
-  public func stopActivity(force: Swift.Bool = true) async throws
-  public func stopActivity(timeout: Swift.Double = 30, shouldAutoSendRawData: Swift.Bool = true) async throws -> Swift.String?
-  public func startAutomaticActivity(timeout: Swift.Double = 30) async throws
-  public func startActivityCommand(attributes: [Swift.String : Any], userParameters: ZTBalistonKit.ZTUserDataParameters? = nil) async throws
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func stopAutomaticActivity(force: Swift.Bool = true) async throws
-}
-extension ZTBalistonKit.ZTBaliston {
-  @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
-  public func updateFirmware(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
-  public func updateFirmware(path: Swift.String, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
 }
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Equatable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Hashable {}
