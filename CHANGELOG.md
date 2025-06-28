@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.6](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.6 (2025-06-27)
+- Bug Fix
+- ZTCore update to 2.0.6
+
 ## [2.0.5](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.5 (2025-06-27)
 - Bug Fix
 - ZTCore update to 2.0.5
