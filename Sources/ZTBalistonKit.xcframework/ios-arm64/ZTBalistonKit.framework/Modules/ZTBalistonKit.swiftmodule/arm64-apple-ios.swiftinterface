@@ -12,10 +12,6 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import os.log
 import os
-extension ZTBalistonKit.ZTBaliston {
-  public func directStartActivity() async
-  public func directStopActivity() async
-}
 extension ZTCoreKit.ZTCore {
   final public func sendToConnectedDevice(_ command: ZTCoreKit.ZTCommand, parameters: [Swift.UInt8]? = nil) async throws
 }
@@ -278,6 +274,10 @@ extension ZTBalistonKit.ZTBaliston {
 }
 extension ZTBalistonKit.ZTBaliston {
   public func cleanMemory() async throws
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func directStartActivity() async
+  public func directStopActivity() async
 }
 extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Equatable {}
 extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Hashable {}
