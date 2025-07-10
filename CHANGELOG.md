@@ -1,6 +1,9 @@
 # Changelog
 
-## [2.0.10](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.9 (2025-07-04)
+## [2.0.11](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.11 (2025-07-10)
+- ZTCore update to 2.0.11
+
+## [2.0.10](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.10 (2025-07-07)
 - Imporved Stability
 - ZTCore update to 2.0.10
 
