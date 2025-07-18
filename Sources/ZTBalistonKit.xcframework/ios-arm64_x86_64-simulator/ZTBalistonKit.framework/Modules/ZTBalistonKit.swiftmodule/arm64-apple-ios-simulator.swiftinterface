@@ -13,6 +13,24 @@ import _SwiftConcurrencyShims
 import os.log
 import os
 extension ZTBalistonKit.ZTBaliston {
+  @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
+  public func updateFirmware(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
+  public func updateFirmware(path: Swift.String, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  @available(*, deprecated, message: "Use async setTxPower(value: instead")
+  public func setTxPower(value: ZTCoreKit.ZTTXPower, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+}
+extension ZTCoreKit.ZTCore {
+  final public func sendToConnectedDevice(_ command: ZTCoreKit.ZTCommand, parameters: [Swift.UInt8]? = nil) async throws
+}
+@_inheritsConvenienceInitializers final public class ZhortechActivitySummary : ZTCoreKit.ZTActivitySummary {
+  final public var data: [Swift.String : Any]?
+  final public var attributes: [Swift.String : Any]?
+  required public init?(map: ZTCoreKit.ZTMap)
+  override final public func mapping(map: ZTCoreKit.ZTMap)
+  @objc deinit
+}
+extension ZTBalistonKit.ZTBaliston {
   public func enableRealtimeStreaming(startDate: Foundation.Date, interval: Swift.Int16 = 1, metrics: Swift.Set<ZTCoreKit.ZTRealtimeMetric>, side: ZTCoreKit.ZTRealtimeMessage.Side = .none) async throws
   public func enableRealtimeStreamingFromArray(startDate: Foundation.Date, interval: Swift.Int16 = 1, wantedMetrics: [ZTCoreKit.ZTRealtimeMetric]? = nil, side: ZTCoreKit.ZTRealtimeMessage.Side = .none) async throws
   public func disableRealtimeStreaming(noCheckInsole: Swift.Bool = false) async throws
@@ -175,8 +193,12 @@ public var ZTBALLog: ZTBalistonKit.ZTBALLogger {
   public static func shared() -> ZTBalistonKit.ZTBALLogger
   @objc deinit
 }
-extension ZTBalistonKit.ZTBALLogger : ZTCoreKit.ZhortechLoggerProtocol {
+extension ZTBalistonKit.ZTBALLogger {
   final public func ztDebugPrint(_ message: Swift.String)
+  final public func debug(_ message: Swift.String)
+  final public func info(_ message: Swift.String)
+  final public func error(_ message: Swift.String)
+  final public func fatal(_ message: Swift.String)
   final public func debug(_ message: Swift.StaticString, _ args: any Swift.CVarArg...)
   final public func info(_ message: Swift.StaticString, _ args: any Swift.CVarArg...)
   final public func error(_ message: Swift.StaticString, _ args: any Swift.CVarArg...)
@@ -260,24 +282,6 @@ public typealias ZTBalistonActivity = ZTCoreKit.ZhortechActivity
   @objc deinit
   public func subscribeCoreEvents()
   public func readGeneralState(completion: @escaping (ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void)
-}
-extension ZTBalistonKit.ZTBaliston {
-  @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
-  public func updateFirmware(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
-  public func updateFirmware(path: Swift.String, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  @available(*, deprecated, message: "Use async setTxPower(value: instead")
-  public func setTxPower(value: ZTCoreKit.ZTTXPower, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-}
-extension ZTCoreKit.ZTCore {
-  final public func sendToConnectedDevice(_ command: ZTCoreKit.ZTCommand, parameters: [Swift.UInt8]? = nil) async throws
-}
-@_inheritsConvenienceInitializers final public class ZhortechActivitySummary : ZTCoreKit.ZTActivitySummary {
-  final public var data: [Swift.String : Any]?
-  final public var attributes: [Swift.String : Any]?
-  required public init?(map: ZTCoreKit.ZTMap)
-  override final public func mapping(map: ZTCoreKit.ZTMap)
-  @objc deinit
 }
 extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Equatable {}
 extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Hashable {}

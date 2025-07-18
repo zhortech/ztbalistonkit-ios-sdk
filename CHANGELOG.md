@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.12](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.12 (2025-07-19)
+- Improved Stability
+- ZTCore update to 2.0.12
+
 ## [2.0.11](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.11 (2025-07-10)
 - ZTCore update to 2.0.11
 
@@ -251,7 +255,7 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 
 ## [1.1.19](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.19) (2024-01-31)
 
-- check and enable relatime metrics streaming if streaming was enabled
+- check and enable realtime metrics streaming if streaming was enabled
 - fixed flow to check activity state
 
 ## [1.1.18](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.18) (2024-01-23)
@@ -334,7 +338,7 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 
 ## [1.1.1](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.1) (2023-09-25)
 
-- enable/disable realtime data depedning on value `enableBackgroundDataStreaming` in `ZTSettings` 
+- enable/disable realtime data depending on value `enableBackgroundDataStreaming` in `ZTSettings`
 
 ## [1.1.0](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.0) (2023-09-12)
 
@@ -581,8 +585,8 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 
 ## [1.0.25](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.25) (2022-11-15)
 
-- new method to obtaine data related to `mobility` - `public func postMobility(name:, parameters:, completion:)`
-- new method to obtaine data related to `activity` - `public func postActivity(name:, parameters:, completion:)`
+- new method to obtain data related to `mobility` - `public func postMobility(name:, parameters:, completion:)`
+- new method to obtain data related to `activity` - `public func postActivity(name:, parameters:, completion:)`
     
 ## [1.0.24](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.24) (2022-09-13)
 

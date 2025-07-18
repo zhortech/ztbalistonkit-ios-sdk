@@ -13,6 +13,62 @@ import _SwiftConcurrencyShims
 import os.log
 import os
 extension ZTBalistonKit.ZTBaliston {
+  @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
+  public func updateFirmware(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
+  public func updateFirmware(path: Swift.String, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+  @available(*, deprecated, message: "Use async setTxPower(value: instead")
+  public func setTxPower(value: ZTCoreKit.ZTTXPower, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
+}
+extension ZTCoreKit.ZTCore {
+  final public func sendToConnectedDevice(_ command: ZTCoreKit.ZTCommand, parameters: [Swift.UInt8]? = nil) async throws
+}
+@_inheritsConvenienceInitializers final public class ZhortechActivitySummary : ZTCoreKit.ZTActivitySummary {
+  final public var data: [Swift.String : Any]?
+  final public var attributes: [Swift.String : Any]?
+  required public init?(map: ZTCoreKit.ZTMap)
+  override final public func mapping(map: ZTCoreKit.ZTMap)
+  @objc deinit
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func enableRealtimeStreaming(startDate: Foundation.Date, interval: Swift.Int16 = 1, metrics: Swift.Set<ZTCoreKit.ZTRealtimeMetric>, side: ZTCoreKit.ZTRealtimeMessage.Side = .none) async throws
+  public func enableRealtimeStreamingFromArray(startDate: Foundation.Date, interval: Swift.Int16 = 1, wantedMetrics: [ZTCoreKit.ZTRealtimeMetric]? = nil, side: ZTCoreKit.ZTRealtimeMessage.Side = .none) async throws
+  public func disableRealtimeStreaming(noCheckInsole: Swift.Bool = false) async throws
+  public func pauseRealtimeStreaming(pause: Swift.Bool) async throws
+  public func pauseRealtimeStreaming()
+  public func resumeRealtimeStreaming()
+  public func enableSingleMetric(noCheckInsole: Swift.Bool = false, metric: ZTCoreKit.ZTRealtimeMetric) async throws
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func startMobilityScanV2(timeout: Swift.Double = 30, duration: Swift.Int = 60, numberOfStride: Swift.UInt8? = nil, chunckInterval: Swift.Int? = nil, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
+  public func stopMobilityScanV2(timeout: Swift.Double = 30, allowRightInsoleOnly: Swift.Bool = false, silently: Swift.Bool = false, meetMinimumRequirements: (([ZTCoreKit.ZhorthechPacket]) -> Swift.Bool)? = nil) async throws -> ZTBalistonKit.ZhortechActivitySummary?
+}
+extension ZTBalistonKit.ZTBaliston {
+  public enum RawDataFlowState : Swift.String, Swift.Codable {
+    case prepareRightModule
+    case startRightModule
+    case endRightModule
+    case disconnectRightModule
+    case startPeerConnection
+    case connectLeftModule
+    case prepareLeftModule
+    case startLeftModule
+    case endLeftModule
+    case disconnectLeftModule
+    case reconnectRightmodule
+    case uploadData
+    case none
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func uploadRawData(for activityId: Swift.String) async throws
+}
+extension ZTBalistonKit.ZTBaliston {
   public func hardReset(restart: Swift.Bool = false) async throws
   public func updateUserParameters(timeout: Swift.Double = 15, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
   public func readGeneralState(timeout: Swift.Double = 15, allowRightInsoleOnly: Swift.Bool) async throws -> ZTCoreKit.ZTDeviceActualState?
@@ -137,8 +193,12 @@ public var ZTBALLog: ZTBalistonKit.ZTBALLogger {
   public static func shared() -> ZTBalistonKit.ZTBALLogger
   @objc deinit
 }
-extension ZTBalistonKit.ZTBALLogger : ZTCoreKit.ZhortechLoggerProtocol {
+extension ZTBalistonKit.ZTBALLogger {
   final public func ztDebugPrint(_ message: Swift.String)
+  final public func debug(_ message: Swift.String)
+  final public func info(_ message: Swift.String)
+  final public func error(_ message: Swift.String)
+  final public func fatal(_ message: Swift.String)
   final public func debug(_ message: Swift.StaticString, _ args: any Swift.CVarArg...)
   final public func info(_ message: Swift.StaticString, _ args: any Swift.CVarArg...)
   final public func error(_ message: Swift.StaticString, _ args: any Swift.CVarArg...)
@@ -223,68 +283,12 @@ public typealias ZTBalistonActivity = ZTCoreKit.ZhortechActivity
   public func subscribeCoreEvents()
   public func readGeneralState(completion: @escaping (ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void)
 }
-extension ZTBalistonKit.ZTBaliston {
-  @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
-  public func updateFirmware(completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")
-  public func updateFirmware(path: Swift.String, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-  @available(*, deprecated, message: "Use async setTxPower(value: instead")
-  public func setTxPower(value: ZTCoreKit.ZTTXPower, completion: @escaping (ZTCoreKit.ZTError?) -> Swift.Void)
-}
-extension ZTCoreKit.ZTCore {
-  final public func sendToConnectedDevice(_ command: ZTCoreKit.ZTCommand, parameters: [Swift.UInt8]? = nil) async throws
-}
-@_inheritsConvenienceInitializers final public class ZhortechActivitySummary : ZTCoreKit.ZTActivitySummary {
-  final public var data: [Swift.String : Any]?
-  final public var attributes: [Swift.String : Any]?
-  required public init?(map: ZTCoreKit.ZTMap)
-  override final public func mapping(map: ZTCoreKit.ZTMap)
-  @objc deinit
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func enableRealtimeStreaming(startDate: Foundation.Date, interval: Swift.Int16 = 1, metrics: Swift.Set<ZTCoreKit.ZTRealtimeMetric>, side: ZTCoreKit.ZTRealtimeMessage.Side = .none) async throws
-  public func enableRealtimeStreamingFromArray(startDate: Foundation.Date, interval: Swift.Int16 = 1, wantedMetrics: [ZTCoreKit.ZTRealtimeMetric]? = nil, side: ZTCoreKit.ZTRealtimeMessage.Side = .none) async throws
-  public func disableRealtimeStreaming(noCheckInsole: Swift.Bool = false) async throws
-  public func pauseRealtimeStreaming(pause: Swift.Bool) async throws
-  public func pauseRealtimeStreaming()
-  public func resumeRealtimeStreaming()
-  public func enableSingleMetric(noCheckInsole: Swift.Bool = false, metric: ZTCoreKit.ZTRealtimeMetric) async throws
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func startMobilityScanV2(timeout: Swift.Double = 30, duration: Swift.Int = 60, numberOfStride: Swift.UInt8? = nil, chunckInterval: Swift.Int? = nil, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
-  public func stopMobilityScanV2(timeout: Swift.Double = 30, allowRightInsoleOnly: Swift.Bool = false, silently: Swift.Bool = false, meetMinimumRequirements: (([ZTCoreKit.ZhorthechPacket]) -> Swift.Bool)? = nil) async throws -> ZTBalistonKit.ZhortechActivitySummary?
-}
-extension ZTBalistonKit.ZTBaliston {
-  public enum RawDataFlowState : Swift.String, Swift.Codable {
-    case prepareRightModule
-    case startRightModule
-    case endRightModule
-    case disconnectRightModule
-    case startPeerConnection
-    case connectLeftModule
-    case prepareLeftModule
-    case startLeftModule
-    case endLeftModule
-    case disconnectLeftModule
-    case reconnectRightmodule
-    case uploadData
-    case none
-    public init?(rawValue: Swift.String)
-    public typealias RawValue = Swift.String
-    public var rawValue: Swift.String {
-      get
-    }
-  }
-}
-extension ZTBalistonKit.ZTBaliston {
-  public func uploadRawData(for activityId: Swift.String) async throws
-}
+extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Equatable {}
+extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Hashable {}
+extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.RawRepresentable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Equatable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Hashable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.RawRepresentable {}
 extension ZTBalistonKit.ZTUserDataParameters.Parameters : Swift.Equatable {}
 extension ZTBalistonKit.ZTUserDataParameters.Parameters : Swift.Hashable {}
 extension ZTBalistonKit.ZTUserDataParameters.Parameters : Swift.RawRepresentable {}
-extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Equatable {}
-extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.Hashable {}
-extension ZTBalistonKit.ZTBaliston.RawDataFlowState : Swift.RawRepresentable {}
