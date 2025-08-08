@@ -1,135 +1,134 @@
 # Changelog
 
-## [2.0.12](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.12 (2025-07-19)
-- Improved Stability
-- ZTCore update to 2.0.12
+## [2.0.13](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.13 (2025-08-08)
+- ZTCore update to 2.0.13
 
-## [2.0.11](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.11 (2025-07-10)
+## [2.0.11](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.11 (2025-07-10)
 - ZTCore update to 2.0.11
 
-## [2.0.10](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.10 (2025-07-07)
+## [2.0.10](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.10 (2025-07-07)
 - Imporved Stability
 - ZTCore update to 2.0.10
 
-## [2.0.9](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.9 (2025-07-04)
+## [2.0.9](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.9 (2025-07-04)
 - Bug Fix
 
-## [2.0.8](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.8 (2025-07-02)
+## [2.0.8](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.8 (2025-07-02)
 - Bug Fix
 - ZTCore update to 2.0.8
 
-## [2.0.7](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.7 (2025-07-01)
+## [2.0.7](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.7 (2025-07-01)
 - Bug Fix
 - ZTCore update to 2.0.7
 
-## [2.0.6](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.6 (2025-06-27)
+## [2.0.6](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.6 (2025-06-27)
 - Bug Fix
 - ZTCore update to 2.0.6
 
-## [2.0.5](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.5 (2025-06-27)
+## [2.0.5](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.5 (2025-06-27)
 - Bug Fix
 - ZTCore update to 2.0.5
 
-## [2.0.4](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.4 (2025-06-24)
+## [2.0.4](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.4 (2025-06-24)
 - Bug Fix
 - Adds real-time activity support mode Only
 - ZTCore update to 2.0.4
 
-## [2.0.3](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.3 (2025-06-24)
+## [2.0.3](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.3 (2025-06-24)
 - Bug Fix
 - ZTCore update to 2.0.3
 
-## [2.0.2](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.2 (2025-06-24)
+## [2.0.2](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.2 (2025-06-24)
 - Initial release
 - ZTCore update to 2.0.2
 
-## [2.0.1](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.1 (2025-06-23)
+## [2.0.1](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.1 (2025-06-23)
 - This is a pre-release of the SDK with better activity handling
 - ZTCore update to 2.0.1
 
-## [2.0.0](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/2.0.0 (2025-06-20)
+## [2.0.0](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.0 (2025-06-20)
 - This is a pre-release of the SDK with better activity handling
 - ZTCore update to 2.0.0
 
-## [1.5.10](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.910(2025-06-06)
+## [1.5.10](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.5.910(2025-06-06)
 - Imporved Mobility Scan
 
-## [1.5.9](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.9 (2025-06-06)
+## [1.5.9](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.5.9 (2025-06-06)
 - Imporved Mobility Scan
 
-## [1.5.8](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.8 (2025-06-06)
+## [1.5.8](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.5.8 (2025-06-06)
 - Imporved Mobility Scan
 
-## [1.5.7](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.7 (2025-06-06)
+## [1.5.7](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.5.7 (2025-06-06)
 - Improved  Real Time handling
 - ZTCore update to v1.5.9
 
-## [1.5.6](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.6 (2025-06-06)
+## [1.5.6](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.5.6 (2025-06-06)
 - Improved Activity handling
 
-## [1.5.5](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.5 (2025-05-26)
+## [1.5.5](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.5.5 (2025-05-26)
 - Improved Activity handling
 - ZTCore update to v1.5.8
 
-## [1.5.4](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.4 (2025-05-26)
+## [1.5.4](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.5.4 (2025-05-26)
 - Improved Activity handling
 
-## [1.5.3](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.3 (2025-05-24)
+## [1.5.3](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.5.3 (2025-05-24)
 
 - Fixe a crash
 
-## [1.5.2](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.2 (2025-05-24)
+## [1.5.2](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.5.2 (2025-05-24)
 -bug fixes
 
-## [1.5.1](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.1 (2025-05-23)
+## [1.5.1](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.5.1 (2025-05-23)
 - ⚠️ [WARNING] Breaking Change!
 
 BalistonKit support only Async/Await now! Making it incompatible with previous app implmentation
 
-## [1.5.0](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.5.0 (2025-05-22)
+## [1.5.0](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.5.0 (2025-05-22)
 
 - Moving to full Async/Await.
 - Preparing Swift 6 
 
-## [1.4.9](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.9 (2025-05-20)
+## [1.4.9](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.4.9 (2025-05-20)
 
 - More Improved mobility scan V2. 
 
-## [1.4.8](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.8 (2025-05-20)
+## [1.4.8](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.4.8 (2025-05-20)
 
 - Bumped & Improved mobility scan V2. 
 
-## [1.4.7](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.7 (2025-05-15)
+## [1.4.7](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.4.7 (2025-05-15)
 
 - Gravity Calibration has been improved.
 
-## [1.4.6](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.6 (2025-05-07)
+## [1.4.6](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.4.6 (2025-05-07)
 
 - ZTCore update to v1.5.7
 
-## [1.4.5](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.5 (2025-05-06)
+## [1.4.5](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.4.5 (2025-05-06)
 
 - ZTCore update to v1.5.6
 - Possibility to disable auto activity / Forcing the user to Start/Stop it manualy
 
-## [1.4.4](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.4 (2025-04-29)
+## [1.4.4](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.4.4 (2025-04-29)
 
 - ZTCore update to v1.5.5
 
-## [1.4.3](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.3 (2025-04-10)
+## [1.4.3](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.4.3 (2025-04-10)
 
 - ZTCore update to v1.5.4
 
-## [1.4.2](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.2 (2025-04-10)
+## [1.4.2](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.4.2 (2025-04-10)
 
 - ZTCore update to v1.5.3
 
-## [1.4.1](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.1 (2025-04-08)
+## [1.4.1](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.4.1 (2025-04-08)
 
 - ZTCore update to v1.5.2
 - Optimized Raw Data Flow
 
-## [1.4.0](https://github.com/zhortech/ztcorekit-ios-sdk/-/tags/1.4.0 (2025-03-19)
+## [1.4.0](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.4.0 (2025-03-19)
 
 - ZTCore update to v1.5.1
 - Added Raw Data Flow
@@ -207,7 +206,7 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 
 ## [1.1.30](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.30) (2024-04-17)
 
-- ZTCoreKit version up
+- ztbalistonkit version up
 
 ## [1.1.29](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.29) (2024-04-15)
 
@@ -255,7 +254,7 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 
 ## [1.1.19](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.19) (2024-01-31)
 
-- check and enable realtime metrics streaming if streaming was enabled
+- check and enable relatime metrics streaming if streaming was enabled
 - fixed flow to check activity state
 
 ## [1.1.18](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.18) (2024-01-23)
@@ -264,7 +263,7 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 
 ## [1.1.17](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.17) (2024-01-18)
 
-- ZTCoreKit framework is not embedded anymore, it is linked as a dependency
+- ztbalistonkit framework is not embedded anymore, it is linked as a dependency
 
 ## [1.1.16](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.16) (2024-01-15)
 
@@ -316,7 +315,7 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 ## [1.1.6](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.6) (2023-11-08)
 
 - resetting activity for stopped activity if flow was interrupted
-- ZTCoreKit version up
+- ztbalistonkit version up
 
 ## [1.1.5](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.5) (2023-10-26)
 
@@ -338,7 +337,7 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 
 ## [1.1.1](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.1) (2023-09-25)
 
-- enable/disable realtime data depending on value `enableBackgroundDataStreaming` in `ZTSettings`
+- enable/disable realtime data depedning on value `enableBackgroundDataStreaming` in `ZTSettings` 
 
 ## [1.1.0](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.1.0) (2023-09-12)
 
@@ -383,7 +382,7 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 
 ## [1.0.72](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.72) (2023-07-19)
 
-- `ZTCoreKit` version up
+- `ztbalistonkit` version up
 
 ## [1.0.71](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.71) (2023-07-07)
 
@@ -449,7 +448,7 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 
 ## [1.0.57](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.57) (2023-05-24)
 
-- ZTCoreKit version up
+- ztbalistonkit version up
 
 ## [1.0.56](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.56) (2023-05-19)
 
@@ -458,7 +457,7 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 
 ## [1.0.55](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.55) (2023-05-12)
 
-- ZTCoreKit version up
+- ztbalistonkit version up
 
 ## [1.0.54](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.54) (2023-05-10)
 
@@ -494,7 +493,7 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 
 ## [1.0.46](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.46) (2023-03-24)
 
-- using `ZTCoreKit` 1.1.74 with new URL for ZC `production` environment
+- using `ztbalistonkit` 1.1.74 with new URL for ZC `production` environment
 
 ## [1.0.45](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.45) (2023-03-21)
 
@@ -507,7 +506,7 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 
 ## [1.0.43](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.43) (2023-03-02)
 
-- moved check for bootloader info into ZTCoreKit
+- moved check for bootloader info into ztbalistonkit
 
 ## [1.0.42](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.42) (2023-02-28)
 
@@ -572,7 +571,7 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 
 ## [1.0.28](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.28) (2022-12-16)
 
-- build with new ZTCoreKit version
+- build with new ztbalistonkit version
 
 ## [1.0.27](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.27) (2022-12-06)
 
@@ -585,8 +584,8 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 
 ## [1.0.25](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.25) (2022-11-15)
 
-- new method to obtain data related to `mobility` - `public func postMobility(name:, parameters:, completion:)`
-- new method to obtain data related to `activity` - `public func postActivity(name:, parameters:, completion:)`
+- new method to obtaine data related to `mobility` - `public func postMobility(name:, parameters:, completion:)`
+- new method to obtaine data related to `activity` - `public func postActivity(name:, parameters:, completion:)`
     
 ## [1.0.24](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.24) (2022-09-13)
 
@@ -677,7 +676,7 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 
 ## [1.0.1](https://github.com/zhortech/ztbalistonkit-ios-sdk.git/-/tags/1.0.1) (2022-02-03)
 
-- new methods added: `sendDirectMessage`, `getDirectMessages`, `deleteDirectMessage`, `sendCannedMessage`, `getCannedMessages`, `getTileMessage`, `getMobilityMessage` from ZTCoreKit 
+- new methods added: `sendDirectMessage`, `getDirectMessages`, `deleteDirectMessage`, `sendCannedMessage`, `getCannedMessages`, `getTileMessage`, `getMobilityMessage` from ztbalistonkit 
 - new method added `getMyShoeData(code:completion:)` to receive data for shoes by code
 - new method added `getMyShoesData(completion:)` to receive data for all user's shoes
 
