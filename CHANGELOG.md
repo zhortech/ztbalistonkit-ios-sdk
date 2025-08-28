@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.0.19](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.19 (2025-08-28)
+- ZTCore update to 2.0.19
+
 ## [2.0.18](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.18 (2025-08-26)
 - Reverted Mobility Scan as per 2.0.11
 - ZTCore update to 2.0.18

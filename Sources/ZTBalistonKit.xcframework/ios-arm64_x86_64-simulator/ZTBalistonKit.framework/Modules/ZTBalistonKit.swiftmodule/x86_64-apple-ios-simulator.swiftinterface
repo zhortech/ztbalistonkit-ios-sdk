@@ -47,6 +47,19 @@ extension ZTBalistonKit.ZTBaliston {
     }
   }
 }
+extension ZTCoreKit.ZTRealtimeMessage.Side : @retroactive Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension ZTCoreKit.ZTRealtimeMetric {
+  public typealias MetricSide = ZTCoreKit.ZTRealtimeMessage.Side
+  public struct Slope {
+    public let slopeAngle: Swift.Float?
+    public let directionAngle: Swift.Float?
+    public let side: ZTCoreKit.ZTRealtimeMetric.MetricSide?
+  }
+}
 extension ZTBalistonKit.ZTBaliston {
   public func uploadRawData(for activityId: Swift.String) async throws
 }
@@ -57,13 +70,6 @@ extension ZTBalistonKit.ZTBaliston {
 }
 extension ZTBalistonKit.ZTBaliston {
   public func cleanMemory() async throws
-}
-@_inheritsConvenienceInitializers final public class ZhortechActivitySummary : ZTCoreKit.ZTActivitySummary {
-  final public var data: [Swift.String : Any]?
-  final public var attributes: [Swift.String : Any]?
-  required public init?(map: ZTCoreKit.ZTMap)
-  override final public func mapping(map: ZTCoreKit.ZTMap)
-  @objc deinit
 }
 extension ZTBalistonKit.ZTBaliston {
   public func directStartActivity() async
@@ -133,6 +139,13 @@ extension ZTBalistonKit.ZTBaliston : ZTCoreKit.ZTDfuDelegate {
   public func dfuDelegate(progress: Swift.Float?)
   public func dfuDelegate(leftDidFinish newVersion: Swift.String?)
   public func dfuDelegate(rightDidFinish newVersion: Swift.String?)
+}
+@_inheritsConvenienceInitializers final public class ZhortechActivitySummary : ZTCoreKit.ZTActivitySummary {
+  final public var data: [Swift.String : Any]?
+  final public var attributes: [Swift.String : Any]?
+  required public init?(map: ZTCoreKit.ZTMap)
+  override final public func mapping(map: ZTCoreKit.ZTMap)
+  @objc deinit
 }
 extension ZTBalistonKit.ZTBaliston {
   public func setInactivityTimeout(seconds: Foundation.TimeInterval) async throws
@@ -254,19 +267,6 @@ public typealias ZTBalistonActivity = ZTCoreKit.ZhortechActivity
   @objc deinit
   public func subscribeCoreEvents()
   public func readGeneralState(completion: @escaping (ZTCoreKit.ZTDeviceActualState?, ZTCoreKit.ZTError?) -> Swift.Void)
-}
-extension ZTCoreKit.ZTRealtimeMessage.Side : @retroactive Swift.CustomStringConvertible {
-  public var description: Swift.String {
-    get
-  }
-}
-extension ZTCoreKit.ZTRealtimeMetric {
-  public typealias MetricSide = ZTCoreKit.ZTRealtimeMessage.Side
-  public struct Slope {
-    public let slopeAngle: Swift.Float?
-    public let directionAngle: Swift.Float?
-    public let side: ZTCoreKit.ZTRealtimeMetric.MetricSide?
-  }
 }
 extension ZTBalistonKit.ZTBaliston {
   @available(*, deprecated, renamed: "initiateBackgroundDFU", message: "This method is deprecated, use method with name `initiateBackgroundDFU`")

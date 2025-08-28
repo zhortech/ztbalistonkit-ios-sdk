@@ -43,16 +43,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "ZTCoreKit",
         "printedName": "ZTCoreKit",
         "declKind": "Import",
@@ -178,441 +168,13 @@
         "moduleName": "ZTBalistonKit"
       },
       {
-        "kind": "TypeDecl",
-        "name": "ZhortechActivitySummary",
-        "printedName": "ZhortechActivitySummary",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "data",
-            "printedName": "data",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC4dataSDySSypGSgvp",
-            "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC4dataSDySSypGSgvp",
-            "moduleName": "ZTBalistonKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String : Any]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Any]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProtocolComposition",
-                            "printedName": "Any"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC4dataSDySSypGSgvg",
-                "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC4dataSDySSypGSgvg",
-                "moduleName": "ZTBalistonKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String : Any]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Any]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProtocolComposition",
-                            "printedName": "Any"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC4dataSDySSypGSgvs",
-                "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC4dataSDySSypGSgvs",
-                "moduleName": "ZTBalistonKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC4dataSDySSypGSgvM",
-                "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC4dataSDySSypGSgvM",
-                "moduleName": "ZTBalistonKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "attributes",
-            "printedName": "attributes",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC10attributesSDySSypGSgvp",
-            "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC10attributesSDySSypGSgvp",
-            "moduleName": "ZTBalistonKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String : Any]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Any]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProtocolComposition",
-                            "printedName": "Any"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC10attributesSDySSypGSgvg",
-                "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC10attributesSDySSypGSgvg",
-                "moduleName": "ZTBalistonKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[Swift.String : Any]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Any]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProtocolComposition",
-                            "printedName": "Any"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC10attributesSDySSypGSgvs",
-                "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC10attributesSDySSypGSgvs",
-                "moduleName": "ZTBalistonKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC10attributesSDySSypGSgvM",
-                "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC10attributesSDySSypGSgvM",
-                "moduleName": "ZTBalistonKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(map:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ZTBalistonKit.ZhortechActivitySummary?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ZhortechActivitySummary",
-                    "printedName": "ZTBalistonKit.ZhortechActivitySummary",
-                    "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ZTMap",
-                "printedName": "ZTCoreKit.ZTMap",
-                "usr": "s:9ZTCoreKit5ZTMapC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC3mapACSg06ZTCoreB05ZTMapC_tcfc",
-            "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC3mapACSg06ZTCoreB05ZTMapC_tcfc",
-            "moduleName": "ZTBalistonKit",
-            "overriding": true,
-            "declAttributes": [
-              "Required",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "mapping",
-            "printedName": "mapping(map:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ZTMap",
-                "printedName": "ZTCoreKit.ZTMap",
-                "usr": "s:9ZTCoreKit5ZTMapC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC7mapping3mapy06ZTCoreB05ZTMapC_tF",
-            "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC7mapping3mapy06ZTCoreB05ZTMapC_tF",
-            "moduleName": "ZTBalistonKit",
-            "overriding": true,
-            "declAttributes": [
-              "Final",
-              "Override",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC",
-        "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC",
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "ZTBalistonKit",
         "declAttributes": [
-          "AccessControl",
-          "Final",
           "RawDocComment"
-        ],
-        "superclassUsr": "s:9ZTCoreKit17ZTActivitySummaryC",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ZTCoreKit.ZTActivitySummary"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "ZTMappable",
-            "printedName": "ZTMappable",
-            "usr": "s:9ZTCoreKit10ZTMappableP",
-            "mangledName": "$s9ZTCoreKit10ZTMappableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ZTBaseMappable",
-            "printedName": "ZTBaseMappable",
-            "usr": "s:9ZTCoreKit14ZTBaseMappableP",
-            "mangledName": "$s9ZTCoreKit14ZTBaseMappableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -655,6 +217,16 @@
         "printedName": "ZTCoreKit",
         "declKind": "Import",
         "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -2558,6 +2130,461 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ZTCoreKit",
+        "printedName": "ZTCoreKit",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZhortechActivitySummary",
+        "printedName": "ZhortechActivitySummary",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC4dataSDySSypGSgvp",
+            "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC4dataSDySSypGSgvp",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC4dataSDySSypGSgvg",
+                "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC4dataSDySSypGSgvg",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC4dataSDySSypGSgvs",
+                "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC4dataSDySSypGSgvs",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC4dataSDySSypGSgvM",
+                "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC4dataSDySSypGSgvM",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "attributes",
+            "printedName": "attributes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC10attributesSDySSypGSgvp",
+            "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC10attributesSDySSypGSgvp",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC10attributesSDySSypGSgvg",
+                "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC10attributesSDySSypGSgvg",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC10attributesSDySSypGSgvs",
+                "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC10attributesSDySSypGSgvs",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC10attributesSDySSypGSgvM",
+                "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC10attributesSDySSypGSgvM",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(map:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZTBalistonKit.ZhortechActivitySummary?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZhortechActivitySummary",
+                    "printedName": "ZTBalistonKit.ZhortechActivitySummary",
+                    "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZTMap",
+                "printedName": "ZTCoreKit.ZTMap",
+                "usr": "s:9ZTCoreKit5ZTMapC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC3mapACSg06ZTCoreB05ZTMapC_tcfc",
+            "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC3mapACSg06ZTCoreB05ZTMapC_tcfc",
+            "moduleName": "ZTBalistonKit",
+            "overriding": true,
+            "declAttributes": [
+              "Required",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "mapping",
+            "printedName": "mapping(map:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZTMap",
+                "printedName": "ZTCoreKit.ZTMap",
+                "usr": "s:9ZTCoreKit5ZTMapC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC7mapping3mapy06ZTCoreB05ZTMapC_tF",
+            "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC7mapping3mapy06ZTCoreB05ZTMapC_tF",
+            "moduleName": "ZTBalistonKit",
+            "overriding": true,
+            "declAttributes": [
+              "Final",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13ZTBalistonKit23ZhortechActivitySummaryC",
+        "mangledName": "$s13ZTBalistonKit23ZhortechActivitySummaryC",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "AccessControl",
+          "Final",
+          "RawDocComment"
+        ],
+        "superclassUsr": "s:9ZTCoreKit17ZTActivitySummaryC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ZTCoreKit.ZTActivitySummary"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ZTMappable",
+            "printedName": "ZTMappable",
+            "usr": "s:9ZTCoreKit10ZTMappableP",
+            "mangledName": "$s9ZTCoreKit10ZTMappableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ZTBaseMappable",
+            "printedName": "ZTBaseMappable",
+            "usr": "s:9ZTCoreKit14ZTBaseMappableP",
+            "mangledName": "$s9ZTCoreKit14ZTBaseMappableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2572,6 +2599,23 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "ZTCoreKit",
+        "printedName": "ZTCoreKit",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -9268,23 +9312,6 @@
       },
       {
         "kind": "Import",
-        "name": "ZTCoreKit",
-        "printedName": "ZTCoreKit",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -9299,33 +9326,6 @@
         "printedName": "ZTCoreKit",
         "declKind": "Import",
         "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ZTCoreKit",
-        "printedName": "ZTCoreKit",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZTBalistonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "TypeDecl",
@@ -9870,41 +9870,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 288,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
-      "kind": "IntegerLiteral",
-      "offset": 311,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
-      "kind": "StringLiteral",
-      "offset": 377,
-      "length": 44,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
-      "kind": "StringLiteral",
-      "offset": 410,
-      "length": 1,
-      "value": "\".operation\""
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 981,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+MobilityScan+Async.swift",
       "kind": "IntegerLiteral",
       "offset": 697,
@@ -9989,48 +9954,6 @@
       "value": "60"
     },
     {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
-      "kind": "IntegerLiteral",
-      "offset": 431,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
-      "kind": "IntegerLiteral",
-      "offset": 579,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
-      "kind": "IntegerLiteral",
-      "offset": 813,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
-      "kind": "IntegerLiteral",
-      "offset": 959,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1051,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1226,
-      "length": 1,
-      "value": "2"
-    },
-    {
       "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+IndicateData+Async.swift",
       "kind": "FloatLiteral",
       "offset": 2199,
@@ -10099,6 +10022,237 @@
       "offset": 503,
       "length": 4,
       "value": "1000"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 288,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 311,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
+      "kind": "StringLiteral",
+      "offset": 377,
+      "length": 44,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 1,
+      "value": "\".operation\""
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTAsyncOperation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 981,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
+      "kind": "IntegerLiteral",
+      "offset": 422,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1604,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2713,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3881,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3915,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19594,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22611,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26687,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
+      "kind": "IntegerLiteral",
+      "offset": 43865,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
+      "kind": "BooleanLiteral",
+      "offset": 43883,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
+      "kind": "BooleanLiteral",
+      "offset": 50381,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
+      "kind": "IntegerLiteral",
+      "offset": 431,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
+      "kind": "IntegerLiteral",
+      "offset": 579,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
+      "kind": "IntegerLiteral",
+      "offset": 813,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
+      "kind": "IntegerLiteral",
+      "offset": 959,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1051,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTDataTransforms.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1226,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 594,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 618,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1606,
+      "length": 4,
+      "value": "0x01"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1645,
+      "length": 4,
+      "value": "0x02"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1684,
+      "length": 4,
+      "value": "0x03"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1723,
+      "length": 4,
+      "value": "0x04"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1762,
+      "length": 4,
+      "value": "0x05"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1801,
+      "length": 4,
+      "value": "0x06"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+DFU.swift",
+      "kind": "BooleanLiteral",
+      "offset": 995,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5869,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7132,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/Activity\/ZTBalistonActivity.swift",
@@ -10183,160 +10337,6 @@
       "offset": 3073,
       "length": 26,
       "value": "\"realtimeMetricsStartDate\""
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
-      "kind": "IntegerLiteral",
-      "offset": 422,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1604,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2713,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3881,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3915,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19594,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22611,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
-      "kind": "IntegerLiteral",
-      "offset": 26687,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
-      "kind": "IntegerLiteral",
-      "offset": 43865,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
-      "kind": "BooleanLiteral",
-      "offset": 43883,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+Activity+Async.swift",
-      "kind": "BooleanLiteral",
-      "offset": 50381,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 594,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 618,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1606,
-      "length": 4,
-      "value": "0x01"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1645,
-      "length": 4,
-      "value": "0x02"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1684,
-      "length": 4,
-      "value": "0x03"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1723,
-      "length": 4,
-      "value": "0x04"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1762,
-      "length": 4,
-      "value": "0x05"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Models\/ZTUserDataParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1801,
-      "length": 4,
-      "value": "0x06"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+DFU.swift",
-      "kind": "BooleanLiteral",
-      "offset": 995,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5869,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+Commands.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7132,
-      "length": 1,
-      "value": "1"
     },
     {
       "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston+API.swift",
@@ -10756,7 +10756,7 @@
       "kind": "StringLiteral",
       "offset": 791,
       "length": 8,
-      "value": "\"2.0.18\""
+      "value": "\"2.0.19\""
     },
     {
       "filePath": "\/Volumes\/My Shared Files\/Home\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
