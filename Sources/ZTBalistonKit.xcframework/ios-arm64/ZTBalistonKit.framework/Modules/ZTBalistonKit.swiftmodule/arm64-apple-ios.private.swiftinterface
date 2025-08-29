@@ -13,9 +13,6 @@ import _SwiftConcurrencyShims
 import os.log
 import os
 extension ZTBalistonKit.ZTBaliston {
-  public func uploadRawData(for activityId: Swift.String) async throws
-}
-extension ZTBalistonKit.ZTBaliston {
   public func hardReset(restart: Swift.Bool = false) async throws
   public func updateUserParameters(timeout: Swift.Double = 15, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
   public func readGeneralState(timeout: Swift.Double = 15, allowRightInsoleOnly: Swift.Bool) async throws -> ZTCoreKit.ZTDeviceActualState?
@@ -35,6 +32,21 @@ extension ZTBalistonKit.ZTBaliston {
 }
 extension ZTBalistonKit.ZTBaliston {
   public func stopAutomaticActivity(force: Swift.Bool = true) async throws
+}
+public var ZTBALLog: ZTBalistonKit.ZTBALLogger {
+  get
+}
+@_hasMissingDesignatedInitializers final public class ZTBALLogger {
+  public static let instance: ZTBalistonKit.ZTBALLogger
+  public static func shared() -> ZTBalistonKit.ZTBALLogger
+  @objc deinit
+}
+extension ZTBalistonKit.ZTBALLogger : ZTCoreKit.ZhortechLoggerProtocol {
+  final public func ztDebugPrint(_ message: Swift.String)
+  final public func debug(_ message: Swift.StaticString, _ args: any Swift.CVarArg...)
+  final public func info(_ message: Swift.StaticString, _ args: any Swift.CVarArg...)
+  final public func error(_ message: Swift.StaticString, _ args: any Swift.CVarArg...)
+  final public func fatal(_ message: Swift.StaticString, _ args: any Swift.CVarArg...)
 }
 final public class ZTUserDataParameters : Swift.Codable, Swift.CustomStringConvertible {
   final public var description: Swift.String {
@@ -131,21 +143,6 @@ extension ZTBalistonKit.ZTBaliston {
   public func getDataArray(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping ([Any]?, (any Swift.Error)?) -> Swift.Void)
   public func postData(path: Swift.String, name: Swift.String, parameters: [Swift.String : Any] = [:], completion: @escaping (Any?, (any Swift.Error)?) -> Swift.Void)
   public func getSwingAnalysis(body: [Swift.String : Any], completion: @escaping ([[Swift.String : Any]]?, (any Swift.Error)?) -> Swift.Void)
-}
-public var ZTBALLog: ZTBalistonKit.ZTBALLogger {
-  get
-}
-@_hasMissingDesignatedInitializers final public class ZTBALLogger {
-  public static let instance: ZTBalistonKit.ZTBALLogger
-  public static func shared() -> ZTBalistonKit.ZTBALLogger
-  @objc deinit
-}
-extension ZTBalistonKit.ZTBALLogger : ZTCoreKit.ZhortechLoggerProtocol {
-  final public func ztDebugPrint(_ message: Swift.String)
-  final public func debug(_ message: Swift.StaticString, _ args: any Swift.CVarArg...)
-  final public func info(_ message: Swift.StaticString, _ args: any Swift.CVarArg...)
-  final public func error(_ message: Swift.StaticString, _ args: any Swift.CVarArg...)
-  final public func fatal(_ message: Swift.StaticString, _ args: any Swift.CVarArg...)
 }
 public typealias ZTActivityResult = (Swift.String?, ZTCoreKit.ZTError?) -> Swift.Void
 public typealias ZTBalistonActivitySummary = ZTBalistonKit.ZhortechActivitySummary
@@ -278,6 +275,9 @@ extension ZTBalistonKit.ZTBaliston {
       get
     }
   }
+}
+extension ZTBalistonKit.ZTBaliston {
+  public func uploadRawData(for activityId: Swift.String) async throws
 }
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Equatable {}
 extension ZTBalistonKit.ZTUserDataParameters.Gender : Swift.Hashable {}
