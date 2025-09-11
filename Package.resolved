@@ -1,14 +1,15 @@
 {
+  "originHash" : "32d9b0122baa980e7aefeea54afc0a34acc37406ecd438c0a490c5d0fae0781c",
   "pins" : [
     {
       "identity" : "ztcorekit-ios-sdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/zhortech/ztcorekit-ios-sdk.git",
       "state" : {
-        "revision" : "836de537de47ebc97c81c3077f440db44561a3dc",
-        "version" : "2.0.21"
+        "revision" : "0865f6e5f7417a1a492d87f5c52fdad592352385",
+        "version" : "2.0.22"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
