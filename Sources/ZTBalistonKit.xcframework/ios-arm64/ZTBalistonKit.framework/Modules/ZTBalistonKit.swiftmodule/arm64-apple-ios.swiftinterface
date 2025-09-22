@@ -100,6 +100,7 @@ extension ZTBalistonKit.ZTBaliston {
   #if compiler(>=5.3) && $NonescapableTypes
   public func readGeneralState(timeout: Swift.Double = 15, allowRightInsoleOnly: Swift.Bool) async throws -> ZTCoreKit.ZTDeviceActualState?
   #endif
+  public func setChunkIntervalCommand(seconds: Swift.Int, resetAfter: Swift.Int, clearSchedule: Swift.Bool = false) async throws
 }
 extension ZTBalistonKit.ZTBaliston {
   public func cleanMemory() async throws

@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.0.24](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.23 (2025-09-22)
+- ZTCore update to 2.0.23
+- Change default chunk duration
+- Allow Updating chunk duration on the fly
+
 ## [2.0.23](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.23 (2025-09-22)
 - ZTCore update to 2.0.23
 
