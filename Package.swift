@@ -14,22 +14,16 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(
-            name: "ZTCoreKit", 
-            url: "https://github.com/zhortech/ztcorekit-ios-sdk.git", 
-            .upToNextMajor(from: "2.0.23"))
+        .package(url: "https://github.com/zhortech/ztcorekit-ios-sdk.git", from: "2.0.26")
     ],
     targets: [
         .target(
             name: "ZTBalistonKitSDK",
             dependencies: [
-                .product(
-                    name: "ZTCoreKit",
-                    package: "ZTCoreKit"
-                ),
-                .target(
-                    name: "ZTBalistonKit"
-                )
+                .product(name: "ZTCoreKit", package: "ztcorekit-ios-sdk"),
+            .target(
+                name: "ZTBalistonKit"
+            )
             ],
             path: "Sources/ZTBalistonKitSDK"
         ),

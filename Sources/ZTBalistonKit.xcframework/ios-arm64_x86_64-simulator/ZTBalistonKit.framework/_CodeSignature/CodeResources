@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5WnC3EEYYZiqol+k2r+7YjsfRJk=
+		4vyK3NdtYz2HXyL6+9nKsQ+XBW4=
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FCX+QxpmCq3eAB5QXlVBQU2hEwc=
+		WOYdT9YmFmTIqVsANygiUw6ByN8=
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8RpRZZ0gA2hyU20xX2w4Lc0XbLI=
+		vCXJbtgsIjxxVdbGTn3HWTghGVU=
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FCX+QxpmCq3eAB5QXlVBQU2hEwc=
+		WOYdT9YmFmTIqVsANygiUw6ByN8=
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QvDaQp8RiR3AK1KCnNUlY3t5HFI=
+		MFc1hDtE2jjubt3xf7tUN7bflhk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -66,7 +66,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RzhSslFum+/LXkPKJXYgVZ2XHzmjAkqDKGOqRa/vCdI=
+			I0fFFbogp9sebt2Fxz6XN45gK+52jp6JOb3Pr/zSNrM=
 			</data>
 		</dict>
 		<key>Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -94,14 +94,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bTXOD8PnZ3FVHwROThjBfG68tlOzKZp60MnJTplPNfA=
+			rh9XL1YOGQix1UONNvF5SsibjhzLf6MsTsZf/2WsgXY=
 			</data>
 		</dict>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RzhSslFum+/LXkPKJXYgVZ2XHzmjAkqDKGOqRa/vCdI=
+			I0fFFbogp9sebt2Fxz6XN45gK+52jp6JOb3Pr/zSNrM=
 			</data>
 		</dict>
 		<key>Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -129,7 +129,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zcmfi1GLODx7KyaRJRHxtQAv9FVZDKJF2NSDuENivfA=
+			nr8J5UE6N7M6qN14r64n4aqkV+QWNGmWAQE09hUvcCk=
 			</data>
 		</dict>
 	</dict>
