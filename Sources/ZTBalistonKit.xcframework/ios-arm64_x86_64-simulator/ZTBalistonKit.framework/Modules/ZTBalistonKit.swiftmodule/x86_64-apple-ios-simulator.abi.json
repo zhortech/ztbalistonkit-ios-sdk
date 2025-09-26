@@ -3,6 +3,18 @@
     "kind": "Root",
     "name": "ZTBalistonKit",
     "printedName": "ZTBalistonKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "ZTCoreKit",
+        "printedName": "ZTCoreKit",
+        "declKind": "Import",
+        "moduleName": "ZTBalistonKit",
+        "declAttributes": [
+          "Exported"
+        ]
+      }
+    ],
     "json_format_version": 8
   },
   "ConstValues": []
