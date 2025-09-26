@@ -100,7 +100,9 @@ extension ZTBalistonKit.ZTBaliston {
   #if compiler(>=5.3) && $NonescapableTypes
   public func readGeneralState(timeout: Swift.Double = 15, allowRightInsoleOnly: Swift.Bool) async throws -> ZTCoreKit.ZTDeviceActualState?
   #endif
-  public func setChunkIntervalCommand(seconds: Swift.Int, resetAfter: Swift.Int, clearSchedule: Swift.Bool = false) async throws
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor public func setChunkIntervalCommand(seconds: Swift.Int? = nil, resetAfter: Swift.Int?, clearSchedule: Swift.Bool = false)
+  #endif
 }
 extension ZTBalistonKit.ZTBaliston {
   public func cleanMemory() async throws
@@ -159,6 +161,7 @@ public typealias ZTBalistonActivity = ZTCoreKit.ZhortechActivity
   public var activityManager: ZTCoreKit.ZhortechActivityActor {
     get
   }
+  public func clearPacketToSend() async throws
   public var currentDfuState: ZTCoreKit.ZTMessageBootloaderInfo.DfuState {
     get
   }

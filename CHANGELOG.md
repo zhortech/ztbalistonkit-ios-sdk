@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.0.28](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.28 (2025-09-26)
+- ZTCore update to 2.0.28
+
 ## [2.0.27](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.27 (2025-09-26)
 - ZTCore update to 2.0.27
 
