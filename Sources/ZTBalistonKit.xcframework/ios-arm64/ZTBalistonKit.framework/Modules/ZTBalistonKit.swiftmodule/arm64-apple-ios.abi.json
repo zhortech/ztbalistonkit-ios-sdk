@@ -10442,14 +10442,14 @@
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+MobilityScan+Async.swift",
       "kind": "IntegerLiteral",
-      "offset": 24260,
+      "offset": 24172,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+MobilityScan+Async.swift",
       "kind": "IntegerLiteral",
-      "offset": 24561,
+      "offset": 24473,
       "length": 2,
       "value": "60"
     },
@@ -10486,7 +10486,7 @@
       "kind": "StringLiteral",
       "offset": 791,
       "length": 8,
-      "value": "\"2.0.29\""
+      "value": "\"2.0.30\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
