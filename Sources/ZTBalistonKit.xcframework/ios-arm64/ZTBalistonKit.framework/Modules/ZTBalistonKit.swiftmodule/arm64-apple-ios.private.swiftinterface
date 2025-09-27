@@ -86,9 +86,6 @@ extension ZTBalistonKit.ZTBaliston {
   #endif
 }
 extension ZTBalistonKit.ZTBaliston {
-  public func stopAutomaticActivity(force: Swift.Bool = true) async throws
-}
-extension ZTBalistonKit.ZTBaliston {
   public func directStartActivity() async
   public func directStopActivity() async
 }
@@ -196,6 +193,7 @@ public typealias ZTBalistonActivity = ZTCoreKit.ZhortechActivity
     get
   }
   public var defaultChunkDurationSeconds: Swift.Int
+  public var wantedChunkDurationSeconds: Swift.Int
   public var isStreamingStarted: Swift.Bool {
     get
   }
