@@ -1,5 +1,9 @@
 # Changelog
 
+## [2.0.34](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.34 (2025-10-03)
+- ZTCore update to 2.0.34
+- Imporved Mobility scan
+
 ## [2.0.33](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.33 (2025-10-02)
 - ZTCore update to 2.0.33
 - Imporved Mobility scan
