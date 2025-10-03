@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.0.35](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.35 (2025-10-04)
+- ZTCore update to 2.0.35
+- Improved Mobility scan
+- Properly handle `ZTSettings.shared.enableRealTimeStreaming`
+
 ## [2.0.34](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.0.34 (2025-10-03)
 - ZTCore update to 2.0.34
 - Imporved Mobility scan
@@ -428,7 +433,7 @@ BalistonKit support only Async/Await now! Making it incompatible with previous a
 
 ## [1.0.77](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.77) (2023-08-22)
 
-- added streaming of realtime metrics. To start streaming use `enableRealtimeStreaming(startTimestamp: metrics: completion:)`, to stop streaming - ` disableRealtimeStreaming(completion:)`, to pause streaming - `pauseRealtimeStreaming(pause: completion:)`. Streaming metrics and its values can be received in `onRealtimeMetricReceived`.
+- added streaming of realtime metrics. To start streaming use `enableRealtimeStreaming(startTimestamp: metrics: completion:)`, to stop streaming - ` enableRealtimeStreaming(completion:)`, to pause streaming - `pauseRealtimeStreaming(pause: completion:)`. Streaming metrics and its values can be received in `onRealtimeMetricReceived`.
 
 ## [1.0.76](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/1.0.76) (2023-08-21)
 

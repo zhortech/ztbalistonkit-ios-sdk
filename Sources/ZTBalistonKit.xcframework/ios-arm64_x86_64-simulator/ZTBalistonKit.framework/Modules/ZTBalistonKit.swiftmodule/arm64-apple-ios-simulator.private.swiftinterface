@@ -95,7 +95,7 @@ extension ZTBalistonKit.ZTBaliston {
   public func updateUserParameters(timeout: Swift.Double = 15, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public func readGeneralState(timeout: Swift.Double = 15, allowRightInsoleOnly: Swift.Bool) async throws -> ZTCoreKit.ZTDeviceActualState?
+  public func readGeneralState(timeout: Swift.Double = 5, allowRightInsoleOnly: Swift.Bool) async throws -> ZTCoreKit.ZTDeviceActualState?
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor public func setChunkIntervalCommand(seconds: Swift.Int? = nil, resetAfter: Swift.Int?, clearSchedule: Swift.Bool = false)
@@ -181,6 +181,9 @@ public typealias ZTBalistonActivity = ZTCoreKit.ZhortechActivity
     get
   }
   public var disableAutomaticActivity: Swift.Bool {
+    get
+  }
+  public var enableStreamingSettings: Swift.Bool {
     get
   }
   public var activityStarted: Swift.Bool {

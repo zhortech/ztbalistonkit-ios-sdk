@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/zhortech/ztcorekit-ios-sdk.git",
       "state" : {
-        "revision" : "1859932a770cd2f9aaf976cc551f3ecafcb89b0d",
-        "version" : "2.0.34"
+        "revision" : "366f96cbdfadca8eec07a427c2464f5ad3d37dc4",
+        "version" : "2.0.35"
       }
     }
   ],
