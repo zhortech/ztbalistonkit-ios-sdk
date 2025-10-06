@@ -106,7 +106,7 @@ extension ZTBalistonKit.ZTBaliston {
 }
 extension ZTBalistonKit.ZTBaliston {
   #if compiler(>=5.3) && $NonescapableTypes
-  public func startMobilityScanV2(timeout: Swift.Double = 10, duration: Swift.Int = 60, numberOfStride: Swift.UInt8? = nil, chunckInterval: Swift.Int? = nil, manualActivity: Swift.Bool = false, userParameters: ZTBalistonKit.ZTUserDataParameters?) async throws
+  public func startMobilityScanV2(timeout: Swift.Double = 10, duration: Swift.Int = 60, numberOfStride: Swift.UInt8? = nil, chunckInterval: Swift.Int? = nil, manualActivity: Swift.Bool = false, userParameters: ZTBalistonKit.ZTUserDataParameters?, mode: ZTCoreKit.ZTAlgoMobilityType) async throws
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public func stopMobilityScanV2(timeout: Swift.Double = 30, allowRightInsoleOnly: Swift.Bool = false, silently: Swift.Bool = false, manualActivity: Swift.Bool = false, meetMinimumRequirements: (([ZTCoreKit.ZhorthechPacket]) -> Swift.Bool)? = nil) async throws -> ZTBalistonKit.ZhortechActivitySummary?
