@@ -197,6 +197,7 @@ public typealias ZTBalistonActivity = ZTCoreKit.ZhortechActivity
   }
   public var defaultChunkDurationSeconds: Swift.Int
   public var wantedChunkDurationSeconds: Swift.Int
+  public var latestChunkFirstObBigBashedDownload: Swift.Bool
   public var isStreamingStarted: Swift.Bool {
     get
   }
@@ -208,6 +209,7 @@ public typealias ZTBalistonActivity = ZTCoreKit.ZhortechActivity
   final public let onDfuChanged: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTDFUState, ZTCoreKit.ZTError?)>
   final public let onDfuUploadProgress: ZTCoreKit.ZTSignal<Swift.Float?>
   final public let onChunksDownloadProgress: ZTCoreKit.ZTSignal<Swift.Float?>
+  final public let onChunksDownloadLargeAmount: ZTCoreKit.ZTSignal<Swift.Int>
   final public let onActivityMetadataUpdated: ZTCoreKit.ZTSignal<ZTCoreKit.ZhortechMessageActivityMetadata?>
   final public let onRealtimeMetricReceived: ZTCoreKit.ZTSignal<(ZTCoreKit.ZTRealtimeMetric?, Any?)>
   final public let onAnalyticsDataUpdated: ZTCoreKit.ZTSignal<()>

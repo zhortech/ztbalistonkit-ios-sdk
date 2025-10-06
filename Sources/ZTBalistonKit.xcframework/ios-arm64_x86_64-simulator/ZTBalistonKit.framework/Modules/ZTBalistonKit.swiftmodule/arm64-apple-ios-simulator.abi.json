@@ -3579,6 +3579,93 @@
           },
           {
             "kind": "Var",
+            "name": "latestChunkFirstObBigBashedDownload",
+            "printedName": "latestChunkFirstObBigBashedDownload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ZTBalistonKit0A0C35latestChunkFirstObBigBashedDownloadSbvp",
+            "mangledName": "$s13ZTBalistonKit0A0C35latestChunkFirstObBigBashedDownloadSbvp",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit0A0C35latestChunkFirstObBigBashedDownloadSbvg",
+                "mangledName": "$s13ZTBalistonKit0A0C35latestChunkFirstObBigBashedDownloadSbvg",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit0A0C35latestChunkFirstObBigBashedDownloadSbvs",
+                "mangledName": "$s13ZTBalistonKit0A0C35latestChunkFirstObBigBashedDownloadSbvs",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit0A0C35latestChunkFirstObBigBashedDownloadSbvM",
+                "mangledName": "$s13ZTBalistonKit0A0C35latestChunkFirstObBigBashedDownloadSbvM",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isStreamingStarted",
             "printedName": "isStreamingStarted",
             "children": [
@@ -4366,6 +4453,72 @@
                 "declKind": "Accessor",
                 "usr": "s:13ZTBalistonKit0A0C24onChunksDownloadProgress06ZTCoreB08ZTSignalCySfSgGvg",
                 "mangledName": "$s13ZTBalistonKit0A0C24onChunksDownloadProgress06ZTCoreB08ZTSignalCySfSgGvg",
+                "moduleName": "ZTBalistonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onChunksDownloadLargeAmount",
+            "printedName": "onChunksDownloadLargeAmount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZTSignal",
+                "printedName": "ZTCoreKit.ZTSignal<Swift.Int>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:9ZTCoreKit8ZTSignalC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13ZTBalistonKit0A0C27onChunksDownloadLargeAmount06ZTCoreB08ZTSignalCySiGvp",
+            "mangledName": "$s13ZTBalistonKit0A0C27onChunksDownloadLargeAmount06ZTCoreB08ZTSignalCySiGvp",
+            "moduleName": "ZTBalistonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZTSignal",
+                    "printedName": "ZTCoreKit.ZTSignal<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:9ZTCoreKit8ZTSignalC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13ZTBalistonKit0A0C27onChunksDownloadLargeAmount06ZTCoreB08ZTSignalCySiGvg",
+                "mangledName": "$s13ZTBalistonKit0A0C27onChunksDownloadLargeAmount06ZTCoreB08ZTSignalCySiGvg",
                 "moduleName": "ZTBalistonKit",
                 "implicit": true,
                 "declAttributes": [
@@ -10462,7 +10615,7 @@
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/Modern\/ZTBaliston+IndicateData+Async.swift",
       "kind": "BooleanLiteral",
-      "offset": 14383,
+      "offset": 17798,
       "length": 4,
       "value": "true"
     },
@@ -10590,7 +10743,7 @@
       "kind": "StringLiteral",
       "offset": 791,
       "length": 8,
-      "value": "\"2.0.35\""
+      "value": "\"2.0.36\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
@@ -10664,211 +10817,218 @@
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6974,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 6979,
+      "offset": 7130,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 7061,
+      "offset": 7212,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 7149,
+      "offset": 7300,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 7209,
+      "offset": 7360,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 7273,
+      "offset": 7424,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 7360,
+      "offset": 7511,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 13945,
+      "offset": 14096,
       "length": 98,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 14042,
+      "offset": 14193,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 14447,
+      "offset": 14598,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 15802,
+      "offset": 15953,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 15850,
+      "offset": 16001,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 15892,
+      "offset": 16043,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 17873,
+      "offset": 18185,
       "length": 32,
       "value": "\"obtaining-missed-packets.queue\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 18057,
+      "offset": 18369,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 18596,
+      "offset": 18908,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 18857,
+      "offset": 19169,
       "length": 46,
       "value": "\"[ZTSportKit]: RawDataFlowState changed to %@\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 18905,
+      "offset": 19217,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 18932,
+      "offset": 19244,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 19193,
+      "offset": 19505,
       "length": 6,
       "value": "1000.0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 19203,
+      "offset": 19515,
       "length": 6,
       "value": "1000.0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 19119,
+      "offset": 19431,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 19469,
+      "offset": 19781,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 20210,
+      "offset": 20522,
       "length": 20,
       "value": "\"UploadRawDataQueue\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 20275,
+      "offset": 20587,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 21785,
+      "offset": 22097,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 22125,
+      "offset": 22437,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 34402,
+      "offset": 34714,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 34565,
+      "offset": 34877,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 34606,
+      "offset": 34918,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 34667,
+      "offset": 34979,
       "length": 5,
       "value": "false"
     },
