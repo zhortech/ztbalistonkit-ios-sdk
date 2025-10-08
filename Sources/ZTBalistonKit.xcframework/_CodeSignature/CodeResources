@@ -10,11 +10,11 @@
 		</data>
 		<key>ios-arm64/ZTBalistonKit.framework/Info.plist</key>
 		<data>
-		UEscL2abUAtZ4FpegRKbl/knn80=
+		IcjQgAGT5X8j4lOXaIGWsITiiI8=
 		</data>
 		<key>ios-arm64/ZTBalistonKit.framework/Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		iNtGHQa3A9b9uHCRSUug9LgccTI=
+		J99XZlgp/RLzeIq1MiLSPTlSxBg=
 		</data>
 		<key>ios-arm64/ZTBalistonKit.framework/Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>ios-arm64/ZTBalistonKit.framework/ZTBalistonKit</key>
 		<data>
-		+pv9mwBdKDxQF3aJX50+nl6g55s=
+		bMF/p14a7tvm1ouJB2YxfqPjHtQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZTBalistonKit.framework/Headers/ZTBalistonKit-Swift.h</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZTBalistonKit.framework/Info.plist</key>
 		<data>
-		C4glsVafTbChLuhwZGIHq+12GK4=
+		rJwyJ3IPRWFAO0sIPMFMex/vI8A=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZTBalistonKit.framework/Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		iNtGHQa3A9b9uHCRSUug9LgccTI=
+		J99XZlgp/RLzeIq1MiLSPTlSxBg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZTBalistonKit.framework/Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZTBalistonKit.framework/Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		iNtGHQa3A9b9uHCRSUug9LgccTI=
+		J99XZlgp/RLzeIq1MiLSPTlSxBg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZTBalistonKit.framework/Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZTBalistonKit.framework/ZTBalistonKit</key>
 		<data>
-		AsYkp74k8VYSZFGlFWY5XJB9/Ro=
+		O+kIgYEQIZSf0v3HxINvbgVTn+Y=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZTBalistonKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		B/ywP+eeAGPwkfuSBGi7WYvn0V8=
+		sGpcNRcayhtDQXI41utU42KE87U=
 		</data>
 		<key>strip-frameworks.sh</key>
 		<data>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sm3zX0nLsw4nFSStrNOjDHQ5QGo3DyRDa3RGejIw0BM=
+			ryqjYIrhRbtClxl8wYPxDJheplFImRy6Fk1jU5QL37Q=
 			</data>
 		</dict>
 		<key>ios-arm64/ZTBalistonKit.framework/Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZLCn9HyZx988S0KG3yyeAJ6ac+2PS1m8d3CZk80TdU0=
+			dFr5MZFATThs3SDbDs7OsYgslF6RI1pgjbXFXtBHDww=
 			</data>
 		</dict>
 		<key>ios-arm64/ZTBalistonKit.framework/Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q33cytCSLzYKxPfJ2BZIQv213Ho5FQ44+75bft/iYHc=
+			rcmt58I389/mLscZtt/uh7H573mdR9dN8TM4wMDYZUw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ZTBalistonKit.framework/Headers/ZTBalistonKit-Swift.h</key>
@@ -147,14 +147,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t5hLHtZ9bCDGlIyfKFWkgy7IwlRNiQiG/pINvKGuaZ4=
+			t9VNkl1jq4bwV//Z4rPeMK/6N69tOW7WUM17ZeiK+Kg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ZTBalistonKit.framework/Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZLCn9HyZx988S0KG3yyeAJ6ac+2PS1m8d3CZk80TdU0=
+			dFr5MZFATThs3SDbDs7OsYgslF6RI1pgjbXFXtBHDww=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ZTBalistonKit.framework/Modules/ZTBalistonKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -182,7 +182,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZLCn9HyZx988S0KG3yyeAJ6ac+2PS1m8d3CZk80TdU0=
+			dFr5MZFATThs3SDbDs7OsYgslF6RI1pgjbXFXtBHDww=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ZTBalistonKit.framework/Modules/ZTBalistonKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -210,14 +210,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ztx5pGPmn0VaLmW4snOaz+ssH1ykpM+WWKkPTOOF0qc=
+			UOJFoAxJb9yhZG8WKekUtIQTWalv3e7ZCvZNyzDuQUQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ZTBalistonKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OYy6VybaZhUnEcJODc2JUaZLw5RovEq6MIFLLHj/8B4=
+			Nl2cN8Ix+gVkmDQw56aEj2NJoyv01cSlPXvDkMYfYS4=
 			</data>
 		</dict>
 		<key>strip-frameworks.sh</key>
