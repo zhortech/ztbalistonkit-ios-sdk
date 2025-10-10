@@ -183,6 +183,9 @@ public typealias ZTBalistonActivity = ZTCoreKit.ZhortechActivity
   public var disableAutomaticActivity: Swift.Bool {
     get
   }
+  public var monitoringActivityApp: Swift.Bool {
+    get
+  }
   public var enableStreamingSettings: Swift.Bool {
     get
   }
