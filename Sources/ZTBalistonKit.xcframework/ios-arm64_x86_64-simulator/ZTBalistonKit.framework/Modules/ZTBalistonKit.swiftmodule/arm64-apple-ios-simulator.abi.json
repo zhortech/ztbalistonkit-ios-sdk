@@ -10789,293 +10789,293 @@
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
       "offset": 791,
-      "length": 8,
-      "value": "\"2.0.47\""
+      "length": 7,
+      "value": "\"2.1.0\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 978,
+      "offset": 977,
       "length": 16,
       "value": "\"3.15.13.BA.1.6\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 6263,
+      "offset": 6262,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 6561,
+      "offset": 6560,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 6673,
+      "offset": 6672,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 6756,
+      "offset": 6755,
       "length": 5,
       "value": "60000"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 6764,
+      "offset": 6763,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 6858,
+      "offset": 6857,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 6863,
+      "offset": 6862,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 6956,
+      "offset": 6955,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 6961,
+      "offset": 6960,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 7108,
+      "offset": 7107,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 7264,
+      "offset": 7263,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 7346,
+      "offset": 7345,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 7434,
+      "offset": 7433,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 7494,
+      "offset": 7493,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 7558,
+      "offset": 7557,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 7645,
+      "offset": 7644,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 14230,
+      "offset": 14229,
       "length": 98,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 14327,
+      "offset": 14326,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 14732,
+      "offset": 14731,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 16087,
+      "offset": 16086,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 16135,
+      "offset": 16134,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 16177,
+      "offset": 16176,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 18319,
+      "offset": 18318,
       "length": 32,
       "value": "\"obtaining-missed-packets.queue\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 18503,
+      "offset": 18502,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 19042,
+      "offset": 19041,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 19303,
+      "offset": 19302,
       "length": 46,
       "value": "\"[ZTSportKit]: RawDataFlowState changed to %@\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 19351,
+      "offset": 19350,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 19378,
+      "offset": 19377,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 19639,
+      "offset": 19638,
       "length": 6,
       "value": "1000.0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "FloatLiteral",
-      "offset": 19649,
+      "offset": 19648,
       "length": 6,
       "value": "1000.0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 19565,
+      "offset": 19564,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 19915,
+      "offset": 19914,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "StringLiteral",
-      "offset": 20656,
+      "offset": 20655,
       "length": 20,
       "value": "\"UploadRawDataQueue\""
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 20721,
+      "offset": 20720,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 22231,
+      "offset": 22230,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 22571,
+      "offset": 22570,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 35552,
+      "offset": 35551,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 35715,
+      "offset": 35714,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "IntegerLiteral",
-      "offset": 35756,
+      "offset": 35755,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/charlymr\/Repositories\/Baliston\/Connect_iOS_monorepo\/ztbalistonkit\/Sources\/ZTBalistonKit\/ZTBaliston.swift",
       "kind": "BooleanLiteral",
-      "offset": 35817,
+      "offset": 35816,
       "length": 5,
       "value": "false"
     },
