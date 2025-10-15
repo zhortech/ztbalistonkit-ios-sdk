@@ -4831,6 +4831,11 @@ public typealias ScanFinishedBlock = ((any Swift.Error)?) -> Swift.Void
   final public var backgroundDFUEnable: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var savedDeviceFirmware: Swift.String? {
+    get
+  }
+  #endif
   weak final public var dfuDelegate: (any ZTCoreKit.ZTDfuDelegate)?
   final public var firmwareDfuState: ZTCoreKit.DFUState? {
     get
