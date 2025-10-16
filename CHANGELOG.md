@@ -1,6 +1,9 @@
 # Changelog
 
-## [2.1.4](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.1.6 (2025-10-65)
+## [2.1.5](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.1.5 (2025-10-16)
+- ZTCore update to 2.1.5
+
+## [2.1.4](https://github.com/zhortech/ztbalistonkit-ios-sdk/-/tags/2.1.5 (2025-10-16)
 - ZTCore update to 2.1.3
 - Fixeda crash
 
